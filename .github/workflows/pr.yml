@@ -12,7 +12,7 @@ jobs:
       NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
     name: Render Book
     runs-on: ubuntu-latest
-    if: github.repository == 'ropensci/translation_guide'
+    if: github.repository == 'ropensci-review-tools/translation_guide'
     steps:
       - name: Is this a fork
         run: |
