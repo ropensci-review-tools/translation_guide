@@ -1,0 +1,17 @@
+Package: ropenscitranslationguide
+Type: Website
+Title: Translation Guidelines
+Description: rOpenSci Translation Guidelines
+Version: 0.8.1
+URL: https://github.com/ropensci/dev_guide
+RoxygenNote: 7.2.1
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8
+Imports: 
+    brio,
+    fs,
+    purrr,
+    quarto,
+    withr,
+    xml2,
+    yaml

@@ -1,0 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+_publish.R
+_bookdown_files
+rsconnect
+/.Rbuildignore
+/packages.bib
+.Rproj.user
+_book
+pdfbook
+
+/.quarto/
+.Rdata
+.httr-oauth
+.DS_Store

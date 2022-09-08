@@ -1,0 +1,10 @@
+# Prefacio {.unnumbered}
+
+¡bienvenido! Ese libro es una guía para traductores de contenido de rOpenSci.
+
+El cotendi será:
+
+- Guías
+- Glosario
+- Terminos tecnicos que hay que traducir
+- Terminos tecnicos que no traducemos

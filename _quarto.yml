@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  favicon: images/apple-touch-icon.png
+  title: "rOpenSci Translation Guidelines"
+  author-meta: "Yanina Bellini Saibene"
+  description-meta: |
+    How we translate our material.
+  reader-mode: true
+  site-url: https://translationguide.ropensci.org/
+  repo-url: https://github.com/ropensci-review-tools/translation_guide/
+  repo-actions: [edit, issue]
+
+  chapters:
+  - index.Rmd
+  - preface.Rmd
+  - guidelines.Rmd
+  - glossary.Rmd
+  - booknews.Rmd
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    code-link: true
+    include-in-header: "matomo.html"
