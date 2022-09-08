@@ -13,7 +13,6 @@ book:
   repo-actions: [edit, issue]
 
   chapters:
-  - index.Rmd
   - preface.Rmd
   - guidelines.Rmd
   - glossary.Rmd
