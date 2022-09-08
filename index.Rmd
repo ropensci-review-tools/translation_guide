@@ -4,7 +4,7 @@ Welcome! This book is a guide for translators of rOpenSci materials.
 
 It will contain:
 
-- the Guidelines
+- the guidelines
 - the glossary
 - the technical term to translate
 - the technical terms do not translate.
