@@ -8,3 +8,9 @@ It will contain:
 - the glossary
 - the technical term to translate
 - the technical terms do not translate.
+
+```r
+xml2::xml2_example()
+```
+
+Very cool with `{xml2}` and `{another.not.installed.package}`.
