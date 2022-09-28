@@ -1,10 +1,12 @@
 # Prefacio {.unnumbered}
 
-¡bienvenido! Ese libro es una guía para traductores de contenido de rOpenSci.
+## ¡Bienvenidos, Bienvenidas, Bienvenides! 
 
-El cotendi será:
+Ese libro es una guía para personas que quieran traducir los materiales de rOpenSci.
 
-- Guías
-- Glosario
-- Terminos tecnicos que hay que traducir
-- Terminos tecnicos que no traducemos
+La guía contiene:
+
+- La motivación para la publicación multilenguaje.
+- La guía general en inglés.
+- Las guías específicas de cada idioma.
+- El Glosario, que incluye los terminos técnicos que hay que traducir y los terminos técnicos que no traduciremos.

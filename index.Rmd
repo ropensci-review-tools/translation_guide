@@ -1,16 +1,23 @@
 # Preface {.unnumbered}
 
-Welcome! This book is a guide for translators of rOpenSci materials.
+## Welcome! 
 
-It will contain:
+This book is a guide for translators of rOpenSci materials.
 
-- the guidelines
-- the glossary
-- the technical term to translate
-- the technical terms do not translate.
+It contain:
 
-```r
-xml2::xml2_example()
-```
+- motivation for multilingual publishing.
+- the general guidelines for translation in English.
+- specific guidelines for translation in each language.
+- the glossary, including the technical term to translate and  the technical terms do not translate.
 
-Very cool with `{xml2}` and `{another.not.installed.package}`.
+
+This book is a living document. You can view updates to our best practices and policies via the release notes.
+
+You can cite this book using its Zenodo metadata and DOI.
+
+<FIXME: Add cite here>
+
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
+
+If you want to contribute to this book (suggestions, corrections) please refer to the GitHub repository in particular the contributing guidelines. Thanks!
