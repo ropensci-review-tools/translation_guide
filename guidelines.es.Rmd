@@ -137,7 +137,7 @@ Traducir:
 
 3. comentarios;
 
-4. funciones y sus parámetros, solo cuando son ejemplos de funciones generadas por la persona que desarrolla: si un fragmento de código crea una función como ejemplo, podemos poner su nombre y el de sus parámetros en español. 
+4. funciones y sus parámetros, *solo* cuando son ejemplos de funciones generadas por la persona que desarrolla: si un fragmento de código crea una función como ejemplo, podemos poner su nombre y el de sus parámetros en español. 
 
 > ejemplo:
     
@@ -153,7 +153,7 @@ Traducir:
             }
        }
         
-    Tranducción al Español:
+    Traducción al Español:
 
       adentro <- function(punto, mas_bajo, mas_alto) {
             if (punto <= mas_bajo) {
@@ -166,13 +166,15 @@ Traducir:
        }
 
 
-No se traducen los nombres de funciones y sus parámetros correspondientes al lenguaje R y sus paquetes. Se debe ofrecer una traducción de estos elementos la primera vez que aparecen.
+*No se traducen* los nombres de funciones y sus parámetros correspondientes al lenguaje R y sus paquetes. Se debe ofrecer una traducción de estos elementos la primera vez que aparecen.
 
 Ejemplo:
 
 > Original: Use message() and warning() to communicate with the user in your functions
 
 > Traducción: Usa message()  — del inglés _mensaje_ — y warning() — del inglés _advertencia_ — para comunicarte con quien use tus funciones.
+
+Tampoco se traducen los caminos relativos a archivos.
 
 ## D. Aspectos de ortografía / gramática del español
 
