@@ -5,7 +5,6 @@ book:
   favicon: images/apple-touch-icon.png
   title: "rOpenSci Translation Guidelines"
   author: "Yanina Bellini Saibene"
-  code-link: true
   description: |
     How we translate our material.
   reader-mode: true
