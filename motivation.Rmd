@@ -79,8 +79,8 @@ open source.
 We find Automatic Translators, Translation Management Systems, and version control systems among these 
 solutions.
 
-For example, _The Carpentries_, _The Turing Way_, and _R Developers Group_ use _Transifex_, _Crowdin_, and 
-_Weblate_, which are _Translation Management Systems_ to manage their translations.  
+For example, _The Carpentries_, _The Turing Way_, and _R Contributor_ use _Transifex_, _Crowdin_, and 
+_Weblate_ respectively, which are _Translation Management Systems_ to manage their translations.  
 
 R Translations for Data Science, Teaching Tech Together, Data and Dice packages, and R-Ladies materials have
 used GitHub with Google Translate and DeepL, a version control system with translators, but no integration 
