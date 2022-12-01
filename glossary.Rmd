@@ -2,5 +2,5 @@
 
 Source: https://github.com/ropensci-review-tools/glossary
 
-```{r, file='man/rmd-fragments/query-glossary.R'}
+```{r, file='man/rmd-fragments/query-glossary.R', echo=FALSE, message=FALSE, warning=FALSE}
 ```
