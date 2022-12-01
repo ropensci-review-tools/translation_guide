@@ -1,6 +1,10 @@
 # Glossary
 
-Source: https://github.com/ropensci-review-tools/glossary
+## Source 
+
+<https://github.com/ropensci-review-tools/glossary>
+
+## Glossary
 
 ```{r, file='man/rmd-fragments/query-glossary.R', echo=FALSE, message=FALSE, warning=FALSE}
 ```
