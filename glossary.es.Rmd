@@ -1,3 +1,6 @@
-# Glosario 
+# Glosario
 
-## WIP
+Fuente: https://github.com/ropensci-review-tools/glossary
+
+```{r, file='rmd-fragments/query-glossary.R'}
+```
