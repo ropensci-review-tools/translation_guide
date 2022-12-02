@@ -86,35 +86,20 @@ impresión en papel, tanto de la versión cruda como de la compilada, también a
 
 ## C. Traducción (o no) de términos técnicos
 
-Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida 
-o si se suele utilizar la versión original en inglés. 
+Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida o si se suele utilizar la versión original en inglés. 
 
 Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
 #### 1. Términos técnicos que se mantienen
-Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, 
-ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+
+En el [Chapter @glosario] de rOpenSci se cuenta con el listado actualizado de términos técnicos que se mantienen.
   
-
-| No traducir    | Observaciones  |
-| ---------------|----------------|
-| commits        | contexto: git  |
-| hardware |
-| issues         | contexto: git  |
-| pipe/pipess | contexto: consola unix, R |
-| ranking ||
-| Python | lenguaje de programación|
-| HTML | lenguaje de marcado |
-| CSS | hojas de estilos en cascada|
-| Git ||
-|pull requests| contexto: git |
-|merge |contexto: git|
-|push| contexto: git |
-
 #### 2. Términos técnicos que se traducen
 
-En este repositorio se mantiene [el glosario de rOpenSci de términos del inglés al español que se traducen](https://github.com/ropensci-review-tools/glossary/blob/master/glossary.csv). Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
+Los términos técnicos que se traducen también se listan y actualizan en el [Chapter @glosario]. Recordar que la primera aparición en el texto puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado.
 
+Además, tengamos en cuenta como escribir estos términos del Latín:
 
 | Latin | Español |
 |-------|---------|
@@ -123,9 +108,7 @@ En este repositorio se mantiene [el glosario de rOpenSci de términos del inglé
 
 #### 3. Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, 
-sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre parentesis una traducción del 
-título/nombre en español.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título/nombre en español.
 
 #### 4. Código
 
