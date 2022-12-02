@@ -59,7 +59,7 @@ where the submission itself, and all reviews, and editorial responses were in Sp
 
 All this work and previous experience generated the right conditions to start our multilingual publishing with Spanish.
 
-## Internazionalization and Localization
+## Internazionalization, Localization and Translations
 
 _Internazionalization (i18n)_ refers to the technology and design decision to ensure an artifact, like software, can be adapted to several regions without engineering changes to the source code. [^3]
 
@@ -80,19 +80,12 @@ The translations of _R for Data Science_, _Teaching Tech Together_, _{datos}_ an
 and _R-Ladies_ materials have used _GitHub_ with _Google Translate_ and _DeepL_, 
 a Version Control System with Automatic Translators, but no integration between the tools.
 
-The choice of solutions depends on each community and goal. Translations are a valuable form of 
-contribution. 
-The technology we select to work on will impact the paths we generate so people can contribute.
+The choice of solutions depends on each community and goal and will impact the paths we generate for people to contribute. Localization efforts are a valuable form of contribution to the community.
+
 We chose a _semiautomatic process based on using an automatic translator with a review for experts with experience in technical translation using GitHub_.
 GitHub is the platform where most of our processes run, and it is a tool that developers need and use to develop software and collaborate.
 
- 
-
-
-
-
-
-
+## References.
 
 [^1] Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin, The Linux Foundation, December, 2021.
 
