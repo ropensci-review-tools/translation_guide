@@ -51,49 +51,38 @@ From the success of the collective and volunteer
 translation of R4DS, the community also translated 
 [Teaching Tech Together](http://teachtogether.tech/es/index.html) and 
 contributed to several translations to Spanish of [RStudio
-CheatSheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12), [The Carpentries](https://software-carpentry.org/lessons/)’ 
+CheatSheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12), 
+[The Carpentries](https://software-carpentry.org/lessons/)’ 
 and [The Programming Historian](https://programminghistorian.org/es/) 
 lessons. 
 
 Driven by this active and growing Spanish-speaking community, rOpenSci 
 [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) 
-our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission
-itself, and all reviews, and editorial responses were in Spanish.
+our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), 
+where the submission itself, and all reviews, and editorial responses were in Spanish.
 
 All this work and previous experience generated the right conditions to start our multilingual publishing with Spanish.
 
 ## Internazionalization
 
-_Internazionalization (i18n)_ refers to the technology and design decision to ensure an artifact, like 
-software, can be adapted to several regions without engineering changes to the source code.
+_Internazionalization (i18n)_ refers to the technology and design decision to ensure an artifact, like software, can be adapted to several regions without engineering changes to the source code.
 
-These code-wise design decisions include language and other aspects like date formats, currency, measure 
-units, and support for different sets of characters, among others.
+These code-wise design decisions include language and other aspects like date formats, currency, measure units, and support for different sets of characters, among others.
 
 _Internazionalization_ is the technical solution that will allow us to localize our content. 
 
-There are many solutions for internationalizing products and software. As we have already mentioned, there 
-are previous experiences with content translation work in communities related to science, education, and 
-open source.
+There are many solutions for internationalizing products and software. As we have already mentioned, there are previous experiences with content translation work in communities related to science, education, and open source.
 
-We find Automatic Translators, Translation Management Systems, and version control systems among these 
-solutions.
+We find Automatic Translators, Translation Management Systems, and version control systems among these solutions.
 
-For example, _The Carpentries_, _The Turing Way_, and _R Contributor_ use _Transifex_, _Crowdin_, and 
-_Weblate_ respectively, which are _Translation Management Systems_ to manage their translations.  
+For example, _The Carpentries_, _The Turing Way_, and _R Contributor_ use _Transifex_, _Crowdin_, and _Weblate_ respectively, which are _Translation Management Systems_ to manage their translations.  
 
-R Translations for Data Science, Teaching Tech Together, Data and Dice packages, and R-Ladies materials have
-used GitHub with Google Translate and DeepL, a version control system with translators, but no integration 
-between the tools.
+R Translations for Data Science, Teaching Tech Together, Data and Dice packages, and R-Ladies materials have used GitHub with Google Translate and DeepL, a version control system with translators, but no integration between the tools.
 
 The choice of solutions depends on each community and goal. Translations are a valuable form of 
-contribution. The technology we select to work on will impact the paths we generate so people can 
-contribute. We chose a semiautomatic process based on using an automatic translator with a review for 
-experts with experience in technical translation using GitHub.
+contribution. The technology we select to work on will impact the paths we generate so people can contribute. We chose a semiautomatic process based on using an automatic translator with a review for experts with experience in technical translation using GitHub.
 
-GitHub is the platform where most of our processes run, and it is a tool that developers need and use to 
-develop software and collaborate.  We will support our community member who needs to learn how to use this 
-platform to contribute to our community. They will gain a skill that is useful beyond rOpenSci. 
+GitHub is the platform where most of our processes run, and it is a tool that developers need and use to develop software and collaborate.  We will support our community member who needs to learn how to use this platform to contribute to our community. They will gain a skill that is useful beyond rOpenSci. 
 
 
 ## Localization
