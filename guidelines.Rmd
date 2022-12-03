@@ -1,6 +1,6 @@
 # Guidelines
 
-This is some guidance to keep in mind when translating rOpenSci materials.
+This is some guidance to keep in mind when _translating_ rOpenSci materials.
 
 Detailed guidance for Spanish is available in that language in the Spanish translations guidelines.
 

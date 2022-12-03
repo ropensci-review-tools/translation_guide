@@ -7,6 +7,16 @@ Ese libro es una guía para personas que quieran traducir los materiales de rOpe
 La guía contiene:
 
 - La motivación para la publicación multilenguaje.
-- La guía general en inglés.
-- Las guías específicas de cada idioma.
-- El Glosario, que incluye los terminos técnicos que hay que traducir y los terminos técnicos que no traduciremos.
+- La guía general en inglés con la infraestructura de internacionalización, el paso a paso del proceso técnico para realizar las traducciones y las consideraciones de localización.
+- Las guías específicas de cada idioma, que incluye la explicación de la infraestructura y el proceso técnico y el desarrollo detallado de las consideraciones de localización .
+- El Glosario, que incluye los términos técnicos que hay que traducir y los términos técnicos que no traduciremos.
+
+Este libro es un documento vivo. Puedes consultar las actualizaciones a través de las notas de cada versión.
+
+Puedes citar este libro utilizando sus metadatos y DOI de Zenodo.
+
+<FIXME: Añadir cita aquí>
+
+Esta obra está bajo una licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 United States License.
+
+Si quieres contribuir a este libro (sugerencias, correcciones) por favor consulta el repositorio de GitHub y en particular las directrices para contribuir. Gracias.
