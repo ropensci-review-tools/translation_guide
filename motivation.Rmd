@@ -57,7 +57,7 @@ Driven by this active and growing Spanish-speaking community, rOpenSci
 our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), 
 where the submission itself, and all reviews, and editorial responses were in Spanish.
 
-All this work and previous experience generated the right conditions to start our multilingual publishing with Spanish.
+All this work and previous collective experience generated the right conditions to start our multilingual publishing with Spanish.
 
 ## Internazionalization, Localization and Translations
 
