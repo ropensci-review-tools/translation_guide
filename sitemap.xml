@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://translationguide.ropensci.org/index.html</loc>
+    <lastmod>2023-01-11T12:30:14.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://translationguide.ropensci.org/guidelines.html</loc>
+    <lastmod>2023-01-11T12:30:14.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://translationguide.ropensci.org/glossary.html</loc>
+    <lastmod>2023-01-11T12:30:14.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://translationguide.ropensci.org/booknews.html</loc>
+    <lastmod>2023-01-11T12:30:14.293Z</lastmod>
+  </url>
+</urlset>

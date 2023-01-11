@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "rOpenSci Translation Guidelines",
+    "section": "",
+    "text": "Preface"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "rOpenSci Translation Guidelines",
+    "section": "Welcome!",
+    "text": "Welcome!\nThis book is a guide for translators of rOpenSci materials.\nIt contain:\n\nmotivation for multilingual publishing.\nthe general guidelines for translation in English.\nspecific guidelines for translation in each language.\nthe glossary, including the technical term to translate and the technical terms do not translate.\n\nThis book is a living document. You can view updates to our best practices and policies via the release notes.\nYou can cite this book using its Zenodo metadata and DOI.\n<FIXME: Add cite here>\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.\nIf you want to contribute to this book (suggestions, corrections) please refer to the GitHub repository in particular the contributing guidelines. Thanks!"
+  },
+  {
+    "objectID": "guidelines.html",
+    "href": "guidelines.html",
+    "title": "1  Guidelines",
+    "section": "",
+    "text": "2 Citing the translation\nThe cite of the translation change for every language. We base this recomendations on the APA recomendations article, Section Book, republished in translation. We also recommend including the orginal title in English, following this APA suggestion. See example for Piaget (1950).\nThe general format is:\n{list of authors of the English version}.{(year of publication)}. {Translated title}. {[Original Title in English]} (Translation to {language name}: {list of people that translate the material}). {DOI}. (Original work publish at {year of publication})\nThe text Translation to and Original work publish at should be writing on the language of the translations.\nExample using the developer guide:"
+  },
+  {
+    "objectID": "guidelines.html#organization-of-work",
+    "href": "guidelines.html#organization-of-work",
+    "title": "1  Guidelines",
+    "section": "1.1 Organization of work",
+    "text": "1.1 Organization of work\nThis process can be modified for each translation project, but the general steps are as follows:\n\nWe will have these roles:\n\nTranslators\nReviewers\nEditors\n\nEach chapter or section of the material to be reviewed will be assigned to a translator and at least one reviewer (it is desirable that it be reviewed by more than one person). It is a good idea to have reviews from differents countries. One person can translate and review more than one chapter.\nFor each chapter/section or material (for example, a blog post or a form):\n\nFirst step: the designated translator generates the first version of the translation chapter. Durgin this work the translator should apply the guidelines. If the translator encounter a situation that is not in the guide and they are not sure how to solve it, ask in the Slack in the translations channel. Update the guide with the agreement reached and apply it to the translation. When the translation is ready, notify the designated reviewer that the review can begin.\nSecond step: The reviewer makes suggestions for changes (based on the guidelines and their understanding of the subject and the language). When finished, let the designated translator knows.\nThird step: The translator and the reviewer initiate a discussion cycle on the suggestions and comments made in the review. They are accepted, rejected, changed, etc. until all comments and suggestions have been resolved.\n\nFour steps: The translator updates the guide and the list of terms if necessary.\n\nWhen all the chapters/sections are finished, the editor, reads the entire book to check the consistency of the text, and the rules and guidelines. The editor has to read and write in the original language and the language of the translations. If the author of the material is bilingual, then it is a good idea for the author to be the editor. If they can’t, we need another person to be the editor."
+  },
+  {
+    "objectID": "guidelines.html#general-guidelines",
+    "href": "guidelines.html#general-guidelines",
+    "title": "1  Guidelines",
+    "section": "1.2 General guidelines",
+    "text": "1.2 General guidelines\n\nUse a conversational voice rather than a formal or academic voice.\nIf appropriate, specify what dialect or regional variation of the language is being used. For example, the Spanish translation uses Latin American conventions.\nTry to be gender neutral. Unlike English, Spanish has a strongly grammatical gender (masculine and feminine with very few neutrals). That translation adjusts wording to avoid having to assign a gender. Where a gender mark cannot be avoided, it uses feminine-masculine or masculine-feminine splits. For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.\nTry to be idiomatic. For example, since Spanish verbs have the mark of person, gender, and number, the Spanish translation can omit subjects that are present in the English original: because of the context, readers will understand what is being referred to. Similarly, Spanish has more verb tenses than English. When translating, the verbal form that is best to express the meaning of the fragment in Spanish should be prioritized, not the one that seems to be literal from English."
+  },
+  {
+    "objectID": "guidelines.html#technical-terms-and-citations",
+    "href": "guidelines.html#technical-terms-and-citations",
+    "title": "1  Guidelines",
+    "section": "1.3 Technical terms and citations",
+    "text": "1.3 Technical terms and citations\n\nMaintain a list of terms that are translated and another list of terms that are not. We propose a initial list and we consult our community (Slack first, social networks when there is not agreement).\nFor bibliographic references, the original title/name is left in English with the words in italics; a translation of the title in Spanish is added in parentheses. When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs, the Spanish version is added to the link if it exists. If one cannot be found, the reference is left in English."
+  },
+  {
+    "objectID": "guidelines.html#code",
+    "href": "guidelines.html#code",
+    "title": "1  Guidelines",
+    "section": "1.4 Code",
+    "text": "1.4 Code\nTranslate:\n\nvariables names;\nconstant names;\ncomments;\nuser function names and parameters names: if a code snippet creates a function as example, we can name it and their parameters in Spanish.\n\n\nexample:\n\nOriginal code:\n\n   inside <- function(point, lower, higher) {\n        if (point <= lower) {\n            return false\n        } else if (point >= higher) {\n            return false\n        } else {\n            return true\n        }\n   }\n    \nTranslation to Spanish:\n\n  adentro <- function(punto, mas_bajo, mas_alto) {\n        if (punto <= mas_bajo) {\n            return false\n        } else if (punto >= mas_alto) {\n            return false\n        } else {\n            return true\n        }\n   }"
+  },
+  {
+    "objectID": "guidelines.html#diagrams",
+    "href": "guidelines.html#diagrams",
+    "title": "1  Guidelines",
+    "section": "1.5 Diagrams",
+    "text": "1.5 Diagrams\n\nFigure and diagrams are translated.\nScreenshots are translated only if the IDE or UI exist in the language of the translation."
+  },
+  {
+    "objectID": "guidelines.html#attributions",
+    "href": "guidelines.html#attributions",
+    "title": "1  Guidelines",
+    "section": "2.1 Attributions",
+    "text": "2.1 Attributions\nThese translation guidelines are based on the experience and documents generated during the translation of Teaching Tech Together."
+  },
+  {
+    "objectID": "glossary.html#wip",
+    "href": "glossary.html#wip",
+    "title": "2  Glossary",
+    "section": "2.1 WIP",
+    "text": "2.1 WIP"
+  }
+]
