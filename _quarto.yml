@@ -4,7 +4,7 @@ project:
 book:
   favicon: images/apple-touch-icon.png
   title: "rOpenSci Translation Guidelines"
-  author-meta: "Yanina Bellini Saibene"
+  author-meta: "Yanina Bellini Saibene, Maëlle Salmon, Paola Corrales, Elio Campiteli"
   code-link: true
   description-meta: |
     How we translate our material.
@@ -16,7 +16,11 @@ book:
   chapters:
   - index.Rmd
   - motivation.Rmd
-  - guidelines.Rmd
+  - general_guidelines_intro.Rmd
+  - general_guidelines_internationalization.Rmd
+  - general_guidelines_localization.Rmd
+  - general_guidelines_howtoreview.Rmd
+  - guidelines_spanish_specific_guidelines.Rmd
   - glossary.Rmd
   - booknews.Rmd
 
