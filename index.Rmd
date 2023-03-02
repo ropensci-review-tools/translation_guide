@@ -7,9 +7,9 @@ This book is a guide for people who would like to translate rOpenSci materials.
 The guide contains:
 
 - The motivation for multilingual publishing.
-- The general English-language guide with the internationalization infrastructure, step-by-step technical process, and localization considerations.
+- The general guide with the internationalization infrastructure, step-by-step technical process, and localization considerations.
 - The language-specific guides, which include the explanation of the infrastructure and technical process and the detailed development of localization considerations.
-- The Glossary, which includes the technical terms to be translated and the technical terms that we will not translate.
+- The Glossary language-specific, which includes the technical terms to be translated and the technical terms that we will not translate.
 
 
 This book is a living document. You can view updates to our best practices and policies via the release notes.
