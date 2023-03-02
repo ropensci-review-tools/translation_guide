@@ -2,9 +2,7 @@
 
 ## A. Organización del trabajo
 
-Después de realizar la traducción de la guía y todos los materiales relacionados se realizarán dos revisiones de cada capítulo 
-y una edición final de toda la guía en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes 
-países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
+Después de realizar la traducción de la guía y todos los materiales relacionados se realizarán dos revisiones de cada capítulo y una edición final de toda la guía en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -22,24 +20,20 @@ así que para mantener lo mas posible la neutralidad la traduciremos como _tú_
 > Ejemplo: ... _We hope that you’ll find the guide_ > ... _esperamos que encuentres esta guía_; 
 _You can view updates_ > ... _Puedes ver actualizaciones_).
 
-__4. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy pocos neutros). Estas son las  
-convenciones para manejar el género gramatical cuando aparezcan en el texto.  Las situaciones que no estén contempladas en la guía las discutiremos para tomar una decisión y las agregaremos a este listado. 
+__4. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy pocos neutros). Estas son las convenciones para manejar el género gramatical cuando aparezcan en el texto.  Las situaciones que no estén contempladas en la guía las discutiremos para tomar una decisión y las agregaremos a este listado. 
 
 * En principio, intentaremos ajustar la redacción para evitar tener que asignar un género: 
 por ejemplo, en esta frase: “... _We are thankful for all authors, reviewers and guest editors_”.  se podría traducir como: 
 _Agradecemos a todas las personas que han sido autoras, revisoras y editoras invitadas_.  
 
-* Si no podemos evitar usar marca de género, lo más aceptado por el momento es el desdoblamiento, femenino-masculino o masculino-femenino, 
-que puede ser de dos maneras, por ejemplo: _las/los autoras/es, los/las revisores/as_; o bien _los y las autores y autoras_, etc.  
+* Si no podemos evitar usar marca de género, lo más aceptado por el momento es el desdoblamiento, femenino-masculino o masculino-femenino, que puede ser de dos maneras, por ejemplo: _las/los autoras/es, los/las revisores/as_; o bien _los y las autores y autoras_, etc.  
 En esta traducción, al desdoblar:
 
    a. Vamos a utilizar *los/las* ó *las/los* privilegiando la agilidad y fluidez del texto, que el mismo se entienda y que sea claro el mensaje
 
-   b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, 
-   entre capítulos y el uso será consistente durante todo el capítulo.
+   b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo.
    
-   c. Acuerdos: el uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto 
-   y respetar el lenguaje no sexista:
+   c. Acuerdos: el uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto y respetar el lenguaje no sexista:
    
 | Opción         | Alternativa  |
 | ---------------|----------------|
@@ -53,12 +47,10 @@ En esta traducción, al desdoblar:
    - Caso de capítulo las/los: dejar el femenino en el artículo, pero no en el sustantivo si este tiene marca de género: _"A la desarrolladora/or"_.
      
 
-__5. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la 
-flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
+__5. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
 En todos los casos, hay que tratar de pensar cómo suena más natural en español y cómo queda más claro para quien lee.
 
-__6. Hay regularidades que no siempre se cumplen.__ Por ejemplo, en inglés los adjetivos se anteponen a los sustantivos, ej: *simple model*, *correct answer*, etc., 
-mientras que en español suele ser al revés: ponemos los adjetivos después del sustantivo: *modelo simple*, *respuesta correcta*, etc.
+__6. Hay regularidades que no siempre se cumplen.__ Por ejemplo, en inglés los adjetivos se anteponen a los sustantivos, ej: *simple model*, *correct answer*, etc., mientras que en español suele ser al revés: ponemos los adjetivos después del sustantivo: *modelo simple*, *respuesta correcta*, etc.
 Sin embargo, hay casos en que en español la forma _“no marcada”_, es decir, la que nos suena más natural, es con el adjetivo al principio:
 
 Ejemplo:
@@ -67,8 +59,7 @@ Ejemplo:
 En general, ante dudas de este tipo, pensar en qué es lo que suena más natural/normal en español.
 
 __7. El español tiene más modos y tiempos verbales que el inglés__
-Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, 
-no la que parezca ser literal del inglés.
+Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, no la que parezca ser literal del inglés.
 
 __8. Las expresiones idiomáticas no son traducibles de manera literal.__
 En caso de que las hubiere, hay que proponer una traducción que permita entender el sentido de expresión original. 
@@ -78,43 +69,26 @@ Ejemplo:
 > ...Birds of a feather, drawn together... > ...Ellos se crian y el viento los amontona...
 
 __9. Toma distancia para revisar.__ Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. 
-Como sugerencia, una vez que termines la revisón del capítulo o sección deja pasar un tiempo (algunas horas o un día) antes de hacer la última 
-lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren 
-en la calidad de la traducción más que en correcciones ortotipográficas. También es útil revisar el texto en una versión con formato 
-(compilada como pdf o html), ya que seguramente algunos errores serán más visibles que en la versión cruda. Si tienes la posibilidad, una 
+Como sugerencia, una vez que termines la revisón del capítulo o sección deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren 
+en la calidad de la traducción más que en correcciones ortotipográficas. También es útil revisar el texto en una versión con formato (compilada como pdf o html), ya que seguramente algunos errores serán más visibles que en la versión cruda. Si tienes la posibilidad, una 
 impresión en papel, tanto de la versión cruda como de la compilada, también ayuda a ver más claro los errores.
 
 ## C. Traducción (o no) de términos técnicos
 
-Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida 
-o si se suele utilizar la versión original en inglés. 
+Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida o si se suele utilizar la versión original en inglés. 
 
 Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
 #### 1. Términos técnicos que se mantienen
-Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, 
-ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+
+En el [Chapter @glosario] de rOpenSci se cuenta con el listado actualizado de términos técnicos que se mantienen.
   
-
-| No traducir    | Observaciones  |
-| ---------------|----------------|
-| commits        | contexto: git  |
-| hardware |
-| issues         | contexto: git  |
-| pipe/pipess | contexto: consola unix, R |
-| ranking ||
-| Python | lenguaje de programación|
-| HTML | lenguaje de marcado |
-| CSS | hojas de estilos en cascada|
-| Git ||
-|pull requests| contexto: git |
-|merge |contexto: git|
-|push| contexto: git |
-
 #### 2. Términos técnicos que se traducen
 
-En este repositorio se mantiene [el glosario de rOpenSci de términos del inglés al español que se traducen](https://github.com/ropensci-review-tools/glossary/blob/master/glossary.csv). Recordar que la primera aparición puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado:
+Los términos técnicos que se traducen también se listan y actualizan en el [Chapter @glosario]. Recordar que la primera aparición en el texto puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado.
 
+Además, tengamos en cuenta como escribir estos términos del Latín:
 
 | Latin | Español |
 |-------|---------|
@@ -123,9 +97,7 @@ En este repositorio se mantiene [el glosario de rOpenSci de términos del inglé
 
 #### 3. Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, 
-sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre parentesis una traducción del 
-título/nombre en español.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título/nombre en español.
 
 #### 4. Código
 
@@ -137,7 +109,7 @@ Traducir:
 
 3. comentarios;
 
-4. funciones y sus parámetros, solo cuando son ejemplos de funciones generadas por la persona que desarrolla: si un fragmento de código crea una función como ejemplo, podemos poner su nombre y el de sus parámetros en español. 
+4. funciones y sus parámetros, *solo* cuando son ejemplos de funciones generadas por la persona que desarrolla: si un fragmento de código crea una función como ejemplo, podemos poner su nombre y el de sus parámetros en español. 
 
 > ejemplo:
     
@@ -153,7 +125,7 @@ Traducir:
             }
        }
         
-    Tranducción al Español:
+    Traducción al Español:
 
       adentro <- function(punto, mas_bajo, mas_alto) {
             if (punto <= mas_bajo) {
@@ -166,13 +138,15 @@ Traducir:
        }
 
 
-No se traducen los nombres de funciones y sus parámetros correspondientes al lenguaje R y sus paquetes. Se debe ofrecer una traducción de estos elementos la primera vez que aparecen.
+*No se traducen* los nombres de funciones y sus parámetros correspondientes al lenguaje R y sus paquetes. Se debe ofrecer una traducción de estos elementos la primera vez que aparecen.
 
 Ejemplo:
 
 > Original: Use message() and warning() to communicate with the user in your functions
 
 > Traducción: Usa message()  — del inglés _mensaje_ — y warning() — del inglés _advertencia_ — para comunicarte con quien use tus funciones.
+
+Tampoco se traducen los caminos relativos a archivos.
 
 ## D. Aspectos de ortografía / gramática del español
 

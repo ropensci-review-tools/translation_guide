@@ -1,0 +1,13 @@
+# Motivación
+
+## Internazionalización
+
+Como se pueden imaginar hay muchas soluciones para internazionalizar productos y software y como ya hemos mencionado hay experiencias previas con el trabajo de traducción de contenidos en comunidades relacionadas con la ciencia, la educación y el software abierto.
+
+Dentro de estas soluciones encontramos Traductores automáticos, Translation Management System y sistemas de control de versiones.
+
+Por ejemplo, The Carpentries, The Turing Way y R Developers Group usan Transifex, Crowdin y Weblate, que son Translation Management System para manejar sus traducciones.  
+
+Las traducciones de R para ciencia de datos, Teaching Tech Together, los paquetes datos y dados y los materiales de R-Ladies han usado GitHub con Google Translate y DeepL que son un sistema de control de versiones con traductores, pero sin integración entre las herramientas. 
+
+La elección de la solución depende de cada comunidad y su objetivo, pero se debe tener en cuenta que las traducciones son una forma valiosa de contribución y la tecnología que seleccionemos para trabajar sobre las traducciones impactará en los caminos que generemos para que las personas que quieran puedan contribuir. 

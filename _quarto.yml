@@ -15,6 +15,7 @@ book:
 
   chapters:
   - index.Rmd
+  - motivation.Rmd
   - guidelines.Rmd
   - glossary.Rmd
   - booknews.Rmd

@@ -1,0 +1,92 @@
+# Motivation
+
+## Language barrier
+
+> The predominant language of open source is English—in
+code, content, and community interactions—and English
+proficiency is a metric by which performance and
+personality can be judged. [^1] 
+
+The Linux Foundation report also identify _language 
+access_ as one of the _environmental Barriers to Equity 
+in Open Source_.
+
+Publishing multilingual resources can lower these
+barriers by _increasing access to knowledge_, which helps
+_democratize access to quality resources_, and therefore
+_increases the potential for contributing_ to software 
+and open science projects.
+
+For this reason, we are embarking on an effort to 
+translate rOpenSci’s material on best practices for software development, 
+code review, and contribution to open source projects beyond the English
+language starting with _Spanish_.
+
+Spanish is the second most-spoken native language in the 
+world. [^2] It is also one of the most geographically
+widespread languages, reaching many countries with 
+Spanish as an official language. 
+
+The Spanish-speaking R Community has been growing and 
+very active in the last years. Furthermore, it has 
+carried out various activities related to translations of
+materials such as books, cheatshets, guides and datasets. 
+
+In 2017 several Latin American R-Ladies start with the 
+translations to Spanish of the R-Ladies' [Code of
+Conduct](https://github.com/rladies/starter-kit/wiki/Code
+-of-Conduct#spanish) and their Rules and Guidelines. 
+
+In 2018, the R Community in Latin America collectively 
+translated the [R for Data Science (R4DS)
+book](https://es.r4ds.hadley.nz/) to Spanish.  
+This includes the translation of all the data sets included in
+the book compiled in the package [{datos}](https://github.com/cienciadedatos/datos) in 
+Spanish and {dados} in [Portuguese](https://cran.r-project.org/web/packages/dados/index.html),
+becoming an excellent tool for teaching.
+
+From the success of the collective and volunteer translation of R4DS, 
+the community also translated [Teaching Tech Together](http://teachtogether.tech/es/index.html),
+and contributed to several translations to Spanish of [RStudio
+CheatSheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12), 
+[The Carpentries'](https://software-carpentry.org/lessons/), 
+and [The Programming Historian](https://programminghistorian.org/es/) lessons. 
+
+Driven by this active and growing Spanish-speaking community, rOpenSci 
+[successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) 
+our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), 
+where the submission itself, and all reviews, and editorial responses were in Spanish.
+
+All this work and previous collective experience generated the right conditions to start our multilingual publishing with Spanish.
+
+## Internazionalization, Localization and Translations
+
+_Internazionalization (i18n)_ refers to the technology and design decision to ensure an artifact, like software, can be adapted to several regions without engineering changes to the source code.[^3]
+These code-wise design decisions include language and other aspects like date formats, currency, measure units, and support for different sets of characters, among others.
+_Internazionalization_ is the technical solution that will allow us to _localize_ our content. 
+
+_Localization (l10n)_ is when you take a piece of content in its original form and then convert it into something more accesible and suitable for another region, country, or audience.[^3]
+
+There are many solutions for internationalizing and localizing content and software. 
+_Translation_ is typically the most time-consuming component of these efforts.[^3]
+As we have already mentioned, there are previous experiences with localization and content translation work in communities related to open science, open education, and open source. Some of the tool use by this community include Translation Management Systems, Automatic Translators and Version Control Systems.
+
+For example, _The Carpentries_, _The Turing Way_, and _R Contributor_ use _Transifex_, _Crowdin_, and _Weblate_ respectively, which are _Translation Management Systems_ to manage their translations.  
+
+The translations of _R for Data Science_, _Teaching Tech Together_, _{datos}_ and _{dado}_ packages, 
+and _R-Ladies_ materials have used _GitHub_ with _Google Translate_ and _DeepL_, 
+a Version Control System with Automatic Translators, but no integration between the tools.
+
+The choice of solutions depends on each community and goal and will impact the paths we generate for people to contribute. Localization efforts are a valuable form of contribution to the community.
+
+at rOpenSci, We chose a _semiautomatic process based on using an automatic translator (DeepL) with a review for experts with experience in technical translation using GitHub_.
+GitHub is the platform where most of our processes run, and it is a tool that developers need and use to develop software and collaborate.
+
+
+## References.
+
+[^1] Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems,” foreword by Jim Zemlin, The Linux Foundation, December, 2021.
+
+[^2] List of languages by number of native speakers. Access November 1, 2022. Wikipedia.https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
+
+[^3] Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
