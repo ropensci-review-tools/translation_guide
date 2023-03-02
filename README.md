@@ -12,8 +12,7 @@ rOpenSci's guide for translations. [Read it here](translationguide.ropensci.org)
 * The motivation for multilingual publishing: I will re-use the blog post. I can add some more content and detail.
 * General guidelines
   - Introduction: I will use the concept maps I create for the stand-up/Bioconductor talk slides. To explain the general concepts and our process and explain why we are using this tools.
-  - Internationalization infrastructure:
-  -	Quarto, R package, DeepL: there are some material on the slides that @maelle .
+  - Internationalization infrastructure: Quarto, R package, DeepL: there are some material on the slides that @maelle .
   - How to review: an explanation step-by-step of the technical process. From the PR with DeepL translation until we merge. 
   - Localization considerations: like code, formating, etc.
   - Language-specific guides: detailed development of localization considerations.
