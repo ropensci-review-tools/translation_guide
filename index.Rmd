@@ -2,13 +2,25 @@
 
 ## Welcome! 
 
-This book is a guide for people who would like to localize rOpenSci materials. It is a reference for all the step in the process of localization, which include translations. 
+This book contains an explanation of all the step and tool involve in our process of localization of our materials, which include translations.
 
-We have a process that borrows ideas from our software peer review system and from the manteining of open source projects.
+We design and build a process that takes ideas from our software peer review system and from the manteining of open source projects.  At rOpenSci we use peer-review to ensure the quality of our code and our content and we implement a system to review and manteinance for the different languages version of our materials.
 
-At rOpenSci we use peer-review to ensure the quiality of our code and our content and we implement a system of review and manteinance for the different languages version of our materials.
+## Intended Audience
 
+This book is a guide for people who would like to localize rOpenSci materials or contribute to the manteinance of material already localized.  You don't need to be a proffesional translator or developer.  The following personas are examples of the types of people that are our target audience.
 
+Lucha
+  is a Colombian student doing her PhD at UBA in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of The Carpentries workshops for scientists and use some of the rOpenSci peer review-packages for handling and accessing geospatial data for her thesis.
+  Language was one of the barrier she face when learning to code, so Lucha want to contribute translating material to her native language so other can access this knowledge with less effort. This book will show her how to do a new translation or how to review one existent. 
+  
+Yuriko
+  is going to send their packages to the rOpenSci review process in Spanish. They knows that this will ensure a quality in their software and will also facilitate its publication in JOSS, which will give them academic credit. They readed the Spanish version of the book for develop and peer-review package to prepare the submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and mantainer of translated material and the infrastructure that allow translations.
+
+Bauti
+  is the co-founder of a user group in his city.  With a couple of university class mate they teach and lear together how to code and do reproducible analysis using different languages.  He use rOpenSci Spanish material during his workshops and would like to have the material in other programming languages also in Spanish. He wonders how rOpenSci manage translation. This book will show him how we organize translation and what tool we use, so he can apply in his community.   
+
+## What You Will Learn
 
 The guide contains:
 
@@ -17,6 +29,9 @@ The guide contains:
 - The language-specific guides, which include the explanation of the infrastructure and technical process and the detailed development of localization considerations.
 - The Glossary language-specific, which includes the technical terms to be translated and the technical terms that we will not translate.
 
+At rOpenSci, we use GitHub to host our code, including our packages and books. The step-by-step technical process refer to aspects of working with GitHub, like doing pull request, review and comment pull request and create issues. We also developed {babeldown} R package that facilitates working with translations, and we explaing their use.  
+
+## Contributing and Re-Use
 
 This book is a living document. You can view updates to our best practices and policies via the release notes.
 
@@ -26,4 +41,6 @@ You can cite this book using its Zenodo metadata and DOI.
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
-If you want to contribute to this book (suggestions, corrections) please refer to the GitHub repository in particular the contributing guidelines. Thanks!
+If you want to contribute to this book, corrections, additions, suggestions, are very welcome. Everyone whose work is included will be credited in the acknowledgments. Please refer to the GitHub repository in particular the contributing guidelines as well as our Code of Conduct for more information on how to contribute.
+
+Thanks!
