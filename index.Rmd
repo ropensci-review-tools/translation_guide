@@ -2,7 +2,13 @@
 
 ## Welcome! 
 
-This book is a guide for people who would like to translate rOpenSci materials.
+This book is a guide for people who would like to localize rOpenSci materials. It is a reference for all the step in the process of localization, which include translations. 
+
+We have a process that borrows ideas from our software peer review system and from the manteining of open source projects.
+
+At rOpenSci we use peer-review to ensure the quiality of our code and our content and we implement a system of review and manteinance for the different languages version of our materials.
+
+
 
 The guide contains:
 
