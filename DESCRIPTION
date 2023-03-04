@@ -12,6 +12,7 @@ Imports:
     fs,
     purrr,
     quarto,
+    readr,
     withr,
     xml2,
     yaml
