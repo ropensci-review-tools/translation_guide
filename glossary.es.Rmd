@@ -1,5 +1,9 @@
 # Glosario
 
+Este glosario se desarrolla en el marco de las traducciones del material de rOpenSci.  Sirve de apoyo a la tarea de determinar qué términos técnicos se traducen y cuales no.  También es la fuente que determina que palabras preferimos utilizar antes la posibilidad de contar con más de una opción.
+
+Como fuentes de consulta para generar nuestro glosario y mantenerlo actualizado se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
+
 ## Fuente
 
 <https://github.com/ropensci-review-tools/glossary>
