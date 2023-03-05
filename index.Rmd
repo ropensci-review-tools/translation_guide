@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-This book contains an explanation of all the steps and tools involved in the localization of our materials, including translations.
+This book explanins of all the steps and tools involved in the localization of our materials, including translations.
 
 We design and build a process that takes ideas from our software peer review system and the maintenance of open-source projects.  At rOpenSci, we use peer review to ensure the quality of our code and our content. We also implement a system to review and maintain the different languages version of our materials.
 
