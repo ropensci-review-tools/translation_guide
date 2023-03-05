@@ -2,3 +2,26 @@
 
 ## Introduction
 
+rOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
+In addition, we develop and maintain high-quality documentation and [resources](/resources/) to support these activities. Many of our materials are defined as _living documents_, meaning that they are constantly being improved and updated.
+
+Multilingual publishing of documentation and resources involves two aspects:
+
+* The _internationalization_ refers to the technological solution allowing the software to adapt to different regions without requiring engineering changes to the source code. It is what enables us to localize our content[^1].
+
+* The _localization_ is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience[^1]. This includes language, date formats, currency, measurement units, and support for different character sets. 
+
+In addition, technical translations of living documents have two well-defined stages that involve different resources:
+
+  1. achieving a first version of the translated material, and
+  
+  2. keeping the material updated and synchronized between the supported languages.
+
+There are many solutions for internationalizing and localizing content and software. _Translation_ is typically the most time-consuming component of these efforts[^1].
+
+Based on our previous experiences and using the characteristics of our community, we develop tools and a technical workflow for performing localizations and achieve stage 1.  
+
+
+## References.
+
+[^1] Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
