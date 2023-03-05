@@ -12,15 +12,16 @@ This book is a guide for people who would like to localize rOpenSci materials or
 
 Ana
 :  
-is a Colombian student doing her Ph.D. at FAMAF in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of The Carpentries workshops for scientists and used some of the rOpenSci suite packages for handling and accessing geospatial data for her thesis.
+  is a Colombian student doing her Ph.D. at FAMAF in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of The Carpentries workshops for scientists and used some of the rOpenSci suite packages for handling and accessing geospatial data for her thesis.
   Language was one of the barriers she faced when learning to code. Ana wants to contribute by translating material into her native language so others can access this knowledge with less effort. This book will show her how to do a new translation and how to review an existing one.
  
 Francesco
 :  
-will send their packages to the rOpenSci review process in Spanish. They know that this will ensure the quality of their software and will also facilitate its publication in JOSS, which will give them academic credit. They read the Spanish version of the book for development and a peer-review package to prepare the submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and maintainer of translated material and the infrastructure that allows translations.
+  will send their packages to the rOpenSci review process in Spanish. They know that this will ensure the quality of their software and will also facilitate its publication in JOSS, which will give them academic credit for their job at Universidad Mayor de San Andrés in Bolivia. They read the Spanish version of the book for development and a peer-review package to prepare the submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and maintainer of translated material and the infrastructure that allows translations.
 
 Bauti
-  is the co-founder of a user group in his city.  With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages.  He uses rOpenSci Spanish material during his workshops and would like to have the material from other programming languages in Spanish. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.   
+:
+  is the co-founder of a user group in his city in Chile.  With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages.  He uses rOpenSci Spanish material during his workshops and would like to have the material from other programming languages in Spanish. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.   
 
 ## What You Will Learn
 
