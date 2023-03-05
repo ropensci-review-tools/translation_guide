@@ -46,4 +46,3 @@ We also expect that the project's documentation and tooling will be useful for e
 
 [^1]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 [^2]: List of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
-[^3]: Internationalization and localization. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization 
