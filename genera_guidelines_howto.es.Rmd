@@ -1,0 +1,107 @@
+# Cómo traducir y revisar
+
+Si bien este capítulo se llama "Cómo traducir y revisar", lo primero está casi completamente automatizado gracias al paquete [`babeldown`](https://docs.ropensci.org/babeldown/) que utiliza la [API de DeepL](https://www.deepl.com/en/docs-api/). Por supuesto la traducción de DeepL no es perfecta y requiere de ojos humanos que puedan incorporar los acuerdo de localización y traducción del lenguaje (ver xxxxx). Por eso en este capítulo hablaremos de revisores.
+
+Las revisiones de traducciones a nuevos lenguajes se realizan utilizando git y GitHub esto es en parte porque los paquetes y libros, incluyendo la Guía de Contribución viven en GitHub; pero también porque nos permite mantener el proceso abierto para que otras personas puedan contribuir y opinar. Por supuesto, como en todos los ámbitos de rOpenSci, seguimos nuestro [código de conducta](https://ropensci.org/es/codigo-de-conducta/) para generar un ambiente amigable y seguro.
+
+## Quieres colaborar en la revisión de un lenguaje para el que todavía no hay un proyecto de traducción activo?
+
+La lista de lenguajes para los que hay proyectos de traducción activos y su estado se encuentra [aquí.](https://github.com/ropensci-review-tools/translation_guide#readme) Si el lenguaje para el que quieren colaborar en la traducción de la guía todavía no tiene su proyecto de traducción activo, ponte en contacto con el equipo de rOpenSci para proponerlo. Ten en cuenta que iniciar un nuevo proyecto requiere un compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión. Además pedimos que cada capítulo sea revisado por 2 personas para minimizar errores y mantener una mirada amplia sobre la traducción, por eso te recomendamos invitar a tu comunidad local antes de comenzar el proceso.
+
+## Quieres colaborar en la revisión de un lenguaje que ya tiene un proyecto de traducción activo?
+
+Puedes revisar la lista de lenguajes para los que hay proyectos de traducción activos y su estado [aquí.](https://github.com/ropensci-review-tools/translation_guide#readme) Allí además encontrarás el nombre de la o las personas que gestionan ese lenguaje para que puedas ponerte en contacto. Cada proyecto de traducción además cuenta con un canal en el slack de rOpenSci donde quienes participan discuten y toman decisiones sobre sobre la traducción. Este proceso a su vez se va documentando en la sección "guía específica para la traducción" de esta guía de traducción y en su glosario.
+
+Es importante que te familiarices con el material original antes de comenzar la tarea. Además, te sugerimos leer esta guía y en particular el capítulo específico a tu lenguaje antes de comenzar a contribuir. No dudes en hacer todas las preguntas que necesites, por ejemplo ¿cuánto tiempo de dedicación se necesita para participar? o cuestiones técnicas como ¿qué pasa si me encuentro con problemas en GitHub?
+
+## Aspectos técnicos de la revisión
+
+En esta sección usaremos como ejemplo la Guía de desarrollo de rOpenSci, pero todos los aspectos técnicas para hacer una revisión también aplican a otros materiales de la organización.
+
+El código fuente que genera la Guía de desarrollo vive en [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), y está organizada en archivos con formato .Rmd (RMarkdown) que contienen texto y a veces también código. En este caso también hay algunos archivos de configuración que requieren ser traducidos para que la guía en el nuevo lenguaje esté completamente traducida.
+
+Si el proyecto de traducción está en marcha, encontrarás una serie de *pull request*, **uno por cada archivo a traducir**, generador con el paquete `babeldown` que contienen el texto traducido por DeepL. **Cada uno de estos *pull requests* tienen una *branch* asociada**, esto será importante más adelante. De hecho si hay muchos proyectos de traducción en marcha es posible que te encuentres con una infinidad de *pull requests*, te recomendamos filtrar usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es "traducción 🧉".
+
+Si bien este es el repositorio principal, el verdadero trabajo ocurre en un *fork* del repositorio donde quien coordina la revisión y todas las personas que están contribuyendo tienen permiso de lectura y escritura, lo llamaremos **repositorio de trabajo**. Este *fork* tendrá las mismas *branchs* que el repositorio principal, esto es clave ya la **revisión de cada archivo se realizará sobre la *branch* asociada a su traducción.**
+
+Para comenzar a contribuir lo primero que debes hacer es *clonar* el repositorio de trabajo. Para saber donde está ubicado, hablar con la persona a cargo del proyecto o consulta en el canal del Slack. Una vez que tienes el repositorio de trabajo clonado, puedes empezar a trabajar localmente en tu computadora.
+
+Ya está todo listo para empezar una revisión, pero ¿por dónde empezar? Cómo en todo proyecto colaborativo, es importante ponerse de acuerdo entre todas las personas para saber que va a hacer cada una. Nuevamente te sugerimos conversar en el canal de slack para preguntar como es la división de las revisiones.
+
+### Revisión 1
+
+Digamos que te tocó hacer la revisión 1 del capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo softwarereview_policies.es.Rmd. En este caso el "es" justo antes de la extensión del archivo indica que se trata de la traducción al español. Esto cambiará de lenguaje a lenguaje. Estos son los pasos a seguir.
+
+En tu repositorio local:
+
+1.  Cambiate a la *branch* asociada al archivo que vas a revisar. En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+
+2.  Abrí el archivo softwarereview_policies.es.Rmd. Es posible que veas cosas para mejorar inmediatamente. DeepL hace un buen trabajo pero nunca va a ser perfecto.
+
+3.  Comenzá a revisar el texto. Para esto te sugerimos tener la versión en inglés al lado, es posible que necesites volver a la versión original para entender el contexto de alguna frase o palabra que el traductor no pudo interpretar correctamente. Para esto puede usar la versión web del material que estás traduciendo o la pestaña *"Files changed"* del PR en el repositorio principal.
+
+    ![](images/es/files_changed.png)
+
+4.  De manera periódica o cuando completes la revisión tendrás que hacer un *commit* con los cambios que generaste. Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión. En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste. De esta manera, si necesitaras delegar la revisión en otra persona, esa persona puede revisar la historia del archivo y retomar donde vos dejaste.
+
+5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo. Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos contectar tu revisión con la traducción original.
+
+6.  Una vez que completaste tu revisión es importante que avises a quien coordina el proyecto o si ya hay una persona asignada a la revisión 2, a esa persona para que pueda comenzar su trabajo.
+
+#### Objetivos de la revisión 1
+
+Esta primera revisión tiene como objetivo hacer una lectura detallada de la traducción automática para :
+
+-   Asegurarnos de que el sentido de la oración o párrafo se mantiene.
+
+-   Revisar que se hayan usado los términos del glosario acordados por la comunidad según el contexto.
+
+-   Aplicar las decisiones de estilo siempre que se pueda. Por ejemplo, en español decidimos evitar la marca de género en sustantivos y adjetivos y para ello refraseamos oraciones o usamos las/los si lo primero no es posible.
+
+-   Revisar que los bloques de código o marcación de Markdown no fueron afectados.
+
+-   Traducir nombres de variables y comentarios visibles en los bloques de código siempre que corresponda.
+
+Seguramente queden dudas y es posible que alguna cosa pase de largo. Las decisiones de estilo suelen ser la más difíciles de aplicar y a veces es necesario consultar con el resto del equipo o charlarlo luego con quien haga la revisión 2.
+
+### Revisión 2
+
+Te tocó la revisión 2, buenísimo. Nuevamente usaremos como ejemplo el capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo softwarereview_policies.es.Rmd. Quien hizo la revisión 1, a quien llamaremos **R1** de este capítulo seguramente generó uno o mas *commits* con cambios sobre la traducción original. Esto significa que tu trabajo no arranca en cero, estos son los pasos.
+
+En tu repositorio local:
+
+1.  Cambiate a la *branch* asociada al archivo que vas a revisar. En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+
+2.  Hace un *pull* para descargar todos los cambios que hizo R1 para tener el archivo *up to date*, es decir, actualizado.
+
+3.  Comenzá a revisar el texto. Para esto te sugerimos abrir la historia del archivo para visualizar los cambios que realizó R1. Esto te permitirá saber si una frase o palabra proviene de la traducción automática o de otro ser humano.
+
+    <div>
+
+    ![](images/es/history.png)
+
+    </div>
+
+4.  De manera periódica o cuando completes la revisión tendrás que hacer un *commit* con los cambios que generaste. Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión. En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste. De esta manera, si necesitaras delegar la revisión en otra persona, esa persona puede revisar la historia del archivo y retomar donde vos dejaste.
+
+5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo. Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos contectar tu revisión con la traducción original.
+
+6.  Una vez que completaste tu revisión el capítulo está listo! Sin embargo, esta nueva versión revisada solo vive en el repositorio de trabajo. Tendrás que abrir un *pull request* en el repositorio principal para que lo revisé alguien con rol de editor y sea aprovado. En la siguiente sección veremos como abrir el *pull request*.
+
+#### Objetivos de la revisión 2
+
+Esta segunda revisión busca generar un texto que mantenga el contenido original pero que además suene natural en el nuevo lenguaje. Para esto hay que tener en cuenta:
+
+-   Que se respeten el uso de términos según el glosario y el contexto específico.
+
+-   Que se use el formato definido por la comunidad, por ejemplo usar formato *italizado* para palabras que se mantienen en inglés.
+
+-   Aplicar las decisiones de estilo que no haya visto R1 o que haya dejado pasar. Por ejemplo, en español intentar reemplazar cualquier las/los por una frase sin marca de género.
+
+-   Que, en general, las frases se entiendan y suenen bien evitando las traducciones literales.
+
+Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas. Es posible que luego de esto sugieras incorporar nuevos términos al glosario.
+
+### Pull Request y edición de un capítulo
+
+## Revisión general
