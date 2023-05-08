@@ -100,7 +100,7 @@ Esta segunda revisión busca generar un texto que mantenga el contenido original
 
 -   Que, en general, las frases se entiendan y suenen bien evitando las traducciones literales.
 
-Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas. Es posible que luego de esto sugieras incorporar nuevos términos al glosario.
+Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas. Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.
 
 ### Pull Request y edición de un capítulo
 
