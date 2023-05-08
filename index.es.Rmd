@@ -2,12 +2,12 @@
 
 ## ¡Bienvenidos, Bienvenidas, Bienvenides! 
 
-Ese libro es una guía para personas que quieran traducir los materiales de rOpenSci.
+Ese libro es una guía para las personas que quieran localizar y traducir los materiales de rOpenSci.
 
 La guía contiene:
 
 - La motivación para la publicación en múltiples lenguages.
-- La guía general con la infraestructura de internacionalización, el paso a paso del proceso técnico para realizar las traducciones y las consideraciones de localización.
+- La guía general para con la infraestructura de internacionalización, el paso a paso del proceso técnico para realizar las traducciones y las consideraciones de localización.
 - Las guías específicas de cada idioma, que incluye la explicación de la infraestructura y el proceso técnico y el desarrollo detallado de las consideraciones de localización .
 - El Glosario en cada idioma, que incluye los términos técnicos que hay que traducir y los términos técnicos que no traduciremos.
 

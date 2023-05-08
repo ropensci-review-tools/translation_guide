@@ -21,6 +21,7 @@ There are many solutions for internationalizing and localizing content and softw
 
 Based on our previous experiences and using the characteristics of our community, we develop tools and a technical workflow for performing localizations and achieve stage 1.  
 
+## 
 
 ## References.
 

@@ -27,12 +27,16 @@ Bauti
 
 The guide contains:
 
-- The motivation for multilingual publishing.
-- The general guide with the internationalization infrastructure, step-by-step technical process, and localization considerations.
-- The language-specific guides, which include the explanation of the infrastructure and technical process and the detailed development of localization considerations.
-- The Glossary: language-specific, which includes the technical terms to translate and the technical terms we will not translate.
+- Why multilingual publishing.
+- General guide with the infrastructure and roles, step-by-step technical process, and localization considerations.
+- Language-specific guides with localization considerations.
+- Language-specific glossary, which includes the technical terms to translate and the technical terms we will not translate.
 
-At rOpenSci, we use GitHub to host our code, including our packages and books. The step-by-step technical process refers to working with GitHub, like making pull requests, reviewing and commenting on pull requests, and creating issues. It also explains how to use the {babeldown} R package that facilitates working with translations.  
+At rOpenSci, we use GitHub to host our code, including our packages and books. The step-by-step technical process refers to working with GitHub, like making pull requests, reviewing and commenting on pull requests, and creating issues. It also explains how to use the {babeldown} R package that facilitates working with translations. 
+
+The localization consideration and the glossary are language-specific and detail the agreements the community reach about how to localize and translate the material. 
+
+We hope that you’ll find the guide useful and clear, and welcome your suggestions in the issue tracker of the book. Happy localization!
 
 ## Contributing and Re-Use
 
