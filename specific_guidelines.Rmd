@@ -124,3 +124,14 @@ Example using the developer guide:
 ## Attributions
 
 These translation guidelines are based on the experience and documents generated during the translation of [Teaching Tech Together](https://github.com/gvwilson/teachtogether.tech/blob/main/README.md).
+
+# Glossary
+
+## Source 
+
+<https://github.com/ropensci-review-tools/glossary>
+
+## Glossary
+
+```{r, file='man/rmd-fragments/query-glossary.R', echo=FALSE, message=FALSE, warning=FALSE}
+```
