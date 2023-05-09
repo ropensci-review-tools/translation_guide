@@ -16,11 +16,9 @@ book:
   chapters:
   - index.Rmd
   - motivation.Rmd
-  - general_guidelines_intro.Rmd
-  - general_guidelines_internationalization.Rmd
-  - general_guidelines_localization.Rmd
-  - general_guidelines_howtoreview.Rmd
-  - guidelines_spanish_specific_guidelines.Rmd
+  - intro.Rmd
+  - howtoreview.Rmd
+  - specific_guidelines.Rmd
   - glossary.Rmd
   - booknews.Rmd
 
