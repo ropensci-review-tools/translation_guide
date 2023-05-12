@@ -1,11 +1,17 @@
+---
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
 # Cómo traducir y revisar
 
 ## Aspectos generales
 
 El proceso de traducción comienza con una primera traducción automática usando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
-Esto brinda un primer borrador que luego es revisado por ojos humanos, quienes corrigen errores e incorporan los acuerdos de localización y traducción del lenguaje (ver xxxxx).
+Esto brinda un primer borrador que luego es revisado por ojos humanos, quienes corrigen errores e incorporan los acuerdos de localización y traducción del lenguaje (ver [Guía específica para español](specific_guidelines.html)).
 
-Para minimizar errores y mantener una mirada amplia sobre la traducción, desde rOpenSci pedimos que cada capítulo o artículo conste con al menos 2 revisiones realizadas en serie (la primera revisa el borrador automático y la segunda revisa la primera revisión) seguida de una revisión general de todo el libro o documentos en su conjunto.
+Para minimizar errores y mantener una mirada amplia sobre la traducción, desde rOpenSci pedimos que cada capítulo o sección conste con al menos 2 revisiones realizadas en serie (la primera revisa el borrador automático y la segunda revisa la primera revisión) seguida de una revisión general de todo el libro o documentos en su conjunto.
 
 Estas revisiones se hacen en GitHub usando *pull requests* (ver [esta sección](#0) para más detalles).
 Elegimos este flujo de trabajo ya que esta es la infraestructura que usamos en nuestra comunidad.
@@ -19,11 +25,11 @@ Por supuesto, como en todos los ámbitos de rOpenSci, seguimos nuestro [código 
 ### Con un idioma activo
 
 Puedes revisar la lista de idiomas para los que hay proyectos de traducción activos y sus estados [aquí](https://github.com/ropensci-review-tools/translation_guide#active).
-Allí encontrarás el nombre de quienes que gestionan ese idioma para que puedas ponerte en contacto y links a los proyectos activos en ese idioma.
-Cada proyecto de traducción además cuenta con un canal en el Slack de rOpenSci donde se discute y se toman decisiones sobre la traducción, las cuales son plasmadas en las directrices específicas del idioma (LINK) en esta guía y un glosario (LINK).
+Allí encontrarás el nombre de quienes que quien mantiene cada proyecto para que puedas ponerte en contacto y links a los proyectos activos en ese idioma.
+Las iniciativas de traducción cuentan con un canal en el Slack de rOpenSci por idioma donde se discute y se toman decisiones sobre la traducción, las cuales son plasmadas en las directrices específicas del idioma ([aquí](specific_guidelines.html)) en esta guía y un glosario ([aquí](glosario-es)).
 
 Antes de comenzar es importante que te familiarices con el material original.
-Además, te sugerimos leer esta guía (en particular las directrices aplicables a tu idioma (LINK)) y contactarte con las personas que ya se encuentran trabajando.
+Además, te sugerimos leer esta guía (en particular las directrices aplicables a tu idioma ([aquí](specific_guidelines.html)) y contactarte con las personas que ya se encuentran trabajando.
 No dudes en hacer todas las preguntas que necesites, por ejemplo ¿cuánto tiempo tienes que dedicarle?
 o cuestiones técnicas como ¿qué pasa si me encuentro con problemas en GitHub?
 
@@ -33,7 +39,7 @@ Si tu idioma no está entre los idiomas con proyectos activos listados [aquí](h
 Puedes enviar un mail a [info\@ropensci.org](mailto:info@ropensci.org) o [abrir un *issue* en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
 
 Ten en cuenta que iniciar un nuevo proyecto requiere un compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión.
-Pedimos a quienes gestionan proyectos de traducción el mismo compromiso que pedimos a quienes gestionan paquetes de nuestra suite: 2 años de mantenimiento o poder encontrar a otra persona que se haga cargo.
+Pedimos a quienes gestionan proyectos de traducción el mismo compromiso que pedimos a quienes gestionan paquetes de nuestra suite: 1 año de mantenimiento luego de finalizada la traducción o poder encontrar a otra persona que se haga cargo.
 
 Además dado que cada capítulo o artículo debe ser revisado por al menos 2 personas, te recomendamos invitar a tu comunidad local antes de comenzar el proceso.
 
@@ -41,7 +47,7 @@ Además dado que cada capítulo o artículo debe ser revisado por al menos 2 per
 
 En esta sección usaremos como ejemplo la Guía de desarrollo de rOpenSci, pero todos los aspectos técnicos para hacer una revisión también aplican a otros materiales de la organización.
 
-El código fuente que genera la Guía de desarrollo vive en [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), y está organizada en archivos con formato .Rmd (RMarkdown) que contienen texto y a veces también código.
+El código fuente que genera la Guía de desarrollo vive en [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), y está organizada en archivos con formato .Rmd (RMarkdown) que contienen texto y a veces también código de R.
 En este caso también hay algunos archivos de configuración que requieren ser traducidos para que la guía en el nuevo lenguaje esté completamente traducida.
 
 Cada capítulo tiene un archivo .Rmd por idioma, con un sufijo que identifica el idioma usando su código de dos letras (según [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
@@ -52,8 +58,8 @@ Si el proyecto de traducción está en marcha, encontrarás una serie de *pull r
 De hecho si hay muchos proyectos de traducción en marcha, es posible que te encuentres con muchos *pull requests*.
 Te recomendamos filtrar usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es "traducción 🧉".
 
-Por seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en este repositorio principal.
-De modo que quien gestione el proyecto deberá hacer un *fork* (que llamaremos **repositorio de trabajo**) y darle permiso de escritura a todas las personas que revisen o contribuyan.
+Por seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en este repositorio principal de rOpenSci.
+De modo que quien está a cargo de mantener el proyecto deberá hacer un *fork* (que llamaremos **repositorio de trabajo**) y darle permiso de escritura a todas las personas que revisen o contribuyan.
 Este *fork* tendrá las mismas *branchs* que el repositorio principal; esto es clave ya la **revisión de cada archivo se realizará sobre la *branch* asociada a su traducción.**
 
 Para comenzar a contribuir lo primero que debes hacer es clonar el repositorio de trabajo.
@@ -91,7 +97,7 @@ En tu repositorio local:
 5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
     Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos conectar tu revisión con la traducción original.
 
-6.  Una vez que completaste tu revisión, es importante que avises a quien coordina el proyecto o a la persona asignada a la revisión 2, si la hay.
+6.  Una vez que completaste tu revisión, es importante que avises a quien mantiene el proyecto o a la persona asignada a la revisión 2, si la hay.
 
 #### Objetivos de la revisión 1
 
@@ -124,6 +130,7 @@ En tu repositorio local:
     En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
 
 2.  Haz un *pull* para descargar todos los cambios que hizo R1 y tener el archivo actualizado.
+    Puedes asegurarte que esto es así revisando la historia del archivo en el repositorio local.
 
 3.  Comenzá a revisar el texto.
     Para esto te sugerimos abrir la historia del archivo para visualizar los cambios que realizó R1.
@@ -167,4 +174,40 @@ Es posible que luego de esto sugieras incorporar nuevos términos al glosario o 
 
 ### Pull Request y edición de un capítulo
 
-## Revisión general
+Una vez que el proceso de revión de un capítulo está completo, es hora de transferir esa nueva versión del repositorio de trabajo al repositorio principal de rOpenSci.
+Para esto **R2** tendrá que abrir un *pull request* que comparé la versión revisada con la versión que solo tiene traducción automática.
+
+1.  Asegurate que todos los cambios están en el repositorio de trabajo y que estás trabajando sobre la *branch* asociada al archivo en revisión, en nuestro ejemplo será `softwarereview_policies.es.Rmd-es`.
+
+2.  Si estás en la *branch* correcta, en la interfaz web de GitHub observarás lo siguientes:
+
+    ![](images/es/pr1.png)
+
+GitHub identificó que hay cambios nuevos (*pushes*) en la *branch* y sugiere compararlos y hacer un *pull request* al repositorio principal.
+
+3.  Haz click en el botón "*Compare & pull request".*
+4.  A continuación tendrás la opción de modificar el título del *pull request* y dejar un mensaje. Te sugerimos 2 cosas:
+    1.  Cambia el título para identificar que se trata de una "Revisión".
+        Es importante para separarlo del *pull request* de la traducción automática.
+
+    2.  En el cuerpo del mensaje menciona a quien mantiene el proyecto de traducción para que esté al tanto del avance y pueda luego continuar con el proceso.
+
+![](images/es/pr2.png)
+
+5.  Antes de crear el *pull request* es **muy importante** que revises que se haga desde la *branch* correcta. Esta es la única manera de conectar el trabajo de revisión con la traducción automática y poder unificar las versiones correctamente.
+6.  Y listo! Haz click en "*Create pull request".*
+
+A partir de este momento, la revisión queda en manos de **quien mantiene** el proyecto de traducción.
+Esta persona deberá revisar el *pull* *request* y hacer consultas a **R1** y **R2** antes de *mergear* los *pull requests.*
+
+## Revisión global
+
+El proceso de revisión es un proceso colaborativo en el que, esperamos, colaboren muchas personas.
+Esto tiene la gran ventaja de incorporar distintas miradas sobre el uso del lenguaje y generar una traducción que represente a la mayor cantidad de personas.
+Sin embargo, con toda esta diversidad de miradas y a pesar de la guía específica de cada lenguaje, es posible que las revisiones sean heterogéneas, que a veces se uses criterios distintos o simplemente haya errores de tipeo.
+
+Por todo eso es importante que el proyecto de traducción se complete con una revisión global de todo el material.
+Sugerimos fuertemente que esta revisión general la realicé una sola persona para mantener un criterio único a lo largo de todo el texto.
+
+Ahora si, la traducción está lista.
+¡Gracias y felicitaciones!
