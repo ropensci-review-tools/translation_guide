@@ -19,7 +19,6 @@ book:
   - intro.Rmd
   - howtoreview.Rmd
   - specific_guidelines.Rmd
-  - glossary.Rmd
   - booknews.Rmd
 
 format:
