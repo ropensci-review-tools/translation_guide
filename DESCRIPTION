@@ -8,6 +8,7 @@ RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Imports: 
+    babelquarto (>= 0.0.0.9000),
     brio,
     fs,
     purrr,
@@ -16,3 +17,5 @@ Imports:
     withr,
     xml2,
     yaml
+Remotes:  
+    ropensci-review-tools/babelquarto
