@@ -9,13 +9,7 @@ Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Imports: 
     babelquarto (>= 0.0.0.9000),
-    brio,
-    fs,
-    purrr,
-    quarto,
-    readr,
-    withr,
-    xml2,
-    yaml
+    knitr,
+    readr
 Remotes:  
     ropensci-review-tools/babelquarto
