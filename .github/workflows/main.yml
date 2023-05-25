@@ -19,6 +19,8 @@ jobs:
       - uses: r-lib/actions/setup-r@v2
 
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
 
       - uses: r-lib/actions/setup-pandoc@v2
 
@@ -29,7 +31,13 @@ jobs:
           extra-packages: local::.
 
       - name: Render book
-        run: Rscript -e 'ropenscitranslationguide::orchestrate()'
+        run: Rscript -e 'babelquarto::render_book()'
+
+      - name: Move English files
+        run: Rscript -e 'file.copy(from = "_book/rOpenSci-Translation-Guidelines.pdf", to = "_book/ropensci-translation-guide.pdf")' -e 'purrr::walk(list.files("images", full.names = TRUE), file.copy, to = "_book/images")'
+
+      - name: Move Spanish files
+        run: Rscript -e 'file.copy(from = "_book/es/Guía-de-traducción-de-rOpenSci.pdf", to = "_book/es/ropensci-translation-guide.pdf")' -e 'purrr::walk(list.files("images", full.names = TRUE), file.copy, to = "_book/es/images")'
 
       - name: git config
         run: |

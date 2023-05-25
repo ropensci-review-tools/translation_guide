@@ -52,3 +52,4 @@ If you want to contribute to this book, corrections, additions, and suggestions 
 
 Thanks!
 
+You can also read the [PDF version](/ropensci-translation-guide.pdf) of this book.
