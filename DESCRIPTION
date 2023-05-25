@@ -4,12 +4,12 @@ Title: Translation Guidelines
 Description: rOpenSci Translation Guidelines
 Version: 0.8.1
 URL: https://github.com/ropensci/dev_guide
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
 Imports: 
     babelquarto (>= 0.0.0.9000),
     knitr,
     readr
-Remotes:  
+Remotes: 
     ropensci-review-tools/babelquarto
