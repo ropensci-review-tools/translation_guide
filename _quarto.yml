@@ -26,3 +26,12 @@ format:
     theme: [cosmo, custom.scss]
     code-link: true
     include-in-header: "matomo.html"
+  pdf:
+    output-file: "translation_guide"
+
+babelquarto:
+  mainlanguage: 'en'
+  languages: ['es']
+title-es: Guía de traducción de rOpenSci
+description-es: description in es
+lang: en

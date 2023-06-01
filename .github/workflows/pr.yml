@@ -33,8 +33,18 @@ jobs:
           extra-packages: local::.
 
       - name: Render book
-        run: Rscript -e 'ropenscitranslationguide::orchestrate()'
+        run: Rscript -e 'babelquarto::render_book()'
 
+      - name: Move English files
+        run: Rscript -e 'file.copy(from = "_book/rOpenSci-Translation-Guidelines.pdf", to = "_book/ropensci-translation-guide.pdf")' -e 'purrr::walk(list.files("images", full.names = TRUE), file.copy, to = "_book/images")'
+
+      - name: Move Spanish files
+        run: Rscript -e 'file.copy(from = "_book/es/Guía-de-traducción-de-rOpenSci.pdf", to = "_book/es/ropensci-translation-guide.pdf")' -e 'purrr::walk(list.files("images", full.names = TRUE), file.copy, to = "_book/es/images")'
+
+      - name: git config
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "gh-pages committer"
       - name: Deploy to Netlify
         id: netlify-deploy
         uses: nwtgck/actions-netlify@v1.1

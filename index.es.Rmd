@@ -20,3 +20,5 @@ Puedes citar este libro utilizando sus metadatos y DOI de Zenodo.
 Esta obra está bajo una licencia Creative Commons Attribution-NonCommercial-ShareAlike 4.0 United States License.
 
 Si quieres contribuir a este libro (sugerencias, correcciones) por favor consulta el repositorio de GitHub y en particular las directrices para contribuir. Gracias.
+
+También puedes leer la [versión PDF de este libro](/ropensci-translation-guide.pdf).
