@@ -1,5 +1,10 @@
 # General Guidelines
 
+::: callout-warning
+You are reading the first edition **in progress** of rOpenSci Localization and Translation Guide. 
+This chapter is currently a draft of ideas. It is incomplete and we do not recommend reading it.
+:::
+
 ## Introduction
 
 rOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
