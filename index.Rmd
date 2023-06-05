@@ -1,5 +1,10 @@
 # Preface {.unnumbered}
 
+::: callout-note
+You are reading the first edition **in progress** of the rOpenSci Localization and Translation Guide. 
+This chapter is almost complete, but information still needs to be added and just needs one last revision.
+:::
+
 ## Welcome!
 
 This book explanins all the steps and tools involved in the localization of our materials, including translations.
