@@ -1,5 +1,10 @@
 # Cómo traducir y revisar
 
+::: callout-note
+
+Estás leyendo la primera edición **en progreso** de la Guía de Localización y Traducción de rOpenSci. Este capítulo debería ser legible, pero está siendo objeto de una revisión final.
+:::
+
 ## Aspectos generales
 
 El proceso de traducción comienza con una primera traducción automática usando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
