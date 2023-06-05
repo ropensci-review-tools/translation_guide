@@ -1,5 +1,10 @@
 # Motivation
 
+::: callout-note
+You are reading the first edition **in progress** of rOpenSci Localization and Translation Guide. 
+This chapter should be readable, but is undergoing final additions and polishing.
+:::
+
 ## Language barrier
 
 According to a [recent report](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
