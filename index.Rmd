@@ -2,13 +2,16 @@
 
 ## Welcome!
 
-This book explanins all the steps and tools involved in the localization of our materials, including translations.
+This book explains all the steps and tools involved in the localization of our materials, including translations.
+We design, build, and test a process for maintain the different languages version of our materials that take ideas from our [software peer review system](https://ropensci.org/software-review/) and the maintenance of open-source projects.
 
-We design and build a process that takes ideas from our software peer review system and the maintenance of open-source projects.  At rOpenSci, we use peer review to ensure the quality of our code and our content. We also implement a system to review and maintain the different languages version of our materials.
+We know that code peer review ensure the quality of our software; with the same goal of ensuring the quality of our content in different languages, we implement a system to review and maintain the localization of our guides, books, blog post, and other content. 
+
+We also know that by using roles (such as reviewers and maintainers) and tools (such as GitHub and Pull Request) known to our community, we make this process easier to undestand, apply and, therefore, easier to contribute to.
 
 ## Intended Audience
 
-This book is a guide for people who would like to localize rOpenSci materials or contribute to maintaining localized material.  You don't need to be a proffesional translator or developer.  The following personas are examples of the types of people that are our target audience.
+This book is a guide for people who would like to _localize rOpenSci materials_ or _contribute to maintaining localized material_.  It is also intended for people that have to localize material on other community or group. You don't need to be a proffesional translator or developer to contrinute to this effort.  The following personas are examples of the types of people that are our target audience.
 
 Ana
 :  
@@ -20,23 +23,25 @@ Francesco
   will send their packages to the rOpenSci review process in Spanish. They know that this will ensure the quality of their software and will also facilitate its publication in JOSS, which will give them academic credit for their job at Universidad Mayor de San Andrés in Bolivia. They read the Spanish version of the book for development and a peer-review package to prepare the submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and maintainer of translated material and the infrastructure that allows translations.
 
 Bauti
-:
+:  
   is the co-founder of a user group in his city in Chile.  With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages.  He uses rOpenSci Spanish material during his workshops and would like to have the material from other programming languages in Spanish. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.   
 
 ## What You Will Learn
 
 The guide contains:
 
-- Why multilingual publishing.
-- General guide with the infrastructure and roles, step-by-step technical process, and localization considerations.
+- Why we localize, translate and work to do multilingual publishing.
+- General guide with the infrastructure and roles, step-by-step technical process, and localization considerations, including the technical terms to translate and the technical terms we will not translate.
 - Language-specific guides with localization considerations.
-- Language-specific glossary, which includes the technical terms to translate and the technical terms we will not translate.
+- Language-specific glossary.
 
-At rOpenSci, we use GitHub to host our code, including our packages and books. The step-by-step technical process refers to working with GitHub, like making pull requests, reviewing and commenting on pull requests, and creating issues. It also explains how to use the {babeldown} R package that facilitates working with translations. 
+At rOpenSci, we use GitHub to host our code, including our packages, books, webpage and review process. The step-by-step technical process refers to working with GitHub, like making pull requests, reviewing and commenting on pull requests, and creating issues. It also explains how to use the {babeldown} R package that facilitates working with translations. 
 
-The localization consideration and the glossary are language-specific and detail the agreements the community reach about how to localize and translate the material. 
+The localization consideration and the glossary are language-specific and detail the agreements the community reach about how to localize and translate the material. This chapter is different for each language present in this guide.
 
-We hope that you’ll find the guide useful and clear, and welcome your suggestions in the issue tracker of the book. Happy localization!
+We hope that you’ll find the guide useful and clear, and welcome your suggestions in the issue tracker of the book. Please check [Contributing and Re-Use section](#Contributing-and-Re-Use) to learn more about hot to contribute. 
+
+Happy localization!
 
 ## Contributing and Re-Use
 
