@@ -1,5 +1,10 @@
 # Guidelines
 
+::: callout-warning
+You are reading the first edition **in progress** of rOpenSci Localization and Translation Guide. 
+This chapter is undergoing major restructuring and may be confusing or incomplete. We do not recommend reading it.
+:::
+
 This is some guidance to keep in mind when _translating_ rOpenSci materials.
 
 Detailed guidance for Spanish is available in that language in the Spanish translations guidelines.
