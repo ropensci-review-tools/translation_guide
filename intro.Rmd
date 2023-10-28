@@ -26,8 +26,36 @@ There are many solutions for internationalizing and localizing content and softw
 
 Based on our previous experiences and using the characteristics of our community, we develop tools and a technical workflow for performing localizations and achieve stage 1.  
 
-## 
+## General aspects of the translation process
+
+The translation process starts with a first machine translation using the [babeldown](https://docs.ropensci.org/babeldown/) package.
+This provides a first draft that is then reviewed by human eyes, who correct errors and incorporate the localization and language translation agreements (see [Languaje specific guidelines](specific_guidelines.html)).
+
+To minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through of at least 2 reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.
+
+In each step of this process we ask you to:
+
+1.  Use a conversational voice rather than a formal or academic voice.
+
+2.  If appropriate, specify what dialect or regional variation of the language is being used. 
+For example, the Spanish translation uses Latin American conventions.
+
+3.  Try to be gender neutral. 
+Unlike English, Spanish has a strongly grammatical gender (masculine and feminine with very few neutrals). 
+That translation adjusts wording to avoid having to assign a gender. 
+Where a gender mark cannot be avoided, it uses feminine-masculine or masculine-feminine splits. 
+For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.
+
+4.  Try to be idiomatic. 
+For example, since Spanish verbs have the mark of person, gender, and number, the Spanish translation can omit subjects that are present in the English original: because of the context, readers will understand what is being referred to. 
+Similarly, Spanish has more verb tenses than English. 
+When translating, the verbal form that is best to express the meaning of the fragment in Spanish should be prioritized, not the one that seems to be literal from English.
+
+The translation and review process is done on GitHub using *pull requests* (see [this section](#pr-edition) for details).
+We chose this workflow as this is the infrastructure we use in our community.
+All our packages and books are hosted on GitHub and use *issues* and *pull requests* in their development.
+In addition, this allows the process to be open so that others can contribute and provide feedback.
 
 ## References.
 
-[^1] Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
+[^1]: Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
