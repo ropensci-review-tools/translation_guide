@@ -29,32 +29,7 @@ This process can be modified for each translation project, but the general steps
 
 4. When all the chapters/sections are finished, the editor, reads the entire book to check the consistency of the text, and the rules and guidelines. The editor has to read and write in the original language and the language of the translations. If the author of the material is bilingual, then it is a good idea for the author to be the editor. If they can't, we need another person to be the editor.
 
-## General guidelines
 
-1.  Use a conversational voice rather than a formal or academic voice.
-
-2.  If appropriate, specify what dialect or regional variation of the language is being used.
-    For example, the Spanish translation uses Latin American conventions.
-
-3.  Try to be gender neutral.
-    Unlike English, Spanish has a strongly grammatical gender (masculine and feminine with very few neutrals).
-    That translation adjusts wording to avoid having to assign a gender.
-    Where a gender mark cannot be avoided,
-    it uses feminine-masculine or masculine-feminine splits.
-    For consistency throughout the text and to show that there is no particular hierarchy,
-    it alternates the use of feminine or masculine between chapters,
-    with the use being consistent throughout each chapter.
-
-4.  Try to be idiomatic.
-    For example,
-    since Spanish verbs have the mark of person, gender, and number,
-    the Spanish translation can omit subjects that are present in the English original:
-    because of the context, readers will understand what is being referred to.
-    Similarly,
-    Spanish has more verb tenses than English.
-    When translating,
-    the verbal form that is best to express the meaning of the fragment in Spanish should be prioritized,
-    not the one that seems to be literal from English.
 
 ## Technical terms and citations
 
