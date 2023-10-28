@@ -4,21 +4,7 @@ editor:
     wrap: sentence
 ---
 
-# Cómo traducir y revisar
-
-## Aspectos generales
-
-El proceso de traducción comienza con una primera traducción automática usando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
-Esto brinda un primer borrador que luego es revisado por ojos humanos, quienes corrigen errores e incorporan los acuerdos de localización y traducción del lenguaje (ver [Guía específica para español](specific_guidelines.html)).
-
-Para minimizar errores y mantener una mirada amplia sobre la traducción, desde rOpenSci pedimos que cada capítulo o sección conste con al menos 2 revisiones realizadas en serie (la primera revisa el borrador automático y la segunda revisa la primera revisión) seguida de una revisión general de todo el libro o documentos en su conjunto.
-
-Estas revisiones se hacen en GitHub usando *pull requests* (ver [esta sección](#0) para más detalles).
-Elegimos este flujo de trabajo ya que esta es la infraestructura que usamos en nuestra comunidad.
-Todos nuestros paquetes y libros se alojan en GitHub y usan *issues* y *pull requests* en su desarrollo.
-Además, esto permite que el proceso sea abierto para que otras personas puedan contribuir y opinar.
-
-Por supuesto, como en todos los ámbitos de rOpenSci, seguimos nuestro [código de conducta](https://ropensci.org/es/codigo-de-conducta/) para generar un ambiente amigable y seguro.
+# Guía para traducir y revisar
 
 ## Cómo colaborar
 
@@ -172,7 +158,7 @@ Para esto hay que tener en cuenta:
 Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas.
 Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.
 
-### Pull Request y edición de un capítulo
+### Pull Request y edición de un capítulo {#pr-edition}
 
 Una vez que el proceso de revión de un capítulo está completo, es hora de transferir esa nueva versión del repositorio de trabajo al repositorio principal de rOpenSci.
 Para esto **R2** tendrá que abrir un *pull request* que comparé la versión revisada con la versión que solo tiene traducción automática.
