@@ -22,7 +22,7 @@ and open science projects.
 
 The Spanish-speaking R community has been very active and growing in recent years, and has undertaken various translation activities for technical materials such as books, cheatsheets, guides, and datasets.
 
-In 2017, several Latin American [R-Ladies](https://www.rladies.org/) began translating the R-Ladies' [Code of Conduct](https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#spanish) and their Rules and Guidelines into Spanish.
+In 2017, several Latin American [R-Ladies](https://www.rladies.org/) began translating the R-Ladies' [Code of Conduct](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md) and their Rules and Guidelines into Spanish.
 
 In 2018, the [R community in Latin America collectively translated](https://youtu.be/kuHjpdgkSxg) the [R for Data Science](https://es.r4ds.hadley.nz/) book into Spanish. This included the translation of all the data sets used in the book, which were compiled in the [datos](https://github.com/cienciadedatos/datos) package, making it an excellent tool for teaching.
 
@@ -30,7 +30,7 @@ The community continued with the translation of [Teaching Tech Together](https:/
 [The Carpentries](https://software-carpentry.org/lessons/)’ 
 and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 
-Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
+Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
 
 All of this work and previous experience created the right conditions for us to start our multilingual publishing in Spanish!
 Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^2].
