@@ -1,60 +1,8 @@
-# Guidelines
+# Specific Guidelines
 
-::: callout-warning
-You are reading the first edition **in progress** of rOpenSci Localization and Translation Guide. 
-This chapter is undergoing major restructuring and may be confusing or incomplete. We do not recommend reading it.
+::: callout-note
+If you want to read the guidelines for a specific language, place change the version of the Translation Guide to that language using the language list on the left.
 :::
-
-This is some guidance to keep in mind when _translating_ rOpenSci materials.
-
-Detailed guidance for Spanish is available in that language in the Spanish translations guidelines.
-
-## Organization of work
-
-This process can be modified for each translation project, but the general steps are as follows:
-
-1. We will have these roles:
-    - Translators
-    - Reviewers
-    - Editors 
-
-2. Each chapter or section of the material to be reviewed will be assigned to a translator and at least one reviewer (it is desirable that it be reviewed by more than one person). It is a good idea to have reviews from differents countries. One person can translate and review more than one chapter.
-
-3. For each chapter/section or material (for example, a blog post or a form):
-
-   - _First step_: the designated translator generates the first version of the translation chapter. Durgin this work the translator should apply the guidelines. If the translator encounter a situation that is not in the guide and they are not sure how to solve it, ask in the Slack in the translations channel.  Update the guide with the agreement reached and apply it to the translation. When the translation is ready, notify the designated reviewer that the review can begin.
-   - _Second step_: The reviewer makes suggestions for changes (based on the guidelines and their understanding of the subject and the language). When finished, let the designated translator knows.
-   - _Third step_: The translator and the reviewer initiate a discussion cycle on the suggestions and comments made in the review. They are accepted, rejected, changed, etc. until all comments and suggestions have been resolved.  
-   - _Four steps_: The translator updates the guide and the list of terms if necessary.
-
-4. When all the chapters/sections are finished, the editor, reads the entire book to check the consistency of the text, and the rules and guidelines. The editor has to read and write in the original language and the language of the translations. If the author of the material is bilingual, then it is a good idea for the author to be the editor. If they can't, we need another person to be the editor.
-
-## General guidelines
-
-1.  Use a conversational voice rather than a formal or academic voice.
-
-2.  If appropriate, specify what dialect or regional variation of the language is being used.
-    For example, the Spanish translation uses Latin American conventions.
-
-3.  Try to be gender neutral.
-    Unlike English, Spanish has a strongly grammatical gender (masculine and feminine with very few neutrals).
-    That translation adjusts wording to avoid having to assign a gender.
-    Where a gender mark cannot be avoided,
-    it uses feminine-masculine or masculine-feminine splits.
-    For consistency throughout the text and to show that there is no particular hierarchy,
-    it alternates the use of feminine or masculine between chapters,
-    with the use being consistent throughout each chapter.
-
-4.  Try to be idiomatic.
-    For example,
-    since Spanish verbs have the mark of person, gender, and number,
-    the Spanish translation can omit subjects that are present in the English original:
-    because of the context, readers will understand what is being referred to.
-    Similarly,
-    Spanish has more verb tenses than English.
-    When translating,
-    the verbal form that is best to express the meaning of the fragment in Spanish should be prioritized,
-    not the one that seems to be literal from English.
 
 ## Technical terms and citations
 
@@ -111,32 +59,5 @@ Translate:
 1. Figure and diagrams are translated.
 2. Screenshots are translated only if the IDE or UI exist in the language of the translation.
 
-# Citing the translation
 
-The cite of the translation change for every language.  We base this recomendations on the [APA recomendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works). We also recommend including the orginal title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295). See example for Piaget (1950).
 
-The general format is:
-
-{list of authors of the English version}.{(year of publication)}. {Translated title}. {[Original Title in English]} (Translation to {language name}: {list of people that translate the material}). {DOI}. (Original work publish at {year of publication})
-
-The text _Translation to_ and _Original work publish at_ should be writing on the language of the translations.
-
-Example using the developer guide:
-
-> rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam, & Hollister, Jeff. (2021). Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {name of the translators}) Zenodo. https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
-  
-  
-## Attributions
-
-These translation guidelines are based on the experience and documents generated during the translation of [Teaching Tech Together](https://github.com/gvwilson/teachtogether.tech/blob/main/README.md).
-
-# Glossary
-
-## Source 
-
-<https://github.com/ropensci-review-tools/glossary>
-
-## Glossary
-
-```{r, file='man/rmd-fragments/query-glossary.R', echo=FALSE, message=FALSE, warning=FALSE}
-```

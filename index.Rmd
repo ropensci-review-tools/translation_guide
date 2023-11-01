@@ -63,3 +63,7 @@ If you want to contribute to this book, corrections, additions, and suggestions 
 Thanks!
 
 You can also read the [PDF version](/ropensci-translation-guide.pdf) of this book.
+
+## Attributions
+
+These translation guidelines are based on the experience and documents generated during the translation of [Teaching Tech Together](https://github.com/gvwilson/teachtogether.tech/blob/main/README.md).
