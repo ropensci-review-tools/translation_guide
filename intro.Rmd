@@ -56,6 +56,20 @@ We chose this workflow as this is the infrastructure we use in our community.
 All our packages and books are hosted on GitHub and use *issues* and *pull requests* in their development.
 In addition, this allows the process to be open so that others can contribute and provide feedback.
 
+## Citing the translation
+
+Citing the translation can change for every language. We base this recommendation on the [APA recomendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works). We also recommend including the original title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295). See example for Piaget (1950).
+
+The general format is:
+
+{list of authors of the English version}.{(year of publication)}. {Translated title}. {[Original Title in English]} (Translation to {language name}: {list of people that translate the material}). {DOI}. (Original work publish at {year of publication})
+
+The text _Translation to_ and _Original work publish at_ should be writing on the language of the translations.
+
+Example using the developer guide:
+
+> rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam, & Hollister, Jeff. (2021). Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {name of the translators}) Zenodo. https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
+
 ## References.
 
 [^1]: Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
