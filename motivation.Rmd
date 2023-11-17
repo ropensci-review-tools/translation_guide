@@ -25,7 +25,7 @@ A recent study[^3] quantified the consequences of language barriers on the caree
 
 -  When they present in English need up to __94% more time__ to prepare their presentations. They will __often avoid__ English speaking conferences and oral presentations.
 
-Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^2]. 
+Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^1]. 
 
 These studies also higligh that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals’ efforts."[^3]
 
@@ -51,7 +51,7 @@ and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 
 Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
 
-All of this work and previous experience created the right conditions for us to start our multilingual publishing in Spanish. Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^4].
+All of this work and previous experience created the right conditions for us to start our multilingual publishing in Spanish. Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^5].
 
 ## Building community
 
@@ -62,7 +62,7 @@ This type of contribution is often a good first step and is recognized as valuab
 
 We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects with translation efforts.
 
-### References
+## References
 
 [^1]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 [^2]: UNESCO. UNESCO recommendation on open science. Paris, France; 2021.
