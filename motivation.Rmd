@@ -5,7 +5,16 @@ You are reading the first edition **in progress** of rOpenSci Localization and T
 This chapter should be readable, but is undergoing final additions and polishing.
 :::
 
+
+At rOpenSci we work to transform science through open data, software and reproducibility.  We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. In addition, we develop and maintain high-quality documentation and resources to support these activities.
+
+We also believe that science and the research software we create to suppor it should serve everyone in our communities, which means it needs to be sustainable, open, and built by and for all groups. Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
+
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities.
+
+
 ## Language barrier
+
 
 According to a [recent report](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
 
@@ -18,7 +27,7 @@ _democratize access to quality resources_, thereby
 _increasing the potential for individuals to contribute_ to software 
 and open science projects.
 
-## Language representation
+## Community driven translation
 
 The Spanish-speaking R community has been very active and growing in recent years, and has undertaken various translation activities for technical materials such as books, cheatsheets, guides, and datasets.
 
