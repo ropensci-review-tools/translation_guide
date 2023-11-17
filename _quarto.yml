@@ -3,11 +3,11 @@ project:
 
 book:
   favicon: images/apple-touch-icon.png
-  title: "rOpenSci Translation Guidelines"
-  author: "Yanina Bellini Saibene, Maëlle Salmon, Paola Corrales, Elio Campiteli"
+  title: "rOpenSci Localization and Translation Guidelines"
+  author: "Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon"
 #  code-link: true
   description: |
-    Why and how we localize and translate our material.
+    Why and how we localize and translate our resources.
   reader-mode: true
   site-url: https://translationguide.ropensci.org/
   repo-url: https://github.com/ropensci-review-tools/translation_guide/
@@ -32,6 +32,6 @@ format:
 babelquarto:
   mainlanguage: 'en'
   languages: ['es']
-title-es: Guía de traducción de rOpenSci
+title-es: Guía de localización y traducción de rOpenSci
 description-es: description in es
 lang: en
