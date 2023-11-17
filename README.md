@@ -18,13 +18,20 @@ rOpenSci's guide for translations.
 
 ## Contributing
 
-### Languages with active proyects {#active}
+### Languages with active projects
 
 #### Spanish
 
 | Project   | Status          | Links                                       | Maintainer  |
 |-----------|-----------------|---------------------------------------------|-------------|
 | Dev guide | On final reivew | [Dev guide](github.com/ropensci/dev_guide/) |  @yabellini |
+
+#### Portuguese
+
+| Project   | Status            | Links                                       | Maintainer    |
+|-----------|-------------------|---------------------------------------------|---------------|
+| Dev guide | Translation and R | [Dev guide](github.com/ropensci/dev_guide/) |  @pedropark99 |
+
 
 ### Suggestions and updates
 
