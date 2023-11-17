@@ -5,39 +5,31 @@ You are reading the first edition **in progress** of rOpenSci Localization and T
 This chapter should be readable, but is undergoing final additions and polishing.
 :::
 
-
 At rOpenSci we work to transform science through open data, software and reproducibility.  We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
 We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it needs to be sustainable, open, and built by and for all groups. Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
-rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities.
-
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our multilingual publishing project.
 
 ## Language barrier
 
 English is the _lingua franca_ for science creating a significant barrier for non-English speaker waiting to join the field. It is also the predominant language of open source in code, content, and community interactions making _language access_ one of the _environmental barriers to equity in open source_.[^1] . 
 
-In the paper, _The manifold costs of being a non-native
-English speaker in science[^2]_ is state that non-native English researchers need:
+The UNESCO’s recommendation on open science highlights the need to overcome language barriers in order to achieve the open science core values and guiding principles of Equity and fairness, Diversity and inclusiveness, Equality of opportunities, and Collaboration, participation and inclusion[^2]. 
 
-- up to 91% more time to read English papers
+A recent study[^3] quantified the consequences of language barriers on the career development of researchers. The authors found that Non-native English researchers need:
 
-- up to 51% more time to write papers
+- up to __91% more time to read__ English papers,
 
- -Their papers will be rejected 2.6 times more often 
+- up to __51% more time to write__ papers and their papers will be __rejected 2.6 times more often__. If accepted, they'll have to __revise it 12.5 more times__
 
-- If accepted, they'll have to revise it 12.5 more times
+-  When they present in English need up to __94% more time__ to prepare their presentations. They will __often avoid__ English speaking conferences and oral presentations.
 
--  When they present in English (they will often avoid English speaking conferences and oral presentations), they need up to 94% more time to prepare their presentations.
+Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^2]. 
 
-"To date, the task of overcoming language barriers has largely been left to non-native English speakers’ efforts and their investment in ways of improving their English skills. However, the magnitude of the disadvantage, quantified in this study, seems far beyond the level that can be overcome with individuals’ efforts."
+These studies also higligh that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals’ efforts."[^3]
 
-
-
-> The predominant language of open source is English—in code, content, and community interactions—and English proficiency is a metric by which performance and personality can be judged. 
-
-
-By publishing multilingual resources we can lower these
+By developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these
 barriers by _increasing access to knowledge_ and
 _democratize access to quality resources_, thereby
 _increasing the potential for individuals to contribute_ to software 
@@ -75,5 +67,6 @@ We also expect that the project's documentation and tooling will be useful for e
 ### References
 
 [^1]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
-[^2]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
-[^3]: List of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
+[^2]: UNESCO. UNESCO recommendation on open science. Paris, France; 2021.
+[^3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
+[^4]: List of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
