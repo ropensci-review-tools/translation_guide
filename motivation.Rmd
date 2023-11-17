@@ -8,17 +8,33 @@ This chapter should be readable, but is undergoing final additions and polishing
 
 At rOpenSci we work to transform science through open data, software and reproducibility.  We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
-We also believe that science and the research software we create to suppor it should serve everyone in our communities, which means it needs to be sustainable, open, and built by and for all groups. Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
+We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it needs to be sustainable, open, and built by and for all groups. Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general. That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
 rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities.
 
 
 ## Language barrier
 
+English is the _lingua franca_ for science creating a significant barrier for non-English speaker waiting to join the field. It is also the predominant language of open source in code, content, and community interactions making _language access_ one of the _environmental barriers to equity in open source_.[^1] . 
 
-According to a [recent report](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source) from The Linux Foundation, _language access_ is one of the _environmental barriers to equity in open source_. The report states that 
+In the paper, _The manifold costs of being a non-native
+English speaker in science[^2]_ is state that non-native English researchers need:
 
-> The predominant language of open source is English—in code, content, and community interactions—and English proficiency is a metric by which performance and personality can be judged[^1]. 
+- up to 91% more time to read English papers
+
+- up to 51% more time to write papers
+
+ -Their papers will be rejected 2.6 times more often 
+
+- If accepted, they'll have to revise it 12.5 more times
+
+-  When they present in English (they will often avoid English speaking conferences and oral presentations), they need up to 94% more time to prepare their presentations.
+
+"To date, the task of overcoming language barriers has largely been left to non-native English speakers’ efforts and their investment in ways of improving their English skills. However, the magnitude of the disadvantage, quantified in this study, seems far beyond the level that can be overcome with individuals’ efforts."
+
+
+
+> The predominant language of open source is English—in code, content, and community interactions—and English proficiency is a metric by which performance and personality can be judged. 
 
 
 By publishing multilingual resources we can lower these
@@ -42,7 +58,7 @@ and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission itself, as well as all reviews and editorial responses, were in Spanish.
 
 All of this work and previous experience created the right conditions for us to start our multilingual publishing in Spanish!
-Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^2].
+Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^3].
 
 ## Building community
 
@@ -59,4 +75,5 @@ We also expect that the project's documentation and tooling will be useful for e
 ### References
 
 [^1]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
-[^2]: List of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
+[^2]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
+[^3]: List of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
