@@ -10,7 +10,7 @@ editor:
 
 ### Con un idioma activo
 
-Puedes revisar la lista de idiomas para los que hay proyectos de traducción activos y sus estados [aquí](https://github.com/ropensci-review-tools/translation_guide#active).
+Puedes revisar la lista de idiomas para los que hay proyectos de traducción activos y sus estados [aquí](https://github.com/ropensci-review-tools/translation_guide##languages-with-active-projects).
 Allí encontrarás el nombre de quienes que quien mantiene cada proyecto para que puedas ponerte en contacto y links a los proyectos activos en ese idioma.
 Las iniciativas de traducción cuentan con un canal en el Slack de rOpenSci por idioma donde se discute y se toman decisiones sobre la traducción, las cuales son plasmadas en las directrices específicas del idioma ([aquí](specific_guidelines.html)) en esta guía y un glosario ([aquí](glosario-es)).
 
