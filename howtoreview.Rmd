@@ -1,10 +1,5 @@
 # Translation and Review Guidelines 
 
-::: callout-note
-
-Estás leyendo la primera edición **en progreso** de la Guía de Localización y Traducción de rOpenSci. Este capítulo debería ser legible, pero está siendo objeto de una revisión final.
-:::
-
 ## How to contribute
 
 ### With an active language

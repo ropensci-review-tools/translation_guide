@@ -1,5 +1,7 @@
 # General Guidelines
 
+> "Meet your community member where they are."
+
 ## Introduction
 
 rOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software.
@@ -94,7 +96,11 @@ In addition, this allows the process to be open so that others can contribute an
 Of course, as in all areas of rOpenSci, we follow our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
 
 
-## Citing the translation
+## Using the localizations materials
+
+All the next examples use the rOpenSci Packages: Development, Maintenance, and Peer Review localization, but you can apply this recommendations to any of the other translations.
+
+### Citing a translation
 
 We base this recommendation on the [APA recommendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works).
 We recommend including the original title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295).
@@ -117,7 +123,7 @@ Example using the developer guide and the Spanish translation:
 > Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {name of the translators}) Zenodo.
 > https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
 
-### 4.2. Mention your contribution to a localization project in your CV:
+### Mention your contribution to a localization project in your CV
 
 -   \<Start date ex.: May, 2022 -- End date, ex: July, 2020\>. Collaborative localization to Spanish of the book ). General edition: Yanina Bellini Saibene. Contribution as \<role, ex.: reviewer\>. More information <link to the project>
 
