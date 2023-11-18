@@ -16,15 +16,19 @@ Multilingual publishing of documentation and resources involves two aspects:
 
 * The _localization_ is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience[^1]. This includes language, date formats, currency, measurement units, and support for different character sets. 
 
-In addition, technical translations of living documents have two well-defined stages that involve different resources:
+In addition, localization of living documents have two well-defined stages involving different resources:
 
   1. achieving a first version of the translated material, and
   
-  2. keeping the material updated and synchronized between the supported languages.
+  2. keeping the material updated and synchronized between the supported languages[^2].
 
-There are many solutions for internationalizing and localizing content and software. _Translation_ is typically the most time-consuming component of these efforts[^1].
+_Translation_ is typically the most time-consuming component of these efforts[^1].
 
-Based on our previous experiences and using the characteristics of our community, we develop tools and a technical workflow for performing localizations and achieve stage 1.  
+There are many solutions and tools for internationalizing and localizing content and software. For example, translation management systems (Crowdin, Transifex, Weblate), automatic translators (Google Translate, DeepL), version control systems (GitHub, GitLab), markup languages (LaTeX, Markdown), and tools for writing these languages (Overleaf, Quarto).  
+
+This technological solutions are in continuous development and evolution with new tools availables in very short time. We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, in summary that best suit our community. The choice of the technology impacts in the paths we create for contributions, that is why they should not be a barrier[^2].
+
+  
 
 ## General aspects of the translation process
 
@@ -73,3 +77,4 @@ Example using the developer guide:
 ## References.
 
 [^1]: Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization
+[^2]: Yanina Bellini Saibene and Natalia Soledad Morandeira. Multilingual Data Science: Ten Tips to Translate Science and Tech Content. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.
