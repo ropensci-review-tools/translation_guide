@@ -1,11 +1,5 @@
 # General Guidelines
 
-::: callout-warning
-You are reading the first edition **in progress** of rOpenSci Localization and Translation Guide.
-This chapter is currently a draft of ideas.
-It is incomplete and we do not recommend reading it.
-:::
-
 ## Introduction
 
 rOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software.
@@ -69,7 +63,7 @@ We use GitHub projects to track each localization project's progress and the peo
 The translation process starts with a first machine translation using the [babeldown](https://docs.ropensci.org/babeldown/) package.
 This provides a first draft that is then reviewed by human eyes, who correct errors and incorporate the localization and language translation agreements (see [Languaje specific guidelines](specific_guidelines.html)).
 
-To minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through at least 2 reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.
+To minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through at least two reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.
 
 In each step of this process, we ask you to:
 
@@ -79,16 +73,18 @@ In each step of this process, we ask you to:
     For example, the Spanish translation uses Latin American conventions.
 
 3.  Try to be gender-neutral.
-    If the language you are working has Unlike English, Spanish has a strong grammatical gender (masculine and feminine with very few neutrals).
-    That translation adjusts wording to avoid having to assign a gender.
+    If the language you are working on has a strong grammatical gender, the translation adjusts wording to avoid assigning a gender.
     Where a gender mark cannot be avoided, it uses feminine-masculine or masculine-feminine splits.
     For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.
 
 4.  Try to be idiomatic.
-    For example, since Spanish verbs have the mark of person, gender, and number, the Spanish translation can omit subjects that are present in the English original.
-    Because of the context, readers will understand what is being referred to.
-    Similarly, Spanish has more verb tenses than English.
-    When translating, the verbal form that best expresses the meaning of the fragment in Spanish should be prioritized, not the one that seems to be literal from English.
+    Don't be literal, and bring the message closer to your audience.[^intro-6]
+    When translating, the text and the form that best expresses the meaning of the fragment in the target language should be prioritized, not the one that seems to be literal from the original.
+
+[^intro-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
+    Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
+    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
+    ISBN:979-8-218-20191-3.
 
 The translation and review process is done on GitHub using *pull requests* (see [this section](#pr-edition) for details).
 We chose this workflow as this is the infrastructure we use in our community.
@@ -109,7 +105,7 @@ The general format is:
 {DOI}.
 (Original work publish at {year of publication})
 
-The text *Translation to* and *Original work publish at* should be written on the language of the translations.
+The text *Translation to* and *Original work publish at* should be written in the language of the translations.
 
 Example using the developer guide and the Spanish translation:
 

@@ -6,12 +6,6 @@ editor:
 
 # Motivation
 
-::: callout-note
-You are reading the first edition **in progress** of rOpenSci
-Localization and Translation Guide. This chapter should be readable, but
-is undergoing final additions and polishing.
-:::
-
 At rOpenSci we work to transform science through open data, software and
 reproducibility. We provides community support, standards, and
 infrastructure for scientists and research software engineers working in
