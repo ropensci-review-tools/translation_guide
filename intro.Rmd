@@ -91,6 +91,9 @@ We chose this workflow as this is the infrastructure we use in our community.
 All our packages and books are hosted on GitHub and use *issues* and *pull requests* in their development.
 In addition, this allows the process to be open so that others can contribute and provide feedback.
 
+Of course, as in all areas of rOpenSci, we follow our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
+
+
 ## Citing the translation
 
 We base this recommendation on the [APA recommendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works).
