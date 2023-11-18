@@ -5,71 +5,57 @@
 Estás leyendo la primera edición **en progreso** de la Guía de Localización y Traducción de rOpenSci. Este capítulo debería ser legible, pero está siendo objeto de una revisión final.
 :::
 
-## Aspectos generales
+## How to contribute
 
-El proceso de traducción comienza con una primera traducción automática usando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
-Esto brinda un primer borrador que luego es revisado por ojos humanos, quienes corrigen errores e incorporan los acuerdos de localización y traducción del lenguaje (ver xxxxx).
+### With an active language
 
-Para minimizar errores y mantener una mirada amplia sobre la traducción, desde rOpenSci pedimos que cada capítulo o artículo conste con al menos 2 revisiones realizadas en serie (la primera revisa el borrador automático y la segunda revisa la primera revisión) seguida de una revisión general de todo el libro o documentos en su conjunto.
+You can check the list of languages for which there are active translation projects and their statuses [here](https://github.com/ropensci-review-tools/translation_guide#active).
+There you will find the name of those who manage that language so you can get in touch and links to the active projects in that language.
+Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines (LINK) in this guide and a glossary (LINK).
 
-Estas revisiones se hacen en GitHub usando *pull requests* (ver [esta sección](#0) para más detalles).
-Elegimos este flujo de trabajo ya que esta es la infraestructura que usamos en nuestra comunidad.
-Todos nuestros paquetes y libros se alojan en GitHub y usan *issues* y *pull requests* en su desarrollo.
-Además, esto permite que el proceso sea abierto para que otras personas puedan contribuir y opinar.
+Before you start, it is important that you familiarize yourself with the source material.
+In addition, we suggest that you read this guide (in particular the guidelines applicable to your language (LINK)) and contact the people who are already working on it.
+Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it?
+or technical questions like what if I run into problems on GitHub?
 
-Por supuesto, como en todos los ámbitos de rOpenSci, seguimos nuestro [código de conducta](https://ropensci.org/es/codigo-de-conducta/) para generar un ambiente amigable y seguro.
+### With a new language
 
-## Cómo colaborar
+If your language is not among the languages with active projects listed [here](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
+You can send an email to [info@ropensci.org](mailto:info@ropensci.org) or [open a *issue* in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
-### Con un idioma activo
+Please note that starting a new project requires a commitment to manage the repository where all the review will take place.
+We ask from those who manage translation projects the same commitment we ask from those who manage packages of our suite: 2 years of maintenance or we can find someone else to take over.
 
-Puedes revisar la lista de idiomas para los que hay proyectos de traducción activos y sus estados [aquí](https://github.com/ropensci-review-tools/translation_guide#active).
-Allí encontrarás el nombre de quienes que gestionan ese idioma para que puedas ponerte en contacto y links a los proyectos activos en ese idioma.
-Cada proyecto de traducción además cuenta con un canal en el Slack de rOpenSci donde se discute y se toman decisiones sobre la traducción, las cuales son plasmadas en las directrices específicas del idioma (LINK) en esta guía y un glosario (LINK).
+Also, since each chapter or article must be reviewed by at least 2 people, we recommend you to invite your local community before starting the process.
 
-Antes de comenzar es importante que te familiarices con el material original.
-Además, te sugerimos leer esta guía (en particular las directrices aplicables a tu idioma (LINK)) y contactarte con las personas que ya se encuentran trabajando.
-No dudes en hacer todas las preguntas que necesites, por ejemplo ¿cuánto tiempo tienes que dedicarle?
-o cuestiones técnicas como ¿qué pasa si me encuentro con problemas en GitHub?
+## Technical aspects of the review {#tech}
 
-### Con un idioma nuevo
+In this section we will use the rOpenSci Development Guide as an example, but all the technical aspects of doing a review also apply to other rOpenSci materials.
 
-Si tu idioma no está entre los idiomas con proyectos activos listados [aquí](https://github.com/ropensci-review-tools/translation_guide#active), ponte en contacto con el equipo de rOpenSci para proponerlo.
-Puedes enviar un mail a [info\@ropensci.org](mailto:info@ropensci.org) o [abrir un *issue* en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
+The source code that generates the Development Guide lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (RMarkdown) format files that contain text and sometimes also code.
+In this case there are also some configuration files that need to be translated so that the guide in the new language is fully translated.
 
-Ten en cuenta que iniciar un nuevo proyecto requiere un compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión.
-Pedimos a quienes gestionan proyectos de traducción el mismo compromiso que pedimos a quienes gestionan paquetes de nuestra suite: 2 años de mantenimiento o poder encontrar a otra persona que se haga cargo.
+Each chapter has one .Rmd file per language, with a suffix that identifies the language using its two-letter code (according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
+For example, the chapter "Software Peer Review Policies" will have its original English version in `softwarereview_policies.Rmd` and its translated Spanish version in `softwarereview_policies.es.Rmd`.
 
-Además dado que cada capítulo o artículo debe ser revisado por al menos 2 personas, te recomendamos invitar a tu comunidad local antes de comenzar el proceso.
+If the translation project is running, you will find a series of *pull requests*, **one for each file to translate**, generated with the babeldown package containing the automatically translated text.
+**Each of these *pull requests* has an associated *branch*, this will be important later.
+In fact if there are many translation projects going on, you may encounter many *pull requests*.
+We recommend you to filter using the tag associated to your language, for example the tag for Spanish translation is "traducción 🧉".
 
-## Aspectos técnicos de la revisión {#tech}
+For security and organization, the reviewers will not have writing permissions in this main repository.
+So whoever manages the project will have to make a *fork* (which we will call **working repository**) and give write permission to all the people who review or contribute.
+This *fork* will have the same *branches* as the main repository; this is key since the **revision of each file will be done on the *branch* associated to its translation.
 
-En esta sección usaremos como ejemplo la Guía de desarrollo de rOpenSci, pero todos los aspectos técnicos para hacer una revisión también aplican a otros materiales de la organización.
+To start contributing the first thing you should do is to clone the working repository.
+To find out where it is located, talk to the person in charge of the project or consult the Slack channel.
+Once you have the work repository cloned, you can start working locally on your computer.
 
-El código fuente que genera la Guía de desarrollo vive en [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), y está organizada en archivos con formato .Rmd (RMarkdown) que contienen texto y a veces también código.
-En este caso también hay algunos archivos de configuración que requieren ser traducidos para que la guía en el nuevo lenguaje esté completamente traducida.
+You're all set to start a review, but where do you start?
+As in any collaborative project, it is important to agree among all the people to know what each one is going to do.
+Again, we suggest you chat in the Slack channel to ask how the revisions will be divided.
 
-Cada capítulo tiene un archivo .Rmd por idioma, con un sufijo que identifica el idioma usando su código de dos letras (según [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
-Por ejemplo, el capítulo "Políticas de la Revisión por Pares de Software" tendrá su versión original en inglés en `softwarereview_policies.Rmd` y su versión traducida al español en `softwarereview_policies.es.Rmd`.
-
-Si el proyecto de traducción está en marcha, encontrarás una serie de *pull request*, **uno por cada archivo a traducir**, generados con el paquete babeldown que contienen el texto traducido automáticamente.
-**Cada uno de estos *pull requests* tienen una *branch* asociada**, esto será importante más adelante.
-De hecho si hay muchos proyectos de traducción en marcha, es posible que te encuentres con muchos *pull requests*.
-Te recomendamos filtrar usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es "traducción 🧉".
-
-Por seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en este repositorio principal.
-De modo que quien gestione el proyecto deberá hacer un *fork* (que llamaremos **repositorio de trabajo**) y darle permiso de escritura a todas las personas que revisen o contribuyan.
-Este *fork* tendrá las mismas *branchs* que el repositorio principal; esto es clave ya la **revisión de cada archivo se realizará sobre la *branch* asociada a su traducción.**
-
-Para comenzar a contribuir lo primero que debes hacer es clonar el repositorio de trabajo.
-Para saber donde está ubicado, hablar con la persona a cargo del proyecto o consulta en el canal del Slack.
-Una vez que tienes el repositorio de trabajo clonado, puedes empezar a trabajar localmente en tu computadora.
-
-Ya está todo listo para empezar una revisión, pero ¿por dónde empezar?
-Cómo en todo proyecto colaborativo, es importante ponerse de acuerdo entre todas las personas para saber que va a hacer cada una.
-Nuevamente te sugerimos conversar en el canal de Slack para preguntar como es la división de las revisiones.
-
-### Revisión 1
+### Review 1
 
 Digamos que te tocó hacer la revisión 1 del capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo `softwarereview_policies.es.Rmd`.
 Estos son los pasos a seguir.
