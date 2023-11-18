@@ -75,11 +75,11 @@ In each step of this process, we ask you to:
 
 1.  Use a conversational voice rather than a formal or academic voice.
 
-2.  If appropriate, specify what dialect or regional language variation is used.
+2.  If appropriate, specify the dialect or regional language variation used.
     For example, the Spanish translation uses Latin American conventions.
 
 3.  Try to be gender-neutral.
-    Unlike English, Spanish has a strong grammatical gender (masculine and feminine with very few neutrals).
+    If the language you are working has Unlike English, Spanish has a strong grammatical gender (masculine and feminine with very few neutrals).
     That translation adjusts wording to avoid having to assign a gender.
     Where a gender mark cannot be avoided, it uses feminine-masculine or masculine-feminine splits.
     For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.
@@ -97,10 +97,9 @@ In addition, this allows the process to be open so that others can contribute an
 
 ## Citing the translation
 
-Citing the translation can change for every language.
 We base this recommendation on the [APA recommendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works).
-We also recommend including the original title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295).
-See example for Piaget (1950).
+We recommend including the original title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295).
+See the example of Piaget (1950).
 
 The general format is:
 
@@ -119,12 +118,8 @@ Example using the developer guide and the Spanish translation:
 > Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {name of the translators}) Zenodo.
 > https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
 
-### 4.2. Mention your contribution to a localization in your CV:
+### 4.2. Mention your contribution to a localization project in your CV:
 
--   \<Start date ex.: May, 2022 -- End date, ex: July, 2020\>.
-    Collaborative localization to Spanish of the book ).
-    General edition: Yanina Bellini Saibene.
-    Contribution as \<role, ex.: reviewer\>.
-    More information <link to the project>
+-   \<Start date ex.: May, 2022 -- End date, ex: July, 2020\>. Collaborative localization to Spanish of the book ). General edition: Yanina Bellini Saibene. Contribution as \<role, ex.: reviewer\>. More information <link to the project>
 
 ## References.
