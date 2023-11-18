@@ -52,105 +52,105 @@ Again, we suggest you chat in the Slack channel to ask how the revisions will be
 
 ### Review 1
 
-Digamos que te tocó hacer la revisión 1 del capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo `softwarereview_policies.es.Rmd`.
-Estos son los pasos a seguir.
+Let's say you had to do revision 1 of the chapter "Software Peer Review Policies" found in the `softwarereview_policies.en.Rmd` file.
+Here are the steps to follow.
 
-En tu repositorio local:
+In your local repository:
 
-1.  Activá la *branch* asociada al archivo que vas a revisar.
-    En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+1. Activate the *branch* associated with the file you are going to review.
+    In our example it would be `softwarereview_policies.es.Rmd-en`.
 
-2.  Abrí el archivo `softwarereview_policies.es.Rmd`.
-    Es posible que veas cosas para mejorar inmediatamente, ya que la traducción automática hace un buen trabajo pero no es perfecta.
+2.  Open the `softwarereview_policies.es.Rmd` file.
+    You may see things to improve immediately, as the automatic translation does a good job but it is not perfect.
 
-3.  Comenzá a revisar el texto.
-    Para esto te sugerimos tener la versión en inglés al lado, es posible que necesites volver a la versión original para entender el contexto de alguna frase o palabra que el traductor no haya podido traducir correctamente.
-    Para esto puede usar la versión web del material que estás traduciendo o la pestaña *"Files changed"* del PR en el repositorio principal.
+3.  Start reviewing the text.
+    For this we suggest you have the English version next to you, you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly.
+    For this you can use the web version of the material you are translating or the *"Files changed "* tab of the PR in the main repository.
 
-    ![](images/es/files_changed.png){alt="Captura de pantalla de la interfaz de GitHub mostrando los detalles de un pull request y la solapa \"Files Changed\", la cual muestra el texto original en inglés a la izquierda y el texto traducido al español a la derecha."}
+    ![](images/es/files_changed.png){alt="Screenshot of the GitHub interface showing the details of a pull request and the 'Files Changed' tab, which shows the original English text on the left and the translated text on the right."}
 
-4.  De manera periódica, o cuando completes la revisión, tendrás que hacer un *commit* con los cambios que generaste.
-    Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión.
-    En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste.
-    De esta manera, si necesitaras delegar la revisión en otra persona, esa persona puede revisar la historia del archivo y retomar donde vos dejaste.
+4.  Periodically, or when you complete the revision, you will have to make a *commit* with the changes you generated.
+    Many times the content of the files will be extensive and you will need a lot of time to complete the revision.
+    In these cases we suggest you make *commits* at least after each work session indicating in the message up to which line of the file you have reached.
+    This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.
 
-5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
-    Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos conectar tu revisión con la traducción original.
+5.  So far the revision only lives in your local repository, the next step is to do a *push* to the working repository.
+    It is very important that the *push* is to the *branch* associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.
 
-6.  Una vez que completaste tu revisión, es importante que avises a quien coordina el proyecto o a la persona asignada a la revisión 2, si la hay.
+6.  Once you have completed your revision, it is important that you notify the project coordinator or the person assigned to revision 2, if there is one.
 
-#### Objetivos de la revisión 1
+#### Objectives of revision 1
 
-Esta primera revisión tiene como objetivo hacer una lectura detallada de la traducción automática para :
+The purpose of this first revision is to make a detailed reading of the machine translation in order to :
 
--   Asegurarse de que el sentido de la oración o párrafo se mantiene.
+- Ensure that the meaning of the sentence or paragraph is maintained.
 
--   Revisar que se hayan usado los términos del glosario acordados por la comunidad según el contexto.
+- Check that the glossary terms agreed upon by the community have been used according to the context.
 
--   Aplicar las decisiones de estilo siempre que se pueda.
-    Por ejemplo, en español decidimos evitar la marca de género en sustantivos y adjetivos y para ello parafraseamos oraciones o usamos "las/los" si lo primero no es posible.
+- Apply stylistic decisions whenever possible.
+    For example, in Spanish we decide to avoid gender marking of nouns and adjectives by paraphrasing sentences or using "las/los" if the former is not possible.
 
--   Revisar que los bloques de código o marcación de Markdown no hayan sido afectados.
+- Check that code blocks or Markdown markup have not been affected.
 
--   Traducir nombres de variables y comentarios visibles en los bloques de código siempre que corresponda.
+- Translate variable names and comments visible in the code blocks whenever appropriate.
 
-Seguramente queden dudas y es posible que alguna cosa pase de largo.
-Las decisiones de estilo suelen ser la más difíciles de aplicar y a veces es necesario consultar con el resto del equipo o charlarlo luego con quien haga la revisión 2.
+Surely there are still some doubts and it is possible that some things may be overlooked.
+Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the reviewer 2.
 
-### Revisión 2
+### Revision 2
 
-Te tocó la revisión 2, buenísimo.
-Nuevamente usaremos como ejemplo el capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo `softwarereview_policies.es.Rmd`.
-Quien hizo la revisión 1, a quien llamaremos **R1** de este capítulo seguramente generó uno o mas *commits* con cambios sobre la traducción original.
-Esto significa que tu trabajo no arranca en cero, estos son los pasos.
+You got revision 2, great.
+Again we will use as an example the chapter "Software Peer Review Policies" found in the `softwarereview_policies.en.Rmd` file.
+Whoever did review 1, whom we will call **R1** of this chapter most likely generated one or more *commits* with changes over the original translation.
+This means that your work does not start from scratch, here are the steps.
 
-En tu repositorio local:
+In your local repository:
 
-1.  Activa la *branch* asociada al archivo que vas a revisar.
-    En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+1. Activate the *branch* associated to the file you are going to check.
+    In our example it would be `softwarereview_policies.es.Rmd-en`.
 
-2.  Haz un *pull* para descargar todos los cambios que hizo R1 y tener el archivo actualizado.
+2.  Do a *pull* to download all the changes R1 made and have the file updated.
 
-3.  Comenzá a revisar el texto.
-    Para esto te sugerimos abrir la historia del archivo para visualizar los cambios que realizó R1.
-    Esto te permitirá saber si una frase o palabra proviene de la traducción automática o de otro ser humano.
+3.  Start reviewing the text.
+    To do this, we suggest you open the file history to view the changes R1 made.
+    This will allow you to know if a phrase or word comes from the machine translation or from another human being.
 
     <div>
 
-    ![](images/es/history.png){alt="Captura de pantalla de la interfaz de GitHub mostrando los detalles de un commit, con un texto en español traducido automáticamente a la izquierda y el texto revisado a la derecha."}
+    ![](images/es/history.png){alt="Screenshot of the GitHub interface showing the details of a commit, with automatically translated English text on the left and the revised text on the right."}
 
     </div>
 
-4.  De manera periódica, o cuando completes la revisión, tendrás que hacer un *commit* con los cambios que generaste.
-    Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión.
-    En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste.
-    De esta manera, si necesitaras delegar la revisión en otra persona, ella podrá revisar la historia del archivo y retomar donde vos dejaste.
+4.  Periodically, or when you complete the revision, you will have to make a *commit* with the changes you generated.
+    Many times the content of the files will be extensive and you will need a lot of time to complete the revision.
+    In these cases we suggest you make *commits* at least after each work session indicating in the message up to which line of the file you went.
+    This way, if you need to delegate the review to someone else, they can review the file history and pick up where you left off.
 
-5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
-    Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos contectar tu revisión con la traducción original.
+5.  So far the revision only lives in your local repository, the next step is to do a *push* to the working repository.
+    It is very important that the *push* is to the *branch* associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.
 
-6.  Una vez que completaste tu revisión, ¡el capítulo está listo!
-    Sin embargo, esta nueva versión solo vive en el repositorio de trabajo.
-    Tendrás que abrir un *pull request* en el repositorio principal para que lo revisé alguien con rol de editor y sea aprobado.
-    En la siguiente sección veremos como abrir el *pull request*.
+6.  Once you have completed your revision, the chapter is ready!
+    However, this new version only lives in the working repository.
+    You will have to open a *pull request* in the main repository to have it reviewed and approved by someone in an editor role.
+    In the next section we will see how to open the *pull request*.
 
-#### Objetivos de la revisión 2
+#### Objectives of Revision 2
 
-Esta segunda revisión busca generar un texto que mantenga el contenido original pero que además suene natural en el nuevo lenguaje.
-Para esto hay que tener en cuenta:
+This second revision seeks to generate a text that maintains the original content but also sounds natural in the new language.
+In order to achieve this, the following must be taken into account:
 
--   Que se respeten el uso de términos según el glosario y el contexto específico.
+- That the use of terms according to the glossary and the specific context is respected.
 
--   Que se use el formato definido por la comunidad, por ejemplo usar formato *italizado* para palabras que se mantienen en inglés.
+- Use the format defined by the community, for example, use *italicized* format for words that remain in English.
 
--   Aplicar las decisiones de estilo que no haya visto R1 o que haya dejado pasar.
-    Por ejemplo, en español intentar reemplazar cualquier "las/los" por una frase sin marca de género.
+- Apply style decisions missed by R1 or missed by R1.
+    For example, in Spanish try to replace any "las/los" with a phrase without gender marking.
 
--   Que, en general, las frases se entiendan y suenen bien evitando las traducciones literales.
+- That, in general, sentences are understood and sound good while avoiding literal translations.
 
-Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas.
-Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.
+In the process of revision 2 you may need to consult with R1 about the decisions he/she made or with the rest of the community if there is a phrase or term that raises doubts.
+You may then suggest adding new terms to the glossary or updating this translation guide.
 
-### Pull Request y edición de un capítulo
+### Pull Request and editing of a chapter
 
-## Revisión general
+## General review
