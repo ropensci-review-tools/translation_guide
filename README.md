@@ -35,12 +35,14 @@ rOpenSci's guide for translations.
 
 ### Suggestions and updates
 
-This book contains our guidelines for translation of [rOpenSci material]().
+This book contains our guidelines for translation of rOpenSci material.
 They are always a work in progress - corrections, suggestions and general improvements are welcome as [issue submissions in this repository](https://github.com/ropensci-review-tools/translation_guide).
 Opesn discussions are welcome in our [forum](https://discuss.ropensci.org/).
 You can also suggest changes by editing the `.Rmd` files that are at the root of this repository and submitting a pull request.
 An "edit" button at the top of all book chapters will take you directly to the relevant page on GitHub to make such changes.
 Please target your pull requests to the `main` branch.
+As all our spaces and activities this project is under our [Code of Conduct](https://ropensci.org/code-of-conduct/)
+
 
 ### Technical details
 
@@ -53,8 +55,6 @@ Deployment is done via GitHub Actions:
 Refer to [this blog post for more details and resources about bookdown deployment on GitHub Actions](https://ropensci.org/blog/2020/04/07/bookdown-learnings/#5-how-to-deploy-a-preview-of-the-book-for-pull-requests).
 
 # Meta
-
-This book was started using ' .
 
 All of the content of this repository is licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 

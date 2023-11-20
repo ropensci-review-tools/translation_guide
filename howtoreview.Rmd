@@ -97,7 +97,7 @@ The purpose of this first revision is to make a detailed reading of the machine 
 Surely there are still some doubts and it is possible that some things may be overlooked.
 Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the reviewer 2.
 
-### Revision 2
+### Review 2
 
 You got revision 2, great.
 Again we will use as an example the chapter "Software Peer Review Policies" found in the `softwarereview_policies.en.Rmd` file.
@@ -134,7 +134,7 @@ In your local repository:
     You will have to open a *pull request* in the main repository to have it reviewed and approved by someone in an editor role.
     In the next section we will see how to open the *pull request*.
 
-#### Objectives of Revision 2
+#### Objectives of Review 2
 
 This second revision seeks to generate a text that maintains the original content but also sounds natural in the new language.
 In order to achieve this, the following must be taken into account:
@@ -151,6 +151,43 @@ In order to achieve this, the following must be taken into account:
 In the process of revision 2 you may need to consult with R1 about the decisions he/she made or with the rest of the community if there is a phrase or term that raises doubts.
 You may then suggest adding new terms to the glossary or updating this translation guide.
 
-### Pull Request and editing of a chapter
+### Pull Request and editing of a chapter {#pr-edition}
+
+Once the process of revising a chapter is complete, it is time to transfer that new version from the working repository to the main rOpenSci repository.
+For this **R2** will have to open a *pull request* that compares the revised version with the machine translation only version.
+
+1. Make sure that all changes are in the working repository and that you are working on the *branch* associated to the file under review, in our example it will be `softwarereview_policies.es.Rmd-en`.
+
+If you are on the correct *branch*, in the GitHub web interface you will see the following:
+
+![](images/es/pr1.png)
+
+GitHub identified that there are new changes (*pushes*) in the *branch* and suggests comparing them and making a *pull request* to the main repository.
+
+3.  Click on the "*Compare & pull request" button.
+4.  You will then have the option to modify the title of the *pull request* and leave a message. We suggest 2 things:
+    1. Change the title to identify that it is a "Review".
+        It is important to separate it from the *pull request* of the automatic translation.
+
+    2.  In the body of the message, mention who is maintaining the translation project so that he/she is aware of the progress and can then continue with the process.
+    
+![](images/es/pr2.png)
+
+5.  Before creating the *pull request* it is **very important** that you check that it is done from the correct *branch*. This is the only way to connect the review work with the automatic translation and to be able to unify the versions correctly.
+6.  And that's it! Click on "*Create pull request".
+
+From this point on, the review is in the hands of the **maintainer** of the translation project.
+This person must review the *pull* *request* and make queries to **R1** and **R2** before *merging* the *pull requests.
+
 
 ## General review
+
+The revision process is a collaborative process in which, we hope, many people will collaborate.
+This has the great advantage of incorporating different views on the use of language and generating a translation that represents the greatest number of people.
+However, with all this diversity of views and despite the specific guidance of each language, it is possible that the revisions are heterogeneous, that sometimes different criteria are used or that there are simply typing errors.
+
+For all these reasons, it is important that the translation project is completed with a global revision of all the material.
+We strongly suggest that this overall review be carried out by one person in order to maintain a single criterion throughout the text.
+
+Now the translation is ready.
+Thank you and congratulations!

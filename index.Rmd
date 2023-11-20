@@ -49,8 +49,6 @@ This book is a living document. You can view our best practices and policies upd
 
 You can cite this book using its Zenodo metadata and DOI.
 
-<FIXME: Add cite here>
-
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
 
 If you want to contribute to this book, corrections, additions, and suggestions are very welcome. Everyone whose work is included will be credited in the acknowledgments. Please refer to the GitHub repository, particularly the contributing guidelines and our Code of Conduct, for more information on how to contribute.

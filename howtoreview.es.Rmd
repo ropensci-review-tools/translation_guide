@@ -167,7 +167,7 @@ Para esto **R2** tendrá que abrir un *pull request* que comparé la versión re
 
 2.  Si estás en la *branch* correcta, en la interfaz web de GitHub observarás lo siguientes:
 
-    ![](images/es/pr1.png)
+![](images/es/pr1.png)
 
 GitHub identificó que hay cambios nuevos (*pushes*) en la *branch* y sugiere compararlos y hacer un *pull request* al repositorio principal.
 
