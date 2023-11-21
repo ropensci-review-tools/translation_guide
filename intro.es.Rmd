@@ -11,16 +11,16 @@ Muchos de nuestros materiales se definen como *documentos vivos* lo que signific
 La publicación multilingüe de documentación y recursos implica dos aspectos:
 
 - El *internacionalización* se refiere a la solución tecnológica que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
-  Es lo que nos permite localizar nuestros contenidos\[^intro-1\].
+  Es lo que nos permite localizar nuestros contenidos[^intro-1].
 
-- El sitio *localización* es el proceso de tomar un contenido en su forma original y convertirlo en algo más accesible y adecuado para otra región, país o público\[^intro-2\].
+- El sitio *localización* es el proceso de tomar un contenido en su forma original y convertirlo en algo más accesible y adecuado para otra región, país o público[^intro-2].
   Esto incluye el idioma, los formatos de fecha, la moneda, las unidades de medida y la compatibilidad con distintos juegos de caracteres.
 
-\[^intro-1\]: Internacionalización y localización.
+[^intro-1]: Internacionalización y localización.
 Acceso el 1 de noviembre de 2022.
 [https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
-\[^intro-2\]: Internacionalización y localización.
+[^intro-2]: Internacionalización y localización.
 Acceso el 1 de noviembre de 2022.
 [https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
@@ -28,16 +28,16 @@ Además, la localización de documentos vivos tiene dos etapas bien definidas en
 
 1. la consecución de una primera versión del material traducido y
 
-2. mantener el material actualizado y sincronizado entre las lenguas admitidas\[^intro-3\].
+2. mantener el material actualizado y sincronizado entre las lenguas admitidas[^intro-3].
 
-\[^intro-3\]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
+[^intro-3]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
 Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
 ISBN:979-8-218-20191-3.
 
-*Traducción* suele ser el componente que más tiempo consume en estos esfuerzos\[^intro-4\].
+*Traducción* suele ser el componente que más tiempo consume en estos esfuerzos[^intro-4].
 
-\[^intro-4\]: Internacionalización y localización.
+[^intro-4]: Internacionalización y localización.
 Acceso el 1 de noviembre de 2022.
 [https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
@@ -48,9 +48,9 @@ Por ejemplo, sistemas de gestión de la traducción (Crowdin, Transifex, Weblate
 
 Estas soluciones tecnológicas están en continua evolución.
 Desarrollamos nuestra infraestructura para nuestro esfuerzo de localización utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
-La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no deben ser una barrera\[^intro-5\].
+La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no deben ser una barrera[^intro-5].
 
-\[^intro-5\]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
+[^intro-5]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
 Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
 ISBN:979-8-218-20191-3.
@@ -80,10 +80,10 @@ En cada paso de este proceso, te pedimos que
   Para mantener la coherencia a lo largo del texto y mostrar que no existe una jerarquía determinada, alterna el uso del femenino o del masculino entre capítulos, siendo el uso coherente a lo largo de cada capítulo.
 
 4. Intenta ser idiomático.
-  No seas literal y acerca el mensaje a tu audiencia\[^intro-6\].
+  No seas literal y acerca el mensaje a tu audiencia[^intro-6].
   Al traducir, hay que dar prioridad al texto y a la forma que mejor exprese el significado del fragmento en la lengua de llegada, no al que parezca literal del original.
 
-\[^intro-6\]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
+[^intro-6]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
 Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
 ISBN:979-8-218-20191-3.
@@ -109,7 +109,7 @@ El formato general es
 
 {list of authors of the English version}.{(year of publication)}.
 {Translated title}.
-{\[Original Title in English\]} (Traducción a {language name}: {list of people that translate the material}).
+{[Original Title in English]} (Traducción a {language name}: {list of people that translate the material}).
 {DOI}.
 (Trabajo original publicado en {year of publication})
 
@@ -119,7 +119,7 @@ Ejemplo utilizando la guía del desarrollador y la traducción al español:
 
 > rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam y Hollister, Jeff.
 > (2021).
-> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {name of the translators}) Zenodo.
+> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {name of the translators}) Zenodo.
 > [https://doi.org/10.5281/zenodo.6619350](https://doi.org/10.5281/zenodo.6619350) (Trabajo original publicado en 2021)
 
 ### Menciona tu contribución a un proyecto de localización en tu CV
