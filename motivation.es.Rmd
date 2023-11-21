@@ -1,37 +1,20 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
-
 # Motivation
 
-At rOpenSci we work to transform science through open data, software and
-reproducibility. We provides community support, standards, and
-infrastructure for scientists and research software engineers working in
-R to develop, maintain, and publish high-quality open-source scientific
-software. In addition, we develop and maintain high-quality
-documentation and resources to support these activities.
+At rOpenSci we work to transform science through open data, software and reproducibility. 
+We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
+In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
-We also believe that science and the research software we create to
-support it, should serve everyone in our communities, which means it
-needs to be sustainable, open, and built by and for all groups.
-Currently, however, there is a dismaying lack of diversity in scientific
-and open source communities in general. That disappointing lack of
-diversity is potentially detrimental to the sustainability, utility and
-productivity of projects.
+We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it
+needs to be sustainable, open, and built by and for all groups
+Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general.
+That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
-rOpenSci is carrying out a series of activities and projects to
-transform science to ensure that serves everyone in our communities
-which include our multilingual publishing project.
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our multilingual publishing project.
 
 ## Language barrier
 
-English is the *lingua franca* for science creating a significant
-barrier for non-English speaker waiting to join the field. It is also
-the predominant language of open source in code, content, and community
-interactions making *language access* one of the *environmental barriers
-to equity in open source*.[^motivation-1] .
+English is the *lingua franca* for science creating a significant barrier for non-English speaker waiting to join the field. 
+It is also the predominant language of open source in code, content, and community interactions making *language access* one of the *environmental barriers to equity in open source*.[^motivation-1] .
 
 [^motivation-1]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
     and Inclusion in Open Source: Exploring the Challenges and
@@ -40,18 +23,13 @@ to equity in open source*.[^motivation-1] .
     2021,
     https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 
-The UNESCO's recommendation on open science highlights the need to
-overcome language barriers in order to achieve the open science core
-values and guiding principles of Equity and fairness, Diversity and
-inclusiveness, Equality of opportunities, and Collaboration,
-participation and inclusion[^motivation-2].
+The UNESCO's recommendation on open science highlights the need to overcome language barriers in order to achieve the open science core values and guiding principles of Equity and fairness, Diversity and inclusiveness, Equality of opportunities, and Collaboration, participation and inclusion[^motivation-2].
 
 [^motivation-2]: UNESCO. UNESCO recommendation on open science. Paris,
     France; 2021.
 
-A recent study[^motivation-3] quantified the consequences of language
-barriers on the career development of researchers. The authors found
-that Non-native English researchers need:
+A recent study[^motivation-3] quantified the consequences of language barriers on the career development of researchers. 
+The authors found that Non-native English researchers need:
 
 [^motivation-3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
     Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
@@ -60,17 +38,11 @@ that Non-native English researchers need:
 
 -   up to **91% more time to read** English papers,
 
--   up to **51% more time to write** papers and their papers will be
-    **rejected 2.6 times more often**. If accepted, they'll have to
-    **revise it 12.5 more times**
+-   up to **51% more time to write** papers and their papers will be **rejected 2.6 times more often**. If accepted, they'll have to **revise it 12.5 more times**
 
--   When they present in English need up to **94% more time** to prepare
-    their presentations. They will **often avoid** English speaking
-    conferences and oral presentations.
+-   When they present in English need up to **94% more time** to prepare their presentations. They will **often avoid** English speaking conferences and oral presentations.
 
-Furthermore, the Linux Foundation report states, "English proficiency is
-a metric by which performance and personality can be
-judged"[^motivation-4].
+Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^motivation-4].
 
 [^motivation-4]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
     and Inclusion in Open Source: Exploring the Challenges and
@@ -79,8 +51,7 @@ judged"[^motivation-4].
     2021,
     https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 
-These studies also higligh that "the magnitude of the disadvantage seems
-far beyond the level that can be overcome with individuals'
+These studies also higligh that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals'
 efforts."[^motivation-5]
 
 [^motivation-5]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
@@ -88,19 +59,12 @@ efforts."[^motivation-5]
     costs of being a non-native English speaker in science. PLoS Biol
     21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
 
-By developing the technical and social infrastructure to publishing
-multilingual resources and publish our own resources in several
-languages, we can lower these barriers by *increasing access to
-knowledge* and *democratize access to quality resources*, thereby
-*increasing the potential for individuals to contribute* to software and
-open science projects.
+By developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these barriers by *increasing access to knowledge* and *democratize access to quality resources*, thereby *increasing the potential for individuals to contribute* to software and open science projects.
 
 ## Community driven localizations and translations
 
-Community-driven translations and localizations are efforts by community
-members to have a resource in a language of their choice. The community
-organized and agreed on different aspects of the localization
-project[^motivation-6].
+Community-driven translations and localizations are efforts by community members to have a resource in a language of their choice. 
+The community organized and agreed on different aspects of the localization project[^motivation-6].
 
 [^motivation-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech
@@ -108,40 +72,19 @@ project[^motivation-6].
     designers, artists, and scientists. ISBN:979-8-218-20191-3.
     http://datasciencebydesign.org/blog/multilingual-data-science
 
-The Spanish-speaking R community has been very active and growing in
-recent years and has undertaken various translation activities for
-technical materials such as books, cheat sheets, guides, and datasets.
+The Spanish-speaking R community has been very active and growing in recent years and has undertaken various translation activities for technical materials such as books, cheat sheets, guides, and datasets.
 
-In 2017, several Latin American [R-Ladies](https://www.rladies.org/)
-began translating the R-Ladies' [Code of
-Conduct](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md)
-and their Rules and Guidelines into Spanish.
+In 2017, several Latin American [R-Ladies](https://www.rladies.org/) began translating the R-Ladies' [Code of Conduct](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md) and their Rules and Guidelines into Spanish.
 
-In 2018, the [R community in Latin America collectively
-translated](https://youtu.be/kuHjpdgkSxg) the [R for Data
-Science](https://es.r4ds.hadley.nz/) book into Spanish. This included
-the translation of all the data sets used in the book, which were
-compiled in the [datos](https://github.com/cienciadedatos/datos)
-package, making it an excellent tool for teaching.
+In 2018, the [R community in Latin America collectively translated](https://youtu.be/kuHjpdgkSxg) the [R for Data Science](https://es.r4ds.hadley.nz/) book into Spanish. 
+This included the translation of all the data sets used in the book, which were compiled in the [datos](https://github.com/cienciadedatos/datos) package, making it an excellent tool for teaching.
 
-The community continued with the translation of [Teaching Tech
-Together](https://teachtogether.tech/es/index.html) and contributed to
-the translations into Spanish of the [Posit
-Cheatsheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12),
-[The Carpentries](https://software-carpentry.org/lessons/)' and [The
-Programming Historian](https://programminghistorian.org/es/) lessons.
+The community continued with the translation of [Teaching Tech Together](https://teachtogether.tech/es/index.html) and contributed to the translations into Spanish of the [Posit Cheatsheets](https://posit.co/resources/cheatsheets/?type=translations/#translation-12), [The Carpentries](https://software-carpentry.org/lessons/)' and [The Programming Historian](https://programminghistorian.org/es/) lessons.
 
-Driven by this active and growing Spanish-speaking community, rOpenSci
-[successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/)
-our first [Spanish-language peer
-review](https://ropensci.org/commcalls/2019-06-28/), where the
-submission, reviews, and editorial responses were in Spanish.
+Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission, reviews, and editorial responses were in Spanish.
 
-These works and previous community experiences created the conditions
-for us to start our multilingual publishing in Spanish. Spanish is the
-second most-spoken native language in the world and is one of the most
-geographically widespread languages, being an official language in many
-countries[^motivation-7].
+These works and previous community experiences created the conditions for us to start our multilingual publishing in Spanish. 
+Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^motivation-7].
 
 [^motivation-7]: List of languages by number of native speakers.
     Accessed on December 1, 2022.
@@ -149,19 +92,11 @@ countries[^motivation-7].
 
 ## Building community
 
-At rOpenSci, we understand review as a way of building community and
-have our review process in Spanish will allow us to continue building
-the community in Spanish-speaking regions, to increase the number of
-contributors, and to get feedback on how our tools and processes can be
-improved to better serve these community members.
+At rOpenSci, we understand review as a way of building community and have our review process in Spanish will allow us to continue building the community in Spanish-speaking regions, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
 
-In addition to use our material to learn how to be a developer,
-maintainer, reviewer, or editor, people can also contribute through
-translation. This type of contribution is often a good first step and is
-recognized as valuable by the community.
+In addition to use our material to learn how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
+This type of contribution is often a good first step and is recognized as valuable by the community.
 
-We also expect that the project's documentation and tooling will be
-useful for extending this effort to other languages and for other
-communities and projects with translation efforts.
+We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects with translation efforts.
 
 ## References
