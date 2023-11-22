@@ -1,19 +1,19 @@
 # Directrices generales
 
-> "Conoce al miembro de tu comunidad allí donde esté".
+> "Encuentra a las personas de tu comunidad donde están".
 
 ## Introducción
 
-rOpenSci proporciona apoyo comunitario, normas e infraestructura para que los científicos e ingenieros de software de investigación que trabajan en R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad.
+rOpenSci proporciona apoyo comunitario, normas e infraestructura para que las personas que hacen ciencia y desarrollan software de investigación con R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad.
 Además, desarrollamos y mantenemos documentación de alta calidad y [recursos](/resources/) para apoyar estas actividades.
 Muchos de nuestros materiales se definen como *documentos vivos* lo que significa que se mejoran y actualizan constantemente.
 
 La publicación multilingüe de documentación y recursos implica dos aspectos:
 
-- El *internacionalización* se refiere a la solución tecnológica que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
+- La *internacionalización*, que se refiere a la solución tecnológica que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
   Es lo que nos permite localizar nuestros contenidos[^intro-1].
 
-- El sitio *localización* es el proceso de tomar un contenido en su forma original y convertirlo en algo más accesible y adecuado para otra región, país o público[^intro-2].
+- La *localización*, que es el proceso de tomar un contenido en su forma original y convertirlo en algo más accesible y adecuado para otra región, país o público[^intro-2].
   Esto incluye el idioma, los formatos de fecha, la moneda, las unidades de medida y la compatibilidad con distintos juegos de caracteres.
 
 [^intro-1]: Internacionalización y localización.
@@ -28,14 +28,14 @@ Además, la localización de documentos vivos tiene dos etapas bien definidas en
 
 1. la consecución de una primera versión del material traducido y
 
-2. mantener el material actualizado y sincronizado entre las lenguas admitidas[^intro-3].
+2. mantener el material actualizado y sincronizado entre los diferentes idiomas[^intro-3].
 
 [^intro-3]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
-Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
+    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
 ISBN:979-8-218-20191-3.
 
-*Traducción* suele ser el componente que más tiempo consume en estos esfuerzos[^intro-4].
+La *traducción* suele ser el componente que más tiempo consume en estos esfuerzos[^intro-4].
 
 [^intro-4]: Internacionalización y localización.
 Acceso el 1 de noviembre de 2022.
@@ -44,25 +44,25 @@ Acceso el 1 de noviembre de 2022.
 ## Infraestructura técnica y organización del trabajo
 
 Existen muchas soluciones y herramientas para internacionalizar y localizar contenidos y software.
-Por ejemplo, sistemas de gestión de la traducción (Crowdin, Transifex, Weblate), traductores automáticos (Google Translate, DeepL), sistemas de control de versiones (GitHub, GitLab), lenguajes de marcado (LaTeX, Markdown) y herramientas para escribir estos lenguajes (Overleaf, Quarto).
+Por ejemplo, sistemas de gestión de traducción (Crowdin, Transifex, Weblate), traductores automáticos (Google Translate, DeepL), sistemas de control de versiones (GitHub, GitLab), lenguajes de marcado (LaTeX, Markdown) y herramientas para escribir estos lenguajes (Overleaf, Quarto).
 
 Estas soluciones tecnológicas están en continua evolución.
-Desarrollamos nuestra infraestructura para nuestro esfuerzo de localización utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
-La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no deben ser una barrera[^intro-5].
+Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
+La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no debe ser una barrera[^intro-5].
 
 [^intro-5]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
-Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
+    Chapter at Our Environment.A collection of work by data designers, artists, and scientists
 ISBN:979-8-218-20191-3.
 
 También desarrollamos -y documentamos en estas directrices- un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
-Utilizamos proyectos de GitHub para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como *revisores*, *editores,* y *mantenedores*.
+Utilizamos proyectos de GitHub para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como *revisores*, *editoras,* y personas encargadas del *mantenimiento*.
 
-![Proceso de localización de rOpenSci](images/localization_concept_map.png){fig-alt="Localization process cicle: we create a Pull Request with the first automatic translation, that translation get two reviews and then the editor do a final revision and merge the changes.  Reviewers and editors updates translations guidelines that define a glossary and agreements around language use."}
+![Proceso de localización de rOpenSci](images/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y fusiona los cambios.  Estas personas actualizan las directrices de traducción que definen un glosario y los acuerdos sobre el uso del idioma."}
 
 ## Aspectos generales del proceso de traducción
 
-El proceso de traducción comienza con una primera traducción automática utilizando la [babeldown](https://docs.ropensci.org/babeldown/) paquete.
+El proceso de traducción comienza con una primera traducción automática utilizando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
 Esto proporciona un primer borrador que luego es revisado por ojos humanos, que corrigen los errores e incorporan los acuerdos de localización y traducción lingüística (ver [Directrices específicas de cada idioma](specific_guidelines.html)).
 
 Para minimizar los errores y mantener una visión amplia de la traducción, en rOpenSci pedimos que cada capítulo o sección pase al menos por dos revisiones hechas en serie (la primera revisa la traducción automática y la segunda revisa la primera revisión), seguidas de una revisión general y una edición del libro o documento en su conjunto.
@@ -85,19 +85,19 @@ En cada paso de este proceso, te pedimos que
 
 [^intro-6]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
-Capítulo en Nuestro Entorno.Una colección de trabajos de diseñadores de datos, artistas y científicos.
+    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
 ISBN:979-8-218-20191-3.
 
 El proceso de traducción y revisión se realiza en GitHub utilizando *pull requests* (consulta [esta sección](#pr-edition) para más detalles).
 Elegimos este flujo de trabajo porque es la infraestructura que utilizamos en nuestra comunidad.
 Todos nuestros paquetes y libros están alojados en GitHub y utilizan *issues* y *pull requests* en su desarrollo.
-Además, esto permite que el proceso sea abierto para que otros puedan contribuir y aportar devoluciones.
+Además, esto permite que el proceso sea abierto para que otras personas puedan contribuir y aportar devoluciones.
 
 Por supuesto, como en todas las áreas de rOpenSci, seguimos nuestro [código de conducta](https://ropensci.org/code-of-conduct/) para crear un entorno amistoso y seguro.
 
 ## Utilizar los materiales de localización
 
-Todos los ejemplos siguientes utilizan la localización Paquetes rOpenSci: Development, Maintenance, and Peer Review, pero puedes aplicar estas recomendaciones a cualquiera de las otras traducciones.
+Todos los ejemplos siguientes utilizan la localización del libro Paquetes rOpenSci: Development, Maintenance, and Peer Review, pero puedes aplicar estas recomendaciones a cualquiera de las otras traducciones.
 
 ### Citar una traducción
 
@@ -107,9 +107,9 @@ Véase el ejemplo de Piaget (1950).
 
 El formato general es
 
-{list of authors of the English version}.{(year of publication)}.
-{Translated title}.
-{[Original Title in English]} (Traducción a {language name}: {list of people that translate the material}).
+{lista de autores de la version en el idioma original}.{(año de publicación)}.
+{Título traducido }.
+{[Título original en el idioma original]} (Traducción a {nombre del idioma}: {lista de personas que hicieron la traducción del material}).
 {DOI}.
 (Trabajo original publicado en {year of publication})
 
