@@ -126,6 +126,6 @@ Ejemplo utilizando la guía del desarrollador y la traducción al español:
 
 - \<Fecha de inicio, por ejemplo: mayo de 2022 -- Fecha de finalización, por ejemplo: julio de 2020>. Localización colaborativa al español del libro ). Edición general: Yanina Bellini Saibene. Contribución como \<rol, ej.: revisor>. Más información <enlace al proyecto>
 
-## Referencias.
+## Agrega a tu CV tu contribución a un proyecto de localización
 
 
