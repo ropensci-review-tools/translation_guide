@@ -24,7 +24,7 @@ rOpenSci's guide for translations.
 
 | Project   | Status          | Links                                       | Maintainer  |
 |-----------|-----------------|---------------------------------------------|-------------|
-| Dev guide | On final reivew | [Dev guide](github.com/ropensci/dev_guide/) |  @yabellini |
+| Dev guide | In final review | [Dev guide](github.com/ropensci/dev_guide/) |  @yabellini |
 
 #### Portuguese
 
