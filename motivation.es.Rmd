@@ -14,27 +14,26 @@ rOpenSci está llevando a cabo una serie de actividades y proyectos para transfo
 ## El lenguaje como barrera
 
 El inglés es la *lingua franca* para la ciencia, lo que supone una barrera importante para quienes no hablan inglés y que desean incorporarse a este campo.
-También es la lengua predominante del movimiento de software libre, el contenido y las interacciones de la comunidad, lo que hace que *acceso a [contenido] en tu lenguage* una de las *barreras medioambientales a la equidad en el software libre*.\[^motivación-1\] .
+También es la lengua predominante del movimiento de software libre, el contenido y las interacciones de la comunidad, lo que hace que *acceso a [contenido] en tu lenguage* una de las *barreras medioambientales a la equidad en el software libre*[^motivation-1].
 
-\[^motivación-1\]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
-and Inclusion in Open Source: Exploring the Challenges and
-Opportunities to Create Equity and Agency Across Open Source
-Ecosystems", foreword by Jim Zemlin, The Linux Foundation, December,
-2021,
-[https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source)
+[^motivation-1]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
+    and Inclusion in Open Source: Exploring the Challenges and
+    Opportunities to Create Equity and Agency Across Open Source
+    Ecosystems", foreword by Jim Zemlin, The Linux Foundation, December,
+    2021,
+    https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 
-La recomendación de la UNESCO sobre ciencia abierta subraya la necesidad de superar las barreras lingüísticas para alcanzar los valores fundamentales de la ciencia abierta y los principios rectores de Equidad e imparcialidad, Diversidad e inclusión, Igualdad de oportunidades y Colaboración, participación e inclusión\[^motivación-2\].
+La recomendación de la UNESCO sobre ciencia abierta subraya la necesidad de superar las barreras lingüísticas para alcanzar los valores fundamentales de la ciencia abierta y los principios rectores de Equidad e imparcialidad, Diversidad e inclusión, Igualdad de oportunidades y Colaboración, participación e inclusión[^motivation-2].
 
-\[^motivación-2\]: UNESCO. Recomendación de la UNESCO sobre la ciencia abierta. París,
-Francia; 2021.
+[^motivation-2]: UNESCO. Recomendación de la UNESCO sobre la ciencia abierta. París, Francia; 2021.
 
-Un estudio reciente\[^motivación-3\] cuantificó las consecuencias de las barreras lingüísticas en el desarrollo de la carrera de las personas que investigan.
+Un estudio reciente[^motivation-3] cuantificó las consecuencias de las barreras lingüísticas en el desarrollo de la carrera de las personas que investigan.
 El articulo presenta que para aquellas personas que investigan y cuya lengua materna no es el inglés necesitan
 
-\[^motivación-3\]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
-Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
-costs of being a non-native English speaker in science. PLoS Biol
-21(7): e3002184. [https://doi.org/10.1371/journal.pbio.3002184](https://doi.org/10.1371/journal.pbio.3002184)
+[^motivation-3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
+    Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
+    costs of being a non-native English speaker in science. PLoS Biol
+    21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
 
 - hasta **91% más de tiempo para leer** publicaciones científicas en inglés,
 
@@ -42,19 +41,18 @@ costs of being a non-native English speaker in science. PLoS Biol
 
 - Cuando presentan en inglés necesitan hasta **94% más de tiempo** para preparar sus presentaciones. Además **suelen evitar** conferencias y presentaciones orales en inglés.
 
-Además, el informe de la Fundación Linux afirma que "el dominio del inglés es una métrica con la que se puede juzgar el rendimiento y la personalidad"\[^motivación-4\].
+Además, el informe de la Fundación Linux afirma que "el dominio del inglés es una métrica con la que se puede juzgar el rendimiento y la personalidad"[^motivation-4].
 
-\[^motivación-4\]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
-and Inclusion in Open Source: Exploring the Challenges and
-        Opportunities to Create Equity and Agency Across Open Source
+[^motivation-4]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
+    and Inclusion in Open Source: Exploring the Challenges and
+    Opportunities to Create Equity and Agency Across Open Source
     Ecosystems", foreword by Jim Zemlin, The Linux Foundation, December,
-2021,
-[https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source](https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source)
+    2021,
+    https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
 
-Estos estudios también destacan que "la magnitud de la desventaja parece estar muy por encima del nivel que puede superarse con un esfuerzo individual".
-\[^motivación-5\].
+Estos estudios también destacan que "la magnitud de la desventaja parece estar muy por encima del nivel que puede superarse con un esfuerzo individual"[^motivation-5].
 
-\[^motivación-5\]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
+[^motivation-5]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
 Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
     costs of being a non-native English speaker in science. PLoS Biol
 21(7): e3002184. [https://doi.org/10.1371/journal.pbio.3002184](https://doi.org/10.1371/journal.pbio.3002184)
@@ -64,9 +62,9 @@ Al desarrollar la infraestructura técnica y social para publicar recursos multi
 ## Traducciones y localizaciones impulsadas por la comunidad
 
 Las traducciones y localizaciones impulsadas por la comunidad son esfuerzos que las personas que pertenecen a una comunidad realizan para disponer de un recurso en la lengua de su elección.
-La comunidad organizó y acordó distintos aspectos del proyecto de localización\[^motivación-6\].
+La comunidad organizó y acordó distintos aspectos del proyecto de localización[^motivación-6].
 
-\[^motivación-6\]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
+[^motivación-6]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez consejos para traducir contenido de ciencia y la tecnología
        Chapter at Our Environment.A collection of work by data
     designers, artists, and scientists. ISBN:979-8-218-20191-3.
@@ -84,9 +82,9 @@ La comunidad continuó con la traducción de [Enseñar tecnología en comunidad]
 Impulsado por esta activa y creciente comunidad hispanohablante, rOpenSci [pilotó con éxito](https://ropensci.org/blog/2021/07/27/censo2017/) nuestra primera [revisión por pares en español](https://ropensci.org/commcalls/2019-06-28/) en la que el envío, las revisiones y las respuestas editoriales estaban todas en español.
 
 Estos trabajos y las experiencias comunitarias previas crearon las condiciones para que iniciáramos nuestra publicación multilingüe en español.
-El español es la segunda lengua materna más hablada del mundo y una de las más extendidas geográficamente, siendo lengua oficial en muchos países\[^motivación-7\].
+El español es la segunda lengua materna más hablada del mundo y una de las más extendidas geográficamente, siendo lengua oficial en muchos países[^motivation-7].
 
-\[^motivación-7\]: Lista de lenguas por número de hablantes nativos.
+[^motivation-7]: Lista de lenguas por número de hablantes nativos.
 Consultado el 1 de diciembre de 2022.
 [https://en.wikipedia.org/wiki/List\_of\_languages\_by\_number\_of\_native\_speakers](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers)
 
