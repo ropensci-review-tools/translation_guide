@@ -6,10 +6,10 @@
 
 You can check the list of languages for which there are active translation projects and their statuses [here](https://github.com/ropensci-review-tools/translation_guide#active).
 There you will find the name of those who manage that language so you can get in touch and links to the active projects in that language.
-Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines (LINK) in this guide and a glossary (LINK).
+Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines ([here](specific_guidelines.html)) in this guide and a glossary.
 
 Before you start, it is important that you familiarize yourself with the source material.
-In addition, we suggest that you read this guide (in particular the guidelines applicable to your language (LINK)) and contact the people who are already working on it.
+In addition, we suggest that you read this guide (in particular the guidelines applicable to your language ([here](specific_guidelines.html))) and contact the people who are already working on it.
 Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it?
 or technical questions like what if I run into problems on GitHub?
 
