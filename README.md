@@ -3,7 +3,7 @@
 [![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/126815002.svg)]()
 
 rOpenSci's guide for translations.
-[Read it here](translationguide.ropensci.org).
+[Read it here](https://translationguide.ropensci.org).
 
 ## Structure
 
@@ -24,13 +24,13 @@ rOpenSci's guide for translations.
 
 | Project   | Status          | Links                                       | Maintainer  |
 |-----------|-----------------|---------------------------------------------|-------------|
-| Dev guide | In final review | [Dev guide](github.com/ropensci/dev_guide/) |  @yabellini |
+| Dev guide | In final review | [Dev guide](https://github.com/ropensci/dev_guide/) |  @yabellini |
 
 #### Portuguese
 
 | Project   | Status            | Links                                       | Maintainer    |
 |-----------|-------------------|---------------------------------------------|---------------|
-| Dev guide | Translation and R | [Dev guide](github.com/ropensci/dev_guide/) |  @pedropark99 |
+| Dev guide | Translation and R | [Dev guide](https://github.com/ropensci/dev_guide/) |  @pedropark99 |
 
 
 ### Suggestions and updates
