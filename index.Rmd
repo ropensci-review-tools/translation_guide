@@ -51,7 +51,7 @@ You can cite this book:
 
 rOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (November, 2023)
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 United States License.
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License.
 
 Thanks!
 

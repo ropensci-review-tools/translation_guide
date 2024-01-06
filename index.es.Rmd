@@ -51,7 +51,7 @@ Puedes citar este libro:
 
 Guía de localización y traducción de rOpenSci v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (Noviembre, 2023) 
 
-Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Estados Unidos.
+Esta obra está bajo una [Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
 
 
 
