@@ -45,13 +45,13 @@ __Happy localization!__
 
 ## Contributing and Re-Use
 
-This book is a living document. You can view our best practices and policies updates via the release notes.
+This book is a living document. If you want to contribute to this book, corrections, additions, and suggestions are very welcome. Everyone whose work is included will be credited in the acknowledgments. Please refer to the GitHub repository, particularly the contributing guidelines and our Code of Conduct, for more information on how to contribute.
 
-You can cite this book using its Zenodo metadata and DOI.
+You can cite this book:
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
+rOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (November, 2023)
 
-If you want to contribute to this book, corrections, additions, and suggestions are very welcome. Everyone whose work is included will be credited in the acknowledgments. Please refer to the GitHub repository, particularly the contributing guidelines and our Code of Conduct, for more information on how to contribute.
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 United States License.
 
 Thanks!
 

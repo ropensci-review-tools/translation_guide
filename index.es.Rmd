@@ -45,13 +45,15 @@ Esperamos que la guía te resulte útil y clara, y agradecemos tus sugerencias e
 
 ## Contribuir y reutilizar
 
-Este libro es un documento vivo. Puedes consultar las actualizaciones de nuestras buenas prácticas y políticas a través de las notas de publicación.
+Este libro es un documento vivo. Si quieres contribuir a este libro, las correcciones, adiciones y sugerencias son muy bienvenidas. Todas las personas cuyo trabajo se incluya serán acreditadas en los agradecimientos. Consulta el repositorio de GitHub, en particular las directrices de contribución y nuestro Código de Conducta, para obtener más información sobre cómo contribuir.
 
-Puedes citar este libro utilizando sus metadatos y DOI de Zenodo.
+Puedes citar este libro:
 
-Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Estados Unidos.
+Guía de localización y traducción de rOpenSci v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (Noviembre, 2023) 
 
-Si quieres contribuir a este libro, las correcciones, adiciones y sugerencias son muy bienvenidas. Todas las personas cuyo trabajo se incluya serán acreditadas en los agradecimientos. Consulta el repositorio de GitHub, en particular las directrices de contribución y nuestro Código de Conducta, para obtener más información sobre cómo contribuir.
+Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Estados Unidos.
+
+
 
 Muchas gracias.
 
