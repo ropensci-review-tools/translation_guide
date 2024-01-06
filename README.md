@@ -1,6 +1,6 @@
 # rOpenSci Localization and Translation Guidelines
 
-[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI]()]()
+[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10465879.svg)]()
 
 rOpenSci's guide for translations.
 [Read it here](https://translationguide.ropensci.org).
@@ -58,4 +58,4 @@ Refer to [this blog post for more details and resources about bookdown deploymen
 
 All of the content of this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
-You can cite this book using [its Zenodo metadata and DOI]().
+You can cite this book using [its Zenodo metadata and DOI](https://zenodo.org/doi/10.5281/zenodo.10465878).
