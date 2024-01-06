@@ -1,6 +1,6 @@
-# rOpenSci Translation Guidelines
+# rOpenSci Localization and Translation Guidelines
 
-[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI](https://zenodo.org/badge/126815002.svg)]()
+[![Project Status: Active -- The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![DOI]()]()
 
 rOpenSci's guide for translations.
 [Read it here](https://translationguide.ropensci.org).
