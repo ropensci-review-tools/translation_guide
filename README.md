@@ -56,6 +56,6 @@ Refer to [this blog post for more details and resources about bookdown deploymen
 
 # Meta
 
-All of the content of this repository is licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
+All of the content of this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
 
 You can cite this book using [its Zenodo metadata and DOI]().
