@@ -1,0 +1,272 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "Welcome!",
+    "text": "Welcome!\nThis book explains all the steps and tools involved in the localization of our materials, including translations. We design, build, and test a process for maintain the different languages version of our materials that take ideas from our software peer review system and the maintenance of open-source projects.\nWe know that code peer review ensure the quality of our software; with the same goal of ensuring the quality of our content in different languages, we implement a system to review and maintain the localization of our guides, books, blog post, and other content.\nWe also know that by using roles (such as reviewers and maintainers) and tools (such as GitHub and Pull Request) known to our community, we make this process easier to undestand, apply and, therefore, easier to contribute to.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#intended-audience",
+    "href": "index.html#intended-audience",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "Intended Audience",
+    "text": "Intended Audience\nThis book is a guide for people who would like to localize rOpenSci materials or contribute to maintaining localized material. It is also intended for people that have to localize material on other community or group. You don’t need to be a proffesional translator or developer to contrinute to this effort. The following personas are examples of the types of people that are our target audience.\n\nAna\n\nis a Colombian student doing her Ph.D. at a university in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of The Carpentries workshops for scientists and used some of the rOpenSci suite packages for handling and accessing geospatial data for her thesis. Language was one of the barriers she faced when learning to code. Ana wants to contribute by translating material into her native language so others can access this knowledge with less effort. This book will show her how to do a new translation and how to review an existing one.\n\nFrancesco\n\nwill send their packages to the rOpenSci review process in Spanish. They know that this will ensure the quality of their software and will also facilitate its publication in JOSS, which will give them academic credit for their job at their university. They read the Spanish version of the book “rOpenSci Packages: Development, Maintenance, and Peer Review” to prepare their submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and maintainer of translated material and the infrastructure that allows translations.\n\nBauti\n\nis the co-founder of a user group in his city in Brazil. With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages. He uses rOpenSci Spanish material during his workshops and would like to have the material from other programming languages in Spanish. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#what-you-will-learn",
+    "href": "index.html#what-you-will-learn",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "What You Will Learn",
+    "text": "What You Will Learn\nThe guide contains:\n\nWhy we localize, translate and work to do multilingual publishing.\nGeneral guide with the infrastructure and roles, step-by-step technical process, and localization considerations, including the technical terms to translate and the technical terms we will not translate.\nLanguage-specific guides with localization considerations.\nLanguage-specific glossary.\n\nAt rOpenSci, we use R as our main programing language and GitHub to host our code, including our packages, books, webpage and review process. The step-by-step technical process refers to working with GitHub, like making pull requests, reviewing and commenting on pull requests, and creating issues. It also explains how to use the {babeldown} R package that facilitates working with translations.\nThe localization consideration and the glossary are language-specific and detail the agreements the community reach about how to localize and translate the material. This chapter is different for each language present in this guide.\nWe hope that you’ll find the guide useful and clear, and welcome your suggestions in the issue tracker of the book. Please check Contributing and Re-Use section to learn more about hot to contribute.\nHappy localization!",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing-and-re-use",
+    "href": "index.html#contributing-and-re-use",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "Contributing and Re-Use",
+    "text": "Contributing and Re-Use\nThis book is a living document. If you want to contribute to this book, corrections, additions, and suggestions are very welcome. Everyone whose work is included will be credited in the acknowledgments. Please refer to the GitHub repository, particularly the contributing guidelines and our Code of Conduct, for more information on how to contribute.\nYou can cite this book:\nrOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (November, 2023)\nThis work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 License.\nThanks!\nYou can also read the PDF version of this book.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#attributions",
+    "href": "index.html#attributions",
+    "title": "rOpenSci Localization and Translation Guidelines",
+    "section": "Attributions",
+    "text": "Attributions\nThese translation guidelines are based on the experience and documents generated during the translation of Teaching Tech Together.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "motivation.html",
+    "href": "motivation.html",
+    "title": "\n1  Motivation\n",
+    "section": "",
+    "text": "1.1 Language barrier\nEnglish is the lingua franca for science creating a significant barrier for non-English speaker waiting to join the field. It is also the predominant language of open source in code, content, and community interactions making language access one of the environmental barriers to equity in open source.1 .\nThe UNESCO’s recommendation on open science highlights the need to overcome language barriers in order to achieve the open science core values and guiding principles of Equity and fairness, Diversity and inclusiveness, Equality of opportunities, and Collaboration, participation and inclusion2.\nA recent study3 quantified the consequences of language barriers on the career development of researchers. The authors found that Non-native English researchers need:\nFurthermore, the Linux Foundation report states, “English proficiency is a metric by which performance and personality can be judged”4.\nThese studies also higligh that “the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals’ efforts.”5\nBy developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these barriers by increasing access to knowledge and democratize access to quality resources, thereby increasing the potential for individuals to contribute to software and open science projects.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.html#language-barrier",
+    "href": "motivation.html#language-barrier",
+    "title": "\n1  Motivation\n",
+    "section": "",
+    "text": "up to 91% more time to read English papers,\nup to 51% more time to write papers and their papers will be rejected 2.6 times more often. If accepted, they’ll have to revise it 12.5 more times\nWhen they present in English need up to 94% more time to prepare their presentations. They will often avoid English speaking conferences and oral presentations.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.html#community-driven-localizations-and-translations",
+    "href": "motivation.html#community-driven-localizations-and-translations",
+    "title": "\n1  Motivation\n",
+    "section": "\n1.2 Community driven localizations and translations",
+    "text": "1.2 Community driven localizations and translations\nCommunity-driven translations and localizations are efforts by community members to have a resource in a language of their choice. The community organized and agreed on different aspects of the localization project6.\nThe Spanish-speaking R community has been very active and growing in recent years and has undertaken various translation activities for technical materials such as books, cheat sheets, guides, and datasets.\nIn 2017, several Latin American R-Ladies began translating the R-Ladies’ Code of Conduct and their Rules and Guidelines into Spanish.\nIn 2018, the R community in Latin America collectively translated the R for Data Science book into Spanish. This included the translation of all the data sets used in the book, which were compiled in the datos package, making it an excellent tool for teaching.\nThe community continued with the translation of Teaching Tech Together and contributed to the translations into Spanish of the Posit Cheatsheets, The Carpentries’ and The Programming Historian lessons.\nDriven by this active and growing Spanish-speaking community, rOpenSci successfully piloted our first Spanish-language peer review, where the submission, reviews, and editorial responses were in Spanish.\nThese works and previous community experiences created the conditions for us to start our multilingual publishing in Spanish. Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries7.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.html#building-community",
+    "href": "motivation.html#building-community",
+    "title": "\n1  Motivation\n",
+    "section": "\n1.3 Building community",
+    "text": "1.3 Building community\nAt rOpenSci, we understand review as a way of building community and have our review process in Spanish will allow us to continue building the community in Spanish-speaking regions, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.\nIn addition to use our material to learn how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation. This type of contribution is often a good first step and is recognized as valuable by the community.\nWe also expect that the project’s documentation and tooling will be useful for extending this effort to other languages and for other communities and projects with translation efforts.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.html#references",
+    "href": "motivation.html#references",
+    "title": "\n1  Motivation\n",
+    "section": "\n1.4 References",
+    "text": "1.4 References",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.html#footnotes",
+    "href": "motivation.html#footnotes",
+    "title": "\n1  Motivation\n",
+    "section": "",
+    "text": "Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source↩︎\nUNESCO. UNESCO recommendation on open science. Paris, France; 2021.↩︎\nAmano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184↩︎\nHilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source↩︎\nAmano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184↩︎\nYanina Bellini Saibene and Natalia Soledad Morandeira. Multilingual Data Science: Ten Tips to Translate Science and Tech Content. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3. http://datasciencebydesign.org/blog/multilingual-data-science↩︎\nList of languages by number of native speakers. Accessed on December 1, 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivation</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "\n2  General Guidelines\n",
+    "section": "",
+    "text": "2.1 Introduction\nrOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. In addition, we develop and maintain high-quality documentation and resources to support these activities. Many of our materials are defined as living documents, meaning that they are constantly being improved and updated.\nMultilingual publishing of documentation and resources involves two aspects:\nIn addition, the localization of living documents has two well-defined stages involving different resources:\nTranslation is typically the most time-consuming component of these efforts4.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#introduction",
+    "href": "intro.html#introduction",
+    "title": "\n2  General Guidelines\n",
+    "section": "",
+    "text": "The internationalization refers to the technological solution that allows the software to adapt to different regions without requiring engineering changes to the source code. It is what enables us to localize our content1.\nThe localization is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience2. This includes language, date formats, currency, measurement units, and support for different character sets.\n\n\n\nachieving a first version of the translated material and\nkeeping the material updated and synchronized between the supported languages3.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#technical-infrastructure-and-organization-of-the-work",
+    "href": "intro.html#technical-infrastructure-and-organization-of-the-work",
+    "title": "\n2  General Guidelines\n",
+    "section": "\n2.2 Technical infrastructure and organization of the work",
+    "text": "2.2 Technical infrastructure and organization of the work\nThere are many solutions and tools for internationalizing and localizing content and software. For example, translation management systems (Crowdin, Transifex, Weblate), automatic translators (Google Translate, DeepL), version control systems (GitHub, GitLab), markup languages (LaTeX, Markdown), and tools for writing these languages (Overleaf, Quarto).\nThese technological solutions are continuously evolving. We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and, in summary, our community. The choice of technology impacts the paths we create for contributions, so they should not be a barrier5.\nWe also developed - and documented in these guidelines - a workflow that follows the same idea of using the tools our community already knows and uses in their activities. We use GitHub projects to track each localization project’s progress and the people who have different contribution roles, like reviewers, editors, and maintainers.\n\n\nrOpenSci Localizacion Process",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#general-aspects-of-the-translation-process",
+    "href": "intro.html#general-aspects-of-the-translation-process",
+    "title": "\n2  General Guidelines\n",
+    "section": "\n2.3 General aspects of the translation process",
+    "text": "2.3 General aspects of the translation process\nThe translation process starts with a first machine translation using the babeldown package. This provides a first draft that is then reviewed by human eyes, who correct errors and incorporate the localization and language translation agreements (see Languaje specific guidelines).\nTo minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through at least two reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.\nIn each step of this process, we ask you to:\n\nUse a conversational voice rather than a formal or academic voice.\nIf appropriate, specify the dialect or regional language variation used. For example, the Spanish translation uses Latin American conventions.\nTry to be gender-neutral. If the language you are working on has a strong grammatical gender, the translation adjusts wording to avoid assigning a gender. Where a gender mark cannot be avoided, it uses feminine-masculine or masculine-feminine splits. For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.\nTry to be idiomatic. Don’t be literal, and bring the message closer to your audience.6 When translating, the text and the form that best expresses the meaning of the fragment in the target language should be prioritized, not the one that seems to be literal from the original.\n\nThe translation and review process is done on GitHub using pull requests (see this section for details). We chose this workflow as this is the infrastructure we use in our community. All our packages and books are hosted on GitHub and use issues and pull requests in their development. In addition, this allows the process to be open so that others can contribute and provide feedback.\nOf course, as in all areas of rOpenSci, we follow our code of conduct to create a friendly and safe environment.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#using-the-localizations-materials",
+    "href": "intro.html#using-the-localizations-materials",
+    "title": "\n2  General Guidelines\n",
+    "section": "\n2.4 Using the localizations materials",
+    "text": "2.4 Using the localizations materials\nAll the next examples use the rOpenSci Packages: Development, Maintenance, and Peer Review localization, but you can apply this recommendations to any of the other translations.\n\n2.4.1 Citing a translation\nWe base this recommendation on the APA recommendations article, Section Book, republished in translation. We recommend including the original title in English, following this APA suggestion. See the example of Piaget (1950).\nThe general format is:\n{list of authors of the English version}.{(year of publication)}. {Translated title}. {[Original Title in English]} (Translation to {language name}: {list of people that translate the material}). {DOI}. (Original work publish at {year of publication})\nThe text Translation to and Original work publish at should be written in the language of the translations.\nExample using the developer guide and the Spanish translation:\n\nrOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam, & Hollister, Jeff. (2021). Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {name of the translators}) Zenodo. https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)\n\n\n2.4.2 Mention your contribution to a localization project in your CV\n\n&lt;Start date ex.: May, 2022 – End date, ex: July, 2020&gt;. Collaborative localization to Spanish of the book ). General edition: Yanina Bellini Saibene. Contribution as &lt;role, ex.: reviewer&gt;. More information",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#references.",
+    "href": "intro.html#references.",
+    "title": "\n2  General Guidelines\n",
+    "section": "\n2.5 References.",
+    "text": "2.5 References.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#footnotes",
+    "href": "intro.html#footnotes",
+    "title": "\n2  General Guidelines\n",
+    "section": "",
+    "text": "Internationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization↩︎\nInternationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization↩︎\nYanina Bellini Saibene and Natalia Soledad Morandeira. Multilingual Data Science: Ten Tips to Translate Science and Tech Content. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.↩︎\nInternationalization and localization. Access November 1, 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization↩︎\nYanina Bellini Saibene and Natalia Soledad Morandeira. Multilingual Data Science: Ten Tips to Translate Science and Tech Content. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.↩︎\nYanina Bellini Saibene and Natalia Soledad Morandeira. Multilingual Data Science: Ten Tips to Translate Science and Tech Content. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>General Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.html",
+    "href": "howtoreview.html",
+    "title": "\n3  Translation and Review Guidelines\n",
+    "section": "",
+    "text": "3.1 How to contribute",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Translation and Review Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.html#how-to-contribute",
+    "href": "howtoreview.html#how-to-contribute",
+    "title": "\n3  Translation and Review Guidelines\n",
+    "section": "",
+    "text": "3.1.1 With an active language\nYou can check the list of languages for which there are active translation projects and their statuses here. There you will find the name of those who manage that language so you can get in touch and links to the active projects in that language. Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines (here) in this guide and a glossary.\nBefore you start, it is important that you familiarize yourself with the source material. In addition, we suggest that you read this guide (in particular the guidelines applicable to your language (here)) and contact the people who are already working on it. Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it? or technical questions like what if I run into problems on GitHub?\n\n3.1.2 With a new language\nIf your language is not among the languages with active projects listed here, please contact the rOpenSci team to propose it. You can send an email to info@ropensci.org or open a issue in this repository.\nPlease note that starting a new project requires a commitment to manage the repository where all the review will take place. We ask from those who manage translation projects the same commitment we ask from those who manage packages of our suite: 2 years of maintenance or we can find someone else to take over.\nAlso, since each chapter or article must be reviewed by at least 2 people, we recommend you to invite your local community before starting the process.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Translation and Review Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.html#tech",
+    "href": "howtoreview.html#tech",
+    "title": "\n3  Translation and Review Guidelines\n",
+    "section": "\n3.2 Technical aspects of the review",
+    "text": "3.2 Technical aspects of the review\nIn this section we will use the rOpenSci Development Guide as an example, but all the technical aspects of doing a review also apply to other rOpenSci materials.\nThe source code that generates the Development Guide lives at github.com/ropensci/dev_guide, and is organized in .Rmd (RMarkdown) format files that contain text and sometimes also code. In this case there are also some configuration files that need to be translated so that the guide in the new language is fully translated.\nEach chapter has one .Rmd file per language, with a suffix that identifies the language using its two-letter code (according to ISO 639-1). For example, the chapter “Software Peer Review Policies” will have its original English version in softwarereview_policies.Rmd and its translated Spanish version in softwarereview_policies.es.Rmd.\nIf the translation project is running, you will find a series of pull requests, one for each file to translate, generated with the babeldown package containing the automatically translated text. **Each of these pull requests has an associated branch, this will be important later. In fact if there are many translation projects going on, you may encounter many pull requests. We recommend you to filter using the tag associated to your language, for example the tag for Spanish translation is “traducción 🧉”.\nFor security and organization, the reviewers will not have writing permissions in this main repository. So whoever manages the project will have to make a fork (which we will call working repository) and give write permission to all the people who review or contribute. This fork will have the same branches as the main repository; this is key since the **revision of each file will be done on the branch associated to its translation.\nTo start contributing the first thing you should do is to clone the working repository. To find out where it is located, talk to the person in charge of the project or consult the Slack channel. Once you have the work repository cloned, you can start working locally on your computer.\nYou’re all set to start a review, but where do you start? As in any collaborative project, it is important to agree among all the people to know what each one is going to do. Again, we suggest you chat in the Slack channel to ask how the revisions will be divided.\n\n3.2.1 Review 1\nLet’s say you had to do revision 1 of the chapter “Software Peer Review Policies” found in the softwarereview_policies.en.Rmd file. Here are the steps to follow.\nIn your local repository:\n\nActivate the branch associated with the file you are going to review. In our example it would be softwarereview_policies.es.Rmd-en.\nOpen the softwarereview_policies.es.Rmd file. You may see things to improve immediately, as the automatic translation does a good job but it is not perfect.\n\nStart reviewing the text. For this we suggest you have the English version next to you, you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly. For this you can use the web version of the material you are translating or the “Files changed” tab of the PR in the main repository.\n\n\nPeriodically, or when you complete the revision, you will have to make a commit with the changes you generated. Many times the content of the files will be extensive and you will need a lot of time to complete the revision. In these cases we suggest you make commits at least after each work session indicating in the message up to which line of the file you have reached. This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.\nSo far the revision only lives in your local repository, the next step is to do a push to the working repository. It is very important that the push is to the branch associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.\nOnce you have completed your revision, it is important that you notify the project coordinator or the person assigned to revision 2, if there is one.\n\n\n3.2.1.1 Objectives of revision 1\nThe purpose of this first revision is to make a detailed reading of the machine translation in order to :\n\nEnsure that the meaning of the sentence or paragraph is maintained.\nCheck that the glossary terms agreed upon by the community have been used according to the context.\nApply stylistic decisions whenever possible. For example, in Spanish we decide to avoid gender marking of nouns and adjectives by paraphrasing sentences or using “las/los” if the former is not possible.\nCheck that code blocks or Markdown markup have not been affected.\nTranslate variable names and comments visible in the code blocks whenever appropriate.\n\nSurely there are still some doubts and it is possible that some things may be overlooked. Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the reviewer 2.\n\n3.2.2 Review 2\nYou got revision 2, great. Again we will use as an example the chapter “Software Peer Review Policies” found in the softwarereview_policies.en.Rmd file. Whoever did review 1, whom we will call R1 of this chapter most likely generated one or more commits with changes over the original translation. This means that your work does not start from scratch, here are the steps.\nIn your local repository:\n\nActivate the branch associated to the file you are going to check. In our example it would be softwarereview_policies.es.Rmd-en.\nDo a pull to download all the changes R1 made and have the file updated.\n\nStart reviewing the text. To do this, we suggest you open the file history to view the changes R1 made. This will allow you to know if a phrase or word comes from the machine translation or from another human being.\n\n\n\n\nPeriodically, or when you complete the revision, you will have to make a commit with the changes you generated. Many times the content of the files will be extensive and you will need a lot of time to complete the revision. In these cases we suggest you make commits at least after each work session indicating in the message up to which line of the file you went. This way, if you need to delegate the review to someone else, they can review the file history and pick up where you left off.\nSo far the revision only lives in your local repository, the next step is to do a push to the working repository. It is very important that the push is to the branch associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.\nOnce you have completed your revision, the chapter is ready! However, this new version only lives in the working repository. You will have to open a pull request in the main repository to have it reviewed and approved by someone in an editor role. In the next section we will see how to open the pull request.\n\n\n3.2.2.1 Objectives of Review 2\nThis second revision seeks to generate a text that maintains the original content but also sounds natural in the new language. In order to achieve this, the following must be taken into account:\n\nThat the use of terms according to the glossary and the specific context is respected.\nUse the format defined by the community, for example, use italicized format for words that remain in English.\nApply style decisions missed by R1 or missed by R1. For example, in Spanish try to replace any “las/los” with a phrase without gender marking.\nThat, in general, sentences are understood and sound good while avoiding literal translations.\n\nIn the process of revision 2 you may need to consult with R1 about the decisions he/she made or with the rest of the community if there is a phrase or term that raises doubts. You may then suggest adding new terms to the glossary or updating this translation guide.\n\n3.2.3 Pull Request and editing of a chapter\nOnce the process of revising a chapter is complete, it is time to transfer that new version from the working repository to the main rOpenSci repository. For this R2 will have to open a pull request that compares the revised version with the machine translation only version.\n\nMake sure that all changes are in the working repository and that you are working on the branch associated to the file under review, in our example it will be softwarereview_policies.es.Rmd-en.\n\nIf you are on the correct branch, in the GitHub web interface you will see the following:\n\nGitHub identified that there are new changes (pushes) in the branch and suggests comparing them and making a pull request to the main repository.\n\nClick on the “*Compare & pull request” button.\nYou will then have the option to modify the title of the pull request and leave a message. We suggest 2 things:\n\nChange the title to identify that it is a “Review”. It is important to separate it from the pull request of the automatic translation.\nIn the body of the message, mention who is maintaining the translation project so that he/she is aware of the progress and can then continue with the process.\n\n\n\n\n\nBefore creating the pull request it is very important that you check that it is done from the correct branch. This is the only way to connect the review work with the automatic translation and to be able to unify the versions correctly.\nAnd that’s it! Click on “*Create pull request”.\n\nFrom this point on, the review is in the hands of the maintainer of the translation project. This person must review the pull request and make queries to R1 and R2 before merging the *pull requests.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Translation and Review Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.html#general-review",
+    "href": "howtoreview.html#general-review",
+    "title": "\n3  Translation and Review Guidelines\n",
+    "section": "\n3.3 General review",
+    "text": "3.3 General review\nThe revision process is a collaborative process in which, we hope, many people will collaborate. This has the great advantage of incorporating different views on the use of language and generating a translation that represents the greatest number of people. However, with all this diversity of views and despite the specific guidance of each language, it is possible that the revisions are heterogeneous, that sometimes different criteria are used or that there are simply typing errors.\nFor all these reasons, it is important that the translation project is completed with a global revision of all the material. We strongly suggest that this overall review be carried out by one person in order to maintain a single criterion throughout the text.\nNow the translation is ready. Thank you and congratulations!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Translation and Review Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.html",
+    "href": "specific_guidelines.html",
+    "title": "\n4  Specific Guidelines\n",
+    "section": "",
+    "text": "4.1 Technical terms and citations",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Specific Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.html#technical-terms-and-citations",
+    "href": "specific_guidelines.html#technical-terms-and-citations",
+    "title": "\n4  Specific Guidelines\n",
+    "section": "",
+    "text": "Maintain a list of terms that are translated and another list of terms that are not. We propose a initial list and we consult our community (Slack first, social networks when there is not agreement).\nFor bibliographic references, the original title/name is left in English with the words in italics; a translation of the title in Spanish is added in parentheses. When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs, the Spanish version is added to the link if it exists. If one cannot be found, the reference is left in English.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Specific Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.html#code",
+    "href": "specific_guidelines.html#code",
+    "title": "\n4  Specific Guidelines\n",
+    "section": "\n4.2 Code",
+    "text": "4.2 Code\nTranslate:\n\nvariables names;\nconstant names;\ncomments;\nuser function names and parameters names: if a code snippet creates a function as example, we can name it and their parameters in Spanish.\n\n\nexample:\n\nOriginal code:\n\n   inside &lt;- function(point, lower, higher) {\n        if (point &lt;= lower) {\n            return false\n        } else if (point &gt;= higher) {\n            return false\n        } else {\n            return true\n        }\n   }\n    \nTranslation to Spanish:\n\n  adentro &lt;- function(punto, mas_bajo, mas_alto) {\n        if (punto &lt;= mas_bajo) {\n            return false\n        } else if (punto &gt;= mas_alto) {\n            return false\n        } else {\n            return true\n        }\n   }",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Specific Guidelines</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.html#diagrams",
+    "href": "specific_guidelines.html#diagrams",
+    "title": "\n4  Specific Guidelines\n",
+    "section": "\n4.3 Diagrams",
+    "text": "4.3 Diagrams\n\nFigure and diagrams are translated.\nScreenshots are translated only if the IDE or UI exist in the language of the translation.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Specific Guidelines</span>"
+    ]
+  }
+]
