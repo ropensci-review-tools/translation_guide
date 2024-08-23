@@ -1,8 +1,12 @@
 # Specific Guidelines
 
 ::: callout-note
-If you want to read the guidelines for a specific language, place change the version of the Translation Guide to that language using the language list on the left.
+This chapter is different for each language. It contains the specific guidelines for translating the content under the agreements of the community.
+
+To read the guidelines for a specific language, place change the version of the Translation Guide to that language using the language list on the left.
 :::
+
+This guidelines apply when translating content to English.
 
 ## Technical terms and citations
 
@@ -10,11 +14,11 @@ If you want to read the guidelines for a specific language, place change the ver
     We propose a initial list and we consult our community (Slack first, social networks when there is not agreement).
 
 2.  For bibliographic references,
-    the original title/name is left in English with the words in italics;
-    a translation of the title in Spanish is added in parentheses.
+    the original title/name is left in the original languaje, with the words in italics;
+    a translation of the title in English is added in parentheses.
     When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs,
-    the Spanish version is added to the link if it exists.
-    If one cannot be found, the reference is left in English.
+    the English version is added to the link if it exists.
+    If one cannot be found, the reference is left in the original language.
     
 ## Code
 
@@ -26,13 +30,25 @@ Translate:
 
 3. comments;
 
-4. user function names and parameters names: if a code snippet creates a function as example, we can name it and their parameters in Spanish. 
+4. user function names and parameters names: if a code snippet creates a function as example, we can name it and their parameters in English. 
 
 > example:
     
     Original code:
     
-       inside <- function(point, lower, higher) {
+    adentro <- function(punto, mas_bajo, mas_alto) {
+            if (punto <= mas_bajo) {
+                return false
+            } else if (punto >= mas_alto) {
+                return false
+            } else {
+                return true
+            }
+       }  
+        
+    Translation to English:
+    
+     inside <- function(point, lower, higher) {
             if (point <= lower) {
                 return false
             } else if (point >= higher) {
@@ -41,23 +57,19 @@ Translate:
                 return true
             }
        }
-        
-    Translation to Spanish:
 
-      adentro <- function(punto, mas_bajo, mas_alto) {
-            if (punto <= mas_bajo) {
-                return false
-            } else if (punto >= mas_alto) {
-                return false
-            } else {
-                return true
-            }
-       }
+      
    
 ## Diagrams
 
 1. Figure and diagrams are translated.
-2. Screenshots are translated only if the IDE or UI exist in the language of the translation.
+2. Screenshots are translated only if the IDE or UI exist in English.
 
+## Data
 
+If there is a translated version of the data, for example with the variable names in English, that data is used. 
+
+If there is not, the original data is used, mentioning what the variable names mean.
+
+Finally, a project can be initiated to translate the data or to select data in English meaningful to the target audience that can replace the original data ([see project dados for an example of translation of data from English to Portuguese](https://cienciadedatos.github.io/dados/)).
 
