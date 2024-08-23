@@ -148,6 +148,16 @@ Ejemplo:
 
 Tampoco se traducen los caminos relativos a archivos.
 
+#### 5. Diagramas
+
+#### 6. Datos
+
+Si existe una versión traducida de los datos, por ejemplo con los nombres de las variables en castellano, se utilizan esos datos. 
+
+Si no la hay, se utilizan los datos originales, mencionando lo que significan los nombres de las variables.
+
+Por último, se puede iniciar un proyecto para traducir los datos o seleccionar datos en castellano significativos para el público destinatario que puedan sustituir a los datos originales. [Se puede ver el proyecto dados como un ejemplo de traduccion de datos del ingles al portugues](https://cienciadedatos.github.io/dados/).
+
 ## D. Aspectos de ortografía / gramática del español
 
 * Ni los demostrativos ni el adverbio "solo" se tildan.
