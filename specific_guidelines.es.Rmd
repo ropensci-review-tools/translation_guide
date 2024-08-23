@@ -150,6 +150,9 @@ Tampoco se traducen los caminos relativos a archivos.
 
 #### 5. Diagramas
 
+1. Las figuras y los diagramas se traducen.
+2. Las capturas de pantalla sólo se traducen si la interfaz de usuario están en castellano.
+
 #### 6. Datos
 
 Si existe una versión traducida de los datos, por ejemplo con los nombres de las variables en castellano, se utilizan esos datos. 
