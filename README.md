@@ -13,13 +13,13 @@ rOpenSci's guide for translations.
 
 | Project   | Status          | Links                                       | Maintainer  |
 |-----------|-----------------|---------------------------------------------|-------------|
-| Dev guide | In final review | [Dev guide](https://github.com/ropensci/dev_guide/) |  @yabellini |
+| Dev guide | First version published | [Dev guide](https://github.com/ropensci/dev_guide/) |  @yabellini |
 
 #### Portuguese
 
 | Project   | Status            | Links                                       | Maintainer    |
 |-----------|-------------------|---------------------------------------------|---------------|
-| Dev guide | Translation and R | [Dev guide](https://github.com/ropensci/dev_guide/) |  @pedropark99 |
+| Dev guide | Translation and Review | [Dev guide](https://github.com/ropensci/dev_guide/) |  @pedropark99 |
 
 
 ### Suggestions and updates
