@@ -48,7 +48,7 @@ Once you have the work repository cloned, you can start working locally on your 
 
 You're all set to start a review, but where do you start?
 As in any collaborative project, it is important to agree among all the people to know what each one is going to do.
-Again, we suggest you chat in the Slack channel to ask how the revisions will be divided.
+Again, we suggest you chat in the Slack channel to ask how the revisions will be divided. You can also comment in the *pull request* to ask if you can take the review of that chapter.
 
 ### Review 1
 

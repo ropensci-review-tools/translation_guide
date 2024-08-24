@@ -54,7 +54,7 @@ Una vez que tienes el repositorio de trabajo clonado, puedes empezar a trabajar 
 
 Ya está todo listo para empezar una revisión, pero ¿por dónde empezar?
 Cómo en todo proyecto colaborativo, es importante ponerse de acuerdo entre todas las personas para saber que va a hacer cada una.
-Nuevamente te sugerimos conversar en el canal de Slack para preguntar como es la división de las revisiones.
+Nuevamente te sugerimos conversar en el canal de Slack para preguntar como es la división de las revisiones. Tambien podes hacer un comentario en el *pull request* para preguntar si te podes hacer cargo de revisar ese capitulo.
 
 ### Revisión 1
 
