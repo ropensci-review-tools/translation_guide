@@ -4,18 +4,18 @@
 
 ### With an active language
 
-You can check the list of languages for which there are active translation projects and their statuses [here](https://github.com/ropensci-review-tools/translation_guide#active).
+You can check the [list of languages for which there are active translation projects](https://github.com/ropensci-review-tools/translation_guide#active) and their statuses in the readme of the repository of this book.
 There you will find the name of those who manage that language so you can get in touch and links to the active projects in that language.
 Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines ([here](specific_guidelines.html)) in this guide and a glossary.
 
 Before you start, it is important that you familiarize yourself with the source material.
-In addition, we suggest that you read this guide (in particular the guidelines applicable to your language ([here](specific_guidelines.html))) and contact the people who are already working on it.
+In addition, we suggest that you read this guide ([in particular the guidelines applicable to your language](specific_guidelines.html)) and contact the people who are already working on it.
 Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it?
 or technical questions like what if I run into problems on GitHub?
 
 ### With a new language
 
-If your language is not among the languages with active projects listed [here](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
+If your language is not among the [languages with active projects listed here](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
 You can send an email to [info@ropensci.org](mailto:info@ropensci.org) or [open a *issue* in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
 Please note that starting a new project requires a commitment to manage the repository where all the review will take place.
@@ -25,9 +25,9 @@ Also, since each chapter or article must be reviewed by at least 2 people, we re
 
 ## Technical aspects of the review {#tech}
 
-In this section we will use the rOpenSci Development Guide as an example, but all the technical aspects of doing a review also apply to other rOpenSci materials.
+In this section we will use the "rOpenSci Packages: Development, Maintenance, and Peer Review" as an example, but all the technical aspects of doing a review also apply to other rOpenSci materials.
 
-The source code that generates the Development Guide lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (RMarkdown) format files that contain text and sometimes also code.
+The source code that generates the "rOpenSci Packages: Development, Maintenance, and Peer Review" lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (RMarkdown) format files that contain text and sometimes also code.
 In this case there are also some configuration files that need to be translated so that the guide in the new language is fully translated.
 
 Each chapter has one .Rmd file per language, with a suffix that identifies the language using its two-letter code (according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
@@ -36,7 +36,7 @@ For example, the chapter "Software Peer Review Policies" will have its original 
 If the translation project is running, you will find a series of *pull requests*, **one for each file to translate**, generated with the babeldown package containing the automatically translated text.
 **Each of these *pull requests* has an associated *branch*, this will be important later.
 In fact if there are many translation projects going on, you may encounter many *pull requests*.
-We recommend you to filter using the tag associated to your language, for example the tag for Spanish translation is "traducción 🧉".
+We recommend you to filter using the tag associated to your language, for example the tag for Spanish translation is "traducción 🧉". You can also check the status of each *pull request* in the GitHub project board of each active language.
 
 For security and organization, the reviewers will not have writing permissions in this main repository.
 So whoever manages the project will have to make a *fork* (which we will call **working repository**) and give write permission to all the people who review or contribute.
