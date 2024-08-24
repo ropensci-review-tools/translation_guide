@@ -19,7 +19,7 @@ rOpenSci's guide for translations.
 
 | Project   | Status            | Links                                       | Maintainer    |
 |-----------|-------------------|---------------------------------------------|---------------|
-| Dev guide | Translation and Review | [Dev guide](https://github.com/ropensci/dev_guide/) |  @pedropark99 |
+| Dev guide | Translation and Review | [Proyect](https://github.com/orgs/ropensci/projects/7/views/1) |  @pedropark99 |
 
 
 ### Suggestions and updates
