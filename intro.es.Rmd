@@ -102,7 +102,7 @@ Por supuesto, como en todas las áreas de rOpenSci, seguimos nuestro [código de
 
 ## Utilizar los materiales de localización
 
-Todos los ejemplos siguientes utilizan la localización del libro Paquetes rOpenSci: Development, Maintenance, and Peer Review, pero puedes aplicar estas recomendaciones a cualquiera de las otras traducciones.
+Todos los ejemplos siguientes utilizan la localización del libro "Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares", pero puedes aplicar estas recomendaciones a cualquiera de las otras traducciones.
 
 ### Citar una traducción
 
@@ -120,7 +120,7 @@ El formato general es
 
 El texto *Traducción a* y *Obra original publicada en* deben estar escritos en la lengua de las traducciones.
 
-Ejemplo utilizando la guía del desarrollador y la traducción al español:
+Ejemplo utilizando la traducción al español del libro "Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares":
 
 > rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam y Hollister, Jeff.
 > (2021).
@@ -131,6 +131,5 @@ Ejemplo utilizando la guía del desarrollador y la traducción al español:
 
 - \<Fecha de inicio, por ejemplo: mayo de 2022 -- Fecha de finalización, por ejemplo: julio de 2020>. Localización colaborativa al español del libro ). Edición general: Yanina Bellini Saibene. Contribución como \<rol, ej.: revisor>. Más información <enlace al proyecto>
 
-## Agrega a tu CV tu contribución a un proyecto de localización
 
 
