@@ -182,7 +182,7 @@ This person must review the *pull* *request* and make queries to **R1** and **R2
 
 ## General review
 
-The revision process is a collaborative process in which, we hope, many people will collaborate.
+The revision process is a collaborative process in which, we hope, many people will participate.
 This has the great advantage of incorporating different views on the use of language and generating a translation that represents the greatest number of people.
 However, with all this diversity of views and despite the specific guidance of each language, it is possible that the revisions are heterogeneous, that sometimes different criteria are used or that there are simply typing errors.
 

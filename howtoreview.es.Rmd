@@ -188,7 +188,7 @@ Esta persona deberá revisar el *pull* *request* y hacer consultas a **R1** y **
 
 ## Revisión global
 
-El proceso de revisión es un proceso colaborativo en el que, esperamos, colaboren muchas personas.
+El proceso de revisión es un proceso colaborativo en el que, esperamos, participen muchas personas.
 Esto tiene la gran ventaja de incorporar distintas miradas sobre el uso del lenguaje y generar una traducción que represente a la mayor cantidad de personas.
 Sin embargo, con toda esta diversidad de miradas y a pesar de la guía específica de cada lenguaje, es posible que las revisiones sean heterogéneas, que a veces se uses criterios distintos o simplemente haya errores de tipeo.
 
