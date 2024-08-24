@@ -5,7 +5,7 @@
 ## Introducción
 
 rOpenSci proporciona apoyo comunitario, normas e infraestructura para que las personas que hacen ciencia y desarrollan software de investigación con R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad.
-Además, desarrollamos y mantenemos documentación de alta calidad y [recursos](/resources/) para apoyar estas actividades.
+Además, [desarrollamos y mantenemos documentación de alta calidad y recursos](https://ropensci.org/resources/) para apoyar estas actividades.
 Muchos de nuestros materiales se definen como *documentos vivos* lo que significa que se mejoran y actualizan constantemente.
 
 La publicación multilingüe de documentación y recursos implica dos aspectos:
@@ -13,7 +13,7 @@ La publicación multilingüe de documentación y recursos implica dos aspectos:
 - La *internacionalización*, que se refiere a la solución tecnológica que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
   Es lo que nos permite localizar nuestros contenidos[^intro-1].
 
-- La *localización*, que es el proceso de tomar un contenido en su forma original y convertirlo en algo más accesible y adecuado para otra región, país o público[^intro-2].
+- La *localización*, que es el proceso de tomar un contenido en su forma original y convertirlo en algo accesible y adecuado para otra región, país o público[^intro-2].
   Esto incluye el idioma, los formatos de fecha, la moneda, las unidades de medida y la compatibilidad con distintos juegos de caracteres.
 
 [^intro-1]: Internacionalización y localización.
@@ -46,19 +46,22 @@ Acceso el 1 de noviembre de 2022.
 Existen muchas soluciones y herramientas para internacionalizar y localizar contenidos y software.
 Por ejemplo, sistemas de gestión de traducción (Crowdin, Transifex, Weblate), traductores automáticos (Google Translate, DeepL), sistemas de control de versiones (GitHub, GitLab), lenguajes de marcado (LaTeX, Markdown) y herramientas para escribir estos lenguajes (Overleaf, Quarto).
 
-Estas soluciones tecnológicas están en continua evolución.
-Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
-La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no debe ser una barrera[^intro-5].
+Estas soluciones tecnológicas están en continua evolución. La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no debe ser una barrera[^intro-5].
 
 [^intro-5]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
     Chapter at Our Environment.A collection of work by data designers, artists, and scientists
 ISBN:979-8-218-20191-3.
 
-También desarrollamos -y documentamos en estas directrices- un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
-Utilizamos proyectos de GitHub para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como *revisores*, *editoras,* y personas encargadas del *mantenimiento*.
+Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
 
-![Proceso de localización de rOpenSci](images/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y fusiona los cambios.  Estas personas actualizan las directrices de traducción que definen un glosario y los acuerdos sobre el uso del idioma."}
+* [El paquete babeldown](https://docs.ropensci.org/babeldown/)permite realizar una primera traducción automática de los documentos.
+
+* [El paquete babelquarto](https://docs.ropensci.org/babelquarto/) permite configurar y generar un libro o una web de Quarto multilingue.
+
+* Utilizamos [proyectos de GitHub](https://github.com/orgs/ropensci/projects/7/views/1) para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como *revisores*, *editoras,* y personas encargadas del *mantenimiento*.
+
+* También desarrollamos -y documentamos en estas directrices- un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
 
 ## Aspectos generales del proceso de traducción
 
@@ -94,6 +97,8 @@ Todos nuestros paquetes y libros están alojados en GitHub y utilizan *issues* y
 Además, esto permite que el proceso sea abierto para que otras personas puedan contribuir y aportar devoluciones.
 
 Por supuesto, como en todas las áreas de rOpenSci, seguimos nuestro [código de conducta](https://ropensci.org/code-of-conduct/) para crear un entorno amistoso y seguro.
+
+![Proceso de localización de rOpenSci](images/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y fusiona los cambios.  Estas personas actualizan las directrices de traducción que definen un glosario y los acuerdos sobre el uso del idioma."}
 
 ## Utilizar los materiales de localización
 
