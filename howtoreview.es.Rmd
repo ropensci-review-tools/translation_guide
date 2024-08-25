@@ -195,5 +195,5 @@ Sin embargo, con toda esta diversidad de miradas y a pesar de la guía específi
 Por todo eso es importante que el proyecto de traducción se complete con una revisión global de todo el material.
 Sugerimos fuertemente que esta revisión general la realicé una sola persona para mantener un criterio único a lo largo de todo el texto.
 
-Ahora si, la traducción está lista.
+Ahora si, **la traducción está lista**.
 ¡Gracias y felicitaciones!

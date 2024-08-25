@@ -189,5 +189,5 @@ However, with all this diversity of views and despite the specific guidance of e
 For all these reasons, it is important that the translation project is completed with a global revision of all the material.
 We strongly suggest that this overall review be carried out by one person in order to maintain a single criterion throughout the text.
 
-Now the translation is ready.
+Now **the translation is ready**.
 Thank you and congratulations!
