@@ -1,5 +1,13 @@
 # Orientaciones para la traducción
 
+::: callout-note
+Este capítulo es diferente para cada idioma. Contiene las directrices específicas para traducir el contenido bajo los acuerdos de la comunidad.
+
+Para leer las instrucciones de un idioma específico, cambie la versión de la Guía de Traducción a ese idioma utilizando la lista de idiomas a la izquierda.
+:::
+
+Estas orientaciones se aplican cuando se traduce contenido al español.
+
 ## A. Organización del trabajo
 
 Después de realizar la traducción de la guía y todos los materiales relacionados se realizarán dos revisiones de cada capítulo y una edición final de toda la guía en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
