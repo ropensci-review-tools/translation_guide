@@ -1,7 +1,7 @@
 # Motivation
 
 At rOpenSci we work to transform science through open data, software and reproducibility. 
-We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
+We provide community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
 In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
 We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it
@@ -29,7 +29,7 @@ The UNESCO's recommendation on open science highlights the need to overcome lang
     France; 2021.
 
 A recent study[^motivation-3] quantified the consequences of language barriers on the career development of researchers. 
-The authors found that Non-native English researchers need:
+The authors found that non-native English researchers need:
 
 [^motivation-3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
     Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
@@ -85,6 +85,6 @@ At rOpenSci, we understand review as a way of building community and have our re
 In addition to use our material to learn how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
 This type of contribution is often a good first step and is recognized as valuable by the community.
 
-We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects with translation efforts.
+We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects undertaking translation efforts.
 
 ## References
