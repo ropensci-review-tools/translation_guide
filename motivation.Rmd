@@ -1,19 +1,19 @@
 # Motivation
 
 At rOpenSci we work to transform science through open data, software and reproducibility. 
-We provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
+We provide community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software. 
 In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
 We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it
-needs to be sustainable, open, and built by and for all groups
+needs to be sustainable, open, and built by and for all groups.
 Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general.
 That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
-rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our multilingual publishing project.
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities, which includes our multilingual publishing project.
 
 ## Language barrier
 
-English is the *lingua franca* for science creating a significant barrier for non-English speaker waiting to join the field. 
+English is the *lingua franca* for science creating a significant barrier for non-English speakers waiting to join the field. 
 It is also the predominant language of open source in code, content, and community interactions making *language access* one of the *environmental barriers to equity in open source*.[^motivation-1] .
 
 [^motivation-1]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
@@ -29,7 +29,7 @@ The UNESCO's recommendation on open science highlights the need to overcome lang
     France; 2021.
 
 A recent study[^motivation-3] quantified the consequences of language barriers on the career development of researchers. 
-The authors found that Non-native English researchers need:
+The authors found that non-native English researchers need:
 
 [^motivation-3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
     Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
@@ -64,7 +64,7 @@ By developing the technical and social infrastructure to publishing multilingual
 ## Community driven localizations and translations
 
 Community-driven translations and localizations are efforts by community members to have a resource in a language of their choice. 
-The community organized and agreed on different aspects of the localization project[^motivation-6].
+The community organizes and agrees on different aspects of the localization project[^motivation-6].
 
 [^motivation-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech
@@ -83,7 +83,7 @@ The community continued with the translation of [Teaching Tech Together](https:/
 
 Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission, reviews, and editorial responses were in Spanish.
 
-These works and previous community experiences created the conditions for us to start our multilingual publishing in Spanish. 
+These projects and previous community experiences created the conditions for us to start multilingual publishing in Spanish. 
 Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^motivation-7].
 
 [^motivation-7]: List of languages by number of native speakers.
@@ -97,6 +97,6 @@ At rOpenSci, we understand review as a way of building community and have our re
 In addition to use our material to learn how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
 This type of contribution is often a good first step and is recognized as valuable by the community.
 
-We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects with translation efforts.
+We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects undertaking translation efforts.
 
 ## References
