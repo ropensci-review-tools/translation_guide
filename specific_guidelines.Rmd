@@ -3,16 +3,16 @@
 ::: callout-note
 This chapter is different for each language. It contains the specific guidelines for translating the content under the agreements of the community.
 
-To read the guidelines for a specific language, place change the version of the Translation Guide to that language using the language list on the left.
+To read the guidelines for a specific language, please change the version of the Translation Guide to that language using the language list on the left.
 :::
 
 This guidelines apply when translating content to English.
 
 ## Organization of the work
 
-After the translation of the content and all related materials, two reviews of each chapter will be carried out and a final edition of all the material as a whole.
+After the translation of the content and all related materials, two reviews of each chapter and a final edition of all the material as a whole will be carried out.
 
-## To take into account in the translation of the text
+## Aspects to take into account in the translation of the text
 
 __1. Use a conversational voice instead of a formal or academic voice.__
 
@@ -22,7 +22,7 @@ __3. The dialectic variety of English that we will use in the translation is Ame
 
 __4. Idiomatic expressions are not translatable in a literal way.__
 
-__5. Take a break to review.__ When we work for a long time on a text, it is difficult to identify typing errors. As a suggestion, once you finish the revision of the chapter or section, let some time pass (a few hours or a day) before doing the final reading and sending it for the next review. This makes it easier for this type of detail to jump out and allows those who do the review to focus on the quality of the translation rather than on orthotypographic corrections. It is also useful to review the text in a formatted version (compiled as pdf or html), since surely some errors will be more visible than in the raw version. If you have the possibility, a printout on paper, both of the raw version and the compiled version, also helps to see the errors more clearly.
+__5. Take breaks when reviewing.__ When we work for a long time on a text, it is difficult to identify typing errors. As a suggestion, once you finish the revision of the chapter or section, let some time pass (a few hours or a day) before doing the final reading and sending it for the next review. This makes it easier for this type of detail to jump out and allows those who do the review to focus on the quality of the translation rather than on orthotypographic corrections. It is also useful to review the text in a formatted version (compiled as pdf or html), since surely some errors will be more visible than in the raw version. If you have the possibility, a printout on paper, both of the raw version and the compiled version, also helps to see the errors more clearly.
 
 ## Technical terms and citations
 
@@ -30,7 +30,7 @@ __5. Take a break to review.__ When we work for a long time on a text, it is dif
     We propose a initial list and we consult our community (Slack first, social networks when there is not agreement).
 
 2.  For bibliographic references,
-    the original title/name is left in the original languaje, with the words in italics;
+    the original title/name is left in the original language, with the words in italics;
     a translation of the title in English is added in parentheses.
     When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs,
     the English version is added to the link if it exists.
@@ -46,7 +46,7 @@ Translate:
 
 3. comments;
 
-4. user function names and parameters names: if a code snippet creates a function as example, we can name it and their parameters in English. 
+4. user function names and parameters names: if a code snippet creates a function as example, we can name the function and its parameters in English. 
 
 > example:
     
@@ -54,11 +54,11 @@ Translate:
     
     adentro <- function(punto, mas_bajo, mas_alto) {
             if (punto <= mas_bajo) {
-                return false
+                return(FALSE)
             } else if (punto >= mas_alto) {
-                return false
+                return(FALSE)
             } else {
-                return true
+                return(TRUE)
             }
        }  
         
@@ -66,11 +66,11 @@ Translate:
     
      inside <- function(point, lower, higher) {
             if (point <= lower) {
-                return false
+                return(FALSE)
             } else if (point >= higher) {
-                return false
+                return(FALSE)
             } else {
-                return true
+                return(TRUE)
             }
        }
 
@@ -79,7 +79,7 @@ Translate:
 ## Diagrams
 
 1. Figure and diagrams are translated.
-2. Screenshots are translated only if the IDE or UI exist in English.
+2. Screenshots are translated only if the IDE or UI exists in English.
 
 ## Data
 
@@ -93,4 +93,4 @@ Finally, a project can be initiated to translate the data or to select data in E
 
 This glossary is developed as part of the translations of the rOpenSci material. It supports the task of determining which technical terms are translated and which are not.  It is also the source that determines which words we prefer to use before the possibility of having more than one option.
 
-As reference sources to generate our glossary and keep it up to date, the following can be used [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) and the bilingual dictionary of [Teaching Tech Together](https://yabellini.shinyapps.io/T3Glossary/)
+As reference sources to generate our glossary and keep it up to date, the following can be used [Wikipedia](https://es.wikipedia.org/), [Glosario](https://glosario.carpentries.org/) and the bilingual dictionary of [Teaching Tech Together](https://yabellini.shinyapps.io/T3Glossary/)
