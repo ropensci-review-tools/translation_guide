@@ -5,7 +5,7 @@
 ## Introduction
 
 rOpenSci provides community support, standards, and infrastructure for scientists and research software engineers working in R to develop, maintain, and publish high-quality open-source scientific software.
-In addition, we develop and maintain high-quality documentation and [resources](/resources/) to support these activities.
+In addition, [we develop and maintain high-quality documentation and resources](https://ropensci.org/resources/) to support these activities.
 Many of our materials are defined as *living documents*, meaning that they are constantly being improved and updated.
 
 Multilingual publishing of documentation and resources involves two aspects:
@@ -13,7 +13,7 @@ Multilingual publishing of documentation and resources involves two aspects:
 -   The *internationalization* refers to the technological solution that allows the software to adapt to different regions without requiring engineering changes to the source code.
     It is what enables us to localize our content[^intro-1].
 
--   The *localization* is the process of taking a piece of content in its original form and converting it into something more accessible and suitable for another region, country, or audience[^intro-2].
+-   The *localization* is the process of taking a piece of content in its original form and converting it into something accessible and suitable for another region, country, or audience[^intro-2].
     This includes language, date formats, currency, measurement units, and support for different character sets.
 
 [^intro-1]: Internationalization and localization.
@@ -46,19 +46,22 @@ In addition, the localization of living documents has two well-defined stages in
 There are many solutions and tools for internationalizing and localizing content and software.
 For example, translation management systems (Crowdin, Transifex, Weblate), automatic translators (Google Translate, DeepL), version control systems (GitHub, GitLab), markup languages (LaTeX, Markdown), and tools for writing these languages (Overleaf, Quarto).
 
-These technological solutions are continuously evolving.
-We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and, in summary, our community.
-The choice of technology impacts the paths we create for contributions, so they should not be a barrier[^intro-5].
+These technological solutions are continuously evolving. The choice of technology impacts the paths we create for contributions, so they should not be a barrier[^intro-5].
 
 [^intro-5]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
     Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
     ISBN:979-8-218-20191-3.
+    
+We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and, in summary, our community.
 
-We also developed - and documented in these guidelines - a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
-We use GitHub projects to track each localization project's progress and the people who have different contribution roles, like *reviewers*, *editors,* and *maintainers*.
+* [The babeldown package](https://docs.ropensci.org/babeldown/) allows for a first automatic translation of the documents.
 
-![rOpenSci Localizacion Process](images/localization_concept_map.png){fig-alt="Localization process cicle: we create a Pull Request with the first automatic translation, that translation get two reviews and then the editor do a final revision and merge the changes.  Reviewers and editors updates translations guidelines that define a glossary and agreements around language use."}
+* [The babelquarto package](https://docs.ropensci.org/babelquarto/) allows for configuring and generating a multilingual Quarto book or website.
+
+* We use GitHub projects to track each localization project's progress and the people who have different contribution roles, like *reviewers*, *editors,* and *maintainers*.
+
+* We also developed - and documented in these guidelines - a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
 
 ## General aspects of the translation process
 
@@ -66,6 +69,7 @@ The translation process starts with a first machine translation using the [babel
 This provides a first draft that is then reviewed by human eyes, who correct errors and incorporate the localization and language translation agreements (see [Languaje specific guidelines](specific_guidelines.html)).
 
 To minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through at least two reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.
+
 
 In each step of this process, we ask you to:
 
@@ -95,10 +99,11 @@ In addition, this allows the process to be open so that others can contribute an
 
 Of course, as in all areas of rOpenSci, we follow our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
 
+![rOpenSci Localizacion Process](images/localization_concept_map.png){fig-alt="Localization process cicle: we create a Pull Request with the first automatic translation, that translation get two reviews and then the editor do a final revision and merge the changes.  Reviewers and editors updates translations guidelines that define a glossary and agreements around language use."}
 
 ## Using the localizations materials
 
-All the next examples use the rOpenSci Packages: Development, Maintenance, and Peer Review localization, but you can apply this recommendations to any of the other translations.
+All the next examples use the rOpenSci Packages: Development, Maintenance, and Peer Review book localization, but you can apply this recommendations to any of the other translations.
 
 ### Citing a translation
 
@@ -116,7 +121,7 @@ The general format is:
 
 The text *Translation to* and *Original work publish at* should be written in the language of the translations.
 
-Example using the developer guide and the Spanish translation:
+Example of a citation using the Spanish translation of the rOpenSci Packages: Development, Maintenance, and Peer Review book:
 
 > rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam, & Hollister, Jeff.
 > (2021).

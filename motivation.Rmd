@@ -5,16 +5,16 @@ We provides community support, standards, and infrastructure for scientists and 
 In addition, we develop and maintain high-quality documentation and resources to support these activities.
 
 We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it
-needs to be sustainable, open, and built by and for all groups
+needs to be sustainable, open, and built by and for all groups.
 Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general.
 That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
-rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our multilingual publishing project.
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our [multilingual publishing project](https://ropensci.org/multilingual-publishing/).
 
 ## Language barrier
 
 English is the *lingua franca* for science creating a significant barrier for non-English speaker waiting to join the field. 
-It is also the predominant language of open source in code, content, and community interactions making *language access* one of the *environmental barriers to equity in open source*.[^motivation-1] .
+It is also the predominant language of open source in code, content, and community interactions making *language access* one of the *environmental barriers to equity in open source*.[^motivation-1]
 
 [^motivation-1]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
     and Inclusion in Open Source: Exploring the Challenges and
@@ -42,31 +42,19 @@ The authors found that Non-native English researchers need:
 
 -   When they present in English need up to **94% more time** to prepare their presentations. They will **often avoid** English speaking conferences and oral presentations.
 
-Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^motivation-4].
-
-[^motivation-4]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
-    and Inclusion in Open Source: Exploring the Challenges and
-    Opportunities to Create Equity and Agency Across Open Source
-    Ecosystems", foreword by Jim Zemlin, The Linux Foundation, December,
-    2021,
-    https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
+Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^motivation-1].
 
 These studies also higligh that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals'
-efforts."[^motivation-5]
-
-[^motivation-5]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
-    Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
-    costs of being a non-native English speaker in science. PLoS Biol
-    21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
+efforts."[^motivation-3]
 
 By developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these barriers by *increasing access to knowledge* and *democratize access to quality resources*, thereby *increasing the potential for individuals to contribute* to software and open science projects.
 
 ## Community driven localizations and translations
 
 Community-driven translations and localizations are efforts by community members to have a resource in a language of their choice. 
-The community organized and agreed on different aspects of the localization project[^motivation-6].
+The community organized and agreed on different aspects of the localization project[^motivation-4].
 
-[^motivation-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
+[^motivation-4]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech
     Content. Chapter at Our Environment.A collection of work by data
     designers, artists, and scientists. ISBN:979-8-218-20191-3.
@@ -84,9 +72,9 @@ The community continued with the translation of [Teaching Tech Together](https:/
 Driven by this active and growing Spanish-speaking community, rOpenSci [successfully piloted](https://ropensci.org/blog/2021/07/27/censo2017/) our first [Spanish-language peer review](https://ropensci.org/commcalls/2019-06-28/), where the submission, reviews, and editorial responses were in Spanish.
 
 These works and previous community experiences created the conditions for us to start our multilingual publishing in Spanish. 
-Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^motivation-7].
+Spanish is the second most-spoken native language in the world and is one of the most geographically widespread languages, being an official language in many countries[^motivation-5].
 
-[^motivation-7]: List of languages by number of native speakers.
+[^motivation-5]: List of languages by number of native speakers.
     Accessed on December 1, 2022.
     https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
 
