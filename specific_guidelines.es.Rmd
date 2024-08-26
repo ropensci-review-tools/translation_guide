@@ -1,8 +1,16 @@
 # Orientaciones para la traducción
 
+::: callout-note
+Este capítulo es diferente para cada idioma. Contiene las directrices específicas para traducir el contenido bajo los acuerdos de la comunidad.
+
+Para leer las instrucciones de un idioma específico, cambie la versión de la Guía de Traducción a ese idioma utilizando la lista de idiomas a la izquierda.
+:::
+
+Estas orientaciones se aplican cuando se traduce contenido al español.
+
 ## A. Organización del trabajo
 
-Después de realizar la traducción de la guía y todos los materiales relacionados se realizarán dos revisiones de cada capítulo y una edición final de toda la guía en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
+Después de realizar la traducción del contenido y todos los materiales relacionados se realizarán dos revisiones de cada capítulo y una edición final de todo el material en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
 
 ## B. Aspectos a tener en cuenta para la traducción del texto
 
@@ -147,6 +155,19 @@ Ejemplo:
 > Traducción: Usa message()  — del inglés _mensaje_ — y warning() — del inglés _advertencia_ — para comunicarte con quien use tus funciones.
 
 Tampoco se traducen los caminos relativos a archivos.
+
+#### 5. Diagramas
+
+1. Las figuras y los diagramas se traducen.
+2. Las capturas de pantalla sólo se traducen si la interfaz de usuario están en castellano.
+
+#### 6. Datos
+
+Si existe una versión traducida de los datos, por ejemplo con los nombres de las variables en castellano, se utilizan esos datos. 
+
+Si no la hay, se utilizan los datos originales, mencionando lo que significan los nombres de las variables.
+
+Por último, se puede iniciar un proyecto para traducir los datos o seleccionar datos en castellano significativos para el público destinatario que puedan sustituir a los datos originales. [Se puede ver el proyecto dados como un ejemplo de traduccion de datos del ingles al portugues](https://cienciadedatos.github.io/dados/).
 
 ## D. Aspectos de ortografía / gramática del español
 
