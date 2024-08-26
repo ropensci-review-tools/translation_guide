@@ -2,45 +2,46 @@
 
 ## How to contribute
 
-### With an active language
+### To translations in an active language
 
-You can check the [list of languages for which there are active translation projects](https://github.com/ropensci-review-tools/translation_guide#active) and their statuses in the readme of the repository of this book.
-There you will find the name of those who manage that language so you can get in touch and links to the active projects in that language.
-Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the language-specific guidelines ([here](specific_guidelines.html)) in this guide and a glossary.
+You can check the [list of languages for which there are active translation projects and their statuses](https://github.com/ropensci-review-tools/translation_guide#active).
+There you will find the name of those who manage that language so you can get in touch, and links to the active projects in that language.
+Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the [language-specific guidelines](specific_guidelines.html) in this guide and a glossary.
 
 Before you start, it is important that you familiarize yourself with the source material.
-In addition, we suggest that you read this guide ([in particular the guidelines applicable to your language](specific_guidelines.html)) and contact the people who are already working on it.
+In addition, we suggest that you read this guide (in particular the [guidelines applicable to your language](specific_guidelines.html)) and contact the people who are already working on it.
 Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it?
 or technical questions like what if I run into problems on GitHub?
 
-### With a new language
+### To translations in a new language
 
-If your language is not among the [languages with active projects listed here](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
-You can send an email to [info@ropensci.org](mailto:info@ropensci.org) or [open a *issue* in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
+If your language is not among the languages with [active projects listed](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
+You can send an email to [info@ropensci.org](mailto:info@ropensci.org) or [open an *issue* in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
 Please note that starting a new project requires a commitment to manage the repository where all the review will take place.
-We ask from those who manage translation projects the same commitment we ask from those who manage packages of our suite: 2 years of maintenance or we can find someone else to take over.
+We ask from those who manage translation projects the same commitment we ask from those who manage packages of our suite: 
+Do you expect to maintain your package for at least 2 years, or to be able to identify a new maintainer?
 
-Also, since each chapter or article must be reviewed by at least 2 people, we recommend you to invite your local community before starting the process.
+Also, since each chapter or article must be reviewed by at least 2 people, we recommend you to invite your local community to participate before starting the process.
 
 ## Technical aspects of the review {#tech}
 
 In this section we will use the "rOpenSci Packages: Development, Maintenance, and Peer Review" as an example, but all the technical aspects of doing a review also apply to other rOpenSci materials.
 
-The source code that generates the "rOpenSci Packages: Development, Maintenance, and Peer Review" lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (RMarkdown) format files that contain text and sometimes also code.
+The source code that generates the "rOpenSci Packages: Development, Maintenance, and Peer Review" lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (R Markdown) format files that contain text and sometimes also code.
 In this case there are also some configuration files that need to be translated so that the guide in the new language is fully translated.
 
 Each chapter has one .Rmd file per language, with a suffix that identifies the language using its two-letter code (according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)).
 For example, the chapter "Software Peer Review Policies" will have its original English version in `softwarereview_policies.Rmd` and its translated Spanish version in `softwarereview_policies.es.Rmd`.
 
-If the translation project is running, you will find a series of *pull requests*, **one for each file to translate**, generated with the babeldown package containing the automatically translated text.
-**Each of these *pull requests* has an associated *branch*, this will be important later.
+If the translation project is running, you will find a series of *pull requests*, **one for each file to translate**, generated with the babeldown package, containing the automatically translated text.
+**Each of these *pull requests* has an associated *branch*, this will be important later.**
 In fact if there are many translation projects going on, you may encounter many *pull requests*.
 We recommend you to filter using the tag associated to your language, for example the tag for Spanish translation is "traducción 🧉". You can also check the status of each *pull request* in the GitHub project board of each active language.
 
 For security and organization, the reviewers will not have writing permissions in this main repository.
 So whoever manages the project will have to make a *fork* (which we will call **working repository**) and give write permission to all the people who review or contribute.
-This *fork* will have the same *branches* as the main repository; this is key since the **revision of each file will be done on the *branch* associated to its translation.
+This *fork* will have the same *branches* as the main repository; this is key since the **revision of each file will be done on the *branch* associated to its translation.**
 
 To start contributing the first thing you should do is to clone the working repository.
 To find out where it is located, talk to the person in charge of the project or consult the Slack channel.
@@ -61,7 +62,7 @@ In your local repository:
     In our example it would be `softwarereview_policies.es.Rmd-en`.
 
 2.  Open the `softwarereview_policies.es.Rmd` file.
-    You may see things to improve immediately, as the automatic translation does a good job but it is not perfect.
+    You may see things to improve immediately, as the automatic translation does a good but imperfect job.
 
 3.  Start reviewing the text.
     For this we suggest you have the English version next to you, you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly.
@@ -148,7 +149,7 @@ In order to achieve this, the following must be taken into account:
 
 - That, in general, sentences are understood and sound good while avoiding literal translations.
 
-In the process of revision 2 you may need to consult with R1 about the decisions he/she made or with the rest of the community if there is a phrase or term that raises doubts.
+In the process of revision 2 you may need to consult with R1 about the decisions they made or with the rest of the community if there is a phrase or term that raises doubts.
 You may then suggest adding new terms to the glossary or updating this translation guide.
 
 ### Pull Request and editing of a chapter {#pr-edition}
@@ -169,7 +170,7 @@ GitHub identified that there are new changes (*pushes*) in the *branch* and sugg
     1. Change the title to identify that it is a "Review".
         It is important to separate it from the *pull request* of the automatic translation.
 
-    2.  In the body of the message, mention who is maintaining the translation project so that he/she is aware of the progress and can then continue with the process.
+    2.  In the body of the message, mention who is maintaining the translation project so that they are aware of the progress and can then continue with the process.
     
 ![](images/es/pr2.png)
 
