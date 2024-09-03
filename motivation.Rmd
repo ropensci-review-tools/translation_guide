@@ -7,13 +7,14 @@ In addition, we develop and maintain high-quality documentation and resources to
 We also believe that science and the research software we create to support it, should serve everyone in our communities, which means it
 needs to be sustainable, open, and built by and for all groups.
 Currently, however, there is a dismaying lack of diversity in scientific and open source communities in general.
-That disappointing lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
+This lack of diversity is potentially detrimental to the sustainability, utility and productivity of projects.
 
-rOpenSci is carrying out a series of activities and projects to transform science to ensure that serves everyone in our communities which include our [multilingual publishing project](https://ropensci.org/multilingual-publishing/).
+rOpenSci is carrying out a series of activities and projects to transform science to ensure that it serves everyone in our communities.
+One of these projects is our [multilingual publishing project](https://ropensci.org/multilingual-publishing/).
 
 ## Language barrier
 
-English is the *lingua franca* for science creating a significant barrier for non-English speaker waiting to join the field. 
+English is the *lingua franca* for science creating a significant barrier for non-English speakers wanting to join the field. 
 It is also the predominant language of open source in code, content, and community interactions making *language access* one of the *environmental barriers to equity in open source*.[^motivation-1]
 
 [^motivation-1]: Hilary Carter and Jessica Groopman, "Diversity, Equity,
@@ -36,27 +37,27 @@ The authors found that non-native English researchers need:
     costs of being a non-native English speaker in science. PLoS Biol
     21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
 
--   up to **91% more time to read** English papers,
+-   Up to **91% more time to read** English papers.
 
--   up to **51% more time to write** papers and their papers will be **rejected 2.6 times more often**. If accepted, they'll have to **revise it 12.5 more times**
+-   Up to **51% more time to write** papers and their papers will be **rejected 2.6 times more often**. If accepted, they'll have to **revise it 12.5 more times**.
 
--   When they present in English need up to **94% more time** to prepare their presentations. They will **often avoid** English speaking conferences and oral presentations.
+-   When they present in English, need up to **94% more time** to prepare their presentations. They will **often avoid** English speaking conferences and oral presentations.
 
 Furthermore, the Linux Foundation report states, "English proficiency is a metric by which performance and personality can be judged"[^motivation-1].
 
-These studies also higligh that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals'
+These studies also highlight that "the magnitude of the disadvantage seems far beyond the level that can be overcome with individuals'
 efforts."[^motivation-3]
 
-By developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these barriers by *increasing access to knowledge* and *democratize access to quality resources*, thereby *increasing the potential for individuals to contribute* to software and open science projects.
+By developing the technical and social infrastructure to publishing multilingual resources and publish our own resources in several languages, we can lower these barriers by *increasing access to knowledge* and *democratizing access to quality resources*, thereby *increasing the potential for individuals to contribute* to software and open science projects.
 
 ## Community driven localizations and translations
 
-Community-driven translations and localizations are efforts by community members to have a resource in a language of their choice. 
-The community organized and agreed on different aspects of the localization project[^motivation-4].
+Community-driven translations and localizations are efforts by community members to create resources in a language of their choice. 
+The community organizes and agrees on different aspects of localization projects[^motivation-4].
 
 [^motivation-4]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech
-    Content. Chapter at Our Environment.A collection of work by data
+    Content. Chapter at Our Environment. A collection of work by data
     designers, artists, and scientists. ISBN:979-8-218-20191-3.
     http://datasciencebydesign.org/blog/multilingual-data-science
 
@@ -80,11 +81,11 @@ Spanish is the second most-spoken native language in the world and is one of the
 
 ## Building community
 
-At rOpenSci, we understand review as a way of building community and have our review process in Spanish will allow us to continue building the community in Spanish-speaking regions, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
+At rOpenSci, we understand review as a way of building community and hope our review process in Spanish will allow us to continue building the community in Spanish-speaking regions, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
 
-In addition to use our material to learn how to be a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
-This type of contribution is often a good first step and is recognized as valuable by the community.
+In addition to using our material to learn how to contribute to open source as a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
+This type of contribution is a good way to engage in open source and is recognized as valuable by the community.
 
-We also expect that the project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects undertaking translation efforts.
+We also expect that the multilingual project's documentation and tooling will be useful for extending this effort to other languages and for other communities and projects undertaking translation efforts.
 
 ## References
