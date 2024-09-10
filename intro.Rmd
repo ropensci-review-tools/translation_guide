@@ -1,6 +1,6 @@
 # General Guidelines
 
-> "Meet your community member where they are."
+> "Meet your community members where they are."
 
 ## Introduction
 
@@ -8,27 +8,24 @@ rOpenSci provides community support, standards, and infrastructure for scientist
 In addition, [we develop and maintain high-quality documentation and resources](https://ropensci.org/resources/) to support these activities.
 Many of our materials are defined as *living documents*, meaning that they are constantly being improved and updated.
 
-Multilingual publishing of documentation and resources involves two aspects:
+Multilingual publishing of documentation and resources involves two aspects,
+Internationalization and Localization[^intro-1]:
 
--   The *internationalization* refers to the technological solution that allows the software to adapt to different regions without requiring engineering changes to the source code.
-    It is what enables us to localize our content[^intro-1].
+-   *Internationalization* refers to technological solutions which allow software to adapt to different regions without requiring changes to the source code.
+    This infrastructure is what *enables* us to localize our content.
 
--   The *localization* is the process of taking a piece of content in its original form and converting it into something accessible and suitable for another region, country, or audience[^intro-2].
+-   *Localization* is the process of taking a piece of content in its original form and converting it into something accessible and suitable for another region, country, or audience.
     This includes language, date formats, currency, measurement units, and support for different character sets.
 
 [^intro-1]: Internationalization and localization.
-    Access November 1, 2022.
-    https://en.wikipedia.org/wiki/Internationalization_and_localization
+    Accessed November 1, 2022.
+    <https://en.wikipedia.org/wiki/Internationalization_and_localization>
 
-[^intro-2]: Internationalization and localization.
-    Access November 1, 2022.
-    https://en.wikipedia.org/wiki/Internationalization_and_localization
+In addition, localization of living documents has two well-defined stages involving different resources:
 
-In addition, the localization of living documents has two well-defined stages involving different resources:
+1.  Translating the material in the first place.
 
-1.  achieving a first version of the translated material and
-
-2.  keeping the material updated and synchronized between the supported languages[^intro-3].
+2.  Keeping the material updated and synchronized among the supported languages[^intro-3].
 
 [^intro-3]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
@@ -39,39 +36,39 @@ In addition, the localization of living documents has two well-defined stages in
 
 [^intro-4]: Internationalization and localization.
     Access November 1, 2022.
-    https://en.wikipedia.org/wiki/Internationalization_and_localization
+    <https://en.wikipedia.org/wiki/Internationalization_and_localization>
 
-## Technical infrastructure and organization of the work
+## Technical infrastructure and workflows
 
 There are many solutions and tools for internationalizing and localizing content and software.
 For example, translation management systems (Crowdin, Transifex, Weblate), automatic translators (Google Translate, DeepL), version control systems (GitHub, GitLab), markup languages (LaTeX, Markdown), and tools for writing these languages (Overleaf, Quarto).
 
-These technological solutions are continuously evolving. The choice of technology impacts the paths we create for contributions, so they should not be a barrier[^intro-5].
+These technological solutions are continuously evolving. The choice of technology impacts the paths we create for contributions, so care should be taken to pick technology that reduces barriers to participation as much as possible[^intro-5].
 
 [^intro-5]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
-    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
+    Chapter at Our Environment. A collection of work by data designers, artists, and scientists.
     ISBN:979-8-218-20191-3.
     
-We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and, in summary, our community.
+We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and thus our community.
 
-* [The babeldown package](https://docs.ropensci.org/babeldown/) allows for a first automatic translation of the documents.
+* We created the [babeldown package](https://docs.ropensci.org/babeldown/) to create automatic translations of documents, including a workflow for updating existing translations.
 
-* [The babelquarto package](https://docs.ropensci.org/babelquarto/) allows for configuring and generating a multilingual Quarto book or website.
+* We created the [babelquarto package](https://docs.ropensci.org/babelquarto/) to configure and generate multilingual Quarto books or websites.
 
 * We use GitHub projects to track each localization project's progress and the people who have different contribution roles, like *reviewers*, *editors,* and *maintainers*.
 
-* We also developed - and documented in these guidelines - a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
+* We also created (and documented in these guidelines) a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
 
 ## General aspects of the translation process
 
-The translation process starts with a first machine translation using the [babeldown](https://docs.ropensci.org/babeldown/) package.
-This provides a first draft that is then reviewed by human eyes, who correct errors and incorporate the localization and language translation agreements (see [Languaje specific guidelines](specific_guidelines.html)).
+The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
+This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [Language specific guidelines](specific_guidelines.html).
 
-To minimize errors and maintain a broad look at the translation, we at rOpenSci ask that each chapter or section goes through at least two reviews done in series (the first one reviews the automatic translation and the second reviews the first review) followed by a general review and edition of the book or document as a whole.
+To minimize errors and promote a broader perspective of the translation, at rOpenSci we ask that each chapter or section goes through at least two reviews in sequence (first a review of the automatic translation and second a review of the first review) followed by an overall review of the book or document as a whole.
 
 
-In each step of this process, we ask you to:
+In each step of this process, we use the following guidelines:
 
 1.  Use a conversational voice rather than a formal or academic voice.
 
@@ -84,52 +81,63 @@ In each step of this process, we ask you to:
     For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.
 
 4.  Try to be idiomatic.
-    Don't be literal, and bring the message closer to your audience.[^intro-6]
-    When translating, the text and the form that best expresses the meaning of the fragment in the target language should be prioritized, not the one that seems to be literal from the original.
+    Don't worry about literal translations. Bring the message closer to your audience[^intro-6] by choosing 
+    the text and form in the target language that best expresses the *meaning* of the fragment from the original.
 
 [^intro-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
-    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
+    Chapter at Our Environment. A collection of work by data designers, artists, and scientists.
     ISBN:979-8-218-20191-3.
 
-The translation and review process is done on GitHub using *pull requests* (see [this section](#pr-edition) for details).
+The translation and review process is done on GitHub using *pull requests* (see [the Pull Request section](#pr-edition) for details).
 We chose this workflow as this is the infrastructure we use in our community.
 All our packages and books are hosted on GitHub and use *issues* and *pull requests* in their development.
 In addition, this allows the process to be open so that others can contribute and provide feedback.
 
-Of course, as in all areas of rOpenSci, we follow our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
+Of course, as in all areas of rOpenSci, this is process is subject to our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
 
-![rOpenSci Localizacion Process](images/localization_concept_map.png){fig-alt="Localization process cicle: we create a Pull Request with the first automatic translation, that translation get two reviews and then the editor do a final revision and merge the changes.  Reviewers and editors updates translations guidelines that define a glossary and agreements around language use."}
+![rOpenSci Localization Process](images/localization_concept_map.png){fig-alt="Localization process cycle: we create a Pull Request with the first automatic translation, that translation gets two reviews and then the editor does a final review and merges the changes.  Reviewers and editors update translation guidelines that define the glossary and specific language guidelines"}
 
-## Using the localizations materials
+## Referencing localizations materials
 
-All the next examples use the rOpenSci Packages: Development, Maintenance, and Peer Review book localization, but you can apply this recommendations to any of the other translations.
+Here we give suggestion for citing a translation or referencing your translation work in a CV. 
+These examples specifically refer to the translation of "rOpenSci Packages: Development, Maintenance, and Peer Review",
+but you can apply these recommendations to any translation.
 
 ### Citing a translation
 
-We base this recommendation on the [APA recommendations article, Section Book, republished in translation](https://apastyle.apa.org/blog/citing-translated-works).
-We recommend including the original title in English, [following this APA suggestion](https://writeanswers.royalroads.ca/faq/199295).
-See the example of Piaget (1950).
+The general format is[^intro-7]:
 
-The general format is:
+> {Authors of original} ({Year of translation publication}).
+> {Translated title} \[{Original title}\]
+> (Translation to {Language}: {Authors of translation}).
+> {DOI}
+> (Original work published {Year of publication})
 
-{list of authors of the English version}.{(year of publication)}.
-{Translated title}.
-{\[Original Title in English\]} (Translation to {language name}: {list of people that translate the material}).
-{DOI}.
-(Original work publish at {year of publication})
-
-The text *Translation to* and *Original work publish at* should be written in the language of the translations.
+The text *Translation to* and *Original work published* should be written in the language of the translations.
 
 Example of a citation using the Spanish translation of the rOpenSci Packages: Development, Maintenance, and Peer Review book:
 
-> rOpenSci, Anderson, Brooke, Chamberlain, Scott, DeCicco, Laura, Gustavsen, Julia, Krystalli, Anna, Lepore, Mauro, Mullen, Lincoln, Ram, Karthik, Ross, Noam, Salmon, Maëlle, Vidoni, Melina, Riederer, Emily, Sparks, Adam, & Hollister, Jeff.
+> rOpenSci, Anderson, B., Chamberlain, S., DeCicco, L., Gustavsen, J., Krystalli, A., Lepore, M., Mullen, L., Ram, K., Ross, N., Salmon, M., Vidoni, M., Riederer, E., Sparks, A., & Hollister, J.
 > (2021).
-> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {name of the translators}) Zenodo.
+> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {Authors of translation}).
 > https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
 
-### Mention your contribution to a localization project in your CV
 
--   \<Start date ex.: May, 2022 -- End date, ex: July, 2020\>. Collaborative localization to Spanish of the book ). General edition: Yanina Bellini Saibene. Contribution as \<role, ex.: reviewer\>. More information <link to the project>
+[^intro-7]: Based on the APA article ["How to cite translated works"](https://apastyle.apa.org/blog/citing-translated-works).
+    We also suggest including the original title in English, following this
+    [example for Piaget (1950)](https://writeanswers.royalroads.ca/faq/199295).
 
-## References.
+
+
+### Citing your contribution in your CV
+
+In general, you can use something along the lines of this format:
+
+> {Start date} -- {End date}. Collaborative localization to {Language} of "{Book Name}" (Lead editor {Name of lead editor}). Contribution as {Role}. Project details: {Link to the project}.
+
+Here is a specific example for a CV in English referencing work on a Spanish translation project:
+
+> May, 2022 -- July, 2020. Collaborative localization to Spanish of "rOpenSci Packages: Development, Maintenance, and Peer Review" (Lead editor Yanina Bellini Saibene). Contribution as reviewer. Project details: <https://github.com/ropensci/dev_guide>.
+
+## References
