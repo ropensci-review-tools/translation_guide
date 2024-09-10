@@ -9,7 +9,7 @@ In addition, [we develop and maintain high-quality documentation and resources](
 Many of our materials are defined as *living documents*, meaning that they are constantly being improved and updated.
 
 Multilingual publishing of documentation and resources involves two aspects,
-Internationalization and Localization[^intro-1]:
+Internationalization and Localization[^intro-wiki]:
 
 -   *Internationalization* refers to technological solutions which allow software to adapt to different regions without requiring changes to the source code.
     This infrastructure is what *enables* us to localize our content.
@@ -17,7 +17,7 @@ Internationalization and Localization[^intro-1]:
 -   *Localization* is the process of taking a piece of content in its original form and converting it into something accessible and suitable for another region, country, or audience.
     This includes language, date formats, currency, measurement units, and support for different character sets.
 
-[^intro-1]: Internationalization and localization.
+[^intro-wiki]: Internationalization and localization.
     Accessed November 1, 2022.
     <https://en.wikipedia.org/wiki/Internationalization_and_localization>
 
@@ -25,31 +25,22 @@ In addition, localization of living documents has two well-defined stages involv
 
 1.  Translating the material in the first place.
 
-2.  Keeping the material updated and synchronized among the supported languages[^intro-3].
+2.  Keeping the material updated and synchronized among the supported languages[^intro-yani].
 
-[^intro-3]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
+[^intro-yani]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
     Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
-    Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
+    Chapter at Our Environment. A collection of work by data designers, artists, and scientists.
     ISBN:979-8-218-20191-3.
 
-*Translation* is typically the most time-consuming component of these efforts[^intro-4].
-
-[^intro-4]: Internationalization and localization.
-    Access November 1, 2022.
-    <https://en.wikipedia.org/wiki/Internationalization_and_localization>
+*Translation* is typically the most time-consuming component of these efforts[^intro-wiki].
 
 ## Technical infrastructure and workflows
 
 There are many solutions and tools for internationalizing and localizing content and software.
 For example, translation management systems (Crowdin, Transifex, Weblate), automatic translators (Google Translate, DeepL), version control systems (GitHub, GitLab), markup languages (LaTeX, Markdown), and tools for writing these languages (Overleaf, Quarto).
 
-These technological solutions are continuously evolving. The choice of technology impacts the paths we create for contributions, so care should be taken to pick technology that reduces barriers to participation as much as possible[^intro-5].
+These technological solutions are continuously evolving. The choice of technology impacts the paths we create for contributions, so care should be taken to pick technology that reduces barriers to participation as much as possible[^intro-yani].
 
-[^intro-5]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
-    Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
-    Chapter at Our Environment. A collection of work by data designers, artists, and scientists.
-    ISBN:979-8-218-20191-3.
-    
 We developed our infrastructure for our localization effort using the tools that best suit our team, contributors and materials, and thus our community.
 
 * We created the [babeldown package](https://docs.ropensci.org/babeldown/) to create automatic translations of documents, including a workflow for updating existing translations.
@@ -81,13 +72,9 @@ In each step of this process, we use the following guidelines:
     For consistency throughout the text and to show that there is no particular hierarchy, it alternates the use of feminine or masculine between chapters, with the use being consistent throughout each chapter.
 
 4.  Try to be idiomatic.
-    Don't worry about literal translations. Bring the message closer to your audience[^intro-6] by choosing 
+    Don't worry about literal translations. Bring the message closer to your audience[^intro-yani] by choosing 
     the text and form in the target language that best expresses the *meaning* of the fragment from the original.
 
-[^intro-6]: Yanina Bellini Saibene and Natalia Soledad Morandeira.
-    Multilingual Data Science: Ten Tips to Translate Science and Tech Content.
-    Chapter at Our Environment. A collection of work by data designers, artists, and scientists.
-    ISBN:979-8-218-20191-3.
 
 The translation and review process is done on GitHub using *pull requests* (see [the Pull Request section](#pr-edition) for details).
 We chose this workflow as this is the infrastructure we use in our community.
@@ -106,7 +93,7 @@ but you can apply these recommendations to any translation.
 
 ### Citing a translation
 
-The general format is[^intro-7]:
+The general format is[^intro-apa]:
 
 > {Authors of original} ({Year of translation publication}).
 > {Translated title} \[{Original title}\]
@@ -124,7 +111,7 @@ Example of a citation using the Spanish translation of the rOpenSci Packages: De
 > https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
 
 
-[^intro-7]: Based on the APA article ["How to cite translated works"](https://apastyle.apa.org/blog/citing-translated-works).
+[^intro-apa]: Based on the APA article ["How to cite translated works"](https://apastyle.apa.org/blog/citing-translated-works).
     We also suggest including the original title in English, following this
     [example for Piaget (1950)](https://writeanswers.royalroads.ca/faq/199295).
 
