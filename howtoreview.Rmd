@@ -15,6 +15,9 @@ You can contact a project manager to express your interest through email, Slack,
 On the [list of active projects](https://github.com/ropensci-review-tools/translation_guide#active),
 you will find information on each project, including the manager.
 Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the [language-specific guidelines](specific_guidelines.html) in this guide and a glossary.
+If you join a translations project, we will make sure you get an invitation to the Slack channel.
+
+It's a good idea to ask how review tasks are being divided so that everyone knows what they are responsible for.
 
 Do not hesitate to ask any questions you may have, 
 such as general questions like "What is the expected time commitment?",
@@ -58,9 +61,11 @@ This *fork* will have the same *branches* as the main repository; this is key si
 This means that a review of the Portuguese translation would happen on the `pkg_ci.pt.Rmd-pt-auto` branch, 
 whereas the review of the Spanish translation would happen on the `pkg_ci.es.Rmd-es-auto` branch.
 
-You're all set to start a review, but where do you start?
-As in any collaborative project, it is important to agree among all the people to know what each one is going to do.
-Again, we suggest you chat in the Slack channel to ask how the revisions will be divided. You can also comment in the *pull request* to ask if you can take the review of that chapter.
+Once you've [contacted the project manager](#contributing) and you're ready to start contributing, 
+the first thing you should do is to clone the working repository.
+Once cloned, you can start working with the repository locally on your computer.
+If you haven't already had a discussion about what you will be reviewing, 
+you can ask in the Slack channel or comment on a *pull request* to ask if you can take the review of that chapter.
 
 ### Review 1
 
