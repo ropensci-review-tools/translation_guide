@@ -1,28 +1,39 @@
 # Translation and Review Guidelines 
 
-## How to contribute
+## Contributing
 
-### To translations in an active language
+### Contributing to an existing project
 
-You can check the [list of languages for which there are active translation projects and their statuses](https://github.com/ropensci-review-tools/translation_guide#active).
-There you will find the name of those who manage that language so you can get in touch, and links to the active projects in that language.
+If you're interested in contributing to an existing translation project, 
+you'll need to 
+
+1) get in touch with the people managing the project,
+2) familiarize yourself with the source material to be translated, and
+3) read this guide, paying close attention to the [language-specific guidelines](specific_guidelines.html)
+
+You can contact a project manager to express your interest through email, Slack, or GitHub.
+On the [list of active projects](https://github.com/ropensci-review-tools/translation_guide#active),
+you will find information on each project, including the manager.
 Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the [language-specific guidelines](specific_guidelines.html) in this guide and a glossary.
 
-Before you start, it is important that you familiarize yourself with the source material.
-In addition, we suggest that you read this guide (in particular the [guidelines applicable to your language](specific_guidelines.html)) and contact the people who are already working on it.
-Do not hesitate to ask any questions you may have, for example, how much time do you have to spend on it?
-or technical questions like what if I run into problems on GitHub?
+Do not hesitate to ask any questions you may have, 
+such as general questions like "What is the expected time commitment?",
+or technical questions like "What do I do if I run into problems on GitHub?"
 
-### To translations in a new language
+### Proposing a new translation project
 
-If your language is not among the languages with [active projects listed](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
+Starting a new translation project requires work and a commitment to the process, but can be a really rewarding experience!
+
+Because multiple reviewers are required for all translations and there must be at least one active project manager, 
+we recommend that those interested in starting a new translation project invite their local community to participate and form an initial team before starting the process.
+
+If the language you are interested in translating does not have an [active project](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
 You can send an email to [info@ropensci.org](mailto:info@ropensci.org) or [open an *issue* in this repository](https://github.com/ropensci-review-tools/translation_guide/issues).
 
-Please note that starting a new project requires a commitment to manage the repository where all the review will take place.
-We ask from those who manage translation projects the same commitment we ask from those who manage packages of our suite: 
-Do you expect to maintain your package for at least 2 years, or to be able to identify a new maintainer?
-
-Also, since each chapter or article must be reviewed by at least 2 people, we recommend you to invite your local community to participate before starting the process.
+Please note that starting a new project requires a commitment to manage the repository where all the reviews will take place.
+We ask that those proposing a new translation project commit to maintaining it for at least 2 years, 
+or to finding a new maintainer if they must give it up within 2 years. 
+This is the same [commitment we ask of our package maintainers](https://devguide.ropensci.org/softwarereview_author.html#planning-a-submission-or-a-pre-submission-enquiry).
 
 ## Technical aspects of the review {#tech}
 
