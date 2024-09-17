@@ -73,6 +73,22 @@ Now let's start a review!
 
 ### Review 1
 
+The purpose of this first review is to make a detailed reading of the machine translation in order to:
+
+- Ensure that the meaning of the sentence or paragraph is maintained.
+
+- Check that the glossary terms agreed upon by the community have been used according to the context.
+
+- Apply stylistic decisions whenever possible.
+    For example, in Spanish we decided to avoid gender marking of nouns and adjectives by paraphrasing sentences or using "las/los" if paraphrasing is not possible.
+
+- Check that code blocks or Markdown markup have not been affected.
+
+- Translate variable names and comments visible in the code blocks whenever appropriate.
+
+Often there will still some questions and it is possible that some things may be overlooked.
+Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the second reviewer.
+
 Working locally on your computer, here are the steps to follow when performing a first review of a file:
 
 1. **Check out the *branch* associated with the file you are going to review.**
@@ -99,24 +115,6 @@ Working locally on your computer, here are the steps to follow when performing a
 
 6.  **Notify the project manager or the second reviewer.**
     Once you have completed your review, notify the project coordinator or the person assigned to review 2, if there is one.
-
-#### Objectives
-
-The purpose of this first review is to make a detailed reading of the machine translation in order to:
-
-- Ensure that the meaning of the sentence or paragraph is maintained.
-
-- Check that the glossary terms agreed upon by the community have been used according to the context.
-
-- Apply stylistic decisions whenever possible.
-    For example, in Spanish we decided to avoid gender marking of nouns and adjectives by paraphrasing sentences or using "las/los" if paraphrasing is not possible.
-
-- Check that code blocks or Markdown markup have not been affected.
-
-- Translate variable names and comments visible in the code blocks whenever appropriate.
-
-Often there will still some questions and it is possible that some things may be overlooked.
-Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the second reviewer.
 
 ### Review 2
 
