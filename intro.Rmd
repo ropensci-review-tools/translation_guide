@@ -54,7 +54,7 @@ We developed our infrastructure for our localization effort using the tools that
 ## General aspects of the translation process
 
 The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
-This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [Language specific guidelines](specific_guidelines.html).
+This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [language-specific guidelines](specific_guidelines.html).
 
 To minimize errors and promote a broader perspective of the translation, at rOpenSci we ask that each chapter or section goes through at least two reviews in sequence (first a review of the automatic translation and second a review of the first review) followed by an overall review of the book or document as a whole.
 
