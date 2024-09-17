@@ -40,6 +40,8 @@ This is the same [commitment we ask of our package maintainers](https://devguide
 
 ## Technical aspects {#tech}
 
+### Organization
+
 In this section we will use the [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) guide as an example, but all technical aspects apply to all other rOpenSci translations.
 
 The source code that generates this material to be translated lives at [github.com/ropensci/dev_guide](https://github.com/ropensci/dev_guide), and is organized in .Rmd (R Markdown) files that contain text and sometimes also code.
@@ -67,52 +69,54 @@ Once cloned, you can start working with the repository locally on your computer.
 If you haven't already had a discussion about what you will be reviewing, 
 you can ask in the Slack channel or comment on a *pull request* to ask if you can take the review of that chapter.
 
+Now let's start a review!
+
 ### Review 1
 
-Let's say you had to do revision 1 of the chapter "Software Peer Review Policies" found in the `softwarereview_policies.en.Rmd` file.
-Here are the steps to follow.
+Working locally on your computer, here are the steps to follow when performing a first review of a file:
 
-In your local repository:
+1. **Check out the *branch* associated with the file you are going to review.**
+    For example, if you are reviewing `softwarereview_policies.en.Rmd`, the branch would be `softwarereview_policies.es.Rmd-en`.
 
-1. Activate the *branch* associated with the file you are going to review.
-    In our example it would be `softwarereview_policies.es.Rmd-en`.
-
-2.  Open the `softwarereview_policies.es.Rmd` file.
+2.  **Open the file.**
+    For example, `softwarereview_policies.es.Rmd`. 
     You may see things to improve immediately, as the automatic translation does a good but imperfect job.
 
-3.  Start reviewing the text.
-    For this we suggest you have the English version next to you, you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly.
-    For this you can use the web version of the material you are translating or the *"Files changed "* tab of the PR in the main repository.
+3.  **Start reviewing the text.**
+    For this we suggest you have the English version next to you as you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly.
+    You can use the web version of the material you are translating or the *"Files changed"* tab of the PR in the main repository.
 
     ![](images/es/files_changed.png){alt="Screenshot of the GitHub interface showing the details of a pull request and the 'Files Changed' tab, which shows the original English text on the left and the translated text on the right."}
 
-4.  Periodically, or when you complete the revision, you will have to make a *commit* with the changes you generated.
+4.  ***Commit* your changes.**
     Many times the content of the files will be extensive and you will need a lot of time to complete the revision.
-    In these cases we suggest you make *commits* at least after each work session indicating in the message up to which line of the file you have reached.
+    In these cases we suggest you make periodic *commits* at least after each work session indicating in the commit message which line of the file you have reached.
     This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.
 
-5.  So far the revision only lives in your local repository, the next step is to do a *push* to the working repository.
-    It is very important that the *push* is to the *branch* associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.
+5.  ***Push* to the working repository.**
+    So far the review only lives in your local repository, pushing it moves it online. 
+    It is very important that you *push* to the *branch* associated to the file you are working on, otherwise we will not be able to connect your review with the original translation.
 
-6.  Once you have completed your revision, it is important that you notify the project coordinator or the person assigned to revision 2, if there is one.
+6.  **Notify the project manager or the second reviewer.**
+    Once you have completed your review, notify the project coordinator or the person assigned to review 2, if there is one.
 
-#### Objectives of revision 1
+#### Objectives
 
-The purpose of this first revision is to make a detailed reading of the machine translation in order to :
+The purpose of this first review is to make a detailed reading of the machine translation in order to:
 
 - Ensure that the meaning of the sentence or paragraph is maintained.
 
 - Check that the glossary terms agreed upon by the community have been used according to the context.
 
 - Apply stylistic decisions whenever possible.
-    For example, in Spanish we decide to avoid gender marking of nouns and adjectives by paraphrasing sentences or using "las/los" if the former is not possible.
+    For example, in Spanish we decided to avoid gender marking of nouns and adjectives by paraphrasing sentences or using "las/los" if paraphrasing is not possible.
 
 - Check that code blocks or Markdown markup have not been affected.
 
 - Translate variable names and comments visible in the code blocks whenever appropriate.
 
-Surely there are still some doubts and it is possible that some things may be overlooked.
-Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the reviewer 2.
+Often there will still some questions and it is possible that some things may be overlooked.
+Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the second reviewer.
 
 ### Review 2
 
