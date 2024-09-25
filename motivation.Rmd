@@ -22,7 +22,7 @@ It is also the predominant language of open source in code, content, and communi
     Opportunities to Create Equity and Agency Across Open Source
     Ecosystems", foreword by Jim Zemlin, The Linux Foundation, December,
     2021,
-    https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source
+    <https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source>
 
 The UNESCO's recommendation on open science highlights the need to overcome language barriers in order to achieve the open science core values and guiding principles of Equity and fairness, Diversity and inclusiveness, Equality of opportunities, and Collaboration, participation and inclusion[^motivation-2].
 
@@ -35,7 +35,7 @@ The authors found that non-native English researchers need:
 [^motivation-3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V,
     Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold
     costs of being a non-native English speaker in science. PLoS Biol
-    21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184
+    21(7): e3002184. <https://doi.org/10.1371/journal.pbio.3002184>
 
 -   Up to **91% more time to read** English papers.
 
@@ -59,7 +59,7 @@ The community organizes and agrees on different aspects of localization projects
     Multilingual Data Science: Ten Tips to Translate Science and Tech
     Content. Chapter at Our Environment. A collection of work by data
     designers, artists, and scientists. ISBN:979-8-218-20191-3.
-    http://datasciencebydesign.org/blog/multilingual-data-science
+    <http://datasciencebydesign.org/blog/multilingual-data-science>
 
 The Spanish-speaking R community has been very active and growing in recent years and has undertaken various translation activities for technical materials such as books, cheat sheets, guides, and datasets.
 
@@ -77,7 +77,7 @@ Spanish is the second most-spoken native language in the world and is one of the
 
 [^motivation-5]: List of languages by number of native speakers.
     Accessed on December 1, 2022.
-    https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers
+    <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
 
 ## Building community
 

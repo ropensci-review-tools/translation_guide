@@ -108,7 +108,7 @@ Example of a citation using the Spanish translation of the rOpenSci Packages: De
 > rOpenSci, Anderson, B., Chamberlain, S., DeCicco, L., Gustavsen, J., Krystalli, A., Lepore, M., Mullen, L., Ram, K., Ross, N., Salmon, M., Vidoni, M., Riederer, E., Sparks, A., & Hollister, J.
 > (2021).
 > Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares \[rOpenSci Packages: Development, Maintenance, and Peer Review\] (Traducción al español: {Authors of translation}).
-> https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)
+> <https://doi.org/10.5281/zenodo.6619350> (Trabajo original publicado en 2021)
 
 
 [^intro-apa]: Based on the APA article ["How to cite translated works"](https://apastyle.apa.org/blog/citing-translated-works).
