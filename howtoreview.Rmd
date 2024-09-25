@@ -130,12 +130,12 @@ In order to achieve this, the following must be taken into account:
 
 - Use the format defined by the community, for example, use *italicized* format for words that remain in English.
 
-- Apply style decisions missed by R1.
+- Apply style decisions missed by the first reviewer.
     For example, in Spanish try to replace any "las/los" with a phrase without gender marking.
 
 - Check that sentences are generally understandable and sound good while avoiding literal translations.
 
-In the process of performing the second review you may need to consult with R1 about the decisions they made or with the rest of the community if there is a phrase or term that raises doubts.
+In the process of performing the second review you may need to consult with the first reviewer about the decisions they made or with the rest of the community if there is a phrase or term that raises doubts.
 You may then suggest adding new terms to the glossary or updating this translation guide.
 
 Working locally on your computer, here are the steps to follow when performing a second review of a file:
@@ -145,10 +145,10 @@ Working locally on your computer, here are the steps to follow when performing a
     you would look for the `softwarereview_policies.es.Rmd-en` branch.
 
 2.  **Pull the changes.** 
-    Do a *pull* to download all the changes R1 made to update your local copy.**
+    Do a *pull* to download all the changes the first reviewer made to update your local copy.**
 
 3.  **Start reviewing the text.**
-    To do this, we suggest you open the file history to view the changes R1 made.
+    To do this, we suggest you open the file history to view the changes the first reviewer made.
     This will allow you to know if a phrase or word comes from the machine translation or from another human being.
 
     <div>
