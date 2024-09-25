@@ -16,7 +16,7 @@ This book is a guide for people who would like to _localize rOpenSci materials_ 
 Ana
 :  
   is a Colombian student doing her Ph.D. at an university in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of [The Carpentries](https://carpentries.org/) workshops for scientists and used some of the rOpenSci suite packages for handling and accessing geospatial data for her thesis.
-  Language was one of the barriers she faced when learning to code. Ana wants to contribute by translating material into her native language so others can access this knowledge with less effort. This book will show her how to do a new translation and how to review an existing one.
+  Language was one of the barriers she faced when learning to code. Ana wants to contribute by translating rOpenSci material into her native language so others can access this knowledge with less effort. This book will show her how to do a new translation and how to review an existing one.
  
 Francesco
 :  
