@@ -208,12 +208,13 @@ This person must review the *pull* *request* and make queries to first and secon
 
 ## General review
 
-The revision process is a collaborative process in which, we hope, many people will participate.
-This has the great advantage of incorporating different views on the use of language and generating a translation that represents the greatest number of people.
-However, with all this diversity of views and despite the specific guidance of each language, it is possible that the revisions are heterogeneous, that sometimes different criteria are used or that there are simply typing errors.
+The review process is a collaborative process in which, we hope, many people will participate.
+This has the great advantage of incorporating different perspectives on the use of language and generating a translation that represents the greatest number of people.
+However, with many contributors, and despite the specific guidance of each language, it is possible that sometimes different criteria may be used or that there are simply typing errors.
 
-For all these reasons, it is important that the translation project is completed with a global revision of all the material.
-We strongly suggest that this overall review be carried out by one person in order to maintain a single criterion throughout the text.
+For all these reasons, it is important that the translation project is completed with an overall review of the material.
+We strongly suggest that this be carried out by one person in order to maintain consistency throughout the text.
+
 
 Now **the translation is ready**.
 Thank you and congratulations!
