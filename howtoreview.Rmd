@@ -118,19 +118,21 @@ Working locally on your computer, here are the steps to follow when performing a
 
 ### Review 2
 
-You got revision 2, great.
-Again we will use as an example the chapter "Software Peer Review Policies" found in the `softwarereview_policies.en.Rmd` file.
-Whoever did review 1, whom we will call **R1** of this chapter most likely generated one or more *commits* with changes over the original translation.
-This means that your work does not start from scratch, here are the steps.
+You're going to do the second review, great!
+
+Whoever did the first review, whom we will call **R1** for now. most likely generated one or more *commits* with changes over the original translation.
+This means that your work does not start from scratch, here are the steps:
 
 In your local repository:
 
-1. Activate the *branch* associated to the file you are going to check.
-    In our example it would be `softwarereview_policies.es.Rmd-en`.
+1. **Checkout the *branch*** associated to the file you are going to check.**
+    For example, if you're helping to translate `softwarereview_policies.en.Rmd`, 
+    you would look for the `softwarereview_policies.es.Rmd-en` branch.
 
-2.  Do a *pull* to download all the changes R1 made and have the file updated.
+2.  **Pull the changes.** 
+    Do a *pull* to download all the changes R1 made to update your local copy.**
 
-3.  Start reviewing the text.
+3.  **Start reviewing the text.**
     To do this, we suggest you open the file history to view the changes R1 made.
     This will allow you to know if a phrase or word comes from the machine translation or from another human being.
 
@@ -140,15 +142,17 @@ In your local repository:
 
     </div>
 
-4.  Periodically, or when you complete the revision, you will have to make a *commit* with the changes you generated.
+4. ***Commit* your changes.**
     Many times the content of the files will be extensive and you will need a lot of time to complete the revision.
-    In these cases we suggest you make *commits* at least after each work session indicating in the message up to which line of the file you went.
-    This way, if you need to delegate the review to someone else, they can review the file history and pick up where you left off.
+    In these cases we suggest you make periodic *commits* at least after each work session indicating in the commit message which line of the file you have reached.
+    This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.
+    
+5.  ***Push* to the working repository.**
+    So far the review only lives in your local repository, pushing it moves it online. 
+    It is very important that you *push* to the *branch* associated to the file you are working on, otherwise we will not be able to connect your review with the original translation.
 
-5.  So far the revision only lives in your local repository, the next step is to do a *push* to the working repository.
-    It is very important that the *push* is to the *branch* associated to the file you are working on, otherwise we will not be able to connect your revision with the original translation.
-
-6.  Once you have completed your revision, the chapter is ready!
+6.  **Open a *pull request***
+    Once you have completed your revision, the chapter is ready!
     However, this new version only lives in the working repository.
     You will have to open a *pull request* in the main repository to have it reviewed and approved by someone in an editor role.
     In the next section we will see how to open the *pull request*.
