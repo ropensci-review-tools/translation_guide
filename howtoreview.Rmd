@@ -7,13 +7,13 @@
 If you're interested in contributing to an existing translation project, 
 you'll need to 
 
-1) get in touch with the people managing the project,
+1) get in touch with the people maintaining the project,
 2) familiarize yourself with the source material to be translated, and
 3) read this guide, paying close attention to the [language-specific guidelines](specific_guidelines.html)
 
-You can contact a project manager to express your interest through email, Slack, or GitHub.
+You can contact a project maintainer to express your interest through email, Slack, or GitHub.
 On the [list of active projects](https://github.com/ropensci-review-tools/translation_guide#active),
-you will find information on each project, including the manager.
+you will find information on each project, including the maintainer.
 Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the [language-specific guidelines](specific_guidelines.html) in this guide and a glossary.
 If you join a translations project, we will make sure you get an invitation to the Slack channel.
 
@@ -27,7 +27,7 @@ or technical questions like "What do I do if I run into problems on GitHub?"
 
 Starting a new translation project requires work and a commitment to the process, but can be a really rewarding experience!
 
-Because multiple reviewers are required for all translations and there must be at least one active project manager, 
+Because multiple reviewers are required for all translations and there must be at least one active project maintainer, 
 we recommend that those interested in starting a new translation project invite their local community to participate and form an initial team before starting the process.
 
 If the language you are interested in translating does not have an [active project](https://github.com/ropensci-review-tools/translation_guide#active), please contact the rOpenSci team to propose it.
@@ -58,12 +58,12 @@ In fact, if there are several translation projects going on at the same, you may
 We recommend that you filter the *pull requests* using the tag for your language, for example the tag for Spanish translation is "traducción 🧉". You can also check the status of each *pull request* on the [GitHub project board](https://github.com/ropensci/dev_guide/projects) of each active language.
 
 For security and organization, reviewers do not have write permission in the main repository.
-The project manager will make a *fork* (we call this the **working repository**) and will give write permission to this fork to all the project contributors.
+The project maintainer will make a *fork* (we call this the **working repository**) and will give write permission to this fork to all the project contributors.
 This *fork* will have the same *branches* as the main repository; this is key since the **review of each file will be done on the *branch* associated to its translation.** 
 This means that a review of the Portuguese translation would happen on the `pkg_ci.pt.Rmd-pt-auto` branch, 
 whereas the review of the Spanish translation would happen on the `pkg_ci.es.Rmd-es-auto` branch.
 
-Once you've [contacted the project manager](#contributing) and you're ready to start contributing, 
+Once you've [contacted the project maintainer](#contributing) and you're ready to start contributing, 
 the first thing you should do is to clone the working repository.
 Once cloned, you can start working with the repository locally on your computer.
 If you haven't already had a discussion about what you will be reviewing, 
@@ -113,7 +113,7 @@ Working locally on your computer, here are the steps to follow when performing a
     So far the review only lives in your local repository, pushing it moves it online. 
     It is very important that you *push* to the *branch* associated to the file you are working on, otherwise we will not be able to connect your review with the original translation.
 
-6.  **Notify the project manager or the second reviewer.**
+6.  **Notify the project maintainer or the second reviewer.**
     Once you have completed your review, notify the project coordinator or the person assigned to review 2, if there is one.
 
 ### Review 2
