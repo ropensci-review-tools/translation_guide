@@ -172,33 +172,38 @@ Working locally on your computer, here are the steps to follow when performing a
     You will have to open a *pull request* in the main repository to have it reviewed and approved by someone in an editor role.
     In the next section we will see how to open the *pull request*.
 
-### Pull Request and editing of a chapter {#pr-edition}
+### Pull Request and final edits {#pr-edition}
 
-Once the process of revising a chapter is complete, it is time to transfer that new version from the working repository to the main rOpenSci repository.
-For this **R2** will have to open a *pull request* that compares the revised version with the machine translation only version.
+Once the review process is complete, it is time to transfer the revised translation from the working repository to the main rOpenSci repository.
+For this, the second reviewer will have to open a *pull request* that compares the revised version with the original machine translation version.
 
-1. Make sure that all changes are in the working repository and that you are working on the *branch* associated to the file under review, in our example it will be `softwarereview_policies.es.Rmd-en`.
+1. **Check your repository and branch**. 
+  Make sure that all changes are in the working repository and that you are working on the *branch* associated to the file under review, for example `softwarereview_policies.es.Rmd-en`.
 
 If you are on the correct *branch*, in the GitHub web interface you will see the following:
 
 ![](images/es/pr1.png)
 
-GitHub identified that there are new changes (*pushes*) in the *branch* and suggests comparing them and making a *pull request* to the main repository.
+GitHub will detect new changes (*pushes*) in the *branch* and will suggest comparing them and making a *pull request* to the main repository.
 
-3.  Click on the "*Compare & pull request" button.
-4.  You will then have the option to modify the title of the *pull request* and leave a message. We suggest 2 things:
+3.  **Click on the "*Compare & pull request*" button.**
+4.  **Edit the *pull request*.**
+  You will then have the option to modify the title of the *pull request* and leave a message. We suggest 2 things:
     1. Change the title to identify that it is a "Review".
-        It is important to separate it from the *pull request* of the automatic translation.
+        It is important to differentiate it from the *pull request* of the automatic translation.
 
-    2.  In the body of the message, mention who is maintaining the translation project so that they are aware of the progress and can then continue with the process.
+    2.  In the body of the message, tag (use `@github-name`) the maintainer of the translation project so that they are aware of the progress and can then continue with the process.
     
 ![](images/es/pr2.png)
 
-5.  Before creating the *pull request* it is **very important** that you check that it is done from the correct *branch*. This is the only way to connect the review work with the automatic translation and to be able to unify the versions correctly.
-6.  And that's it! Click on "*Create pull request".
+5.  **Double check the *branch*.**
+  Before creating the *pull request* it is **very important** that you check that it is done from the correct *branch*. This is the only way to connect the review work with the automatic translation and to be able to unify the versions correctly.
+
+6.  **Create the pull request.**
+  And that's it! Click on "*Create pull request*".
 
 From this point on, the review is in the hands of the **maintainer** of the translation project.
-This person must review the *pull* *request* and make queries to **R1** and **R2** before *merging* the *pull requests.
+This person must review the *pull* *request* and make queries to first and second reviewers before *merging* the *pull requests.
 
 
 ## General review
