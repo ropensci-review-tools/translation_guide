@@ -81,7 +81,7 @@ Spanish is the second most-spoken native language in the world and is one of the
 
 ## Building community
 
-At rOpenSci, we understand review as a way of building community and hope our review process in Spanish will allow us to continue building the community in Spanish-speaking regions, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
+At rOpenSci, we understand review as a way of building community and hope our review process in Spanish and Portuguese, will allow us to continue building the community in regions that speak these languages, to increase the number of contributors, and to get feedback on how our tools and processes can be improved to better serve these community members.
 
 In addition to using our material to learn how to contribute to open source as a developer, maintainer, reviewer, or editor, people can also contribute through translation. 
 This type of contribution is a good way to engage in open source and is recognized as valuable by the community.
