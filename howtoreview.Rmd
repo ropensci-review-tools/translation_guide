@@ -68,6 +68,7 @@ the first thing you should do is to clone the working repository.
 Once cloned, you can start working with the repository locally on your computer.
 If you haven't already had a discussion about what you will be reviewing, 
 you can ask in the Slack channel or comment on a *pull request* to ask if you can take the review of that chapter.
+We strongly suggest that you ask **before** starting work on your review. 
 
 Now let's start a review!
 
