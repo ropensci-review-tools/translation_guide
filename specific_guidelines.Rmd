@@ -1,33 +1,27 @@
-# Specific Guidelines
+# Language-Specific Guidelines
 
 ::: callout-note
-This chapter is different for each language. It contains the specific guidelines for translating the content under the agreements of the community.
+This chapter is different for each language. It contains the specific guidelines for translating the content according to consensus in each language community.
 
-To read the guidelines for a specific language, please change the version of the Translation Guide to that language using the language list on the left.
+To read the guidelines for a specific language, please change the version of the Translation Guide to that language using the language list on the left (under the 🌐 symbol).
 :::
 
-This guidelines apply when translating content to English.
+These guidelines apply when translating content to **English**.
 
-## Organization of the work
+## Dialect
 
-After the translation of the content and all related materials, two reviews of each chapter and a final edition of all the material as a whole will be carried out.
+We will use the American English dialect in the translation.
 
-## Aspects to take into account in the translation of the text
 
-__1. Use a conversational voice instead of a formal or academic voice.__
-
-__2. When translating, we seek to generate a clear version in English of what is written in the original language in the chapter.__ 
-
-__3. The dialectic variety of English that we will use in the translation is American English.__
-
-__4. Idiomatic expressions are not translatable in a literal way.__
+[[STEFFI SUGGESTS MOVING THE FOLLOWING POINT TO CHP 3]]
 
 __5. Take breaks when reviewing.__ When we work for a long time on a text, it is difficult to identify typing errors. As a suggestion, once you finish the revision of the chapter or section, let some time pass (a few hours or a day) before doing the final reading and sending it for the next review. This makes it easier for this type of detail to jump out and allows those who do the review to focus on the quality of the translation rather than on orthotypographic corrections. It is also useful to review the text in a formatted version (compiled as pdf or html), since surely some errors will be more visible than in the raw version. If you have the possibility, a printout on paper, both of the raw version and the compiled version, also helps to see the errors more clearly.
+
 
 ## Technical terms and citations
 
 1.  Maintain a list of terms that are translated and another list of terms that are not.
-    We propose a initial list and we consult our community (Slack first, social networks when there is not agreement).
+    We propose a initial list and we consult our community (Slack first, and then social networks if there is no consensus).
 
 2.  For bibliographic references,
     the original title/name is left in the original language, with the words in italics;
@@ -38,7 +32,7 @@ __5. Take breaks when reviewing.__ When we work for a long time on a text, it is
     
 ## Code
 
-Translate:
+Do not translate function or argument names from packages, but do translate:
 
 1. variables names;
 
@@ -48,9 +42,9 @@ Translate:
 
 4. user function names and parameters names: if a code snippet creates a function as example, we can name the function and its parameters in English. 
 
-> example:
+**For example:**
     
-    Original code:
+    # Original code:
     
     adentro <- function(punto, mas_bajo, mas_alto) {
             if (punto <= mas_bajo) {
@@ -62,7 +56,7 @@ Translate:
             }
        }  
         
-    Translation to English:
+    # Translation to English:
     
      inside <- function(point, lower, higher) {
             if (point <= lower) {
@@ -78,19 +72,23 @@ Translate:
    
 ## Diagrams
 
-1. Figure and diagrams are translated.
-2. Screenshots are translated only if the IDE or UI exists in English.
+1. Text in figures and diagrams should be translated.
+2. Screenshots should be translated only if the IDE or UI has an English localization.
 
 ## Data
 
-If there is a translated version of the data, for example with the variable names in English, that data is used. 
+If there is a translated version of the data, for example with the variable names in English, use that data. 
 
-If there is not, the original data is used, mentioning what the variable names mean.
+If there is not, use the original data, mentioning what the variable names mean.
 
-Finally, a project can be initiated to translate the data or to select data in English meaningful to the target audience that can replace the original data ([see project dados for an example of translation of data from English to Portuguese](https://cienciadedatos.github.io/dados/)).
+Finally, a project can be initiated to translate the data, or new English data, meaningful to the target audience, can be used to replace the original data ([see project dados for an example of translation of data from English to Portuguese](https://cienciadedatos.github.io/dados/)).
 
 # Glossary {#glosario-en}
 
-This glossary is developed as part of the translations of the rOpenSci material. It supports the task of determining which technical terms are translated and which are not.  It is also the source that determines which words we prefer to use before the possibility of having more than one option.
+This glossary is being developed as part of the translations of rOpenSci material. It supports the task of determining which technical terms are translated and which are not. It is also outlines which words we prefer to use where there are more than one option.
 
-As reference sources to generate our glossary and keep it up to date, the following can be used [Wikipedia](https://es.wikipedia.org/), [Glosario](https://glosario.carpentries.org/) and the bilingual dictionary of [Teaching Tech Together](https://yabellini.shinyapps.io/T3Glossary/)
+We use the following reference sources to generate our glossary and keep it up to date:
+
+- [Wikipedia](https://en.wikipedia.org/)
+- [Glosario](https://glosario.carpentries.org/)
+- the bilingual dictionary of [Teaching Tech Together](https://yabellini.shinyapps.io/T3Glossary/)
