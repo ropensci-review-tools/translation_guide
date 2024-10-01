@@ -24,7 +24,7 @@ Francesco
 
 Bauti
 :  
-  is the co-founder of a user group in his city in Brazil.  With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages.  He uses rOpenSci Spanish material during his workshops and would like to have the material from other programming languages in Spanish. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.   
+  is the co-founder of a user group in his city in Brazil.  With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages.  He uses rOpenSci Portugese material during his workshops and would like to have the material from other programming languages in Portuguese. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.   
 
 ## What You Will Learn
 
@@ -51,7 +51,7 @@ You can cite this book:
 
 rOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campitelli, Maëlle Salmon (November, 2023)
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License.
+You can re use this this work under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License.  If you do, we would love to hear about it! [Please let us know by adding a use case in our public forum](https://discuss.ropensci.org/c/usecases/10).
 
 Thanks!
 
