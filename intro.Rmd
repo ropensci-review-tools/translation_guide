@@ -80,6 +80,8 @@ The process is similar to the stage 1 translation process, but with some differe
 
 4. The maintainer updates the language specific translation guidelines and the glossary if necessary.
 
+Maëlle Salmon's blog post [How to Update a Translation with Babeldown](https://ropensci.org/blog/2024/01/16/deepl-update-babeldown/) explain this process in more detail.
+
 ![rOpenSci Update Localization Process](images/localization_update_concept_map.png){fig-alt="Localization update process cycle: when a change on the content happend we create a Pull Request with the first automatic translation, that translation gets the maintainer reviews and merges the changes.  The maintainer update translation guidelines that define the glossary and specific language guidelines if necessary"}
 
 ## Referencing localizations materials
