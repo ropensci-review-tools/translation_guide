@@ -40,6 +40,28 @@ This is the same [commitment we ask of our package maintainers](https://devguide
 
 ## Technical aspects {#tech}
 
+### General Guidelines
+
+In each step of this process, we use the following guidelines:
+
+1.  Use a conversational voice rather than a formal or academic voice.
+
+2.  If appropriate, specify the dialect or regional language variation used.
+    For example, the Spanish translation uses Latin American conventions.
+
+3.  Try to be gender-neutral.
+    If the language you are working on has a strong grammatical gender, the translation adjusts wording to avoid assigning a gender.
+    Where a gender mark cannot be avoided, follow the specific language agreement in the use of inclusive language or non-sexist language. 
+
+4.  Try to be idiomatic.
+    Don't worry about literal translations. Bring the message closer to your audience[^intro-yani] by choosing 
+    the text and form in the target language that best expresses the *meaning* of the fragment from the original.
+    
+5. Take breaks when reviewing. When we work for a long time on a text, it is difficult to identify typing errors. 
+As a suggestion, once you finish the revision of the chapter or section, let some time pass (a few hours or a day) before doing the final reading and sending it for the next review. 
+This makes it easier for this type of detail to jump out and allows those who do the review to focus on the quality of the translation rather than on orthotypographic corrections. 
+It is also useful to review the text in a formatted version (compiled as pdf or html), since some errors will be more visible than in the raw version. If you have the possibility, a printout on paper, both of the raw version and the compiled version, also helps to see the errors more clearly.    
+
 ### Organization
 
 In this section we will use the [rOpenSci Packages: Development, Maintenance, and Peer Review](https://devguide.ropensci.org/) guide as an example, but all technical aspects apply to all other rOpenSci translations.
