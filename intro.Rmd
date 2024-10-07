@@ -51,7 +51,16 @@ We developed our infrastructure for our localization effort using the tools that
 
 * We also created (and documented in these guidelines) a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
 
-## General aspects of the strage 1 translation process
+### How to get started with git and GitHub
+
+If you are new to git and GitHub, we recommend starting with the following resources:
+
+- [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/) by Paola Corrales, Elio Campitelli and Yanina Bellini Saibene. This workshop was developed and taught for the rOpenSci Champions Program.
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/). This book is a great resource for learning how to use git and GitHub with R.
+
+In the [Translation and Review Guidelines](#tech) we explain in detail the rOpenSci workflow using git and GitHub concepts and tools.  
+
+## General aspects of the translation process
 
 The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
 This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [language-specific guidelines](specific_guidelines.html).
@@ -83,6 +92,7 @@ The process is similar to the stage 1 translation process, but with some differe
 Maëlle Salmon's blog post [How to Update a Translation with Babeldown](https://ropensci.org/blog/2024/01/16/deepl-update-babeldown/) explain this process in more detail.
 
 ![rOpenSci Update Localization Process](images/localization_update_concept_map.png){fig-alt="Localization update process cycle: when a change on the content happend we create a Pull Request with the first automatic translation, that translation gets the maintainer reviews and merges the changes.  The maintainer update translation guidelines that define the glossary and specific language guidelines if necessary"}
+
 
 ## Referencing localizations materials
 
