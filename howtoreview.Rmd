@@ -63,6 +63,8 @@ This *fork* will have the same *branches* as the main repository; this is key si
 This means that a review of the Portuguese translation would happen on the `pkg_ci.pt.Rmd-pt-auto` branch, 
 whereas the review of the Spanish translation would happen on the `pkg_ci.es.Rmd-es-auto` branch.
 
+![](images/fork-branches-pr.png){alt="Diagrams showing how to fork the translation project from rOpenSci GitHub to the reviewer GitHub and then how to clone to the local git repository.  The diagram show that pull and push task are done from the local to the remote repository and a pull request is made from the reviewer's remote repository to the rOpenSci translation project repository."}
+
 Once you've [contacted the project maintainer](#contributing) and you're ready to start contributing, 
 the first thing you should do is to clone the working repository.
 Once cloned, you can start working with the repository locally on your computer.
@@ -93,7 +95,7 @@ Style decisions are often the most difficult to implement and sometimes it is ne
 Working locally on your computer, here are the steps to follow when performing a first review of a file:
 
 1. **Check out the *branch* associated with the file you are going to review.**
-    For example, if you are reviewing `softwarereview_policies.en.Rmd`, the branch would be `softwarereview_policies.es.Rmd-en`.
+    For example, if you are reviewing `softwarereview_policies.en.Rmd`, the branch would be `softwarereview_policies.es.Rmd-es`.
 
 2.  **Open the file.**
     For example, `softwarereview_policies.es.Rmd`. 
@@ -143,7 +145,7 @@ Working locally on your computer, here are the steps to follow when performing a
 
 1. **Checkout the *branch*** associated to the file you are going to check.**
     For example, if you're helping to translate `softwarereview_policies.en.Rmd`, 
-    you would look for the `softwarereview_policies.es.Rmd-en` branch.
+    you would look for the `softwarereview_policies.es.Rmd-es` branch.
 
 2.  **Pull the changes.** 
     Do a *pull* to download all the changes the first reviewer made to update your local copy.**
@@ -179,7 +181,7 @@ Once the review process is complete, it is time to transfer the revised translat
 For this, the second reviewer will have to open a *pull request* that compares the revised version with the original machine translation version.
 
 1. **Check your repository and branch**. 
-  Make sure that all changes are in the working repository and that you are working on the *branch* associated to the file under review, for example `softwarereview_policies.es.Rmd-en`.
+  Make sure that all changes are in the working repository and that you are working on the *branch* associated to the file under review, for example `softwarereview_policies.es.Rmd-es`.
 
 If you are on the correct *branch*, in the GitHub web interface you will see the following:
 
@@ -217,5 +219,6 @@ For all these reasons, it is important that the translation project is completed
 We strongly suggest that this be carried out by one person in order to maintain consistency throughout the text.
 
 
-Now **the translation is ready**.
+Now **the translation is ready** and rOpenSci staff will take it from here to ensure it is included along side the original material.
+
 Thank you and congratulations!
