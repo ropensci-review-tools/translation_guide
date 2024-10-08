@@ -1,6 +1,6 @@
 # Directrices generales
 
-> "Encuentra a las personas de tu comunidad donde están".
+> "Encuentrate con las personas de tu comunidad donde están".
 
 ## Introducción
 
@@ -8,38 +8,31 @@ rOpenSci proporciona apoyo comunitario, normas e infraestructura para que las pe
 Además, [desarrollamos y mantenemos documentación de alta calidad y recursos](https://ropensci.org/resources/) para apoyar estas actividades.
 Muchos de nuestros materiales se definen como *documentos vivos* lo que significa que se mejoran y actualizan constantemente.
 
-La publicación multilingüe de documentación y recursos implica dos aspectos:
+La publicación multilingüe de documentación y recursos implica dos aspectos, internacionalización y localización[^intro-wiki]: 
 
-- La *internacionalización*, que se refiere a la solución tecnológica que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
-  Es lo que nos permite localizar nuestros contenidos[^intro-1].
+- La *internacionalización* se refiere a las soluciones tecnológicas que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente.
+  Es lo que nos *permite* localizar nuestros contenidos.
 
-- La *localización*, que es el proceso de tomar un contenido en su forma original y convertirlo en algo accesible y adecuado para otra región, país o público[^intro-2].
+- La *localización* es el proceso de tomar un contenido en su forma original y convertirlo en algo accesible y adecuado para otra región, país o público.
   Esto incluye el idioma, los formatos de fecha, la moneda, las unidades de medida y la compatibilidad con distintos juegos de caracteres.
 
-[^intro-1]: Internacionalización y localización.
-Acceso el 1 de noviembre de 2022.
+[^intro-wiki]: Internacionalización y localización.
+Accedido el 1 de noviembre de 2022.
 [https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
-[^intro-2]: Internacionalización y localización.
-Acceso el 1 de noviembre de 2022.
-[https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
 Además, la localización de documentos vivos tiene dos etapas bien definidas en las que intervienen distintos recursos:
 
 1. la consecución de una primera versión del material traducido y
 
-2. mantener el material actualizado y sincronizado entre los diferentes idiomas[^intro-3].
+2. mantener el material actualizado y sincronizado entre los diferentes idiomas[^intro-yani].
 
-[^intro-3]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
+[^intro-yani]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
     Chapter at Our Environment.A collection of work by data designers, artists, and scientists.
 ISBN:979-8-218-20191-3.
 
-La *traducción* suele ser el componente que más tiempo consume en estos esfuerzos[^intro-4].
-
-[^intro-4]: Internacionalización y localización.
-Acceso el 1 de noviembre de 2022.
-[https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
+La *traducción* suele ser el componente que más tiempo consume en estos esfuerzos[^intro-wiki].
 
 ## Infraestructura técnica y organización del trabajo
 
