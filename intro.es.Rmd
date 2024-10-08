@@ -39,22 +39,17 @@ La *traducción* suele ser el componente que más tiempo consume en estos esfuer
 Existen muchas soluciones y herramientas para internacionalizar y localizar contenidos y software.
 Por ejemplo, sistemas de gestión de traducción (Crowdin, Transifex, Weblate), traductores automáticos (Google Translate, DeepL), sistemas de control de versiones (GitHub, GitLab), lenguajes de marcado (LaTeX, Markdown) y herramientas para escribir estos lenguajes (Overleaf, Quarto).
 
-Estas soluciones tecnológicas están en continua evolución. La elección de la tecnología influye en las rutas de acceso que creamos para las contribuciones, por lo que no debe ser una barrera[^intro-5].
+Estas soluciones tecnológicas están en continua evolución. La elección de la tecnología influye en las posibilidades que creamos para las contribuciones, por lo que hay que procurar elegir una tecnología que reduzca al máximo las barreras a la participación.[^intro-yani].
 
-[^intro-5]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
-Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
-    Chapter at Our Environment.A collection of work by data designers, artists, and scientists
-ISBN:979-8-218-20191-3.
+Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, por lo tanto, a nuestra comunidad.
 
-Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, en resumen, a nuestra comunidad.
+* Creamos [el paquete babeldown](https://docs.ropensci.org/babeldown/) para realizar una primera traducción automática de los documentos, incluyendo un proceso para actualizar traducciones existentes.
 
-* [El paquete babeldown](https://docs.ropensci.org/babeldown/)permite realizar una primera traducción automática de los documentos.
-
-* [El paquete babelquarto](https://docs.ropensci.org/babelquarto/) permite configurar y generar un libro o una web de Quarto multilingue.
+* Creamos [el paquete babelquarto](https://docs.ropensci.org/babelquarto/) para configurar y generar libros o sitios web multilingues con Quarto .
 
 * Utilizamos [proyectos de GitHub](https://github.com/orgs/ropensci/projects/7/views/1) para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como *revisores*, *editoras,* y personas encargadas del *mantenimiento*.
 
-* También desarrollamos -y documentamos en estas directrices- un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
+* También desarrollamos, y documentamos en estas directrices, un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
 
 ## Aspectos generales del proceso de traducción
 
