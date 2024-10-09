@@ -81,7 +81,7 @@ Además, esto permite que el proceso sea abierto para que otras personas puedan 
 
 Por supuesto, como en todas las áreas de rOpenSci, este proceso está sujeto a nuestro [código de conducta](https://ropensci.org/code-of-conduct/) para crear un entorno amigable y seguro.
 
-![Proceso de localización de rOpenSci](images/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y hace un merge de los cambios. Estas personas actualizan las pautas de traducción que definen el glosario y los acuerdos especificos del idioma."}
+![Proceso de localización de rOpenSci](images/es/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y hace un merge de los cambios. Estas personas actualizan las pautas de traducción que definen el glosario y los acuerdos especificos del idioma."}
 
 ## Referenciar y utilizar los materiales de localización
 
