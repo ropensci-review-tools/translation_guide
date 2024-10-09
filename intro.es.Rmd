@@ -99,7 +99,7 @@ El proceso es similar al de la etapa 1 de traducción, pero con algunas diferenc
 
 La entrada del blog de Maëlle Salmon [Cómo actualizar una traducción con Babeldown](https://ropensci.org/blog/2024/01/16/deepl-update-babeldown/) explica este proceso con más detalle.
 
-![rOpenSci Update Localization Process](images/localization_update_concept_map.png){fig-alt="Ciclo del proceso de actualización de la localización: cuando se produce un cambio en el contenido creamos una Pull Request con la primera traducción automática, esa traducción es revisada por el mantenedor y se fusionan los cambios.  El mantenedor actualiza las directrices de traducción que definen el glosario y las directrices lingüísticas específicas si es necesario"}
+![rOpenSci Update Localization Process](images/es/localization_update_concept_map.png){fig-alt="Ciclo del proceso de actualización de la localización: cuando se produce un cambio en el contenido creamos una Pull Request con la primera traducción automática, esa traducción es revisada por el mantenedor y se fusionan los cambios.  El mantenedor actualiza las directrices de traducción que definen el glosario y las directrices lingüísticas específicas si es necesario"}
 
 ## Referenciar y utilizar los materiales de localización
 
