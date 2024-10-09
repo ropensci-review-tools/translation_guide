@@ -93,11 +93,11 @@ pero puede aplicar estas recomendaciones a cualquier traducción.
 
 El formato general es[^intro-apa]:
 
-{Autores/as de la version en el idioma original}.{(año de publicación)}.
-{Título traducido}.
-{[Título original en el idioma original]} (Traducción a {idioma}: {Autoras/es de la traducción}).
-{DOI}.
-(Trabajo original publicado en {year of publication})
+> {Autores/as de la version en el idioma original}.{(año de publicación)}.
+> {Título traducido}.
+> {[Título original en el idioma original]} (Traducción a {idioma}: {Autoras/es de la traducción}).
+> {DOI}.
+> (Trabajo original publicado en {year of publication})
 
 El texto *Traducción a* y *Obra original publicada en* deben estar escritos en la lengua de las traducciones.
 
@@ -112,9 +112,13 @@ Ejemplo utilizando la traducción al español del libro "Paquetes de rOpenSci: D
               También recomendamos incluir el título en el idioma original, [siguiendo este ejemplo de Piaget (1950)](https://writeanswers.royalroads.ca/faq/199295).
 
 
-### Menciona tu contribución a un proyecto de localización en tu CV
+### Menciona tu contribución en tu CV
 
-- \<Fecha de inicio, por ejemplo: mayo de 2022 -- Fecha de finalización, por ejemplo: julio de 2020>. Localización colaborativa al español del libro ). Edición general: Yanina Bellini Saibene. Contribución como \<rol, ej.: revisor>. Más información <enlace al proyecto>
+En general, puedes utilizar algo parecido a este formato:
 
+> {Fecha de inicio} -- {Fecha de finalización}. Localización colaborativa al {idioma} de "{nombre del material/libro}" (Edición general: {nombre completo}). Contribución como {role}. Detalles del proyecto: {Link al proyecto}.
 
+Este es un ejemplo concreto de CV en inglés que hace referencia a un proyecto de traducción al español:
+
+> Mayo 2020 -- Julio 2022. Localización colaborativa al español del libro "rOpenSci Packages: Development, Maintenance, and Peer Review" (Lead editor Yanina Bellini Saibene). Contribución como revisor. Detalles del proyecto: <https://github.com/ropensci/dev_guide>.
 
