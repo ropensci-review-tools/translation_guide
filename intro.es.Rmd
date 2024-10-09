@@ -21,11 +21,11 @@ Accedido el 1 de noviembre de 2022.
 [https://en.wikipedia.org/wiki/Internationalization\_and\_localization](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 
 
-Además, la localización de documentos vivos tiene dos etapas bien definidas en las que intervienen distintos recursos:
+Además, la localización de documentos _vivos_ tiene dos etapas bien definidas en las que intervienen distintos recursos:
 
-1. la consecución de una primera versión del material traducido y
+Fase 1. En primer lugar, traducir el material.
 
-2. mantener el material actualizado y sincronizado entre los diferentes idiomas[^intro-yani].
+Fase 2. mantener el material actualizado y sincronizado entre los diferentes idiomas[^intro-yani].
 
 [^intro-yani]: Yanina Bellini Saibene y Natalia Soledad Morandeira.
 Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos.
@@ -51,27 +51,12 @@ Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando l
 
 * También desarrollamos, y documentamos en estas directrices, un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
 
-## Aspectos generales del proceso de traducción
+## Aspectos generales de la fase 1 del proceso de traducción
 
 El proceso de traducción comienza con una primera traducción automática utilizando DeepL via el paquete [babeldown](https://docs.ropensci.org/babeldown/).
 Esto proporciona un primer borrador que luego es revisado por uan persona, que corrigen los errores e incorporan los acuerdos de localización y traducción lingüística detallados en las [Directrices específicas de cada idioma](specific_guidelines.html).
 
 Para minimizar los errores y promover una visión amplia de la traducción, en rOpenSci pedimos que cada capítulo o sección pase al menos por dos revisiones hechas en serie (la primera revisa la traducción automática y la segunda revisa la primera revisión), seguidas de una revisión general del libro o documento en su conjunto.
-
-En cada paso de este proceso, usamos las siguientes pautas:
-
-1. Utilices una voz conversacional en lugar de una voz formal o académica.
-
-2. Si procede, especifica el dialecto o la variante lingüística regional utilizada.
-  Por ejemplo, la traducción al español utiliza las convenciones latinoamericanas.
-
-3. Intenta ser neutral en cuanto al género.
-  Si la lengua en la que estás trabajando tiene un género gramatical fuerte, la traducción ajusta la redacción para evitar asignar un género.
-  Cuando no se pueda evitar la marca de género, utiliza divisiones femenino-masculino o masculino-femenino.
-  Para mantener la coherencia a lo largo del texto y mostrar que no existe una jerarquía determinada, alterna el uso del femenino o del masculino entre capítulos, siendo el uso coherente a lo largo de cada capítulo.
-
-4. Intenta ser idiomático.
-  No te preocupes por las traducciones literales. Acerca el mensaje a su audiencia[^intro-yani] eligiendo el texto y la forma en la lengua a traducir que mejor expresen el *significado* del fragmento del original.  
   
 El proceso de traducción y revisión se realiza en GitHub utilizando *pull requests* (consulta [la sección de pull request](#pr-edition) para más detalles).
 Elegimos este flujo de trabajo porque es la infraestructura que utilizamos en nuestra comunidad.
@@ -99,7 +84,7 @@ El proceso es similar al de la etapa 1 de traducción, pero con algunas diferenc
 
 La entrada del blog de Maëlle Salmon [Cómo actualizar una traducción con Babeldown](https://ropensci.org/blog/2024/01/16/deepl-update-babeldown/) explica este proceso con más detalle.
 
-![rOpenSci Update Localization Process](images/es/localization_update_concept_map.png){fig-alt="Ciclo del proceso de actualización de la localización: cuando se produce un cambio en el contenido creamos una Pull Request con la primera traducción automática, esa traducción es revisada por el mantenedor y se fusionan los cambios.  El mantenedor actualiza las directrices de traducción que definen el glosario y las directrices lingüísticas específicas si es necesario"}
+![rOpenSci Update Localization Process](images/es/localization_update_concept_map.png){fig-alt="Ciclo del proceso de actualización de la localización: cuando se produce un cambio en el contenido creamos una Pull Request con la primera traducción automática, esa traducción es revisada por la persona que mantiene y se fusionan los cambios.  La persona responsable actualiza las directrices de traducción que definen el glosario y las directrices lingüísticas específicas si es necesario"}
 
 ## Referenciar y utilizar los materiales de localización
 
@@ -140,3 +125,4 @@ Este es un ejemplo concreto de CV en inglés que hace referencia a un proyecto d
 
 > Mayo 2020 -- Julio 2022. Localización colaborativa al español del libro "rOpenSci Packages: Development, Maintenance, and Peer Review" (Lead editor Yanina Bellini Saibene). Contribución como revisor. Detalles del proyecto: <https://github.com/ropensci/dev_guide>.
 
+## Referencias
