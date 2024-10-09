@@ -51,7 +51,7 @@ We developed our infrastructure for our localization effort using the tools that
 
 * We also created (and documented in these guidelines) a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
 
-## General aspects of the strage 1 translation process
+## General aspects of the stage 1 of the translation process
 
 The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
 This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [language-specific guidelines](specific_guidelines.html).
