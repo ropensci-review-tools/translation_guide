@@ -83,6 +83,24 @@ Por supuesto, como en todas las áreas de rOpenSci, este proceso está sujeto a 
 
 ![Proceso de localización de rOpenSci](images/es/localization_concept_map.png){fig-alt="Ciclo del proceso de localización: creamos una Pull Request con la primera traducción automática, esa traducción recibe dos revisiones y luego quien edita hace una revisión final y hace un merge de los cambios. Estas personas actualizan las pautas de traducción que definen el glosario y los acuerdos especificos del idioma."}
 
+## Aspectos generales del proceso de traducción de la fase 2
+
+En este caso estamos actualizando los cambios en el idioma original de un contenido que ya se ha traducido y tenemos que reflejar esos cambios en las diferentes traducciones.
+
+El proceso es similar al de la etapa 1 de traducción, pero con algunas diferencias:
+
+1. Tras el cambio de contenido en el idioma original, la persona que mantiene el proyecto de traducción crea una nueva traducción automática **solamente de los cambios** utilizando el paquete [babeldown](https://docs.ropensci.org/babeldown/).
+
+2. Luego revisa la _pull request_ con la traducción automática y aplica los cambios necesarios.
+
+3. Finalmente, hace un _merge_ de la _pull request_ con la traducción revisada.
+
+4. La persona responsble actualiza las directrices de traducción específicas del idioma y el glosario si es necesario.
+
+La entrada del blog de Maëlle Salmon [Cómo actualizar una traducción con Babeldown](https://ropensci.org/blog/2024/01/16/deepl-update-babeldown/) explica este proceso con más detalle.
+
+![rOpenSci Update Localization Process](images/localization_update_concept_map.png){fig-alt="Ciclo del proceso de actualización de la localización: cuando se produce un cambio en el contenido creamos una Pull Request con la primera traducción automática, esa traducción es revisada por el mantenedor y se fusionan los cambios.  El mantenedor actualiza las directrices de traducción que definen el glosario y las directrices lingüísticas específicas si es necesario"}
+
 ## Referenciar y utilizar los materiales de localización
 
 A continuación ofrecemos sugerencias para citar una traducción o hacer referencia a tu trabajo de traducción en un CV. 
