@@ -66,7 +66,7 @@ In addition, this allows the process to be open so that others can contribute an
 Of course, as in all areas of rOpenSci, this is process is subject to our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
 
 ![rOpenSci Localization Process](images/localization_concept_map.png){fig-alt="Localization process cycle: we create a Pull Request with the first automatic translation, that translation gets two reviews and then the editor does a final review and merges the changes.  Reviewers and editors update translation guidelines that define the glossary and specific language guidelines"}
-## General aspects of the stage 2 translation process
+## General aspects of the stage 2 of the translation process
 
 In this case we are updating changes in the original language of a content that has already been translated and we have to reflect those changes in the translated languages.
 
