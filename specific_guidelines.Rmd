@@ -9,7 +9,6 @@ These guidelines apply when translating content to **English**.
 :::
 
 
-
 ## Dialect
 
 We will use the American English dialect in the translation.
