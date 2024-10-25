@@ -8,16 +8,25 @@ editor:
 
 ## Cómo colaborar
 
-### Con un idioma activo
+### Contribuir a un proyecto activo
 
-Puedes revisar la [lista de idiomas para los que hay proyectos de traducción activos y sus estados](https://github.com/ropensci-review-tools/translation_guide#active) en el readme del repositorio de esta guia.
-Allí encontrarás el nombre de quien mantiene cada proyecto para que puedas ponerte en contacto y links a los proyectos activos en ese idioma.
-Las iniciativas de traducción cuentan con un canal en el Slack de rOpenSci por idioma donde se discute y se toman decisiones sobre la traducción, las cuales son plasmadas en las [directrices específicas del idioma](specific_guidelines.es.html) en esta guía y un [glosario](specific_guidelines.es.html#glosario-es).
+Si te interesa contribuir a un proyecto de traducción activo, antes de comenzar vas a tener que:
 
-Antes de comenzar es importante que te familiarices con el material original.
-Además, te sugerimos leer esta guía ([en particular las directrices aplicables a tu idioma](specific_guidelines.es.html)) y contactarte con las personas que ya se encuentran trabajando.
-No dudes en hacer todas las preguntas que necesites, por ejemplo ¿cuánto tiempo tienes que dedicarle?
-o cuestiones técnicas como ¿qué pasa si me encuentro con problemas en GitHub?
+1) ponerte en contacto con las personas que mantienen el proyecto,
+2) familiarizarte con el material que se va a traducir, y
+3) leer esta guía, prestando especial atención a las [directrices específicas del idioma](specific_guidelines.html).
+
+Puede ponerse en contacto con un responsable del proyecto para expresar su interés a través del correo electrónico, Slack o GitHub.
+En la [lista de proyectos activos](https://github.com/ropensci-review-tools/translation_guide#active),
+encontrarás información sobre cada proyecto, incluido las personas responsables de su mantenimiento.
+Cada proyecto de traducción tiene un canal en el Slack de rOpenSci donde se discuten y toman las decisiones de traducción, que se reflejan en las [directrices específicas para cada idioma](specific_guidelines.html) de esta guía y en un [glosario](specific_guidelines.es.html#glosario-es).
+Si te unes a un proyecto de traducción, nos aseguraremos de que recibas una invitación al canal de Slack.
+
+Es una buena idea preguntar cómo se están dividiendo las tareas de revisión para que todo el mundo sepa de qué es responsable.
+
+No dudes en preguntar cualquier duda que tengas, 
+como preguntas generales como «¿Cuál es el compromiso de tiempo esperado?»,
+o preguntas técnicas como «¿Qué hago si me encuentro con problemas en GitHub?».
 
 ### Con un idioma nuevo
 
