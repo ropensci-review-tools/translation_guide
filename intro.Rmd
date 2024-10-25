@@ -85,6 +85,7 @@ Maëlle Salmon's blog post [How to Update a Translation with Babeldown](https://
 
 ![rOpenSci Update Localization Process](images/localization_update_concept_map.png){fig-alt="Localization update process cycle: when a change on the content happend we create a Pull Request with the first automatic translation, that translation gets the maintainer reviews and merges the changes.  The maintainer update translation guidelines that define the glossary and specific language guidelines if necessary"}
 
+
 ## Referencing localizations materials
 
 Here we give suggestion for citing a translation or referencing your translation work in a CV. 
