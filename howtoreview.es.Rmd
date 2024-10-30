@@ -43,8 +43,30 @@ Pedimos a quienes propongan un nuevo proyecto de traducción que se comprometan 
 o a encontrar un quien lo mantenga si deben abandonarlo antes de los 2 años. 
 Este es el mismo [compromiso que pedimos a quienes mantienen nuestros paquetes](https://devguide.ropensci.org/es/softwarereview_author.es.html#planning-a-submission-or-a-pre-submission-enquiry).
 
-
 ## Aspectos técnicos de la revisión {#tech}
+
+### Directrices generales
+
+En cada paso de este proceso, usamos las siguientes pautas:
+  
+1. Utiliza una voz conversacional en lugar de una voz formal o académica.
+
+2. Si procede, especifica el dialecto o la variante lingüística regional utilizada.
+Por ejemplo, la traducción al español utiliza las convenciones latinoamericanas.
+
+3. Intenta ser neutral en cuanto al género.
+Si la lengua en la que estás trabajando tiene un género gramatical fuerte, la traducción ajusta la redacción para evitar asignar un género.
+Cuando no se pueda evitar la marca de género, sigue las pautas especificas de cada lenguaje con respecto del uso de lenguaje inclusivo o no sexista. 
+
+4. Intenta ser idiomático.
+No te preocupes por las traducciones literales. Acerca el mensaje a su audiencia[^intro-yani] eligiendo el texto y la forma en la lengua a traducir que mejor expresen el *significado* del fragmento del original.  
+
+5. Toma distancia para revisar. Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. 
+Como sugerencia, una vez que termines la revisón del capítulo o sección deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla para la siguiente revisión. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren 
+en la calidad de la traducción más que en correcciones ortotipográficas. También es útil revisar el texto en una versión con formato (compilada como pdf o html), ya que seguramente algunos errores serán más visibles que en la versión cruda. Si tienes la posibilidad, una 
+impresión en papel, tanto de la versión cruda como de la compilada, también ayuda a ver más claro los errores.
+
+### Organization
 
 En esta sección usaremos como ejemplo la guia "Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares", pero todos los aspectos técnicos para hacer una revisión también aplican a otros materiales de la organización.
 
