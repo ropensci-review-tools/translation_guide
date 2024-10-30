@@ -124,45 +124,30 @@ Trabajando localmente en tu computadora, estos son los pasos a seguir para reali
 
 En tu repositorio local:
 
-1.  Activá la *branch* asociada al archivo que vas a revisar.
+1.  **Activá la *branch* asociada al archivo que vas a revisar**.
     En nuestro ejemplo, como estas revisando `softwarereview_policies.en.Rmd` la *branch* sería `softwarereview_policies.es.Rmd-es`\`.
 
-2.  Abrí el archivo `softwarereview_policies.es.Rmd`.
+2.  **Abrí el archivo**, 
+    por ejemplo `softwarereview_policies.es.Rmd`.
     Es posible que veas cosas para mejorar inmediatamente, ya que la traducción automática hace un buen trabajo pero no es perfecta.
 
-3.  Comenzá a revisar el texto.
+3.  **Comenzá a revisar el texto.**
     Para esto te sugerimos tener la versión en inglés al lado, es posible que necesites volver a la versión original para entender el contexto de alguna frase o palabra que el traductor no haya podido traducir correctamente.
     Para esto puede usar la versión web del material que estás traduciendo o la pestaña *"Files changed"* del PR en el repositorio principal.
 
     ![](images/es/files_changed.png){alt="Captura de pantalla de la interfaz de GitHub mostrando los detalles de un pull request y la solapa \"Files Changed\", la cual muestra el texto original en inglés a la izquierda y el texto traducido al español a la derecha."}
 
-4.  De manera periódica, o cuando completes la revisión, tendrás que hacer un *commit* con los cambios que generaste.
+4.  * **Envia tus cambios haciendo *commit*.**
     Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión.
     En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste.
     De esta manera, si necesitaras delegar la revisión en otra persona, esa persona puede revisar la historia del archivo y retomar donde vos dejaste.
 
-5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
+5.  * **Envia tus cambios al repositorio remoto haciendo *push*** 
+    Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
     Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos conectar tu revisión con la traducción original.
 
-6.  Una vez que completaste tu revisión, es importante que avises a quien mantiene el proyecto o a la persona asignada a la revisión 2, si la hay.
-
-#### Objetivos de la revisión 1
-
-Esta primera revisión tiene como objetivo hacer una lectura detallada de la traducción automática para :
-
--   Asegurarse de que el sentido de la oración o párrafo se mantiene.
-
--   Revisar que se hayan usado los términos del glosario acordados por la comunidad según el contexto.
-
--   Aplicar las decisiones de estilo siempre que se pueda.
-    Por ejemplo, en español decidimos evitar la marca de género en sustantivos y adjetivos y para ello parafraseamos oraciones o usamos "las/los" si lo primero no es posible.
-
--   Revisar que los bloques de código o marcación de Markdown no hayan sido afectados.
-
--   Traducir nombres de variables y comentarios visibles en los bloques de código siempre que corresponda.
-
-Seguramente queden dudas y es posible que alguna cosa pase de largo.
-Las decisiones de estilo suelen ser la más difíciles de aplicar y a veces es necesario consultar con el resto del equipo o charlarlo luego con quien haga la revisión 2.
+6.  **Notificar a las personas responsables del proyecto o la segunda revision**
+   Una vez que completaste tu revisión, es importante que avises a quien mantiene el proyecto o a la persona asignada a la revisión 2, si la hay.
 
 ### Revisión 2
 
