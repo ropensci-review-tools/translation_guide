@@ -28,15 +28,21 @@ No dudes en preguntar cualquier duda que tengas,
 como preguntas generales como «¿Cuál es el compromiso de tiempo esperado?»,
 o preguntas técnicas como «¿Qué hago si me encuentro con problemas en GitHub?».
 
-### Con un idioma nuevo
+### Proponer un nuevo proyecto de traducción
 
-Si tu idioma no está entre [los idiomas con proyectos activos listados aquí](https://github.com/ropensci-review-tools/translation_guide#active), ponte en contacto con el equipo de rOpenSci para proponerlo.
+Empezar un nuevo proyecto de traducción requiere trabajo y compromiso con el proceso, pero puede ser una experiencia realmente gratificante.
+
+Dado que se necesitan varias personas que revisen las traducciones y que debe haber al menos una persona activa manteniendoel proyecto , 
+recomendamos que las personas interesadas en iniciar un nuevo proyecto de traducción inviten a su comunidad local a participar y formen un equipo inicial antes de comenzar el proceso.
+
+Si tu idioma no está entre [los idiomas con proyectos activos ](https://github.com/ropensci-review-tools/translation_guide#active), ponte en contacto con el equipo de rOpenSci para proponerlo.
 Puedes enviar un mail a [info\@ropensci.org](mailto:info@ropensci.org) o [abrir un *issue* en este repositorio](https://github.com/ropensci-review-tools/translation_guide/issues).
 
-Ten en cuenta que iniciar un nuevo proyecto requiere un compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión.
-Pedimos a quienes gestionan proyectos de traducción el mismo compromiso que pedimos a quienes gestionan paquetes de nuestra suite: 2 años de mantenimiento luego de finalizada la traducción o poder encontrar a otra persona que se haga cargo.
+Ten en cuenta que iniciar un nuevo proyecto requiere el compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión.
+Pedimos a quienes propongan un nuevo proyecto de traducción que se comprometan a mantenerlo durante al menos 2 años, 
+o a encontrar un quien lo mantenga si deben abandonarlo antes de los 2 años. 
+Este es el mismo [compromiso que pedimos a quienes mantienen nuestros paquetes](https://devguide.ropensci.org/es/softwarereview_author.es.html#planning-a-submission-or-a-pre-submission-enquiry).
 
-Además dado que cada capítulo o artículo debe ser revisado por al menos 2 personas, te recomendamos invitar a tu comunidad local antes de comenzar el proceso.
 
 ## Aspectos técnicos de la revisión {#tech}
 
