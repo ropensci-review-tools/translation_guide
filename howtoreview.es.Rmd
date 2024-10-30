@@ -104,13 +104,28 @@ Ahora si, ¡empecemos a revisar!
 
 ### Revisión 1
 
-Digamos que te tocó hacer la revisión 1 del capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo `softwarereview_policies.es.Rmd`.
-Estos son los pasos a seguir.
+El objetivo de esta primera revisión es hacer una lectura detallada de la traducción automática para:
+
+- Asegurarse de que se mantiene el sentido de la frase o párrafo.
+
+- Comprobar que los términos del glosario acordados por la comunidad se han utilizado de acuerdo con el contexto.
+
+- Aplicar decisiones estilísticas siempre que sea posible.
+    Por ejemplo, en español decidimos evitar el marcado de género de sustantivos y adjetivos parafraseando las frases o utilizando «las/los» si no es posible parafrasear.
+
+- Comprobar que los bloques de código o el marcado Markdown no se hayan visto afectados.
+
+- Traducir los nombres de las variables y los comentarios visibles en los bloques de código cuando proceda.
+
+A menudo quedarán algunas dudas y es posible que se pasen por alto algunas cosas.
+Las decisiones de estilo suelen ser las más difíciles de aplicar y a veces es necesario consultar con el resto del equipo o discutirlo más tarde con la persona que realizara la segunda revision.
+
+Trabajando localmente en tu computadora, estos son los pasos a seguir para realizar una primera revisión de un archivo.
 
 En tu repositorio local:
 
 1.  Activá la *branch* asociada al archivo que vas a revisar.
-    En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+    En nuestro ejemplo, como estas revisando `softwarereview_policies.en.Rmd` la *branch* sería `softwarereview_policies.es.Rmd-es`\`.
 
 2.  Abrí el archivo `softwarereview_policies.es.Rmd`.
     Es posible que veas cosas para mejorar inmediatamente, ya que la traducción automática hace un buen trabajo pero no es perfecta.
