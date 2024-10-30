@@ -77,13 +77,21 @@ Cada capítulo tiene un archivo .Rmd por idioma, con un sufijo que identifica el
 Por ejemplo, el capítulo "Políticas de la Revisión por Pares de Software" tendrá su versión original en inglés en `softwarereview_policies.Rmd` y su versión traducida al español en `softwarereview_policies.es.Rmd`.
 
 Si el proyecto de traducción está en marcha, encontrarás una serie de *pull request*, **uno por cada archivo a traducir**, generados con el paquete babeldown que contienen el texto traducido automáticamente.
-**Cada uno de estos *pull requests* tienen una *branch* asociada**, esto será importante más adelante.
-De hecho si hay muchos proyectos de traducción en marcha, es posible que te encuentres con muchos *pull requests*.
-Te recomendamos filtrar usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es "traducción 🧉" o ver el estado de cada *pull requests* en el proyecto de GitHub correspondiente a tu lenguaje.
+**Cada uno de estos *pull requests* tienen una *branch* asociada**.
+Por ejemplo, las traducciones del archivo `pkg_ci.Rmd` al español se encontrarían en el PR que fusiona la rama `pkg_ci.es.Rmd-es-auto`, y se llamaría "Add Spanish automatic translation pkg_ci.es.Rmd". 
 
-Por seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en este repositorio principal de rOpenSci.
+
+De hecho si hay muchos proyectos de traducción en marcha, es posible que te encuentres con muchos *pull requests* de diferentes archivos y diferentes lenguajes.
+Te recomendamos filtrar los *pull requests* usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es "traducción 🧉". También podes ver el estado de cada *pull requests* en el [proyecto de GitHub](https://github.com/ropensci/dev_guide/projects) correspondiente a tu lenguaje.
+
+Por seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en el repositorio principal.
 De modo que quien está a cargo de mantener el proyecto deberá hacer un *fork* (que llamaremos **repositorio de trabajo**) y darle permiso de escritura a todas las personas que revisen o contribuyan.
 Este *fork* tendrá las mismas *branchs* que el repositorio principal; esto es clave ya la **revisión de cada archivo se realizará sobre la *branch* asociada a su traducción.**
+Esto significa que una revisión de la traducción al portugués ocurriría en la rama `pkg_ci.pt.Rmd-pt-auto`, 
+mientras que la revisión de la traducción al español tendría lugar en la rama `pkg_ci.es.Rmd-es-auto`.
+
+![](images/fork-branches-pr.png){alt="Diagramas que muestran cómo hacer un fork del proyecto de traducción desde rOpenSci GitHub al GitHub de la persona revisora y luego cómo clonar al repositorio git local.  El diagrama muestra que las tareas pull y push se realizan desde el repositorio local al remoto y que se realiza una pull request desde el repositorio remoto de la persona revisora al repositorio del proyecto de traducción de rOpenSci."}
+
 
 Para comenzar a contribuir lo primero que debes hacer es clonar el repositorio de trabajo.
 Para saber donde está ubicado, hablar con la persona a cargo del proyecto o consulta en el canal del Slack.
