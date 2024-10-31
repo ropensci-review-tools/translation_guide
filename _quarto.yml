@@ -33,5 +33,5 @@ babelquarto:
   mainlanguage: 'en'
   languages: ['es']
 title-es: Guía de localización y traducción de rOpenSci
-description-es: description in es
+description-es: Cómo y porqué traducimos y localizamos nuestros recursos.
 lang: en

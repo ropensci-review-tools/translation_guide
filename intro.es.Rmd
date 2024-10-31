@@ -63,9 +63,9 @@ En la seccion de [tranduccion y revision](#tech) explicamos en detalle el flujo 
 ## Aspectos generales de la fase 1 del proceso de traducción
 
 El proceso de traducción comienza con una primera traducción automática utilizando DeepL via el paquete [babeldown](https://docs.ropensci.org/babeldown/).
-Esto proporciona un primer borrador que luego es revisado por uan persona, que corrigen los errores e incorporan los acuerdos de localización y traducción lingüística detallados en las [Directrices específicas de cada idioma](specific_guidelines.html).
+Esto proporciona un primer borrador que luego es revisado por una persona, que corrigen los errores e incorporan los acuerdos de localización y traducción lingüística detallados en las [Directrices específicas de cada idioma](specific_guidelines.html).
 
-Para minimizar los errores y promover una visión amplia de la traducción, en rOpenSci pedimos que cada capítulo o sección pase al menos por dos revisiones hechas en serie (la primera revisa la traducción automática y la segunda revisa la primera revisión), seguidas de una revisión general del libro o documento en su conjunto.
+Para minimizar los errores y promover una visión amplia de la traducción, en rOpenSci pedimos que cada capítulo o sección pase al menos por dos revisiones hechas en serie (la primera revisa la traducción automática y la segunda revisa la primera revisión), seguidas de una revisión general del libro o documento en su conjunto.  Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países, para poder considerar las diferentes formas en que se habla el idioma en todo el mundo.
   
 El proceso de traducción y revisión se realiza en GitHub utilizando *pull requests* (consulta [la sección de pull request](#pr-edition) para más detalles).
 Elegimos este flujo de trabajo porque es la infraestructura que utilizamos en nuestra comunidad.

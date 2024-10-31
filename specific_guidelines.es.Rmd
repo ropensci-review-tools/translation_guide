@@ -1,32 +1,30 @@
-# Orientaciones para la traducción
+# Pautas especificas del lenguaje
 
 ::: callout-note
-Este capítulo es diferente para cada idioma. Contiene las directrices específicas para traducir el contenido bajo los acuerdos de la comunidad.
+Este capítulo es diferente para cada idioma. Contiene las directrices específicas para traducir el contenido bajo los acuerdos de la comunidad de cada lenguaje.
 
-Para leer las instrucciones de un idioma específico, cambie la versión de la Guía de Traducción a ese idioma utilizando la lista de idiomas a la izquierda.
-:::
+Para leer las instrucciones de un idioma específico, cambie la versión de la Guía de Traducción a ese idioma utilizando la lista de idiomas a la izquierda (bajo el simbolo 🌐).
 
 Estas orientaciones se aplican cuando se traduce contenido al español.
 
-## A. Organización del trabajo
+:::
 
-Después de realizar la traducción del contenido y todos los materiales relacionados se realizarán dos revisiones de cada capítulo y una edición final de todo el material en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países para poder considerar las diferentes formas en que hablamos español en todo el mundo.
 
-## B. Aspectos a tener en cuenta para la traducción del texto
+## Dialecto
 
-__2. Al traducir buscamos generar una versión clara en español lo que en el capítulo está escrito en inglés.__ 
-En algunos casos eso puede implicar alterar el orden de las palabras y signos de puntuación de una oración o agregar más elementos que no estaban en el texto original. Lo importante es que la traducción se lea lo más natural posible en español, respetando el mensaje que se quiso transmitir en el original.
-
-__3. La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica__ 
+La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica 
 La decisión es consistente con otras traducciones realizadas en la comunidad R de habla hispana. Además, el posible público destinatario que la habla es más amplio. Intentaremos generar una versión lo más neutra posible, por lo que:
 
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
+
 * No utilizaremos el voseo (_vos/vosotros_). La guia _rOpenSci Packages: Development, Maintenance, and Peer Review_ está dirigido a una segunda persona, 
 así que para mantener lo mas posible la neutralidad la traduciremos como _tú_ 
 > Ejemplo: ... _We hope that you’ll find the guide_ > ... _esperamos que encuentres esta guía_; 
 _You can view updates_ > ... _Puedes ver actualizaciones_).
 
-__4. Género gramatical.__ A diferencia del inglés, el español tiene género gramatical (masculino, femenino y muy pocos neutros). Estas son las convenciones para manejar el género gramatical cuando aparezcan en el texto.  Las situaciones que no estén contempladas en la guía las discutiremos para tomar una decisión y las agregaremos a este listado. 
+## Género gramatical.
+
+El español tiene género gramatical (masculino, femenino y muy pocos neutros). Estas son las convenciones para manejar el género gramatical cuando aparezcan en el texto.  Las situaciones que no estén contempladas en la guía las discutimos en comunidad (en los *issues* o el canal de Slack correspondiente) para tomar una decisión y las agregamos a esta sección. 
 
 * En principio, intentaremos ajustar la redacción para evitar tener que asignar un género: 
 por ejemplo, en esta frase: “... _We are thankful for all authors, reviewers and guest editors_”.  se podría traducir como: 
@@ -39,58 +37,63 @@ En esta traducción, al desdoblar:
 
    b. Para que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo.
    
-   c. Acuerdos: el uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto y respetar el lenguaje no sexista:
+   c. El uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto y respetar el lenguaje no sexista:
    
 | Opción         | Alternativa  |
 | ---------------|----------------|
 | del/de la revisora | del equipo revisor |
-| al/a la editora docente |al conjunto de editores y editoras|
+| al/a la editora |al conjunto de editores y editoras, al equipo editorial|
    
    d. La lectura del lenguaje no sexista con las conjunciones "al" y "del" es complicada.  
       
-   - Caso de capítulo los/las: dejar el masculino en la conjunción, pero no en el sustantivo si este tiene marca de género: _"Al autor/a"_.
+   - Caso de capítulo donde se debe usar _los/las_: dejar el masculino en la conjunción, pero no en el sustantivo si este tiene marca de género: _"Al autor/a"_.
       
-   - Caso de capítulo las/los: dejar el femenino en el artículo, pero no en el sustantivo si este tiene marca de género: _"A la desarrolladora/or"_.
+   - Caso de capítulo donde se debe usar _las/los_: dejar el femenino en el artículo, pero no en el sustantivo si este tiene marca de género: _"A la desarrolladora/or"_.
      
+## Verbos
 
-__5. El español es una lengua menos repetitiva que el inglés.__ Como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo.
-En todos los casos, hay que tratar de pensar cómo suena más natural en español y cómo queda más claro para quien lee.
+En español, como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo. Esto nos permite evitar la repetición de palabras.
 
-__6. Hay regularidades que no siempre se cumplen.__ Por ejemplo, en inglés los adjetivos se anteponen a los sustantivos, ej: *simple model*, *correct answer*, etc., mientras que en español suele ser al revés: ponemos los adjetivos después del sustantivo: *modelo simple*, *respuesta correcta*, etc.
+Los modos y tiempos verbales tambien pueden ser diferentes al del idioma original. Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, no la que parezca ser literal del inglés.  
+
+En todos los casos, hay que usar la opción que suena más natural en español y que queda más claro para quien lee.
+
+## Regularidades
+
+Hay regularidades que no siempre se cumplen. Por ejemplo, en inglés los adjetivos se anteponen a los sustantivos, ej: *simple model*, *correct answer*, etc., mientras que en español suele ser al revés: ponemos los adjetivos después del sustantivo: *modelo simple*, *respuesta correcta*, etc.
 Sin embargo, hay casos en que en español la forma _“no marcada”_, es decir, la que nos suena más natural, es con el adjetivo al principio:
 
 Ejemplo:
 > ...There’s a better way... > ...Hay una mejor manera...
 
-En general, ante dudas de este tipo, pensar en qué es lo que suena más natural/normal en español.
+En general, ante dudas de este tipo, pensar en qué es lo que suena más natural/normal en español. Siempre se puede pedir opinion en los *issues* o en el canal de Slack.
 
-__7. El español tiene más modos y tiempos verbales que el inglés__
-Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, no la que parezca ser literal del inglés.
 
-__8. Las expresiones idiomáticas no son traducibles de manera literal.__
+## Expresiones idiomáticas 
+
+Las expresiones idiomáticas no son traducibles de manera literal.
 En caso de que las hubiere, hay que proponer una traducción que permita entender el sentido de expresión original. 
 A veces existen expresiones de similar significado.
 
 Ejemplo:
 > ...Birds of a feather, drawn together... > ...Ellos se crian y el viento los amontona...
 
-
-
-## C. Traducción (o no) de términos técnicos
+## Traducción (o no) de términos técnicos
 
 Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida o si se suele utilizar la versión original en inglés. 
 
-Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
+Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [Diferencias de vocabulario estándar entre países hispanohablantes](https://es.wikipedia.org/wiki/Anexo:Diferencias_de_vocabulario_estándar_entre_países_hispanohablantes), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
-#### 1. Términos técnicos que se mantienen
-Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
 
-En el [Chapter @glosario] de rOpenSci se cuenta con el listado actualizado de términos técnicos que se mantienen.
+Los términos técnicos que se mantienen deben ir en un formato especial, en nuestro caso cursiva. De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+
+La primera aparición en el texto de los términos técnicos que se traducen puede acompañarse con la palabra en el idioma original, por ejemplo inglés, entre paréntesis para ayudar a entender el contexto y el significado. Por ejemplo:
+
+> ... el conjunto de datos (_dataset_) ...
+
+En el [capítulo @glosario] de rOpenSci se cuenta con el listado actualizado tanto de términos técnicos que se mantienen como los que se traducen.
   
-#### 2. Términos técnicos que se traducen
-
-Los términos técnicos que se traducen también se listan y actualizan en el [Chapter @glosario]. Recordar que la primera aparición en el texto puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado.
-
+ 
 Además, tengamos en cuenta como escribir estos términos del Latín:
 
 | Latin | Español |
@@ -98,13 +101,21 @@ Además, tengamos en cuenta como escribir estos términos del Latín:
 |i.e. (id est) | "es decir" |
 |e.g. (exempli gratia) | por ejemplo, abreviatura "p. ej." |
 
-#### 3. Material referenciado en la guía
+## Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título/nombre en español.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español.
 
-#### 4. Código
+## Código
 
-Traducir:
+No se traducen los nombres de paquetes, funciones y sus parámetros correspondientes al lenguaje R. Si se puede, se debe ofrecer una traducción de estos elementos la primera vez que aparecen. Por ejemplo, 
+
+> usaremos la función _group_by()_, que significa "agrupar por", para ...
+
+> Usa _message()_  — del inglés _mensaje_ — y _warning()_ — del inglés _advertencia_ — para comunicarte con quien use tus funciones.
+
+Tampoco se traducen los caminos relativos a archivos.
+
+Se debe traducir:
 
 1. nombres de variables;
 
@@ -116,7 +127,7 @@ Traducir:
 
 > ejemplo:
     
-    Código original:
+    # Código original:
     
        inside <- function(point, lower, higher) {
             if (point <= lower) {
@@ -128,7 +139,7 @@ Traducir:
             }
        }
         
-    Traducción al Español:
+    # Traducción al Español:
 
       adentro <- function(punto, mas_bajo, mas_alto) {
             if (punto <= mas_bajo) {
@@ -141,74 +152,66 @@ Traducir:
        }
 
 
-*No se traducen* los nombres de funciones y sus parámetros correspondientes al lenguaje R y sus paquetes. Se debe ofrecer una traducción de estos elementos la primera vez que aparecen.
-
-Ejemplo:
-
-> Original: Use message() and warning() to communicate with the user in your functions
-
-> Traducción: Usa message()  — del inglés _mensaje_ — y warning() — del inglés _advertencia_ — para comunicarte con quien use tus funciones.
-
-Tampoco se traducen los caminos relativos a archivos.
-
-#### 5. Diagramas
+## Diagramas
 
 1. Las figuras y los diagramas se traducen.
-2. Las capturas de pantalla sólo se traducen si la interfaz de usuario están en castellano.
+2. Las capturas de pantalla sólo se traducen si la interfaz de usuario está en castellano.
 
-#### 6. Datos
+## Datos
 
 Si existe una versión traducida de los datos, por ejemplo con los nombres de las variables en castellano, se utilizan esos datos. 
 
 Si no la hay, se utilizan los datos originales, mencionando lo que significan los nombres de las variables.
 
-Por último, se puede iniciar un proyecto para traducir los datos o seleccionar datos en castellano significativos para el público destinatario que puedan sustituir a los datos originales. [Se puede ver el proyecto dados como un ejemplo de traduccion de datos del ingles al portugues](https://cienciadedatos.github.io/dados/).
+Por último, se puede iniciar un proyecto para traducir los datos o seleccionar datos en castellano significativos para el público destinatario que puedan sustituir a los datos originales. [Se puede ver el proyecto dados como un ejemplo de traduccion de datos del inglés al portugués](https://cienciadedatos.github.io/dados/).
 
-## D. Aspectos de ortografía / gramática del español
+## Aspectos de ortografía y gramática
 
 * Ni los demostrativos ni el adverbio "solo" se tildan.
 * Días y meses se escriben con minúscula en español.
 * Los títulos llevan mayúscula solo en la palabra inicial (salvo que incluyan un nombre propio).
-* Para consultar la forma convencional de una abreviatura en español, revisar este [enlace](http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/abreviaturas). 
+* Para consultar la forma convencional de una abreviatura en español, revisar este [listado de la real academia española](http://www.rae.es/diccionario-panhispanico-de-dudas/apendices/abreviaturas). 
 
 | Palabra | Abreviatura |
 |-------|---------|
 |por ejemplo | p. ej.|
 
-## E. Aspectos de puntuación del español
+## Aspectos de puntuación del español[^rae-dpd]
 
-* Uso de las comas antes del _y_: no usarla, excepto que: 
+No usar _coma_ antes del _y_, excepto que: 
   
-  a) sea necesario para darle claridad al texto;
+a) sea necesario para darle claridad al texto;
   
-  b) sea necesario luego de una enumeración anterior, según este ejemplo: 
+b) sea necesario luego de una enumeración anterior, según este ejemplo: 
   
-    _- "Preparé el examen y tomé un café":_ va sin coma
+  - "Preparé el examen y tomé un café":_ va sin coma
     
-    _- "Preparé el examen y la clase de la semana siguiente, y tomé un café":_ va con coma para distinguir del "y" de la primera parte de la oración.
+  - "Preparé el examen y la clase de la semana siguiente, y tomé un café":_ va con coma para distinguir del "y" de la primera parte de la oración.
 
-Fuente: punto 2 de https://www.rae.es/dpd/coma
 
-*  Punto y paréntesis:
+Punto y paréntesis:
 
-    * Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
-    * Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
+    - Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
+
+    - Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
 
 # Glosario {#glosario-es}
 
-Este glosario se desarrolla en el marco de las traducciones del material de rOpenSci.  Sirve de apoyo a la tarea de determinar qué términos técnicos se traducen y cuales no.  También es la fuente que determina que palabras preferimos utilizar antes la posibilidad de contar con más de una opción.
+Este [glosario](https://github.com/ropensci-review-tools/glossary) se desarrolla en el marco de las traducciones del material de rOpenSci.  Sirve de apoyo a la tarea de determinar qué términos técnicos se traducen y cuales no.  También es la fuente que determina que palabras preferimos utilizar antes la posibilidad de contar con más de una opción.
 
-Como fuentes de consulta para generar nuestro glosario y mantenerlo actualizado se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
+Como fuentes de consulta para generar nuestro glosario y mantenerlo actualizado se pueden utilizar: 
 
-## Fuente
+* [Wikipedia](https://es.wikipedia.org/), 
+* [Diferencias de vocabulario estándar entre países hispanohablantes](https://es.wikipedia.org/wiki/Anexo:Diferencias_de_vocabulario_estándar_entre_países_hispanohablantes), 
+* [GLosario](https://glosario.carpentries.org/), 
+* Diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
-<https://github.com/ropensci-review-tools/glossary>
-
-## Glosario
 
 ```{r, file='man/rmd-fragments/query-glossary.R', echo=FALSE, message=FALSE, warning=FALSE}
 ```
 
-## F. Fuentes
+## Fuentes
 
 Estas directrices de traducción se basan en la experiencia y los documentos generados durante la traducción de [Enseñar Tecnología en Comunidad](https://github.com/gvwilson/teachtogether.tech/blob/main/es/README.md).  También consultamos y tuvimos en cuenta [la guía para traductores de Programming Historian](https://programminghistorian.org/es/guia-para-traductores), el [proyecto de traducción colaborativa de "R para Ciencia de Datos"](https://github.com/cienciadedatos/documentacion-traduccion-r4ds) y el [Glosario y lineamientos para las traducciones al español de The Carpentries](https://github.com/Carpentries-ES/board/blob/master/Convenciones_Traduccion.md).
+
+[^rae-dpd]: Diccionario panhispánico de dudas (DPD) [en línea], https://www.rae.es/dpd/coma, 2.ª edición (versión provisional). [Consulta: 31/10/2024].Real Academia Española y Asociación de Academias de la Lengua Española.

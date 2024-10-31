@@ -56,7 +56,7 @@ We developed our infrastructure for our localization effort using the tools that
 The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
 This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [language-specific guidelines](specific_guidelines.html).
 
-To minimize errors and promote a broader perspective of the translation, at rOpenSci we ask that each chapter or section goes through at least two reviews in sequence (first a review of the automatic translation and second a review of the first review) followed by an overall review of the book or document as a whole.
+To minimize errors and promote a broader perspective of the translation, at rOpenSci we ask that each chapter or section goes through at least two reviews in sequence (first a review of the automatic translation and second a review of the first review) followed by an overall review of the book or document as a whole. If possible, reviewers should come from different countries, in order to consider the different ways in which the language is spoken around the world.
 
 The translation and review process is done on GitHub using *pull requests* (see [the Pull Request section](#pr-edition) for details).
 We chose this workflow as this is the infrastructure we use in our community.
