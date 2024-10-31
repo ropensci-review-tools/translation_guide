@@ -216,22 +216,26 @@ Para esto **R2** tendrá que abrir un *pull request* que comparé la versión re
 
 ![](images/es/pr1.png)
 
-GitHub identificó que hay cambios nuevos (*pushes*) en la *branch* y sugiere compararlos y hacer un *pull request* al repositorio principal.
+GitHub identifica que hay cambios nuevos (*pushes*) en la *branch* y sugiere compararlos y hacer un *pull request* al repositorio principal.
 
-3.  Haz click en el botón "*Compare & pull request".*
-4.  A continuación tendrás la opción de modificar el título del *pull request* y dejar un mensaje. Te sugerimos 2 cosas:
+3.  **Haz click en el botón *"Compare & pull request".***
+4.  **Edita el *pull request***
+    A continuación tendrás la opción de modificar el título del *pull request* y dejar un mensaje. Te sugerimos 2 cosas:
     1.  Cambia el título para identificar que se trata de una "Revisión".
         Es importante para separarlo del *pull request* de la traducción automática.
 
-    2.  En el cuerpo del mensaje menciona a quien mantiene el proyecto de traducción para que esté al tanto del avance y pueda luego continuar con el proceso.
+    2.  En el cuerpo del mensaje menciona (usa `@nombre-de-github`) a quien mantiene el proyecto de traducción para que esté al tanto del avance y pueda luego continuar con el proceso.
 
 ![](images/es/pr2.png)
 
-5.  Antes de crear el *pull request* es **muy importante** que revises que se haga desde la *branch* correcta. Esta es la única manera de conectar el trabajo de revisión con la traducción automática y poder unificar las versiones correctamente.
-6.  Y listo! Haz click en "*Create pull request".*
+5.  **Chequea nuevamente la *branch*** 
+   Antes de crear el *pull request* es **muy importante** que revises que se haga desde la *branch* correcta. Esta es la única manera de conectar el trabajo de revisión con la traducción automática y poder unificar las versiones correctamente.
+   
+6. **Crea el *pull request*** 
+   Y listo! Haz click en "*Create pull request".*
 
 A partir de este momento, la revisión queda en manos de **quien mantiene** el proyecto de traducción.
-Esta persona deberá revisar el *pull* *request* y hacer consultas a **R1** y **R2** antes de *mergear* los *pull requests.*
+Esta persona deberá revisar el *pull* *request* y hacer consultas a **R1** y **R2** antes de incorporar los *pull requests.*
 
 ## Revisión global
 
@@ -242,5 +246,6 @@ Sin embargo, con toda esta diversidad de miradas y a pesar de la guía específi
 Por todo eso es importante que el proyecto de traducción se complete con una revisión global de todo el material.
 Sugerimos fuertemente que esta revisión general la realicé una sola persona para mantener un criterio único a lo largo de todo el texto.
 
-Ahora si, **la traducción está lista**.
+Ahora si, **la traducción está lista** y a partir de este punto el equipo de rOpenSci se ocupa para asegurarse que tu trabajo se incluya junto con el material original.
+
 ¡Gracias y felicitaciones!
