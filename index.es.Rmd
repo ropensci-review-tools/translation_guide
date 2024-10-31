@@ -3,11 +3,11 @@
 ## Te damos la bienvenida!
 
 Este libro explica todos los pasos y herramientas que intervienen en la localización de nuestros materiales, incluidas las traducciones.
-Diseñamos, construimos y probamos un proceso, para mantener la versión en diferentes idiomas de nuestros materiales, que toma ideas de nuestro [sistema de revisión por pares de software](https://ropensci.org/software-review/) y del mantenimiento de proyectos de código abierto.
+Diseñamos, construimos y probamos un proceso, para mantener versiones en diferentes idiomas de nuestros materiales, que toma ideas de nuestro [sistema de revisión por pares de software](https://ropensci.org/software-review/) y del mantenimiento de proyectos de código abierto.
 
-Sabemos que la revisión por pares de código garantiza la calidad de nuestro software; con el mismo objetivo de garantizar la calidad de nuestros contenidos en distintos idiomas, implantamos un sistema para revisar y mantener la localización de nuestras guías, libros, articulos de blog y otros contenidos.
+Sabemos que la revisión por pares de código garantiza la calidad de nuestro software; por lo tanto, con el mismo objetivo de garantizar la calidad de nuestros contenidos en distintos idiomas, implementamos un sistema para revisar y mantener la localización de nuestras guías, libros, articulos de blog y otros contenidos.
 
-También sabemos que utilizando roles (como personas que revisan o mantienen) y herramientas (como GitHub y _Pull Request_) conocidos por nuestra comunidad, hacemos que este proceso sea más fácil de comprender, aplicar y, por tanto, más fácil para contribuir.
+También sabemos que utilizando roles (como personas que revisan o mantienen) y herramientas (como GitHub y _pull request_) conocidas por nuestra comunidad, hacemos que este proceso sea más fácil de comprender, aplicar y, por tanto, también sea más fácil para contribuir.
 
 ## Público al que va dirigido
 
@@ -16,7 +16,7 @@ Este libro es una guía para personas a las que les gustaría *localizar materia
 Ana
 :  
 es una estudiante colombiana que realiza su doctorado en una universidad de Argentina. Trabaja con datos geoespaciales. No es experta en programación, pero asistió a uno de los talleres de The Carpentries para científicas y utilizó algunos de los paquetes de la suite rOpenSci para manejar y acceder a datos geoespaciales para su tesis.
-El idioma fue una de las barreras a las que se enfrentó cuando aprendió a programar. Ana quiere contribuir traduciendo material a su lengua materna para que otras personas puedan acceder a este conocimiento con menos esfuerzo. Este libro le mostrará cómo hacer una nueva traducción y cómo revisar una ya existente.
+El idioma fue una de las barreras a las que se enfrentó cuando aprendió a programar. Ana quiere contribuir traduciendo material de rOpenSci a su lengua materna para que otras personas puedan acceder a este conocimiento con menos esfuerzo. Este libro le mostrará cómo hacer una nueva traducción y cómo revisar una ya existente.
 
 Francesco
 :  
@@ -24,22 +24,22 @@ enviará sus paquetes al proceso de revisión de rOpenSci en español. Sabe que 
 
 Bauti
 :  
-es cofundador de un grupo de usuarios en su ciudad de Brasil.  Con un par de compañeros de universidad, enseña y aprende juntos a programar y hacer análisis reproducibles utilizando diferentes lenguajes de programación.  Utiliza el material de rOpenSci en portugues durante sus talleres y le gustaría tener el material de otros lenguajes de programación, en portugues. Se pregunta cómo gestiona rOpenSci las traducciones. Este libro le mostrará cómo organizamos la traducción y qué herramientas utilizamos para que pueda aplicarlas en su comunidad.
+es cofundador de un grupo de usuarios en su ciudad de Brasil.  Con un par de compañeros de universidad, enseña y aprende juntos a programar y hacer análisis reproducibles utilizando diferentes lenguajes de programación.  Utiliza el material de rOpenSci en portugués durante sus talleres y le gustaría tener el material de otros lenguajes de programación, en portugués. Se pregunta cómo gestiona rOpenSci las traducciones. Este libro le mostrará cómo organizamos la traducción y qué herramientas utilizamos para que pueda aplicarlas en su comunidad.
 
 ## Lo que aprenderás
 
 La guía contiene:
 
-- Por qué localizamos, traducimos y trabajamos para hacer publicaciones multilingües.
+- Por qué localizamos, traducimos y usamos publicaciones multilingües.
 - Guía general con la infraestructura y las funciones, el proceso técnico paso a paso y las consideraciones sobre la localización, incluidos los términos técnicos que debemos traducir y los términos técnicos que no traduciremos.
 - Guías específicas de cada idioma con consideraciones sobre la localización.
-- Glosario específico de cada idioma.
+- Glosarios específicos de cada idioma.
 
-En rOpenSci, utilizamos R como lenguaje de programación principal y GitHub para alojar nuestro código, incluidos nuestros paquetes, libros, página web y proceso de revisión. El proceso técnico paso a paso se refiere al trabajo con GitHub, como hacer revisar y comentar _pull requests_ y crear _issues_. También explica cómo utilizar el paquete {babeldown} que facilita el trabajo con traducciones.
+En rOpenSci, utilizamos R como lenguaje de programación principal y GitHub para alojar nuestro código, incluidos nuestros paquetes, libros, página web y proceso de revisión. El proceso técnico paso a paso se refiere al trabajo con GitHub, como hacer revisar y comentar _pull requests_ y crear _issues_. También explica cómo utilizar el paquete [{babeldown}](https://docs.ropensci.org/babeldown/) que facilita el trabajo con traducciones.
 
-La consideración sobre la localización y el glosario son específicos de cada idioma y detallan los acuerdos alcanzados por la comunidad sobre cómo localizar y traducir el material. Este capítulo es diferente para cada idioma presente en esta guía.
+Las consideraciones sobre la localización y los glosarios son específicos de cada idioma y detallan los acuerdos alcanzados por la comunidad sobre cómo localizar y traducir el material. Este capítulo es diferente para cada idioma presente en esta guía.
 
-Esperamos que la guía te resulte útil y clara, y agradecemos tus sugerencias en la lista de _issues_  del libro. Consulta [Sección Contribución y Reutilización](#Contributing-and-Re-Use) para saber más sobre cómo contribuir.
+Esperamos que la guía te resulte útil y clara, y agradecemos tus sugerencias en la lista de _issues_  de este libro. Consulta [Sección Contribución y Reutilización](#Contributing-and-Re-Use) para saber más sobre cómo contribuir.
 
 **¡Feliz localización!**
 
@@ -51,11 +51,9 @@ Puedes citar este libro:
 
 Guía de localización y traducción de rOpenSci v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (Noviembre, 2023) 
 
-Esta obra está bajo una [Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).
+Puedes reutilizar esta obra bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es).  Si lo haces, ¡nos encantaría que nos lo cuentes! [Por favor, háznoslo saber agregando un caso de uso en nuestro foro público](https://discuss.ropensci.org/c/usecases/10).
 
-
-
-Muchas gracias.
+¡Muchas gracias!
 
 También puedes leer el [versión PDF](/ropensci-translation-guide.pdf) de este libro.
 

@@ -51,16 +51,7 @@ We developed our infrastructure for our localization effort using the tools that
 
 * We also created (and documented in these guidelines) a workflow that follows the same idea of using the tools our community already knows and uses in their activities.
 
-### How to get started with git and GitHub
-
-If you are new to git and GitHub, we recommend starting with the following resources:
-
-- [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/) by Paola Corrales, Elio Campitelli and Yanina Bellini Saibene. This workshop was developed and taught for the rOpenSci Champions Program.
-- [Happy Git and GitHub for the useR](https://happygitwithr.com/). This book is a great resource for learning how to use git and GitHub with R.
-
-In the [Translation and Review Guidelines](#tech) we explain in detail the rOpenSci workflow using git and GitHub concepts and tools.  
-
-## General aspects of the translation process
+## General aspects of the stage 1 of the translation process
 
 The translation process starts with an initial machine translation using DeepL via the [babeldown](https://docs.ropensci.org/babeldown/) package.
 This provides a first draft that is then reviewed by a human, who correct errors and incorporates the localization and [language-specific guidelines](specific_guidelines.html).
@@ -75,7 +66,8 @@ In addition, this allows the process to be open so that others can contribute an
 Of course, as in all areas of rOpenSci, this is process is subject to our [code of conduct](https://ropensci.org/code-of-conduct/) to create a friendly and safe environment.
 
 ![rOpenSci Localization Process](images/localization_concept_map.png){fig-alt="Localization process cycle: we create a Pull Request with the first automatic translation, that translation gets two reviews and then the editor does a final review and merges the changes.  Reviewers and editors update translation guidelines that define the glossary and specific language guidelines"}
-## General aspects of the stage 2 translation process
+
+## General aspects of the stage 2 of the translation process
 
 In this case we are updating changes in the original language of a content that has already been translated and we have to reflect those changes in the translated languages.
 
