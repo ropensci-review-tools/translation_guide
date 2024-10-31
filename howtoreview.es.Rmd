@@ -173,13 +173,13 @@ Es posible que luego de esto sugieras incorporar nuevos términos al glosario o 
 
 Estos son los pasos a seguir para realizar la segunda revision, trabajando en tu repositorio local:
 
-1.  Activa la *branch* asociada al archivo que vas a revisar.
-    En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
+1.  **Activa la *branch* asociada al archivo que vas a revisar.**
+    Por ejemplo, si estas ayudando a traducir `softwarereview_policies.en.Rmd`, tenes que buscar por la rama `softwarereview_policies.es.Rmd-es`.
 
-2.  Haz un *pull* para descargar todos los cambios que hizo R1 y tener el archivo actualizado.
-    Puedes asegurarte que esto es así revisando la historia del archivo en el repositorio local.
+2.  **Descarga todos los cambios.** 
+    Haz un *pull* para descargar todos los cambios que hizo R1 y tener el archivo actualizado en el repositorio local.
 
-3.  Comenzá a revisar el texto.
+3.  **Comenzá a revisar el texto.**
     Para esto te sugerimos abrir la historia del archivo para visualizar los cambios que realizó R1.
     Esto te permitirá saber si una frase o palabra proviene de la traducción automática o de otro ser humano.
 
@@ -189,21 +189,21 @@ Estos son los pasos a seguir para realizar la segunda revision, trabajando en tu
 
     </div>
 
-4.  De manera periódica, o cuando completes la revisión, tendrás que hacer un *commit* con los cambios que generaste.
+4.  **Actualiza tus cambios haciendo *commit*** 
+   De manera periódica, o cuando completes la revisión, tendrás que hacer un *commit* con los cambios que generaste.
     Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión.
     En estos casos te sugerimos hacer *commits* al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste.
     De esta manera, si necesitaras delegar la revisión en otra persona, ella podrá revisar la historia del archivo y retomar donde vos dejaste.
 
-5.  Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* al repositorio de trabajo.
+5. **Envia tus cambios al repositorio de trabajo haciendo *push*** 
+   Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un *push* para mover tu trabajo al repositorio de trabajo online.
     Es muy importante que el *push* sea a la *branch* asociada al archivo en que estas trabajando, de lo contrario no podremos contectar tu revisión con la traducción original.
 
-6.  Una vez que completaste tu revisión, ¡el capítulo está listo!
+6.  **Abre un *Pull Request***
+    Una vez que completaste tu revisión, ¡el capítulo está listo!
     Sin embargo, esta nueva versión solo vive en el repositorio de trabajo.
     Tendrás que abrir un *pull request* en el repositorio principal para que lo revisé alguien con rol de editor y sea aprobado.
     En la siguiente sección veremos como abrir el *pull request*.
-
-
-
 
 ### Pull Request y edición de un capítulo {#pr-edition}
 

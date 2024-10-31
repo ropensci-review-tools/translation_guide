@@ -170,7 +170,7 @@ Working locally on your computer, here are the steps to follow when performing a
     you would look for the `softwarereview_policies.es.Rmd-es` branch.
 
 2.  **Pull the changes.** 
-    Do a *pull* to download all the changes the first reviewer made to update your local copy.**
+    Do a *pull* to download all the changes the first reviewer made to update your local copy.
 
 3.  **Start reviewing the text.**
     To do this, we suggest you open the file history to view the changes the first reviewer made.
