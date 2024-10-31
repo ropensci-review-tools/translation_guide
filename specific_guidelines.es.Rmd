@@ -82,18 +82,18 @@ Ejemplo:
 
 Hay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida o si se suele utilizar la versión original en inglés. 
 
-Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
+Como fuentes de consulta se pueden utilizar [Wikipedia](https://es.wikipedia.org/), [Diferencias de vocabulario estándar entre países hispanohablantes](https://es.wikipedia.org/wiki/Anexo:Diferencias_de_vocabulario_estándar_entre_países_hispanohablantes), [GLosario](https://glosario.carpentries.org/) y el diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
-### Términos técnicos que se mantienen
 
-Estos términos deben ir en un formato especial (por ejemplo cursiva). De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
+Los términos técnicos que se mantienen deben ir en un formato especial, en nuestro caso cursiva. De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.
 
-En el [Chapter @glosario] de rOpenSci se cuenta con el listado actualizado de términos técnicos que se mantienen.
+La primera aparición en el texto de los términos técnicos que se traducen puede acompañarse con la palabra en el idioma original, por ejemplo inglés, entre paréntesis para ayudar a entender el contexto y el significado. Por ejemplo:
+
+> ... el conjunto de datos (_dataset_) ...
+
+En el [capítulo @glosario] de rOpenSci se cuenta con el listado actualizado tanto de términos técnicos que se mantienen como los que se traducen.
   
-### Términos técnicos que se traducen
-
-Los términos técnicos que se traducen también se listan y actualizan en el [Chapter @glosario]. Recordar que la primera aparición en el texto puede acompañarse con la palabra en inglés entre paréntesis para ayudar a entender el contexto y el significado.
-
+ 
 Además, tengamos en cuenta como escribir estos términos del Latín:
 
 | Latin | Español |
@@ -103,7 +103,7 @@ Además, tengamos en cuenta como escribir estos términos del Latín:
 
 ## Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título/nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título/nombre en español.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español.
 
 ## Código
 
