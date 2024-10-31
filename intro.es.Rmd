@@ -51,6 +51,15 @@ Desarrollamos nuestra infraestructura para nuestras localizaciones, utilizando l
 
 * También desarrollamos, y documentamos en estas directrices, un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.
 
+## Como empezar con git y GitHub
+
+Si recien estas iniciando a usar git y GitHub, te recomendamos iniciar con los siguientes recursos:
+
+- [Developing Software Together](https://paocorrales.github.io/git-developing-software-together/) por Paola Corrales, Elio Campitelli y Yanina Bellini Saibene. Este taller fue desarrollado y enseñado para el programa de Campeonas/es de rOpenSci.
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/). Este libro es una gran recurso para aprender a usar git y GitHub con R.
+
+En la seccion de [tranduccion y revision](#tech) explicamos en detalle el flujo de trabajo que usamos en rOpenSci usando conceptos de git y GitHub con otras herramientas.  
+
 ## Aspectos generales de la fase 1 del proceso de traducción
 
 El proceso de traducción comienza con una primera traducción automática utilizando DeepL via el paquete [babeldown](https://docs.ropensci.org/babeldown/).
