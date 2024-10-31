@@ -152,11 +152,26 @@ En tu repositorio local:
 ### Revisión 2
 
 Te tocó la revisión 2, buenísimo.
-Nuevamente usaremos como ejemplo el capítulo "Políticas de la Revisión por Pares de Software" que se encuentra en el archivo `softwarereview_policies.es.Rmd`.
-Quien hizo la revisión 1, a quien llamaremos **R1** de este capítulo seguramente generó uno o mas *commits* con cambios sobre la traducción original.
-Esto significa que tu trabajo no arranca en cero, estos son los pasos.
 
-En tu repositorio local:
+Quien hizo la revisión 1, a quien llamaremos **R1**, de este capítulo seguramente generó uno o mas *commits* con cambios sobre la traducción original.
+Esto significa que tu trabajo no arranca en cero.
+Esta segunda revisión busca construir sobre la primera para generar un texto que mantenga el contenido original pero que además suene natural en el nuevo lenguaje.
+Para esto hay que tener en cuenta:
+
+-   Que se respeten el uso de términos según el glosario y el contexto específico.
+
+-   Que se use el formato definido por la comunidad, por ejemplo, para las traducciones al español, usar formato *italizado* para palabras que se mantienen en inglés.
+
+-   Aplicar las decisiones de estilo que R1 haya dejado pasar.
+    Por ejemplo, en español intentar reemplazar cualquier "las/los" por una frase sin marca de género.
+
+-   Chequear que las frases se entiendan y suenen bien evitando las traducciones literales.
+
+Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas.
+Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.
+
+
+Estos son los pasos a seguir para realizar la segunda revision, trabajando en tu repositorio local:
 
 1.  Activa la *branch* asociada al archivo que vas a revisar.
     En nuestro ejemplo sería `softwarereview_policies.es.Rmd-es`\`.
@@ -187,22 +202,8 @@ En tu repositorio local:
     Tendrás que abrir un *pull request* en el repositorio principal para que lo revisé alguien con rol de editor y sea aprobado.
     En la siguiente sección veremos como abrir el *pull request*.
 
-#### Objetivos de la revisión 2
 
-Esta segunda revisión busca generar un texto que mantenga el contenido original pero que además suene natural en el nuevo lenguaje.
-Para esto hay que tener en cuenta:
 
--   Que se respeten el uso de términos según el glosario y el contexto específico.
-
--   Que se use el formato definido por la comunidad, por ejemplo usar formato *italizado* para palabras que se mantienen en inglés.
-
--   Aplicar las decisiones de estilo que no haya visto R1 o que haya dejado pasar.
-    Por ejemplo, en español intentar reemplazar cualquier "las/los" por una frase sin marca de género.
-
--   Que, en general, las frases se entiendan y suenen bien evitando las traducciones literales.
-
-Es posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas.
-Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.
 
 ### Pull Request y edición de un capítulo {#pr-edition}
 

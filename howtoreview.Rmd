@@ -153,7 +153,7 @@ In order to achieve this, the following must be taken into account:
 
 - Use terms according to the glossary and the specific context.
 
-- Use the format defined by the community, for example, use *italicized* format for words that remain in English.
+- Use the format defined by the community, for example, in the Spanish translation, use *italicized* format for words that remain in English.
 
 - Apply style decisions missed by the first reviewer.
     For example, in Spanish try to replace any "las/los" with a phrase without gender marking.
