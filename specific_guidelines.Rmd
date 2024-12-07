@@ -78,7 +78,7 @@ If there is not, use the original data, mentioning what the variable names mean.
 
 Finally, a project can be initiated to translate the data, or new English data, meaningful to the target audience, can be used to replace the original data ([see project dados for an example of translation of data from English to Portuguese](https://cienciadedatos.github.io/dados/)).
 
-# Glossary {#glosario-en}
+## Glossary {#glosario-en}
 
 This glossary is being developed as part of the translations of rOpenSci material. It supports the task of determining which technical terms are translated and which are not. It is also outlines which words we prefer to use where there are more than one option.
 

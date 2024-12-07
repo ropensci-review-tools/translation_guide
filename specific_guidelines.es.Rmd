@@ -195,7 +195,7 @@ Punto y paréntesis:
 
   - Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
 
-# Glosario {#glosario-es}
+## Glosario {#glosario-es}
 
 Este [glosario](https://github.com/ropensci-review-tools/glossary) se desarrolla en el marco de las traducciones del material de rOpenSci.  Sirve de apoyo a la tarea de determinar qué términos técnicos se traducen y cuales no.  También es la fuente que determina que palabras preferimos utilizar antes la posibilidad de contar con más de una opción.
 
