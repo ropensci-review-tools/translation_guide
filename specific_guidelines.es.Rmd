@@ -103,7 +103,7 @@ Además, tengamos en cuenta como escribir estos términos del Latín:
 
 ## Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español.  Si existe una version en español del material entonces se utilizará esa versión en la aclaración.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español. Si existe una version en español del material entonces se utilizará esa versión en la aclaración.
 
 ## Código
 
