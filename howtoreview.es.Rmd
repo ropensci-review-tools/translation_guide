@@ -91,7 +91,7 @@ Este *fork* tendrá las mismas *branchs* que el repositorio principal; esto es c
 Esto significa que una revisión de la traducción al portugués ocurriría en la rama `pkg_ci.pt.Rmd-pt-auto`, 
 mientras que la revisión de la traducción al español tendría lugar en la rama `pkg_ci.es.Rmd-es-auto`.
 
-![](images/fork-branches-pr.png){alt="Diagramas que muestran cómo hacer un fork del proyecto de traducción desde rOpenSci GitHub al GitHub de la persona revisora y luego cómo clonar al repositorio git local.  El diagrama muestra que las tareas pull y push se realizan desde el repositorio local al remoto y que se realiza una pull request desde el repositorio remoto de la persona revisora al repositorio del proyecto de traducción de rOpenSci."}
+![](images/es/fork-branches-pr.png){alt="Diagramas que muestran cómo hacer un fork del proyecto de traducción desde rOpenSci GitHub al GitHub de la persona revisora y luego cómo clonar al repositorio git local.  El diagrama muestra que las tareas pull y push se realizan desde el repositorio local al remoto y que se realiza una pull request desde el repositorio remoto de la persona revisora al repositorio del proyecto de traducción de rOpenSci."}
 
 Una vez que hayas [contactado con la persona responsable del proyecto](#contributing) y esté todo listo para que empieces a contribuir, 
 lo primero que debes hacer es clonar el repositorio de trabajo.
