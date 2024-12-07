@@ -12,7 +12,7 @@ Estas orientaciones se aplican cuando se traduce contenido al español.
 
 ## Dialecto
 
-La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica 
+La variedad dialectal del español que usaremos en la traducción es la de Latinoamérica. 
 La decisión es consistente con otras traducciones realizadas en la comunidad R de habla hispana. Además, el posible público destinatario que la habla es más amplio. Intentaremos generar una versión lo más neutra posible, por lo que:
 
 * Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.
@@ -91,7 +91,7 @@ La primera aparición en el texto de los términos técnicos que se traducen pue
 
 > ... el conjunto de datos (_dataset_) ...
 
-En el [capítulo @glosario] de rOpenSci se cuenta con el listado actualizado tanto de términos técnicos que se mantienen como los que se traducen.
+En ls [sección @glosario-es] se cuenta con el listado actualizado tanto de términos técnicos que se mantienen como los que se traducen y como se deben traducir segun el contexto.
   
  
 Además, tengamos en cuenta como escribir estos términos del Latín:
@@ -103,7 +103,7 @@ Además, tengamos en cuenta como escribir estos términos del Latín:
 
 ## Material referenciado en la guía
 
-Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español.
+Cuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc.  Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español.  Si existe una version en español del material entonces se utilizará esa versión en la aclaración.
 
 ## Código
 
@@ -191,9 +191,9 @@ b) sea necesario luego de una enumeración anterior, según este ejemplo:
 
 Punto y paréntesis:
 
-    - Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
+  - Si hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)
 
-    - Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
+  - Si el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).
 
 # Glosario {#glosario-es}
 
@@ -203,7 +203,7 @@ Como fuentes de consulta para generar nuestro glosario y mantenerlo actualizado 
 
 * [Wikipedia](https://es.wikipedia.org/), 
 * [Diferencias de vocabulario estándar entre países hispanohablantes](https://es.wikipedia.org/wiki/Anexo:Diferencias_de_vocabulario_estándar_entre_países_hispanohablantes), 
-* [GLosario](https://glosario.carpentries.org/), 
+* [Glosario](https://glosario.carpentries.org/), 
 * Diccionario bilingüe de [Enseñar Tecnología en Comunidad](https://yabellini.shinyapps.io/T3Glossary/)
 
 
