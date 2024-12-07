@@ -55,7 +55,7 @@ Puedes reutilizar esta obra bajo la licencia [Creative Commons Atribución-NoCom
 
 ¡Muchas gracias!
 
-También puedes leer el [versión PDF](/ropensci-translation-guide.pdf) de este libro.
+También puedes leer el [versión PDF (en Inglés)](/rOpenSci-Localization-and-Translation-Guidelines.pdf) de este libro.
 
 ## Atribuciones
 
