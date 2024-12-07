@@ -109,7 +109,7 @@ El formato general es[^intro-apa]:
 > {Título traducido}.
 > {[Título original en el idioma original]} (Traducción a {idioma}: {Autoras/es de la traducción}).
 > {DOI}.
-> (Trabajo original publicado en {year of publication})
+> (Trabajo original publicado en {año de publicación})
 
 El texto *Traducción a* y *Obra original publicada en* deben estar escritos en la lengua de las traducciones.
 
@@ -117,7 +117,7 @@ Ejemplo utilizando la traducción al español del libro "Paquetes de rOpenSci: D
 
 > rOpenSci, Anderson, B., Chamberlain, S., DeCicco, L., Gustavsen, J., Krystalli, A., Lepore, M., Mullen, L., Ram, K., Ross, N., Salmon, M., Vidoni, M., Riederer, E., Sparks, A., & Hollister, J.
 > (2021).
-> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {nombre de los traductores}) Zenodo.
+> Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {nombre de las personas que tradujeron}) Zenodo.
 > [https://doi.org/10.5281/zenodo.6619350](https://doi.org/10.5281/zenodo.6619350) (Trabajo original publicado en 2021)
 
 [^intro-apa]: Basamos esta recomendación en el [artículo de recomendaciones de la APA, Sección Libro, reeditado en traducción](https://apastyle.apa.org/blog/citing-translated-works).
