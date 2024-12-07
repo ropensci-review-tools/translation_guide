@@ -53,9 +53,9 @@ rOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, P
 
 You can re use this this work under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License.  If you do, we would love to hear about it! [Please let us know by adding a use case in our public forum](https://discuss.ropensci.org/c/usecases/10).
 
-Thanks!
+Thanks!  
 
-You can also read the [PDF version](/ropensci-translation-guide.pdf) of this book.
+You can also read the [PDF version](/rOpenSci-Localization-and-Translation-Guidelines.pdf) of this book.
 
 ## Attributions
 
