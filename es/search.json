@@ -1,0 +1,412 @@
+[
+  {
+    "objectID": "index.es.html",
+    "href": "index.es.html",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "",
+    "text": "Prefacio",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "index.es.html#te-damos-la-bienvenida",
+    "href": "index.es.html#te-damos-la-bienvenida",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "Te damos la bienvenida!",
+    "text": "Te damos la bienvenida!\nEste libro explica todos los pasos y herramientas que intervienen en la localización de nuestros materiales, incluidas las traducciones. Diseñamos, construimos y probamos un proceso, para mantener versiones en diferentes idiomas de nuestros materiales, que toma ideas de nuestro sistema de revisión por pares de software y del mantenimiento de proyectos de código abierto.\nSabemos que la revisión por pares de código garantiza la calidad de nuestro software; por lo tanto, con el mismo objetivo de garantizar la calidad de nuestros contenidos en distintos idiomas, implementamos un sistema para revisar y mantener la localización de nuestras guías, libros, articulos de blog y otros contenidos.\nTambién sabemos que utilizando roles (como personas que revisan o mantienen) y herramientas (como GitHub y pull request) conocidas por nuestra comunidad, hacemos que este proceso sea más fácil de comprender, aplicar y, por tanto, también sea más fácil para contribuir.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "index.es.html#público-al-que-va-dirigido",
+    "href": "index.es.html#público-al-que-va-dirigido",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "Público al que va dirigido",
+    "text": "Público al que va dirigido\nEste libro es una guía para personas a las que les gustaría localizar materiales de rOpenSci o contribuir a mantener el material localizado. También está dirigido a personas que tienen que localizar material en otra comunidad o grupo. No necesitas dedicarte profesionalmente a traducir o desarrollar software para contribuir a este esfuerzo. Las siguientes personas tipo son ejemplos de los tipos de personas que constituyen nuestro público objetivo.\n\nAna\n\nes una estudiante colombiana que realiza su doctorado en una universidad de Argentina. Trabaja con datos geoespaciales. No es experta en programación, pero asistió a uno de los talleres de The Carpentries para científicas y utilizó algunos de los paquetes de la suite rOpenSci para manejar y acceder a datos geoespaciales para su tesis. El idioma fue una de las barreras a las que se enfrentó cuando aprendió a programar. Ana quiere contribuir traduciendo material de rOpenSci a su lengua materna para que otras personas puedan acceder a este conocimiento con menos esfuerzo. Este libro le mostrará cómo hacer una nueva traducción y cómo revisar una ya existente.\n\nFrancesco\n\nenviará sus paquetes al proceso de revisión de rOpenSci en español. Sabe que esto garantizará la calidad de su software y también facilitará su publicación en JOSS, lo que les dará créditos académicos por su trabajo en su universidad. Lee la versión en castellano del libro “Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares” para preparar el envio de su paquete a revisión. Si su experiencia es buena, se ofrecerá para revisar de forma voluntaria en su lengua materna y contribuir al libro. Esta guía le explicará cómo convertirse en una de las personas que colabora y mantiene material traducido y la infraestructura que permite hacer las traducciones.\n\nBauti\n\nes cofundador de un grupo de usuarios en su ciudad de Brasil. Con un par de compañeros de universidad, enseña y aprende juntos a programar y hacer análisis reproducibles utilizando diferentes lenguajes de programación. Utiliza el material de rOpenSci en portugués durante sus talleres y le gustaría tener el material de otros lenguajes de programación, en portugués. Se pregunta cómo gestiona rOpenSci las traducciones. Este libro le mostrará cómo organizamos la traducción y qué herramientas utilizamos para que pueda aplicarlas en su comunidad.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "index.es.html#lo-que-aprenderás",
+    "href": "index.es.html#lo-que-aprenderás",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "Lo que aprenderás",
+    "text": "Lo que aprenderás\nLa guía contiene:\n\nPor qué localizamos, traducimos y usamos publicaciones multilingües.\nGuía general con la infraestructura y las funciones, el proceso técnico paso a paso y las consideraciones sobre la localización, incluidos los términos técnicos que debemos traducir y los términos técnicos que no traduciremos.\nGuías específicas de cada idioma con consideraciones sobre la localización.\nGlosarios específicos de cada idioma.\n\nEn rOpenSci, utilizamos R como lenguaje de programación principal y GitHub para alojar nuestro código, incluidos nuestros paquetes, libros, página web y proceso de revisión. El proceso técnico paso a paso se refiere al trabajo con GitHub, como hacer revisar y comentar pull requests y crear issues. También explica cómo utilizar el paquete {babeldown} que facilita el trabajo con traducciones.\nLas consideraciones sobre la localización y los glosarios son específicos de cada idioma y detallan los acuerdos alcanzados por la comunidad sobre cómo localizar y traducir el material. Este capítulo es diferente para cada idioma presente en esta guía.\nEsperamos que la guía te resulte útil y clara, y agradecemos tus sugerencias en la lista de issues de este libro. Consulta Sección Contribución y Reutilización para saber más sobre cómo contribuir.\n¡Feliz localización!",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "index.es.html#contribuir-y-reutilizar",
+    "href": "index.es.html#contribuir-y-reutilizar",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "Contribuir y reutilizar",
+    "text": "Contribuir y reutilizar\nEste libro es un documento vivo. Si quieres contribuir a este libro, las correcciones, adiciones y sugerencias son muy bienvenidas. Todas las personas cuyo trabajo se incluya serán acreditadas en los agradecimientos. Consulta el repositorio de GitHub, en particular las directrices de contribución y nuestro Código de Conducta, para obtener más información sobre cómo contribuir.\nPuedes citar este libro:\nGuía de localización y traducción de rOpenSci v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (Noviembre, 2023)\nPuedes reutilizar esta obra bajo la licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0. Si lo haces, ¡nos encantaría que nos lo cuentes! Por favor, háznoslo saber agregando un caso de uso en nuestro foro público.\n¡Muchas gracias!\nTambién puedes leer el versión PDF (en Inglés) de este libro.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "index.es.html#atribuciones",
+    "href": "index.es.html#atribuciones",
+    "title": "Guía de localización y traducción de rOpenSci",
+    "section": "Atribuciones",
+    "text": "Atribuciones\nEstas directrices de traducción se basan en la experiencia y los documentos generados durante la traducción de Enseñar Tecnologia en Comunidad.",
+    "crumbs": [
+      "Prefacio"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html",
+    "href": "motivation.es.html",
+    "title": "\n1  Motivación\n",
+    "section": "",
+    "text": "1.1 El lenguaje como barrera\nEn rOpenSci trabajamos para transformar la ciencia mediante datos abiertos, software y reproducibilidad. Proporcionamos apoyo mediante nuestra comunidad, normas e infraestructura para que las personas que investigan, hacen ciencia y desarrollan nuestro software de investigación y trabajan en R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad. Además, desarrollamos y mantenemos documentación y recursos de alta calidad para apoyar estas actividades.\nTambién creemos que la ciencia y el software de investigación que creamos para apoyarla, deben servir a todas las personas en nuestras comunidades, lo que significa que tiene que ser sostenible, abierto y construido por y para todos los grupos. Sin embargo, en la actualidad existe una consternadora falta de diversidad en las comunidades científicas y de código abierto en general. Esa falta de diversidad es potencialmente perjudicial para la sostenibilidad, utilidad y productividad de los proyectos.\nrOpenSci está llevando a cabo una serie de actividades y proyectos para transformar la ciencia y garantizar que sirva a todas las personas que son parte de nuestra comunidad. Uno de esos proyectos es nuestro proyecto de publicación multilingüe.\nEl inglés es la lingua franca para la ciencia, lo que supone una barrera importante para quienes no hablan inglés y que desean incorporarse a este campo. También es la lengua predominante del movimiento de software libre, el contenido y las interacciones de la comunidad, lo que hace que acceso a [contenido] en tu lenguage una de las barreras medioambientales a la equidad en el software libre1.\nLa recomendación de la UNESCO sobre ciencia abierta subraya la necesidad de superar las barreras lingüísticas para alcanzar los valores fundamentales de la ciencia abierta y los principios rectores de Equidad e imparcialidad, Diversidad e inclusión, Igualdad de oportunidades y Colaboración, participación e inclusión2.\nUn estudio reciente3 cuantificó las consecuencias de las barreras lingüísticas en el desarrollo de la carrera de las personas que investigan. El articulo presenta que para aquellas personas que investigan y cuya lengua materna no es el inglés necesitan\nAdemás, el informe de la Fundación Linux afirma que “el dominio del inglés es una métrica con la que se puede juzgar el rendimiento y la personalidad”4.\nEstos estudios también destacan que “la magnitud de la desventaja parece estar muy por encima del nivel que puede superarse con un esfuerzo individual”5.\nAl desarrollar la infraestructura técnica y social para publicar recursos multilingües y publicar nuestros propios recursos en varios idiomas, podemos reducir estas barreras por aumentar el acceso al conocimiento y democratizar el acceso a recursos de calidad y de este modo aumentar el potencial de contribución de los individuos a proyectos de software y ciencia abierta.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html#el-lenguaje-como-barrera",
+    "href": "motivation.es.html#el-lenguaje-como-barrera",
+    "title": "\n1  Motivación\n",
+    "section": "",
+    "text": "hasta 91% más de tiempo para leer publicaciones científicas en inglés,\nhasta un 51% más de tiempo para escribirlos y sus trabajos serán rechazados 2,6 veces más. Si son aceptados, tendrán que revisarlo 12,5 veces más,\ncuando presentan en inglés, necesitan hasta 94% más de tiempo para preparar sus presentaciones. Además suelen evitar conferencias y presentaciones orales en inglés.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html#traducciones-y-localizaciones-impulsadas-por-la-comunidad",
+    "href": "motivation.es.html#traducciones-y-localizaciones-impulsadas-por-la-comunidad",
+    "title": "\n1  Motivación\n",
+    "section": "\n1.2 Traducciones y localizaciones impulsadas por la comunidad",
+    "text": "1.2 Traducciones y localizaciones impulsadas por la comunidad\nLas traducciones y localizaciones impulsadas por la comunidad son esfuerzos realizados porlas personas que pertenecen a una comunidad para disponer de un recurso en la lengua de su elección. La comunidad organiza y acuerda distintos aspectos del proyecto de localización6.\nLa comunidad hispanohablante de R ha sido muy activa y ha crecido en los últimos años, y ha emprendido diversas actividades de traducción de materiales técnicos como libros, hojas de trucos, guías y conjuntos de datos.\nEn 2017, varias R-Ladies latinoamericanas comenzaron a traducir el Código de Conducta de R-Ladies y sus Normas y Directrices al español.\nEn 2018, la comunidad R de América Latina tradujo colectivamente el libro R para la Ciencia de Datos al español. Esto incluyó la traducción de todos los conjuntos de datos utilizados en el libro, que se recopilaron en el paquetes datos convirtiéndolo en una excelente herramienta para la enseñanza.\nLa comunidad continuó con la traducción de Enseñar tecnología en comunidad y contribuyó a las traducciones al español de las Hojas de trucos de Posit, lecciones de The Carpentries y de The Programming Historian.\nImpulsado por esta activa y creciente comunidad hispanohablante, rOpenSci pilotó con éxito nuestra primera revisión por pares en español en la que el envío, las revisiones y las respuestas editoriales estaban todas en español.\nEstos trabajos y las experiencias comunitarias previas crearon las condiciones para que iniciáramos nuestra publicación multilingüe en español. El español es la segunda lengua materna más hablada del mundo y una de las más extendidas geográficamente, siendo lengua oficial en muchos países7.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html#construir-la-comunidad",
+    "href": "motivation.es.html#construir-la-comunidad",
+    "title": "\n1  Motivación\n",
+    "section": "\n1.3 Construir la comunidad",
+    "text": "1.3 Construir la comunidad\nEn rOpenSci, entendemos la revisión como una forma de construir comunidad y esperamos que tener nuestro proceso de revisión en español y portugués, nos permitirá seguir construyendo la comunidad en las regiones donde se habla estos lenguajes, aumentar el número de colaboradores y obtener devoluciones sobre cómo se pueden mejorar nuestras herramientas y procesos para servir mejor a estos participantes.\nAdemás de utilizar nuestro material para aprender a ser una persona que puede desarrollar, mantener, revisar o editar, la gente también puede contribuir a través de la traducción. Este tipo de contribución suele ser un buen primer paso y la comunidad la reconoce como valiosa.\nTambién esperamos que la documentación y las herramientas del proyecto sean útiles para ampliar este esfuerzo a otras lenguas y para otras comunidades y proyectos con esfuerzos de traducción.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html#referencias",
+    "href": "motivation.es.html#referencias",
+    "title": "\n1  Motivación\n",
+    "section": "\n1.4 Referencias",
+    "text": "1.4 Referencias",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "motivation.es.html#footnotes",
+    "href": "motivation.es.html#footnotes",
+    "title": "\n1  Motivación\n",
+    "section": "",
+    "text": "Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source↩︎\nUNESCO. Recomendación de la UNESCO sobre la ciencia abierta. París, Francia; 2021.↩︎\nAmano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184↩︎\nHilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source↩︎\nAmano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. https://doi.org/10.1371/journal.pbio.3002184↩︎\nYanina Bellini Saibene y Natalia Soledad Morandeira. Ciencia de Datos Multilingüe: Diez consejos para traducir contenido de ciencia y la tecnología Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3. http://datasciencebydesign.org/blog/multilingual-data-science↩︎\nLista de lenguas por número de hablantes nativos. Consultado el 1 de diciembre de 2022. https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Motivación</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html",
+    "href": "intro.es.html",
+    "title": "\n2  Directrices generales\n",
+    "section": "",
+    "text": "2.1 Introducción\nrOpenSci proporciona apoyo comunitario, normas e infraestructura para que las personas que hacen ciencia y desarrollan software de investigación con R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad. Además, desarrollamos y mantenemos documentación de alta calidad y recursos para apoyar estas actividades. Muchos de nuestros materiales se definen como documentos vivos lo que significa que se mejoran y actualizan constantemente.\nLa publicación multilingüe de documentación y recursos implica dos aspectos, internacionalización y localización1:\nAdemás, la localización de documentos vivos tiene dos etapas bien definidas en las que intervienen distintos recursos:\nFase 1. En primer lugar, traducir el material.\nFase 2. mantener el material actualizado y sincronizado entre los diferentes idiomas2.\nLa traducción suele ser el componente que más tiempo consume en estos esfuerzos3.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#introducción",
+    "href": "intro.es.html#introducción",
+    "title": "\n2  Directrices generales\n",
+    "section": "",
+    "text": "La internacionalización se refiere a las soluciones tecnológicas que permite que el software se adapte a diferentes regiones sin requerir cambios de ingeniería en el código fuente. Es lo que nos permite localizar nuestros contenidos.\nLa localización es el proceso de tomar un contenido en su forma original y convertirlo en algo accesible y adecuado para otra región, país o público. Esto incluye el idioma, los formatos de fecha, la moneda, las unidades de medida y la compatibilidad con distintos juegos de caracteres.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#infraestructura-técnica-y-organización-del-trabajo",
+    "href": "intro.es.html#infraestructura-técnica-y-organización-del-trabajo",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.2 Infraestructura técnica y organización del trabajo",
+    "text": "2.2 Infraestructura técnica y organización del trabajo\nExisten muchas soluciones y herramientas para internacionalizar y localizar contenidos y software. Por ejemplo, sistemas de gestión de traducción (Crowdin, Transifex, Weblate), traductores automáticos (Google Translate, DeepL), sistemas de control de versiones (GitHub, GitLab), lenguajes de marcado (LaTeX, Markdown) y herramientas para escribir estos lenguajes (Overleaf, Quarto).\nEstas soluciones tecnológicas están en continua evolución. La elección de la tecnología influye en las posibilidades que creamos para las contribuciones, por lo que hay que procurar elegir una tecnología que reduzca al máximo las barreras a la participación.4.\nDesarrollamos nuestra infraestructura para nuestras localizaciones, utilizando las herramientas que mejor se adaptan a nuestro equipo, colaboradores y materiales y, por lo tanto, a nuestra comunidad.\n\nCreamos el paquete babeldown para realizar una primera traducción automática de los documentos, incluyendo un proceso para actualizar traducciones existentes.\nCreamos el paquete babelquarto para configurar y generar libros o sitios web multilingues con Quarto .\nUtilizamos proyectos de GitHub para hacer un seguimiento del progreso de cada proyecto de localización y de las personas que tienen diferentes funciones de contribución, como revisores, editoras, y personas encargadas del mantenimiento.\nTambién desarrollamos, y documentamos en estas directrices, un flujo de trabajo que sigue la misma idea de utilizar las herramientas que nuestra comunidad ya conoce y utiliza en sus actividades.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#como-empezar-con-git-y-github",
+    "href": "intro.es.html#como-empezar-con-git-y-github",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.3 Como empezar con git y GitHub",
+    "text": "2.3 Como empezar con git y GitHub\nSi recien estas iniciando a usar git y GitHub, te recomendamos iniciar con los siguientes recursos:\n\n\nDeveloping Software Together por Paola Corrales, Elio Campitelli y Yanina Bellini Saibene. Este taller fue desarrollado y enseñado para el programa de Campeonas/es de rOpenSci.\n\nHappy Git and GitHub for the useR. Este libro es una gran recurso para aprender a usar git y GitHub con R.\n\nEn la seccion de tranduccion y revision explicamos en detalle el flujo de trabajo que usamos en rOpenSci usando conceptos de git y GitHub con otras herramientas.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#aspectos-generales-de-la-fase-1-del-proceso-de-traducción",
+    "href": "intro.es.html#aspectos-generales-de-la-fase-1-del-proceso-de-traducción",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.4 Aspectos generales de la fase 1 del proceso de traducción",
+    "text": "2.4 Aspectos generales de la fase 1 del proceso de traducción\nEl proceso de traducción comienza con una primera traducción automática utilizando DeepL via el paquete babeldown. Esto proporciona un primer borrador que luego es revisado por una persona, que corrigen los errores e incorporan los acuerdos de localización y traducción lingüística detallados en las Directrices específicas de cada idioma.\nPara minimizar los errores y promover una visión amplia de la traducción, en rOpenSci pedimos que cada capítulo o sección pase al menos por dos revisiones hechas en serie (la primera revisa la traducción automática y la segunda revisa la primera revisión), seguidas de una revisión general del libro o documento en su conjunto. Se buscará, de ser posible, que las personas que revisen tengan origen en diferentes países, para poder considerar las diferentes formas en que se habla el idioma en todo el mundo.\nEl proceso de traducción y revisión se realiza en GitHub utilizando pull requests (consulta la sección de pull request para más detalles). Elegimos este flujo de trabajo porque es la infraestructura que utilizamos en nuestra comunidad. Todos nuestros paquetes y libros están alojados en GitHub y utilizan issues y pull requests en su desarrollo. Nuestro proceso de revision de software por pares tambien se realiza en GitHub utilizando las mismas herramientas. Además, esto permite que el proceso sea abierto para que otras personas puedan contribuir y aportar devoluciones.\nPor supuesto, como en todas las áreas de rOpenSci, este proceso está sujeto a nuestro código de conducta para crear un entorno amigable y seguro.\n\n\nProceso de localización de rOpenSci",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#aspectos-generales-del-proceso-de-traducción-de-la-fase-2",
+    "href": "intro.es.html#aspectos-generales-del-proceso-de-traducción-de-la-fase-2",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.5 Aspectos generales del proceso de traducción de la fase 2",
+    "text": "2.5 Aspectos generales del proceso de traducción de la fase 2\nEn este caso estamos actualizando los cambios en el idioma original de un contenido que ya se ha traducido y tenemos que reflejar esos cambios en las diferentes traducciones.\nEl proceso es similar al de la etapa 1 de traducción, pero con algunas diferencias:\n\nTras el cambio de contenido en el idioma original, la persona que mantiene el proyecto de traducción crea una nueva traducción automática solamente de los cambios utilizando el paquete babeldown.\nLuego revisa la pull request con la traducción automática y aplica los cambios necesarios.\nFinalmente, hace un merge de la pull request con la traducción revisada.\nLa persona responsble actualiza las directrices de traducción específicas del idioma y el glosario si es necesario.\n\nLa entrada del blog de Maëlle Salmon Cómo actualizar una traducción con Babeldown explica este proceso con más detalle.\n\n\nrOpenSci Update Localization Process",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#referenciar-y-utilizar-los-materiales-de-localización",
+    "href": "intro.es.html#referenciar-y-utilizar-los-materiales-de-localización",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.6 Referenciar y utilizar los materiales de localización",
+    "text": "2.6 Referenciar y utilizar los materiales de localización\nA continuación ofrecemos sugerencias para citar una traducción o hacer referencia a tu trabajo de traducción en un CV. Estos ejemplos se refieren específicamente a la traducción de “Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares”, pero puede aplicar estas recomendaciones a cualquier traducción.\n\n2.6.1 Citar una traducción\nEl formato general es5:\n\n{Autores/as de la version en el idioma original}.{(año de publicación)}. {Título traducido}. {[Título original en el idioma original]} (Traducción a {idioma}: {Autoras/es de la traducción}). {DOI}. (Trabajo original publicado en {año de publicación})\n\nEl texto Traducción a y Obra original publicada en deben estar escritos en la lengua de las traducciones.\nEjemplo utilizando la traducción al español del libro “Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares”:\n\nrOpenSci, Anderson, B., Chamberlain, S., DeCicco, L., Gustavsen, J., Krystalli, A., Lepore, M., Mullen, L., Ram, K., Ross, N., Salmon, M., Vidoni, M., Riederer, E., Sparks, A., & Hollister, J. (2021). Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares [rOpenSci Packages: Development, Maintenance, and Peer Review] (Traducción al español: {nombre de las personas que tradujeron}) Zenodo. https://doi.org/10.5281/zenodo.6619350 (Trabajo original publicado en 2021)\n\n\n2.6.2 Menciona tu contribución en tu CV\nEn general, puedes utilizar algo parecido a este formato:\n\n{Fecha de inicio} – {Fecha de finalización}. Localización colaborativa al {idioma} de “{nombre del material/libro}” (Edición general: {nombre completo}). Contribución como {role}. Detalles del proyecto: {Link al proyecto}.\n\nEste es un ejemplo concreto de CV en inglés que hace referencia a un proyecto de traducción al español:\n\nMayo 2020 – Julio 2022. Localización colaborativa al español del libro “rOpenSci Packages: Development, Maintenance, and Peer Review” (Lead editor Yanina Bellini Saibene). Contribución como revisor. Detalles del proyecto: https://github.com/ropensci/dev_guide.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#referencias",
+    "href": "intro.es.html#referencias",
+    "title": "\n2  Directrices generales\n",
+    "section": "\n2.7 Referencias",
+    "text": "2.7 Referencias",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "intro.es.html#footnotes",
+    "href": "intro.es.html#footnotes",
+    "title": "\n2  Directrices generales\n",
+    "section": "",
+    "text": "Internacionalización y localización. Accedido el 1 de noviembre de 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization↩︎\nYanina Bellini Saibene y Natalia Soledad Morandeira. Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.↩︎\nInternacionalización y localización. Accedido el 1 de noviembre de 2022. https://en.wikipedia.org/wiki/Internationalization_and_localization↩︎\nYanina Bellini Saibene y Natalia Soledad Morandeira. Ciencia de Datos Multilingüe: Diez Consejos para Traducir Contenidos Científicos y Técnicos. Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3.↩︎\nBasamos esta recomendación en el artículo de recomendaciones de la APA, Sección Libro, reeditado en traducción. También recomendamos incluir el título en el idioma original, siguiendo este ejemplo de Piaget (1950).↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Directrices generales</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.es.html",
+    "href": "howtoreview.es.html",
+    "title": "\n3  Guía para traducir y revisar\n",
+    "section": "",
+    "text": "3.1 Cómo colaborar",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guía para traducir y revisar</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.es.html#cómo-colaborar",
+    "href": "howtoreview.es.html#cómo-colaborar",
+    "title": "\n3  Guía para traducir y revisar\n",
+    "section": "",
+    "text": "3.1.1 Contribuir a un proyecto activo\nSi te interesa contribuir a un proyecto de traducción activo, antes de comenzar vas a tener que:\n\nponerte en contacto con las personas que mantienen el proyecto,\nfamiliarizarte con el material que se va a traducir, y\nleer esta guía, prestando especial atención a las directrices específicas del idioma.\n\nPuede ponerse en contacto con un responsable del proyecto para expresar su interés a través del correo electrónico, Slack o GitHub. En la lista de proyectos activos, encontrarás información sobre cada proyecto, incluido las personas responsables de su mantenimiento. Cada proyecto de traducción tiene un canal en el Slack de rOpenSci donde se discuten y toman las decisiones de traducción, que se reflejan en las directrices específicas para cada idioma de esta guía y en un glosario. Si te unes a un proyecto de traducción, nos aseguraremos de que recibas una invitación al canal de Slack.\nEs una buena idea preguntar cómo se están dividiendo las tareas de revisión para que todo el mundo sepa de qué es responsable.\nNo dudes en preguntar cualquier duda que tengas, como preguntas generales como «¿Cuál es el compromiso de tiempo esperado?», o preguntas técnicas como «¿Qué hago si me encuentro con problemas en GitHub?».\n\n3.1.2 Proponer un nuevo proyecto de traducción\nEmpezar un nuevo proyecto de traducción requiere trabajo y compromiso con el proceso, pero puede ser una experiencia realmente gratificante.\nDado que se necesitan varias personas que revisen las traducciones y que debe haber al menos una persona activa manteniendoel proyecto , recomendamos que las personas interesadas en iniciar un nuevo proyecto de traducción inviten a su comunidad local a participar y formen un equipo inicial antes de comenzar el proceso.\nSi tu idioma no está entre los idiomas con proyectos activos, ponte en contacto con el equipo de rOpenSci para proponerlo. Puedes enviar un mail a info@ropensci.org o abrir un issue en este repositorio.\nTen en cuenta que iniciar un nuevo proyecto requiere el compromiso para gestionar el repositorio donde se llevará a cabo toda la revisión. Pedimos a quienes propongan un nuevo proyecto de traducción que se comprometan a mantenerlo durante al menos 2 años, o a encontrar un quien lo mantenga si deben abandonarlo antes de los 2 años. Este es el mismo compromiso que pedimos a quienes mantienen nuestros paquetes.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guía para traducir y revisar</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.es.html#tech",
+    "href": "howtoreview.es.html#tech",
+    "title": "\n3  Guía para traducir y revisar\n",
+    "section": "\n3.2 Aspectos técnicos de la revisión",
+    "text": "3.2 Aspectos técnicos de la revisión\n\n3.2.1 Directrices generales\nEn cada paso de este proceso, usamos las siguientes pautas:\n\nUtiliza una voz conversacional en lugar de una voz formal o académica.\nSi procede, especifica el dialecto o la variante lingüística regional utilizada. Por ejemplo, la traducción al español utiliza las convenciones latinoamericanas.\nIntenta ser neutral en cuanto al género. Si la lengua en la que estás trabajando tiene un género gramatical fuerte, la traducción ajusta la redacción para evitar asignar un género. Cuando no se pueda evitar la marca de género, sigue las pautas especificas de cada lenguaje con respecto del uso de lenguaje inclusivo o no sexista.\nIntenta ser idiomático. No te preocupes por las traducciones literales. Acerca el mensaje a su audiencia[^intro-yani] eligiendo el texto y la forma en la lengua a traducir que mejor expresen el significado del fragmento del original.\nToma distancia para revisar. Cuando trabajamos mucho rato en un texto cuesta identificar errores de tipeo. Como sugerencia, una vez que termines la revisón del capítulo o sección deja pasar un tiempo (algunas horas o un día) antes de hacer la última lectura y enviarla para la siguiente revisión. Eso hace más fácil que salten a la vista este tipo de detalles y permite que quienes hagan la revisión se concentren en la calidad de la traducción más que en correcciones ortotipográficas. También es útil revisar el texto en una versión con formato (compilada como pdf o html), ya que seguramente algunos errores serán más visibles que en la versión cruda. Si tienes la posibilidad, una impresión en papel, tanto de la versión cruda como de la compilada, también ayuda a ver más claro los errores.\n\n3.2.2 Organization\nEn esta sección usaremos como ejemplo la guia “Paquetes de rOpenSci: Desarrollo, mantenimiento y revisión por pares”, pero todos los aspectos técnicos para hacer una revisión también aplican a otros materiales de la organización.\nEl código fuente que genera la guía vive en github.com/ropensci/dev_guide, y está organizada en archivos con formato .Rmd (RMarkdown) que contienen texto y a veces también código de R. En este caso también hay algunos archivos de configuración que requieren ser traducidos para que la guía en el nuevo lenguaje esté completamente traducida.\nCada capítulo tiene un archivo .Rmd por idioma, con un sufijo que identifica el idioma usando su código de dos letras (según ISO 639-1). Por ejemplo, el capítulo “Políticas de la Revisión por Pares de Software” tendrá su versión original en inglés en softwarereview_policies.Rmd y su versión traducida al español en softwarereview_policies.es.Rmd.\nSi el proyecto de traducción está en marcha, encontrarás una serie de pull request, uno por cada archivo a traducir, generados con el paquete babeldown que contienen el texto traducido automáticamente. Cada uno de estos pull requests tienen una branch asociada. Por ejemplo, las traducciones del archivo pkg_ci.Rmd al español se encontrarían en el PR que fusiona la rama pkg_ci.es.Rmd-es-auto, y se llamaría “Add Spanish automatic translation pkg_ci.es.Rmd”.\nDe hecho si hay muchos proyectos de traducción en marcha, es posible que te encuentres con muchos pull requests de diferentes archivos y diferentes lenguajes. Te recomendamos filtrar los pull requests usando la etiqueta asociada a tu lenguaje, por ejemplo la etiqueta para la traducción al español es “traducción 🧉”. También podes ver el estado de cada pull requests en el proyecto de GitHub correspondiente a tu lenguaje.\nPor seguridad y organización, quienes realicen la revisión no van a tener premiso de escritura en el repositorio principal. De modo que quien está a cargo de mantener el proyecto deberá hacer un fork (que llamaremos repositorio de trabajo) y darle permiso de escritura a todas las personas que revisen o contribuyan. Este fork tendrá las mismas branchs que el repositorio principal; esto es clave ya la revisión de cada archivo se realizará sobre la branch asociada a su traducción. Esto significa que una revisión de la traducción al portugués ocurriría en la rama pkg_ci.pt.Rmd-pt-auto, mientras que la revisión de la traducción al español tendría lugar en la rama pkg_ci.es.Rmd-es-auto.\n\nUna vez que hayas contactado con la persona responsable del proyecto y esté todo listo para que empieces a contribuir, lo primero que debes hacer es clonar el repositorio de trabajo. Una vez clonado, puedes empezar a trabajar con el repositorio localmente en tu ordenador.\nSi aún no has tenido una discusión sobre lo que vas a revisar, puedes preguntar en el canal de Slack o comentar un pull request para preguntar si puedes encargarte de la revisión de ese capítulo. Te recomendamos encarecidamente que preguntes antes de empezar a trabajar en tu revisión.\nAhora si, ¡empecemos a revisar!\n\n3.2.3 Revisión 1\nEl objetivo de esta primera revisión es hacer una lectura detallada de la traducción automática para:\n\nAsegurarse de que se mantiene el sentido de la frase o párrafo.\nComprobar que los términos del glosario acordados por la comunidad se han utilizado de acuerdo con el contexto.\nAplicar decisiones estilísticas siempre que sea posible. Por ejemplo, en español decidimos evitar el marcado de género de sustantivos y adjetivos parafraseando las frases o utilizando «las/los» si no es posible parafrasear.\nComprobar que los bloques de código o el marcado Markdown no se hayan visto afectados.\nTraducir los nombres de las variables y los comentarios visibles en los bloques de código cuando proceda.\n\nA menudo quedarán algunas dudas y es posible que se pasen por alto algunas cosas. Las decisiones de estilo suelen ser las más difíciles de aplicar y a veces es necesario consultar con el resto del equipo o discutirlo más tarde con la persona que realizara la segunda revision.\nTrabajando localmente en tu computadora, estos son los pasos a seguir para realizar una primera revisión de un archivo.\nEn tu repositorio local:\n\nActivá la branch asociada al archivo que vas a revisar. En nuestro ejemplo, como estas revisando softwarereview_policies.en.Rmd la branch sería softwarereview_policies.es.Rmd-es`.\nAbrí el archivo, por ejemplo softwarereview_policies.es.Rmd. Es posible que veas cosas para mejorar inmediatamente, ya que la traducción automática hace un buen trabajo pero no es perfecta.\n\nComenzá a revisar el texto. Para esto te sugerimos tener la versión en inglés al lado, es posible que necesites volver a la versión original para entender el contexto de alguna frase o palabra que el traductor no haya podido traducir correctamente. Para esto puede usar la versión web del material que estás traduciendo o la pestaña “Files changed” del PR en el repositorio principal.\n\n\n\n\nEnvia tus cambios haciendo commit. Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión. En estos casos te sugerimos hacer commits al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste. De esta manera, si necesitaras delegar la revisión en otra persona, esa persona puede revisar la historia del archivo y retomar donde vos dejaste.\n\n\n\nEnvia tus cambios al repositorio remoto haciendo push Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un push al repositorio de trabajo. Es muy importante que el push sea a la branch asociada al archivo en que estas trabajando, de lo contrario no podremos conectar tu revisión con la traducción original.\n\nNotificar a las personas responsables del proyecto o la segunda revision Una vez que completaste tu revisión, es importante que avises a quien mantiene el proyecto o a la persona asignada a la revisión 2, si la hay.\n\n3.2.4 Revisión 2\nTe tocó la revisión 2, buenísimo.\nQuien hizo la revisión 1, a quien llamaremos R1, de este capítulo seguramente generó uno o mas commits con cambios sobre la traducción original. Esto significa que tu trabajo no arranca en cero. Esta segunda revisión busca construir sobre la primera para generar un texto que mantenga el contenido original pero que además suene natural en el nuevo lenguaje. Para esto hay que tener en cuenta:\n\nQue se respeten el uso de términos según el glosario y el contexto específico.\nQue se use el formato definido por la comunidad, por ejemplo, para las traducciones al español, usar formato italizado para palabras que se mantienen en inglés.\nAplicar las decisiones de estilo que R1 haya dejado pasar. Por ejemplo, en español intentar reemplazar cualquier “las/los” por una frase sin marca de género.\nChequear que las frases se entiendan y suenen bien evitando las traducciones literales.\n\nEs posible que en el proceso de la revisión 2 necesites consultar con R1 sobre las decisiones que tomó o con el resto de la comunidad si hay alguna frase o término que te genera dudas. Es posible que luego de esto sugieras incorporar nuevos términos al glosario o actualizar esta guía de traducción.\nEstos son los pasos a seguir para realizar la segunda revision, trabajando en tu repositorio local:\n\nActiva la branch asociada al archivo que vas a revisar. Por ejemplo, si estas ayudando a traducir softwarereview_policies.en.Rmd, tenes que buscar por la rama softwarereview_policies.es.Rmd-es.\nDescarga todos los cambios. Haz un pull para descargar todos los cambios que hizo R1 y tener el archivo actualizado en el repositorio local.\n\nComenzá a revisar el texto. Para esto te sugerimos abrir la historia del archivo para visualizar los cambios que realizó R1. Esto te permitirá saber si una frase o palabra proviene de la traducción automática o de otro ser humano.\n\n\n\n\nActualiza tus cambios haciendo commit De manera periódica, o cuando completes la revisión, tendrás que hacer un commit con los cambios que generaste. Muchas veces el contenido de los archivos será extenso y necesitarás bastante tiempo para completar la revisión. En estos casos te sugerimos hacer commits al menos luego de cada sesión de trabajo indicando en el mensaje hasta que línea del archivo llegaste. De esta manera, si necesitaras delegar la revisión en otra persona, ella podrá revisar la historia del archivo y retomar donde vos dejaste.\nEnvia tus cambios al repositorio de trabajo haciendo push Hasta ahí la revisión solo vive en tu repositorio local, el paso siguiente es hacer un push para mover tu trabajo al repositorio de trabajo online. Es muy importante que el push sea a la branch asociada al archivo en que estas trabajando, de lo contrario no podremos contectar tu revisión con la traducción original.\nAbre un Pull Request Una vez que completaste tu revisión, ¡el capítulo está listo! Sin embargo, esta nueva versión solo vive en el repositorio de trabajo. Tendrás que abrir un pull request en el repositorio principal para que lo revisé alguien con rol de editor y sea aprobado. En la siguiente sección veremos como abrir el pull request.\n\n3.2.5 Pull Request y edición de un capítulo\nUna vez que el proceso de revión de un capítulo está completo, es hora de transferir esa nueva versión del repositorio de trabajo al repositorio principal de rOpenSci. Para esto R2 tendrá que abrir un pull request que comparé la versión revisada con la versión que solo tiene traducción automática.\n\nAsegurate que todos los cambios están en el repositorio de trabajo y que estás trabajando sobre la branch asociada al archivo en revisión, en nuestro ejemplo será softwarereview_policies.es.Rmd-es.\nSi estás en la branch correcta, en la interfaz web de GitHub observarás lo siguientes:\n\n\nGitHub identifica que hay cambios nuevos (pushes) en la branch y sugiere compararlos y hacer un pull request al repositorio principal.\n\nHaz click en el botón “Compare & pull request”.\n\nEdita el pull request A continuación tendrás la opción de modificar el título del pull request y dejar un mensaje. Te sugerimos 2 cosas:\n\nCambia el título para identificar que se trata de una “Revisión”. Es importante para separarlo del pull request de la traducción automática.\nEn el cuerpo del mensaje menciona (usa @nombre-de-github) a quien mantiene el proyecto de traducción para que esté al tanto del avance y pueda luego continuar con el proceso.\n\n\n\n\n\nChequea nuevamente la branch Antes de crear el pull request es muy importante que revises que se haga desde la branch correcta. Esta es la única manera de conectar el trabajo de revisión con la traducción automática y poder unificar las versiones correctamente.\nCrea el pull request Y listo! Haz click en “Create pull request”.\n\nA partir de este momento, la revisión queda en manos de quien mantiene el proyecto de traducción. Esta persona deberá revisar el pull request y hacer consultas a R1 y R2 antes de incorporar los pull requests.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guía para traducir y revisar</span>"
+    ]
+  },
+  {
+    "objectID": "howtoreview.es.html#revisión-global",
+    "href": "howtoreview.es.html#revisión-global",
+    "title": "\n3  Guía para traducir y revisar\n",
+    "section": "\n3.3 Revisión global",
+    "text": "3.3 Revisión global\nEl proceso de revisión es un proceso colaborativo en el que, esperamos, participen muchas personas. Esto tiene la gran ventaja de incorporar distintas miradas sobre el uso del lenguaje y generar una traducción que represente a la mayor cantidad de personas. Sin embargo, con toda esta diversidad de miradas y a pesar de la guía específica de cada lenguaje, es posible que las revisiones sean heterogéneas, que a veces se uses criterios distintos o simplemente haya errores de tipeo.\nPor todo eso es importante que el proyecto de traducción se complete con una revisión global de todo el material. Sugerimos fuertemente que esta revisión general la realicé una sola persona para mantener un criterio único a lo largo de todo el texto.\nAhora si, la traducción está lista y a partir de este punto el equipo de rOpenSci se ocupa para asegurarse que tu trabajo se incluya junto con el material original.\n¡Gracias y felicitaciones!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Guía para traducir y revisar</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html",
+    "href": "specific_guidelines.es.html",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "",
+    "text": "4.1 Dialecto\nLa variedad dialectal del español que usaremos en la traducción es la de Latinoamérica. La decisión es consistente con otras traducciones realizadas en la comunidad R de habla hispana. Además, el posible público destinatario que la habla es más amplio. Intentaremos generar una versión lo más neutra posible, por lo que:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#dialecto",
+    "href": "specific_guidelines.es.html#dialecto",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "",
+    "text": "Evitaremos expresiones o usos locales/regionales, es decir, que no están extendidos en toda Latinoamérica.\nNo utilizaremos el voseo (vos/vosotros). La guia rOpenSci Packages: Development, Maintenance, and Peer Review está dirigido a una segunda persona, así que para mantener lo mas posible la neutralidad la traduciremos como tú &gt; Ejemplo: … We hope that you’ll find the guide &gt; … esperamos que encuentres esta guía; You can view updates &gt; … Puedes ver actualizaciones).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#género-gramatical.",
+    "href": "specific_guidelines.es.html#género-gramatical.",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.2 Género gramatical.",
+    "text": "4.2 Género gramatical.\nEl español tiene género gramatical (masculino, femenino y muy pocos neutros). Estas son las convenciones para manejar el género gramatical cuando aparezcan en el texto. Las situaciones que no estén contempladas en la guía las discutimos en comunidad (en los issues o el canal de Slack correspondiente) para tomar una decisión y las agregamos a esta sección.\n\nEn principio, intentaremos ajustar la redacción para evitar tener que asignar un género: por ejemplo, en esta frase: “… We are thankful for all authors, reviewers and guest editors”. se podría traducir como: Agradecemos a todas las personas que han sido autoras, revisoras y editoras invitadas.\n\nSi no podemos evitar usar marca de género, lo más aceptado por el momento es el desdoblamiento, femenino-masculino o masculino-femenino, que puede ser de dos maneras, por ejemplo: las/los autoras/es, los/las revisores/as; o bien los y las autores y autoras, etc.\nEn esta traducción, al desdoblar:\n\nVamos a utilizar los/las ó las/los privilegiando la agilidad y fluidez del texto, que el mismo se entienda y que sea claro el mensaje\nPara que haya coherencia a lo largo del texto y mostrar que no hay una determinada jerarquía alternaremos el uso del femenino masculino primero, entre capítulos y el uso será consistente durante todo el capítulo.\nEl uso de las barras puede entorpecer la lectura, aquí algunas opciones a tener en cuenta que pueden darle más fluidez al texto y respetar el lenguaje no sexista:\n\n\n\n\n\n\n\n\n\nOpción\nAlternativa\n\n\n\ndel/de la revisora\ndel equipo revisor\n\n\nal/a la editora\nal conjunto de editores y editoras, al equipo editorial\n\n\n\n\nLa lectura del lenguaje no sexista con las conjunciones “al” y “del” es complicada.\n\n\nCaso de capítulo donde se debe usar los/las: dejar el masculino en la conjunción, pero no en el sustantivo si este tiene marca de género: “Al autor/a”.\nCaso de capítulo donde se debe usar las/los: dejar el femenino en el artículo, pero no en el sustantivo si este tiene marca de género: “A la desarrolladora/or”.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#verbos",
+    "href": "specific_guidelines.es.html#verbos",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.3 Verbos",
+    "text": "4.3 Verbos\nEn español, como los verbos tienen marca de persona, género y número, tenemos la flexibilidad de poder omitir el sujeto, ya que por contexto se suele entender a qué nos estamos refiriendo. Esto nos permite evitar la repetición de palabras.\nLos modos y tiempos verbales tambien pueden ser diferentes al del idioma original. Al traducir, por lo tanto, se debe priorizar la forma verbal que sea mejor para expresar el sentido del fragmento en español, no la que parezca ser literal del inglés.\nEn todos los casos, hay que usar la opción que suena más natural en español y que queda más claro para quien lee.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#regularidades",
+    "href": "specific_guidelines.es.html#regularidades",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.4 Regularidades",
+    "text": "4.4 Regularidades\nHay regularidades que no siempre se cumplen. Por ejemplo, en inglés los adjetivos se anteponen a los sustantivos, ej: simple model, correct answer, etc., mientras que en español suele ser al revés: ponemos los adjetivos después del sustantivo: modelo simple, respuesta correcta, etc. Sin embargo, hay casos en que en español la forma “no marcada”, es decir, la que nos suena más natural, es con el adjetivo al principio:\nEjemplo: &gt; …There’s a better way… &gt; …Hay una mejor manera…\nEn general, ante dudas de este tipo, pensar en qué es lo que suena más natural/normal en español. Siempre se puede pedir opinion en los issues o en el canal de Slack.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#expresiones-idiomáticas",
+    "href": "specific_guidelines.es.html#expresiones-idiomáticas",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.5 Expresiones idiomáticas",
+    "text": "4.5 Expresiones idiomáticas\nLas expresiones idiomáticas no son traducibles de manera literal. En caso de que las hubiere, hay que proponer una traducción que permita entender el sentido de expresión original. A veces existen expresiones de similar significado.\nEjemplo: &gt; …Birds of a feather, drawn together… &gt; …Ellos se crian y el viento los amontona…",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#traducción-o-no-de-términos-técnicos",
+    "href": "specific_guidelines.es.html#traducción-o-no-de-términos-técnicos",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.6 Traducción (o no) de términos técnicos",
+    "text": "4.6 Traducción (o no) de términos técnicos\nHay términos técnicos que será necesario traducir y otros que no. Para decidir tomemos en cuenta si existe una versión en español extendida o si se suele utilizar la versión original en inglés.\nComo fuentes de consulta se pueden utilizar Wikipedia, Diferencias de vocabulario estándar entre países hispanohablantes, GLosario y el diccionario bilingüe de Enseñar Tecnología en Comunidad\nLos términos técnicos que se mantienen deben ir en un formato especial, en nuestro caso cursiva. De ser pertinente, se debe ofrecer una posible traducción al español, ya que en algunos casos permite entender mejor el concepto que está detrás y determinar qué género gramatical asignarle.\nLa primera aparición en el texto de los términos técnicos que se traducen puede acompañarse con la palabra en el idioma original, por ejemplo inglés, entre paréntesis para ayudar a entender el contexto y el significado. Por ejemplo:\n\n… el conjunto de datos (dataset) …\n\nEn ls [sección @glosario-es] se cuenta con el listado actualizado tanto de términos técnicos que se mantienen como los que se traducen y como se deben traducir segun el contexto.\nAdemás, tengamos en cuenta como escribir estos términos del Latín:\n\n\nLatin\nEspañol\n\n\n\ni.e. (id est)\n“es decir”\n\n\ne.g. (exempli gratia)\npor ejemplo, abreviatura “p. ej.”",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#material-referenciado-en-la-guía",
+    "href": "specific_guidelines.es.html#material-referenciado-en-la-guía",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.7 Material referenciado en la guía",
+    "text": "4.7 Material referenciado en la guía\nCuando se encuentre una referencia a la denominación de material mencionado en el libro, como títulos de libros, nombres de instituciones, sitios web, guías, etc. Se deja el título o nombre original en Inglés con la letra en cursiva y se aclara entre paréntesis una traducción del título o nombre en español. Si existe una version en español del material entonces se utilizará esa versión en la aclaración.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#código",
+    "href": "specific_guidelines.es.html#código",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.8 Código",
+    "text": "4.8 Código\nNo se traducen los nombres de paquetes, funciones y sus parámetros correspondientes al lenguaje R. Si se puede, se debe ofrecer una traducción de estos elementos la primera vez que aparecen. Por ejemplo,\n\nusaremos la función group_by(), que significa “agrupar por”, para …\n\n\nUsa message() — del inglés mensaje — y warning() — del inglés advertencia — para comunicarte con quien use tus funciones.\n\nTampoco se traducen los caminos relativos a archivos.\nSe debe traducir:\n\nnombres de variables;\nnombres de constantes;\ncomentarios;\nfunciones y sus parámetros, solo cuando son ejemplos de funciones generadas por la persona que desarrolla: si un fragmento de código crea una función como ejemplo, podemos poner su nombre y el de sus parámetros en español.\n\n\nejemplo:\n\n# Código original:\n\n   inside &lt;- function(point, lower, higher) {\n        if (point &lt;= lower) {\n            return false\n        } else if (point &gt;= higher) {\n            return false\n        } else {\n            return true\n        }\n   }\n    \n# Traducción al Español:\n\n  adentro &lt;- function(punto, mas_bajo, mas_alto) {\n        if (punto &lt;= mas_bajo) {\n            return false\n        } else if (punto &gt;= mas_alto) {\n            return false\n        } else {\n            return true\n        }\n   }",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#diagramas",
+    "href": "specific_guidelines.es.html#diagramas",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.9 Diagramas",
+    "text": "4.9 Diagramas\n\nLas figuras y los diagramas se traducen.\nLas capturas de pantalla sólo se traducen si la interfaz de usuario está en castellano.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#datos",
+    "href": "specific_guidelines.es.html#datos",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.10 Datos",
+    "text": "4.10 Datos\nSi existe una versión traducida de los datos, por ejemplo con los nombres de las variables en castellano, se utilizan esos datos.\nSi no la hay, se utilizan los datos originales, mencionando lo que significan los nombres de las variables.\nPor último, se puede iniciar un proyecto para traducir los datos o seleccionar datos en castellano significativos para el público destinatario que puedan sustituir a los datos originales. Se puede ver el proyecto dados como un ejemplo de traduccion de datos del inglés al portugués.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#aspectos-de-ortografía-y-gramática",
+    "href": "specific_guidelines.es.html#aspectos-de-ortografía-y-gramática",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.11 Aspectos de ortografía y gramática",
+    "text": "4.11 Aspectos de ortografía y gramática\n\nNi los demostrativos ni el adverbio “solo” se tildan.\nDías y meses se escriben con minúscula en español.\nLos títulos llevan mayúscula solo en la palabra inicial (salvo que incluyan un nombre propio).\nPara consultar la forma convencional de una abreviatura en español, revisar este listado de la real academia española.\n\n\n\nPalabra\nAbreviatura\n\n\npor ejemplo\np. ej.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#aspectos-de-puntuación-del-españolrae-dpd",
+    "href": "specific_guidelines.es.html#aspectos-de-puntuación-del-españolrae-dpd",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.12 Aspectos de puntuación del español1\n",
+    "text": "4.12 Aspectos de puntuación del español1\n\nNo usar coma antes del y, excepto que:\n\nsea necesario para darle claridad al texto;\nsea necesario luego de una enumeración anterior, según este ejemplo:\n\n\n“Preparé el examen y tomé un café”:_ va sin coma\n“Preparé el examen y la clase de la semana siguiente, y tomé un café”:_ va con coma para distinguir del “y” de la primera parte de la oración.\n\nPunto y paréntesis:\n\nSi hay una oración completa dentro del paréntesis, el punto va adentro. (Por ejemplo si acá sigue un comentario extra sobre algo que decidió poner en una oración aparte, creo que lo hace con acotaciones.)\nSi el paréntesis es una aclaración dentro de la oración, el punto va afuera (este caso).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#glosario-es",
+    "href": "specific_guidelines.es.html#glosario-es",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.13 Glosario",
+    "text": "4.13 Glosario\nEste glosario se desarrolla en el marco de las traducciones del material de rOpenSci. Sirve de apoyo a la tarea de determinar qué términos técnicos se traducen y cuales no. También es la fuente que determina que palabras preferimos utilizar antes la posibilidad de contar con más de una opción.\nComo fuentes de consulta para generar nuestro glosario y mantenerlo actualizado se pueden utilizar:\n\n\nWikipedia,\n\nDiferencias de vocabulario estándar entre países hispanohablantes,\n\nGlosario,\nDiccionario bilingüe de Enseñar Tecnología en Comunidad\n\n\n\n\n\n\n\n\n\n\n\n\nenglish\nspanish\nsynonym\nobservation\n\n\n\naesthetics\nestéticas\nNA\nNA\n\n\nassignment operator\noperador de asignación\nNA\nNA\n\n\natomic vectors\nvectores atómicos\nNA\nNA\n\n\nback slash\nbarra invertida\nNA\nNA\n\n\nbacktick\nacento grave\nNA\nNA\n\n\nbase R\nR base\nNA\nNA\n\n\nby default\npor defecto\nNA\nNA\n\n\nclick\nhacer clic\nNA\nNA\n\n\nconsole\nconsola\nNA\nNA\n\n\ndebugging\ndepurar\nNA\nNA\n\n\ndataset\nconjunto de datos\nset de datos\nNA\n\n\nfacet\nfaceta\nNA\nNA\n\n\ninput\ninput\nNA\nla palabra existe como anglicismo en español.No se traduce\n\n\nintercept\nordenada al origen\nNA\nNA\n\n\nkey\nclave\nNA\nNA\n\n\nlegend\nleyenda\nNA\nNA\n\n\nlist-columns\ncolumnas-lista\nNA\nNA\n\n\nlog-transformation\ntransformación logarítmica\nNA\nNA\n\n\nmapping\nmapear\nNA\nNA\n\n\nmatch\ncoincidencia\nNA\nNA\n\n\nmissing values\nvalores faltantes\nNA\nNA\n\n\nmodelling\nmodelado\nNA\nNA\n\n\nnamed list\nlista nombrada\nNA\nNA\n\n\npartial matching\ncoincidencia parcial\nNA\nNA\n\n\nparse\nsegmentar\nanalizar\ndepende del contexto\n\n\nplaceholder\nmarcador de posición\nNA\nNA\n\n\nquery\nconsulta\nNA\nNA\n\n\nraw data\ndatos sin procesar\ndatos crudos\nNA\n\n\nregular expression\nexpresión regular\nNA\nNA\n\n\ntest set\ndatos de validación\nset de validación\nNA\n\n\ntraining set\ndatos de entrenamiento\nset de entrenamiento\nNA\n\n\ntidy data\ndatos ordenados\nNA\nNA\n\n\nfeedback\ndevolución\nretroalimentación\nNA\n\n\ncall stack\npila de llamada\nNA\nNA\n\n\nchunking\nparticionar\nfragmentar\nNA\n\n\nloop\nbucle\nNA\nNA\n\n\npath\nruta de acceso\nNA\nNA\n\n\nstack\npila\nNA\nNA\n\n\nstack frame\nmarco de pila\nNA\nNA\n\n\nbest practices\nbuenas prácticas\nNA\nNA\n\n\ntest\ntest\nNA\nen el contexto de test unitarios\n\n\nissue\nissue\nNA\nen el contexto de git\n\n\npush\npush\nNA\nen el contexto de git\n\n\nunit tests\ntests unitarios\nNA\nNA\n\n\nbadge\netiqueta\nNA\nNA\n\n\ndeprecated\nobsoleto\nNA\nNA\n\n\ndefunct\ncaduco\nNA\nNA\n\n\nbranch\nrama\nNA\nen el contexto de git\n\n\ncheatsheet\nguía rápida\nNA\nNA\n\n\ncheat sheet\nguía rápida\nNA\nNA\n\n\nr universe\nr universe\nNA\nNA\n\n\nruniverse\nruniverse\nNA\nNA\n\n\nr-universe\nr-universe\nNA\nNA",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#fuentes",
+    "href": "specific_guidelines.es.html#fuentes",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "\n4.14 Fuentes",
+    "text": "4.14 Fuentes\nEstas directrices de traducción se basan en la experiencia y los documentos generados durante la traducción de Enseñar Tecnología en Comunidad. También consultamos y tuvimos en cuenta la guía para traductores de Programming Historian, el proyecto de traducción colaborativa de “R para Ciencia de Datos” y el Glosario y lineamientos para las traducciones al español de The Carpentries.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  },
+  {
+    "objectID": "specific_guidelines.es.html#footnotes",
+    "href": "specific_guidelines.es.html#footnotes",
+    "title": "\n4  Pautas especificas del lenguaje\n",
+    "section": "",
+    "text": "Diccionario panhispánico de dudas (DPD) [en línea], https://www.rae.es/dpd/coma, 2.ª edición (versión provisional). [Consulta: 31/10/2024].Real Academia Española y Asociación de Academias de la Lengua Española.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Pautas especificas del lenguaje</span>"
+    ]
+  }
+]
