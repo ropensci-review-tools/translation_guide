@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<link rel="alternate" hreflang="en" href="https://translationguide.ropensci.org/howtoreview.html" />
+<link rel="alternate" hreflang="es" href="https://translationguide.ropensci.org/es/howtoreview.es.html" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.5">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="description" content="Why and how we localize and translate our resources.">
+<title>3  Translation and Review Guidelines – rOpenSci Localization and Translation Guidelines</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./">
+<link href="./specific_guidelines.html" rel="next">
+<link href="./intro.html" rel="prev">
+<link href="./images/apple-touch-icon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ff4371ef257df69894857e99c6ad0d06.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-81099179964ac73f0856bca9f0fd6c35.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script><!-- Matomo --><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script><script src="https://ropensci.org/scripts/matomo.js"></script><noscript></noscript>
+</head>
+<body class="nav-sidebar floating">
+<p><img src="https://ropensci.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt=""></p>
+<!-- End Matomo Code -->
+
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./howtoreview.html"><span class="chapter-number">3</span>  <span class="chapter-title">Translation and Review Guidelines</span></a></li></ol></nav><a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">rOpenSci Localization and Translation Guidelines</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/ropensci-review-tools/translation_guide/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="dropdown" id="languages-links-parent">
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="languages-button"><i class="bi bi-globe2"></i></button><ul class="dropdown-menu" id="languages-links"><li><a class="dropdown-item" href="https://translationguide.ropensci.org/es/howtoreview.es.html" id="language-link-es">Version in ES</a></li></ul>
+</div>
+<div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./motivation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>  <span class="chapter-title">Motivation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>  <span class="chapter-title">Overview</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./howtoreview.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>  <span class="chapter-title">Translation and Review Guidelines</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./specific_guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>  <span class="chapter-title">Specific Language Guidelines</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./booknews.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>  <span class="chapter-title">NEWS</span></span></a>
+  </div>
+</li>
+    </ul>
+</div>
+</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+<li>
+<a href="#contributing" id="toc-contributing" class="nav-link active" data-scroll-target="#contributing"><span class="header-section-number">3.1</span> Contributing</a>
+  <ul class="collapse">
+<li><a href="#contributing-to-an-existing-project" id="toc-contributing-to-an-existing-project" class="nav-link" data-scroll-target="#contributing-to-an-existing-project"><span class="header-section-number">3.1.1</span> Contributing to an existing project</a></li>
+  <li><a href="#proposing-a-new-translation-project" id="toc-proposing-a-new-translation-project" class="nav-link" data-scroll-target="#proposing-a-new-translation-project"><span class="header-section-number">3.1.2</span> Proposing a new translation project</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#tech" id="toc-tech" class="nav-link" data-scroll-target="#tech"><span class="header-section-number">3.2</span> Technical aspects</a>
+  <ul class="collapse">
+<li><a href="#general-guidelines" id="toc-general-guidelines" class="nav-link" data-scroll-target="#general-guidelines"><span class="header-section-number">3.2.1</span> General Guidelines</a></li>
+  <li><a href="#organization" id="toc-organization" class="nav-link" data-scroll-target="#organization"><span class="header-section-number">3.2.2</span> Organization</a></li>
+  <li><a href="#review-1" id="toc-review-1" class="nav-link" data-scroll-target="#review-1"><span class="header-section-number">3.2.3</span> Review 1</a></li>
+  <li><a href="#review-2" id="toc-review-2" class="nav-link" data-scroll-target="#review-2"><span class="header-section-number">3.2.4</span> Review 2</a></li>
+  <li><a href="#pr-edition" id="toc-pr-edition" class="nav-link" data-scroll-target="#pr-edition"><span class="header-section-number">3.2.5</span> Pull Request and final edits</a></li>
+  </ul>
+</li>
+  <li><a href="#general-review" id="toc-general-review" class="nav-link" data-scroll-target="#general-review"><span class="header-section-number">3.3</span> General review</a></li>
+  </ul>
+<div class="toc-actions"><ul>
+<li><a href="https://github.com/ropensci-review-tools/translation_guide/edit/main/howtoreview.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li>
+<li><a href="https://github.com/ropensci-review-tools/translation_guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li>
+</ul></div></nav>
+</div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">
+<span class="chapter-number">3</span>  <span class="chapter-title">Translation and Review Guidelines</span>
+</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header><section id="contributing" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="contributing">
+<span class="header-section-number">3.1</span> Contributing</h2>
+<section id="contributing-to-an-existing-project" class="level3" data-number="3.1.1"><h3 data-number="3.1.1" class="anchored" data-anchor-id="contributing-to-an-existing-project">
+<span class="header-section-number">3.1.1</span> Contributing to an existing project</h3>
+<p>If you’re interested in contributing to an existing translation project, you’ll need to</p>
+<ol type="1">
+<li>get in touch with the people maintaining the project,</li>
+<li>familiarize yourself with the source material to be translated, and</li>
+<li>read this guide, paying close attention to the <a href="specific_guidelines.html">language-specific guidelines</a>
+</li>
+</ol>
+<p>You can contact a project maintainer to express your interest through email, Slack, or GitHub. On the <a href="https://github.com/ropensci-review-tools/translation_guide#active">list of active projects</a>, you will find information on each project, including the maintainer. Each translation project also has a channel on the rOpenSci Slack where translation decisions are discussed and made, which are reflected in the <a href="specific_guidelines.html">language-specific guidelines</a> in this guide and a glossary. If you join a translations project, we will make sure you get an invitation to the Slack channel.</p>
+<p>It’s a good idea to ask how review tasks are being divided so that everyone knows what they are responsible for.</p>
+<p>Do not hesitate to ask any questions you may have, such as general questions like “What is the expected time commitment?”, or technical questions like “What do I do if I run into problems on GitHub?”</p>
+</section><section id="proposing-a-new-translation-project" class="level3" data-number="3.1.2"><h3 data-number="3.1.2" class="anchored" data-anchor-id="proposing-a-new-translation-project">
+<span class="header-section-number">3.1.2</span> Proposing a new translation project</h3>
+<p>Starting a new translation project requires work and a commitment to the process, but can be a really rewarding experience!</p>
+<p>Because multiple reviewers are required for all translations and there must be at least one active project maintainer, we recommend that those interested in starting a new translation project invite their local community to participate and form an initial team before starting the process.</p>
+<p>If the language you are interested in translating does not have an <a href="https://github.com/ropensci-review-tools/translation_guide#active">active project</a>, please contact the rOpenSci team to propose it. You can send an email to <a href="mailto:info@ropensci.org">info@ropensci.org</a> or <a href="https://github.com/ropensci-review-tools/translation_guide/issues">open an <em>issue</em> in this repository</a>.</p>
+<p>Please note that starting a new project requires a commitment to manage the repository where all the reviews will take place. We ask that those proposing a new translation project commit to maintaining it for at least 2 years, or to finding a new maintainer if they must give it up within 2 years. This is the same <a href="https://devguide.ropensci.org/softwarereview_author.html#planning-a-submission-or-a-pre-submission-enquiry">commitment we ask of our package maintainers</a>.</p>
+</section></section><section id="tech" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="tech">
+<span class="header-section-number">3.2</span> Technical aspects</h2>
+<section id="general-guidelines" class="level3" data-number="3.2.1"><h3 data-number="3.2.1" class="anchored" data-anchor-id="general-guidelines">
+<span class="header-section-number">3.2.1</span> General Guidelines</h3>
+<p>In each step of this process, we use the following guidelines:</p>
+<ol type="1">
+<li><p>Use a conversational voice rather than a formal or academic voice.</p></li>
+<li><p>If appropriate, specify the dialect or regional language variation used. For example, the Spanish translation uses Latin American conventions.</p></li>
+<li><p>Try to be gender-neutral. If the language you are working on has a strong grammatical gender, the translation adjusts wording to avoid assigning a gender. Where a gender mark cannot be avoided, follow the specific language agreement in the use of inclusive language or non-sexist language.</p></li>
+<li><p>Try to be idiomatic. Don’t worry about literal translations. Bring the message closer to your audience[^intro-yani] by choosing the text and form in the target language that best expresses the <em>meaning</em> of the fragment from the original.</p></li>
+<li><p>Take breaks when reviewing. When we work for a long time on a text, it is difficult to identify typing errors. As a suggestion, once you finish the revision of the chapter or section, let some time pass (a few hours or a day) before doing the final reading and sending it for the next review. This makes it easier for this type of detail to jump out and allows those who do the review to focus on the quality of the translation rather than on orthotypographic corrections. It is also useful to review the text in a formatted version (compiled as pdf or html), since some errors will be more visible than in the raw version. If you have the possibility, a printout on paper, both of the raw version and the compiled version, also helps to see the errors more clearly.</p></li>
+</ol></section><section id="organization" class="level3" data-number="3.2.2"><h3 data-number="3.2.2" class="anchored" data-anchor-id="organization">
+<span class="header-section-number">3.2.2</span> Organization</h3>
+<p>In this section we will use the <a href="https://devguide.ropensci.org/">rOpenSci Packages: Development, Maintenance, and Peer Review</a> guide as an example, but all technical aspects apply to all other rOpenSci translations.</p>
+<p>The source code that generates this material to be translated lives at <a href="https://github.com/ropensci/dev_guide">github.com/ropensci/dev_guide</a>, and is organized in .Rmd (R Markdown) files that contain text and sometimes also code. In this case there are also some configuration files that need to be translated so that the workflow for creating the guide in the new language is fully translated.</p>
+<p>Each chapter has one .Rmd file per language, with a suffix that identifies the language using its two-letter code (according to <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">ISO 639-1</a>). For example, the chapter “Software Peer Review Policies” will have its original English version in <code>softwarereview_policies.Rmd</code> and its translated Spanish version in <code>softwarereview_policies.es.Rmd</code>.</p>
+<p>If the translation project is in progress, you will find a series of <em>pull requests</em>, <strong>one for each file to translate</strong>, generated with the babeldown package, containing the automatically translated text. <strong>Each of these <em>pull requests</em> has an associated <em>branch</em></strong>. For example, translations of the <code>pkg_ci.Rmd</code> file to Spanish would be found in the PR merging the <code>pkg_ci.es.Rmd-es-auto</code> branch, and called “Add Spanish automatic translation pkg_ci.es.Rmd”.</p>
+<p>In fact, if there are several translation projects going on at the same, you may encounter many <em>pull requests</em> for different files and different languages. We recommend that you filter the <em>pull requests</em> using the tag for your language, for example the tag for Spanish translation is “traducción 🧉”. You can also check the status of each <em>pull request</em> on the <a href="https://github.com/ropensci/dev_guide/projects">GitHub project board</a> of each active language.</p>
+<p>For security and organization, reviewers do not have write permission in the main repository. The project maintainer will make a <em>fork</em> (we call this the <strong>working repository</strong>) and will give write permission to this fork to all the project contributors. This <em>fork</em> will have the same <em>branches</em> as the main repository; this is key since the <strong>review of each file will be done on the <em>branch</em> associated to its translation.</strong> This means that a review of the Portuguese translation would happen on the <code>pkg_ci.pt.Rmd-pt-auto</code> branch, whereas the review of the Spanish translation would happen on the <code>pkg_ci.es.Rmd-es-auto</code> branch.</p>
+<p><img src="images/fork-branches-pr.png" class="img-fluid" alt="Diagrams showing how to fork the translation project from rOpenSci GitHub to the reviewer GitHub and then how to clone to the local git repository.  The diagram show that pull and push task are done from the local to the remote repository and a pull request is made from the reviewer's remote repository to the rOpenSci translation project repository."></p>
+<p>Once you’ve <a href="#contributing">contacted the project maintainer</a> and you’re ready to start contributing, the first thing you should do is to clone the working repository. Once cloned, you can start working with the repository locally on your computer. If you haven’t already had a discussion about what you will be reviewing, you can ask in the Slack channel or comment on a <em>pull request</em> to ask if you can take the review of that chapter. We strongly suggest that you ask <strong>before</strong> starting work on your review.</p>
+<p>Now let’s start a review!</p>
+</section><section id="review-1" class="level3" data-number="3.2.3"><h3 data-number="3.2.3" class="anchored" data-anchor-id="review-1">
+<span class="header-section-number">3.2.3</span> Review 1</h3>
+<p>The purpose of this first review is to make a detailed reading of the machine translation in order to:</p>
+<ul>
+<li><p>Ensure that the meaning of the sentence or paragraph is maintained.</p></li>
+<li><p>Check that the glossary terms agreed upon by the community have been used according to the context.</p></li>
+<li><p>Apply stylistic decisions whenever possible. For example, in Spanish we decided to avoid gender marking of nouns and adjectives by paraphrasing sentences or using “las/los” if paraphrasing is not possible.</p></li>
+<li><p>Check that code blocks or Markdown markup have not been affected.</p></li>
+<li><p>Translate variable names and comments visible in the code blocks whenever appropriate.</p></li>
+</ul>
+<p>Often there will still some questions and it is possible that some things may be overlooked. Style decisions are often the most difficult to implement and sometimes it is necessary to consult with the rest of the team or discuss it later with the second reviewer.</p>
+<p>Working locally on your computer, here are the steps to follow when performing a first review of a file:</p>
+<ol type="1">
+<li><p><strong>Check out the <em>branch</em> associated with the file you are going to review.</strong> For example, if you are reviewing <code>softwarereview_policies.en.Rmd</code>, the branch would be <code>softwarereview_policies.es.Rmd-es</code>.</p></li>
+<li><p><strong>Open the file.</strong> For example, <code>softwarereview_policies.es.Rmd</code>. You may see things to improve immediately, as the automatic translation does a good but imperfect job.</p></li>
+<li>
+<p><strong>Start reviewing the text.</strong> For this we suggest you have the English version next to you as you may need to go back to the original version to understand the context of some phrase or word that the translator has not been able to translate correctly. You can use the web version of the material you are translating or the <em>“Files changed”</em> tab of the PR in the main repository.</p>
+<p><img src="images/es/files_changed.png" class="img-fluid" alt="Screenshot of the GitHub interface showing the details of a pull request and the 'Files Changed' tab, which shows the original English text on the left and the translated text on the right."></p>
+</li>
+<li><p><strong><em>Commit</em> your changes.</strong> Many times the content of the files will be extensive and you will need a lot of time to complete the revision. In these cases we suggest you make periodic <em>commits</em> at least after each work session indicating in the commit message which line of the file you have reached. This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.</p></li>
+<li><p><strong><em>Push</em> to the working repository.</strong> So far the review only lives in your local repository, pushing it moves it online. It is very important that you <em>push</em> to the <em>branch</em> associated to the file you are working on, otherwise we will not be able to connect your review with the original translation.</p></li>
+<li><p><strong>Notify the project maintainer or the second reviewer.</strong> Once you have completed your review, notify the project coordinator or the person assigned to review 2, if there is one.</p></li>
+</ol></section><section id="review-2" class="level3" data-number="3.2.4"><h3 data-number="3.2.4" class="anchored" data-anchor-id="review-2">
+<span class="header-section-number">3.2.4</span> Review 2</h3>
+<p>You’re going to do the second review, great!</p>
+<p>Whoever did the first review, whom we will call <strong>R1</strong> for now. most likely generated one or more <em>commits</em> with changes over the original translation. This means that your work does not start from scratch. This second review seeks builds upon the first to generate a text that maintains the original content but also sounds natural in the new language.</p>
+<p>In order to achieve this, the following must be taken into account:</p>
+<ul>
+<li><p>Use terms according to the glossary and the specific context.</p></li>
+<li><p>Use the format defined by the community, for example, in the Spanish translation, use <em>italicized</em> format for words that remain in English.</p></li>
+<li><p>Apply style decisions missed by the first reviewer. For example, in Spanish try to replace any “las/los” with a phrase without gender marking.</p></li>
+<li><p>Check that sentences are generally understandable and sound good while avoiding literal translations.</p></li>
+</ul>
+<p>In the process of performing the second review you may need to consult with the first reviewer about the decisions they made or with the rest of the community if there is a phrase or term that raises doubts. You may then suggest adding new terms to the glossary or updating this translation guide.</p>
+<p>Working locally on your computer, here are the steps to follow when performing a second review of a file:</p>
+<ol type="1">
+<li><p><strong>Checkout the <em>branch</em></strong> associated to the file you are going to check.** For example, if you’re helping to translate <code>softwarereview_policies.en.Rmd</code>, you would look for the <code>softwarereview_policies.es.Rmd-es</code> branch.</p></li>
+<li><p><strong>Pull the changes.</strong> Do a <em>pull</em> to download all the changes the first reviewer made to update your local copy.</p></li>
+<li>
+<p><strong>Start reviewing the text.</strong> To do this, we suggest you open the file history to view the changes the first reviewer made. This will allow you to know if a phrase or word comes from the machine translation or from another human being.</p>
+<div>
+<p><img src="images/es/history.png" class="img-fluid" alt="Screenshot of the GitHub interface showing the details of a commit, with automatically translated English text on the left and the revised text on the right."></p>
+</div>
+</li>
+<li><p><strong><em>Commit</em> your changes.</strong> Many times the content of the files will be extensive and you will need a lot of time to complete the revision. In these cases we suggest you make periodic <em>commits</em> at least after each work session indicating in the commit message which line of the file you have reached. This way, if you need to delegate the review to someone else, that person can review the file history and pick up where you left off.</p></li>
+<li><p><strong><em>Push</em> to the working repository.</strong> So far the review only lives in your local repository, pushing it moves it online. It is very important that you <em>push</em> to the <em>branch</em> associated to the file you are working on, otherwise we will not be able to connect your review with the original translation.</p></li>
+<li><p><strong>Open a <em>pull request</em></strong> Once you have completed your revision, the chapter is ready! However, this new version only lives in the working repository. You will have to open a <em>pull request</em> in the main repository to have it reviewed and approved by someone in an editor role. In the next section we will see how to open the <em>pull request</em>.</p></li>
+</ol></section><section id="pr-edition" class="level3" data-number="3.2.5"><h3 data-number="3.2.5" class="anchored" data-anchor-id="pr-edition">
+<span class="header-section-number">3.2.5</span> Pull Request and final edits</h3>
+<p>Once the review process is complete, it is time to transfer the revised translation from the working repository to the main rOpenSci repository. For this, the second reviewer will have to open a <em>pull request</em> that compares the revised version with the original machine translation version.</p>
+<ol type="1">
+<li>
+<strong>Check your repository and branch</strong>. Make sure that all changes are in the working repository and that you are working on the <em>branch</em> associated to the file under review, for example <code>softwarereview_policies.es.Rmd-es</code>.</li>
+</ol>
+<p>If you are on the correct <em>branch</em>, in the GitHub web interface you will see the following:</p>
+<p><img src="images/es/pr1.png" class="img-fluid"></p>
+<p>GitHub will detect new changes (<em>pushes</em>) in the <em>branch</em> and will suggest comparing them and making a <em>pull request</em> to the main repository.</p>
+<ol start="3" type="1">
+<li><strong>Click on the “<em>Compare &amp; pull request</em>” button.</strong></li>
+<li>
+<strong>Edit the <em>pull request</em>.</strong> You will then have the option to modify the title of the <em>pull request</em> and leave a message. We suggest 2 things:
+<ol type="1">
+<li><p>Change the title to identify that it is a “Review”. It is important to differentiate it from the <em>pull request</em> of the automatic translation.</p></li>
+<li><p>In the body of the message, tag (use <code>@github-name</code>) the maintainer of the translation project so that they are aware of the progress and can then continue with the process.</p></li>
+</ol>
+</li>
+</ol>
+<p><img src="images/es/pr2.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li><p><strong>Double check the <em>branch</em>.</strong> Before creating the <em>pull request</em> it is <strong>very important</strong> that you check that it is done from the correct <em>branch</em>. This is the only way to connect the review work with the automatic translation and to be able to unify the versions correctly.</p></li>
+<li><p><strong>Create the pull request.</strong> And that’s it! Click on “<em>Create pull request</em>”.</p></li>
+</ol>
+<p>From this point on, the review is in the hands of the <strong>maintainer</strong> of the translation project. This person must review the <em>pull</em> <em>request</em> and make queries to first and second reviewers before <em>merging</em> the *pull requests.</p>
+</section></section><section id="general-review" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="general-review">
+<span class="header-section-number">3.3</span> General review</h2>
+<p>The review process is a collaborative process in which, we hope, many people will participate. This has the great advantage of incorporating different perspectives on the use of language and generating a translation that represents the greatest number of people. However, with many contributors, and despite the specific guidance of each language, it is possible that sometimes different criteria may be used or that there are simply typing errors.</p>
+<p>For all these reasons, it is important that the translation project is completed with an overall review of the material. We strongly suggest that this be carried out by one person in order to maintain consistency throughout the text.</p>
+<p>Now <strong>the translation is ready</strong> and rOpenSci staff will take it from here to ensure it is included along side the original material.</p>
+<p>Thank you and congratulations!</p>
+
+
+</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/translationguide\.ropensci\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+      <a href="./intro.html" class="pagination-link" aria-label="Overview">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>  <span class="chapter-title">Overview</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./specific_guidelines.html" class="pagination-link" aria-label="Specific Language Guidelines">
+        <span class="nav-page-text"><span class="chapter-number">4</span>  <span class="chapter-title">Specific Language Guidelines</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul>
+<li><a href="https://github.com/ropensci-review-tools/translation_guide/edit/main/howtoreview.Rmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li>
+<li><a href="https://github.com/ropensci-review-tools/translation_guide/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li>
+</ul></div></div></div></footer>
+</body>
+</html>
