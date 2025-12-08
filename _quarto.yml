@@ -28,6 +28,7 @@ format:
     include-in-header: "matomo.html"
   pdf:
     output-file: "translation_guide"
+    documentclass: book
 
 babelquarto:
   mainlanguage: 'en'
