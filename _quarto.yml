@@ -4,6 +4,7 @@ project:
 book:
   favicon: images/apple-touch-icon.png
   title: "rOpenSci Localization and Translation Guidelines"
+  llms-txt: true
   author: "Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon"
 #  code-link: true
   description: |
