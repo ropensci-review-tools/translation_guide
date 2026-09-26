@@ -1,0 +1,67 @@
+# 1  Motivación
+
+En rOpenSci trabajamos para transformar la ciencia mediante datos abiertos, software y reproducibilidad. Proporcionamos apoyo mediante nuestra comunidad, normas e infraestructura para que las personas que investigan, hacen ciencia y desarrollan nuestro software de investigación y trabajan en R desarrollen, mantengan y publiquen software científico de código abierto de alta calidad. Además, desarrollamos y mantenemos documentación y recursos de alta calidad para apoyar estas actividades.
+
+También creemos que la ciencia y el software de investigación que creamos para apoyarla, deben servir a todas las personas en nuestras comunidades, lo que significa que tiene que ser sostenible, abierto y construido por y para todos los grupos. Sin embargo, en la actualidad existe una consternadora falta de diversidad en las comunidades científicas y de código abierto en general. Esa falta de diversidad es potencialmente perjudicial para la sostenibilidad, utilidad y productividad de los proyectos.
+
+rOpenSci está llevando a cabo una serie de actividades y proyectos para transformar la ciencia y garantizar que sirva a todas las personas que son parte de nuestra comunidad. Uno de esos proyectos es nuestro [proyecto de publicación multilingüe](https://ropensci.org/multilingual-publishing/).
+
+## 1.1 El lenguaje como barrera
+
+El inglés es la *lingua franca* para la ciencia, lo que supone una barrera importante para quienes no hablan inglés y que desean incorporarse a este campo. También es la lengua predominante del movimiento de software libre, el contenido y las interacciones de la comunidad, lo que hace que *acceso a \[contenido\] en tu lenguage* una de las *barreras medioambientales a la equidad en el software libre*[^1].
+
+La recomendación de la UNESCO sobre ciencia abierta subraya la necesidad de superar las barreras lingüísticas para alcanzar los valores fundamentales de la ciencia abierta y los principios rectores de Equidad e imparcialidad, Diversidad e inclusión, Igualdad de oportunidades y Colaboración, participación e inclusión[^2].
+
+Un estudio reciente[^3] cuantificó las consecuencias de las barreras lingüísticas en el desarrollo de la carrera de las personas que investigan. El articulo presenta que para aquellas personas que investigan y cuya lengua materna no es el inglés necesitan
+
+- hasta **91% más de tiempo para leer** publicaciones científicas en inglés,
+
+- hasta un **51% más de tiempo para escribirlos** y sus trabajos serán **rechazados 2,6 veces más**. Si son aceptados, tendrán que **revisarlo 12,5 veces más**,
+
+- cuando presentan en inglés, necesitan hasta **94% más de tiempo** para preparar sus presentaciones. Además **suelen evitar** conferencias y presentaciones orales en inglés.
+
+Además, el informe de la Fundación Linux afirma que “el dominio del inglés es una métrica con la que se puede juzgar el rendimiento y la personalidad”[^4].
+
+Estos estudios también destacan que “la magnitud de la desventaja parece estar muy por encima del nivel que puede superarse con un esfuerzo individual”[^5].
+
+Al desarrollar la infraestructura técnica y social para publicar recursos multilingües y publicar nuestros propios recursos en varios idiomas, podemos reducir estas barreras por *aumentar el acceso al conocimiento* y *democratizar el acceso a recursos de calidad* y de este modo *aumentar el potencial de contribución de los individuos* a proyectos de software y ciencia abierta.
+
+## 1.2 Traducciones y localizaciones impulsadas por la comunidad
+
+Las traducciones y localizaciones impulsadas por la comunidad son esfuerzos realizados porlas personas que pertenecen a una comunidad para disponer de un recurso en la lengua de su elección. La comunidad organiza y acuerda distintos aspectos del proyecto de localización[^6].
+
+La comunidad hispanohablante de R ha sido muy activa y ha crecido en los últimos años, y ha emprendido diversas actividades de traducción de materiales técnicos como libros, hojas de trucos, guías y conjuntos de datos.
+
+En 2017, varias [R-Ladies](https://www.rladies.org/) latinoamericanas comenzaron a traducir el [Código de Conducta](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md) de R-Ladies y sus Normas y Directrices al español.
+
+En 2018, la [comunidad R de América Latina tradujo colectivamente](https://youtu.be/kuHjpdgkSxg) el libro [R para la Ciencia de Datos](https://es.r4ds.hadley.nz/) al español. Esto incluyó la traducción de todos los conjuntos de datos utilizados en el libro, que se recopilaron en el paquetes [datos](https://github.com/cienciadedatos/datos) convirtiéndolo en una excelente herramienta para la enseñanza.
+
+La comunidad continuó con la traducción de [Enseñar tecnología en comunidad](https://teachtogether.tech/es/index.html) y contribuyó a las traducciones al español de [las Hojas de trucos de Posit](https://posit.co/resources/cheatsheets/?type=translations/#translation-12), lecciones de [The Carpentries](https://software-carpentry.org/lessons/) y de [The Programming Historian](https://programminghistorian.org/es/).
+
+Impulsado por esta activa y creciente comunidad hispanohablante, rOpenSci [pilotó con éxito](https://ropensci.org/blog/2021/07/27/censo2017/) nuestra primera [revisión por pares en español](https://ropensci.org/commcalls/2019-06-28/) en la que el envío, las revisiones y las respuestas editoriales estaban todas en español.
+
+Estos trabajos y las experiencias comunitarias previas crearon las condiciones para que iniciáramos nuestra publicación multilingüe en español. El español es la segunda lengua materna más hablada del mundo y una de las más extendidas geográficamente, siendo lengua oficial en muchos países[^7].
+
+## 1.3 Construir la comunidad
+
+En rOpenSci, entendemos la revisión como una forma de construir comunidad y esperamos que tener nuestro proceso de revisión en español y portugués, nos permitirá seguir construyendo la comunidad en las regiones donde se habla estos lenguajes, aumentar el número de colaboradores y obtener devoluciones sobre cómo se pueden mejorar nuestras herramientas y procesos para servir mejor a estos participantes.
+
+Además de utilizar nuestro material para aprender a ser una persona que puede desarrollar, mantener, revisar o editar, la gente también puede contribuir a través de la traducción. Este tipo de contribución suele ser un buen primer paso y la comunidad la reconoce como valiosa.
+
+También esperamos que la documentación y las herramientas del proyecto sean útiles para ampliar este esfuerzo a otras lenguas y para otras comunidades y proyectos con esfuerzos de traducción.
+
+## 1.4 Referencias
+
+[^1]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, <https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source>
+
+[^2]: UNESCO. Recomendación de la UNESCO sobre la ciencia abierta. París, Francia; 2021.
+
+[^3]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. <https://doi.org/10.1371/journal.pbio.3002184>
+
+[^4]: Hilary Carter and Jessica Groopman, “Diversity, Equity, and Inclusion in Open Source: Exploring the Challenges and Opportunities to Create Equity and Agency Across Open Source Ecosystems”, foreword by Jim Zemlin, The Linux Foundation, December, 2021, <https://www.linuxfoundation.org/research/the-2021-linux-foundation-report-on-diversity-equity-and-inclusion-in-open-source>
+
+[^5]: Amano T, Ramírez-Castañeda V, Berdejo-Espinola V, Borokini I, Chowdhury S, Golivets M, et al. (2023) The manifold costs of being a non-native English speaker in science. PLoS Biol 21(7): e3002184. <https://doi.org/10.1371/journal.pbio.3002184>
+
+[^6]: Yanina Bellini Saibene y Natalia Soledad Morandeira. Ciencia de Datos Multilingüe: Diez consejos para traducir contenido de ciencia y la tecnología Chapter at Our Environment.A collection of work by data designers, artists, and scientists. ISBN:979-8-218-20191-3. <http://datasciencebydesign.org/blog/multilingual-data-science>
+
+[^7]: Lista de lenguas por número de hablantes nativos. Consultado el 1 de diciembre de 2022. <https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers>
