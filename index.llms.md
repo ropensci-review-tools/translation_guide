@@ -1,0 +1,65 @@
+# rOpenSci Localization and Translation Guidelines
+
+Why and how we localize and translate our resources.
+
+Author
+
+Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon
+
+# Preface
+
+## Welcome!
+
+This book explains all the steps and tools involved in the localization of our materials, including translations. We designed, built, and tested a process for maintaining different language versions of our materials which borrows ideas from our [software peer review system](https://ropensci.org/software-review/) and the maintenance of open-source projects.
+
+We know that code peer review ensures the quality of our software; thus with the same goal of ensuring the quality of our content in different languages, we implemented a system to review and maintain the localization of our guides, books, blog post, and other content.
+
+We also know that by using roles (such as reviewers and maintainers) and tools (such as GitHub, including Pull Requests) known to our community, we make this process easier to understand, apply and, therefore, easier to contribute to.
+
+## Intended Audience
+
+This book is a guide for people who would like to *localize rOpenSci materials* or *contribute to maintaining localized material*. It is also intended for people that have to localize material for another community or group. You don’t need to be a professional translator or developer to contribute to this effort. The following personas are examples of the types of people that are our target audience.
+
+Ana  
+is a Colombian student doing her Ph.D. at an university in Argentina. She works with geospatial data. She is not an expert in programming, but she took one of [The Carpentries](https://carpentries.org/) workshops for scientists and used some of the rOpenSci suite packages for handling and accessing geospatial data for her thesis. Language was one of the barriers she faced when learning to code. Ana wants to contribute by translating rOpenSci material into her native language so others can access this knowledge with less effort. This book will show her how to do a new translation and how to review an existing one.
+
+Francesco  
+will send their packages to the rOpenSci review process in Spanish. They know that this will ensure the quality of their software and will also facilitate its publication in JOSS, which will give them academic credit for their job at their university. They read the Spanish version of the book “rOpenSci Packages: Development, Maintenance, and Peer Review” to prepare their submission. If their review experience is good, they will volunteer to be a reviewer in their native language and contribute to the book. This guide will explain how to become a contributor and maintainer of translated material and the infrastructure that allows translations.
+
+Bauti  
+is the co-founder of a user group in his city in Brazil. With a couple of university classmates, he teaches and learns together how to code and do reproducible analysis using different languages. He uses rOpenSci Portugese material during his workshops and would like to have the material from other programming languages in Portuguese. He wonders how rOpenSci manages translation. This book will show him how we organize translation and what tools we use so that he can apply in his community.
+
+## What You Will Learn
+
+The guide contains:
+
+- Why we localize, translate and use multilingual publishing.
+- General guide with the infrastructure and roles, step-by-step technical processes, and localization considerations, including the technical terms to translate and the technical terms we will not translate.
+- Language-specific guides with localization considerations.
+- Language-specific glossaries.
+
+At rOpenSci, we use R as our main programming language and GitHub to host our code, including our packages, books, webpage and review process. The step-by-step technical process refers to working with GitHub, like making Pull Requests, reviewing and commenting on Pull Requests, and creating Issues. It also explains how to use the [{babeldown}](https://docs.ropensci.org/babeldown/) R package which facilitates working with translations.
+
+Localization considerations and glossaries are language-specific and detail the agreements the community has reached about how to localize and translate the material. This chapter is different for each language present in this guide.
+
+We hope that you’ll find the guide useful and clear, and welcome your suggestions in the issue tracker of this book. Please see the [Contributing and Re-Use section](#Contributing-and-Re-Use) to learn more about how to contribute.
+
+**Happy localization!**
+
+## Contributing and Re-Use
+
+This book is a living document. If you want to contribute to this book, corrections, additions, and suggestions are very welcome. Everyone whose work is included will be credited in the acknowledgements. Please refer to the GitHub repository, particularly the contributing guidelines and our Code of Conduct, for more information on how to contribute.
+
+You can cite this book:
+
+rOpenSci Localization and Translation Guidelines v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campitelli, Maëlle Salmon (November, 2023)
+
+You can re use this this work under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) License. If you do, we would love to hear about it! [Please let us know by adding a use case in our public forum](https://discuss.ropensci.org/c/usecases/10).
+
+Thanks!
+
+You can also read the [PDF version](./rOpenSci-Localization-and-Translation-Guidelines.pdf) of this book.
+
+## Attributions
+
+These translation guidelines are based on the experience and documents generated during the translation of [Teaching Tech Together](https://github.com/gvwilson/teachtogether.tech/blob/main/README.md).
