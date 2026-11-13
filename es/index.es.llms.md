@@ -1,0 +1,65 @@
+# Guía de localización y traducción de rOpenSci
+
+Cómo y porqué traducimos y localizamos nuestros recursos.
+
+Autor/a
+
+Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon
+
+# Prefacio
+
+## Te damos la bienvenida!
+
+Este libro explica todos los pasos y herramientas que intervienen en la localización de nuestros materiales, incluidas las traducciones. Diseñamos, construimos y probamos un proceso, para mantener versiones en diferentes idiomas de nuestros materiales, que toma ideas de nuestro [sistema de revisión por pares de software](https://ropensci.org/software-review/) y del mantenimiento de proyectos de código abierto.
+
+Sabemos que la revisión por pares de código garantiza la calidad de nuestro software; por lo tanto, con el mismo objetivo de garantizar la calidad de nuestros contenidos en distintos idiomas, implementamos un sistema para revisar y mantener la localización de nuestras guías, libros, articulos de blog y otros contenidos.
+
+También sabemos que utilizando roles (como personas que revisan o mantienen) y herramientas (como GitHub y *pull request*) conocidas por nuestra comunidad, hacemos que este proceso sea más fácil de comprender, aplicar y, por tanto, también sea más fácil para contribuir.
+
+## Público al que va dirigido
+
+Este libro es una guía para personas a las que les gustaría *localizar materiales de rOpenSci* o *contribuir a mantener el material localizado*. También está dirigido a personas que tienen que localizar material en otra comunidad o grupo. No necesitas dedicarte profesionalmente a traducir o desarrollar software para contribuir a este esfuerzo. Las siguientes personas tipo son ejemplos de los tipos de personas que constituyen nuestro público objetivo.
+
+Ana  
+es una estudiante colombiana que realiza su doctorado en una universidad de Argentina. Trabaja con datos geoespaciales. No es experta en programación, pero asistió a uno de los talleres de The Carpentries para científicas y utilizó algunos de los paquetes de la suite rOpenSci para manejar y acceder a datos geoespaciales para su tesis. El idioma fue una de las barreras a las que se enfrentó cuando aprendió a programar. Ana quiere contribuir traduciendo material de rOpenSci a su lengua materna para que otras personas puedan acceder a este conocimiento con menos esfuerzo. Este libro le mostrará cómo hacer una nueva traducción y cómo revisar una ya existente.
+
+Francesco  
+enviará sus paquetes al proceso de revisión de rOpenSci en español. Sabe que esto garantizará la calidad de su software y también facilitará su publicación en JOSS, lo que les dará créditos académicos por su trabajo en su universidad. Lee la versión en castellano del libro “Paquetes rOpenSci: Desarrollo, mantenimiento y revisión por pares” para preparar el envio de su paquete a revisión. Si su experiencia es buena, se ofrecerá para revisar de forma voluntaria en su lengua materna y contribuir al libro. Esta guía le explicará cómo convertirse en una de las personas que colabora y mantiene material traducido y la infraestructura que permite hacer las traducciones.
+
+Bauti  
+es cofundador de un grupo de usuarios en su ciudad de Brasil. Con un par de compañeros de universidad, enseña y aprende juntos a programar y hacer análisis reproducibles utilizando diferentes lenguajes de programación. Utiliza el material de rOpenSci en portugués durante sus talleres y le gustaría tener el material de otros lenguajes de programación, en portugués. Se pregunta cómo gestiona rOpenSci las traducciones. Este libro le mostrará cómo organizamos la traducción y qué herramientas utilizamos para que pueda aplicarlas en su comunidad.
+
+## Lo que aprenderás
+
+La guía contiene:
+
+- Por qué localizamos, traducimos y usamos publicaciones multilingües.
+- Guía general con la infraestructura y las funciones, el proceso técnico paso a paso y las consideraciones sobre la localización, incluidos los términos técnicos que debemos traducir y los términos técnicos que no traduciremos.
+- Guías específicas de cada idioma con consideraciones sobre la localización.
+- Glosarios específicos de cada idioma.
+
+En rOpenSci, utilizamos R como lenguaje de programación principal y GitHub para alojar nuestro código, incluidos nuestros paquetes, libros, página web y proceso de revisión. El proceso técnico paso a paso se refiere al trabajo con GitHub, como hacer revisar y comentar *pull requests* y crear *issues*. También explica cómo utilizar el paquete [{babeldown}](https://docs.ropensci.org/babeldown/) que facilita el trabajo con traducciones.
+
+Las consideraciones sobre la localización y los glosarios son específicos de cada idioma y detallan los acuerdos alcanzados por la comunidad sobre cómo localizar y traducir el material. Este capítulo es diferente para cada idioma presente en esta guía.
+
+Esperamos que la guía te resulte útil y clara, y agradecemos tus sugerencias en la lista de *issues* de este libro. Consulta [Sección Contribución y Reutilización](#Contributing-and-Re-Use) para saber más sobre cómo contribuir.
+
+**¡Feliz localización!**
+
+## Contribuir y reutilizar
+
+Este libro es un documento vivo. Si quieres contribuir a este libro, las correcciones, adiciones y sugerencias son muy bienvenidas. Todas las personas cuyo trabajo se incluya serán acreditadas en los agradecimientos. Consulta el repositorio de GitHub, en particular las directrices de contribución y nuestro Código de Conducta, para obtener más información sobre cómo contribuir.
+
+Puedes citar este libro:
+
+Guía de localización y traducción de rOpenSci v1.0. Yanina Bellini Saibene, Paola Corrales, Elio Campiteli, Maëlle Salmon (Noviembre, 2023)
+
+Puedes reutilizar esta obra bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es). Si lo haces, ¡nos encantaría que nos lo cuentes! [Por favor, háznoslo saber agregando un caso de uso en nuestro foro público](https://discuss.ropensci.org/c/usecases/10).
+
+¡Muchas gracias!
+
+También puedes leer el [versión PDF (en Inglés)](./rOpenSci-Localization-and-Translation-Guidelines.pdf) de este libro.
+
+## Atribuciones
+
+Estas directrices de traducción se basan en la experiencia y los documentos generados durante la traducción de [Enseñar Tecnologia en Comunidad](https://github.com/gvwilson/teachtogether.tech/blob/main/README.md).
