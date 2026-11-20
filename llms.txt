@@ -1,0 +1,23 @@
+# rOpenSci Localization and Translation Guidelines -- multilingual content, refer to the right language!
+
+### Pages in en
+
+- [rOpenSci Localization and Translation Guidelines](https://translationguide.ropensci.org/index.llms.md)
+- [[1]{.chapter-number}  [Motivation]{.chapter-title}](https://translationguide.ropensci.org/motivation.llms.md)
+- [[2]{.chapter-number}  [Overview]{.chapter-title}](https://translationguide.ropensci.org/intro.llms.md)
+- [[3]{.chapter-number}  [Translation and Review Guidelines]{.chapter-title}](https://translationguide.ropensci.org/howtoreview.llms.md)
+- [[4]{.chapter-number}  [Specific Language Guidelines]{.chapter-title}](https://translationguide.ropensci.org/specific_guidelines.llms.md)
+- [[[5]{.chapter-number}  [NEWS]{.chapter-title}]{#booknews .quarto-section-identifier}](https://translationguide.ropensci.org/booknews.llms.md)
+- [rOpenSci Localization and Translation Guidelines](https://translationguide.ropensci.org/rOpenSci-Localization-and-Translation-Guidelines.pdf)
+
+## Guía de localización y traducción de rOpenSci
+
+### Pages in es
+
+- [Guía de localización y traducción de rOpenSci](https://translationguide.ropensci.org/es/index.es.llms.md)
+- [[1]{.chapter-number}  [Motivación]{.chapter-title}](https://translationguide.ropensci.org/es/motivation.es.llms.md)
+- [[2]{.chapter-number}  [Visión general]{.chapter-title}](https://translationguide.ropensci.org/es/intro.es.llms.md)
+- [[3]{.chapter-number}  [Guía para traducir y revisar]{.chapter-title}](https://translationguide.ropensci.org/es/howtoreview.es.llms.md)
+- [[4]{.chapter-number}  [Pautas especificas del lenguaje]{.chapter-title}](https://translationguide.ropensci.org/es/specific_guidelines.es.llms.md)
+- [[[5]{.chapter-number}  [NEWS]{.chapter-title}]{#booknews .quarto-section-identifier}](https://translationguide.ropensci.org/es/booknews.es.llms.md)
+- [Guía de localización y traducción de rOpenSci](https://translationguide.ropensci.org/es/Guía-de-localización-y-traducción-de-rOpenSci.pdf)
