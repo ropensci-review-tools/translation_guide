@@ -1,0 +1,80 @@
+# 4  Specific Language Guidelines
+
+> **NOTE:**
+>
+> This chapter is different for each language. It contains the specific guidelines for translating the content according to consensus in each language community.
+>
+> To read the guidelines for a specific language, please change the version of the Translation Guide to that language using the language list on the left (under the 🌐 symbol).
+>
+> These guidelines apply when translating content to **English**.
+
+## 4.1 Dialect
+
+We will use the American English dialect in the translation.
+
+## 4.2 Technical terms and citations
+
+1.  Maintain a list of terms that are translated and another list of terms that are not. We propose a initial list and we consult our community (Slack first, and then social networks if there is no consensus).
+
+2.  For bibliographic references, the original title/name is left in the original language, with the words in italics; a translation of the title in English is added in parentheses. When a reference to a Wikipedia entry, a Carpentries lesson, or other online resource occurs, the English version is added to the link if it exists. If one cannot be found, the reference is left in the original language.
+
+## 4.3 Code
+
+Do not translate function or argument names from packages, but do translate:
+
+1.  variables names;
+
+2.  constant names;
+
+3.  comments;
+
+4.  user function names and parameters names: if a code snippet creates a function as example, we can name the function and its parameters in English.
+
+**For example:**
+
+    # Original code:
+
+    adentro <- function(punto, mas_bajo, mas_alto) {
+            if (punto <= mas_bajo) {
+                return(FALSE)
+            } else if (punto >= mas_alto) {
+                return(FALSE)
+            } else {
+                return(TRUE)
+            }
+       }  
+        
+    # Translation to English:
+
+     inside <- function(point, lower, higher) {
+            if (point <= lower) {
+                return(FALSE)
+            } else if (point >= higher) {
+                return(FALSE)
+            } else {
+                return(TRUE)
+            }
+       }
+
+## 4.4 Diagrams
+
+1.  Text in figures and diagrams should be translated.
+2.  Screenshots should be translated only if the IDE or UI has an English localization.
+
+## 4.5 Data
+
+If there is a translated version of the data, for example with the variable names in English, use that data.
+
+If there is not, use the original data, mentioning what the variable names mean.
+
+Finally, a project can be initiated to translate the data, or new English data, meaningful to the target audience, can be used to replace the original data ([see project dados for an example of translation of data from English to Portuguese](https://cienciadedatos.github.io/dados/)).
+
+## 4.6 Glossary
+
+This glossary is being developed as part of the translations of rOpenSci material. It supports the task of determining which technical terms are translated and which are not. It is also outlines which words we prefer to use where there are more than one option.
+
+We use the following reference sources to generate our glossary and keep it up to date:
+
+- [Wikipedia](https://en.wikipedia.org/)
+- [Glosario](https://glosario.carpentries.org/)
+- the bilingual dictionary of [Teaching Tech Together](https://yabellini.shinyapps.io/T3Glossary/)
